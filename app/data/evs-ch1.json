@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 1,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Living Together",
+  "subtitle": "The World Around Us — Class 4 — Chapter 1",
+  "sourceRef": "NCERT Our Wondrous World, Class 4, Chapter 1 — Living Together",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "competency": "Observation and Reporting",
+      "title": "Objective questions",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given.",
+          "items": [
+            { "id": "evs-c1-s1-b1-i1", "label": "(i)", "type": "mcq", "q": "Chandan and his friends play ______ in the big playground near his house.", "options": ["cricket", "kabaddi", "football"], "marks": 1, "answer": "kabaddi", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b1-i2", "label": "(ii)", "type": "mcq", "q": "The elders of Chandan's village gather under the big ______ tree.", "options": ["banyan", "neem", "mango"], "marks": 1, "answer": "banyan", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b1-i3", "label": "(iii)", "type": "mcq", "q": "Van Mahotsav is celebrated every year from ______.", "options": ["1 to 7 January", "1 to 7 July", "1 to 7 October"], "marks": 1, "answer": "1 to 7 July", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b1-i4", "label": "(iv)", "type": "mcq", "q": "A mason mends walls using bricks and ______.", "options": ["cement", "paper", "cloth"], "marks": 1, "answer": "cement", "skill": "occupations", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b1-i5", "label": "(v)", "type": "mcq", "q": "In Sikkim, people who are specialists in agriculture are called ______.", "options": ["Khetala", "Bhela", "Uruka"], "marks": 1, "answer": "Khetala", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Write True or False.",
+          "items": [
+            { "id": "evs-c1-s1-b2-i1", "label": "(i)", "type": "true-false", "q": "Van Mahotsav is also known as the Tree Planting Festival.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b2-i2", "label": "(ii)", "type": "true-false", "q": "Public places like parks and playgrounds belong only to the people who live next to them.", "marks": 1, "answer": "False", "skill": "community", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b2-i3", "label": "(iii)", "type": "true-false", "q": "In an ant colony, every ant does exactly the same job.", "marks": 1, "answer": "False", "skill": "community", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b2-i4", "label": "(iv)", "type": "true-false", "q": "Leaves buried in a pit become manure and improve the soil.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b2-i5", "label": "(v)", "type": "true-false", "q": "The community bridge in Kanker was built in just two days.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.3",
+          "instruction": "Circle the odd one out in each group.",
+          "items": [
+            { "id": "evs-c1-s1-b3-i1", "label": "(i)", "type": "mcq", "q": "Public places", "options": ["school", "playground", "hospital", "kitchen"], "marks": 1, "answer": "kitchen", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b3-i2", "label": "(ii)", "type": "mcq", "q": "People who help maintain a locality", "options": ["gardener", "mason", "electrician", "tourist"], "marks": 1, "answer": "tourist", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b3-i3", "label": "(iii)", "type": "mcq", "q": "Materials used to build the community bridge", "options": ["bamboo", "stones", "rope", "glass"], "marks": 1, "answer": "glass", "skill": "classification", "difficulty": "medium" },
+            { "id": "evs-c1-s1-b3-i4", "label": "(iv)", "type": "mcq", "q": "Things done on Van Mahotsav", "options": ["planting saplings", "cleaning the park", "watering plants", "cutting trees"], "marks": 1, "answer": "cutting trees", "skill": "classification", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Choose the correct answer.",
+          "items": [
+            { "id": "evs-c1-s1-b4-i1", "label": "(i)", "type": "mcq", "q": "Who used a microphone to make announcements at the Van Mahotsav celebration?", "options": ["Chandan", "Mallika", "Noor", "Sameer"], "marks": 1, "answer": "Mallika", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s1-b4-i2", "label": "(ii)", "type": "mcq", "q": "The community bridge across the Chinar river was built in Kanker, which is in ______.", "options": ["Assam", "Sikkim", "Chhattisgarh", "Gujarat"], "marks": 1, "answer": "Chhattisgarh", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s1-b4-i3", "label": "(iii)", "type": "mcq", "q": "Uruka, the first day of Magh Bihu, is celebrated in ______.", "options": ["Assam", "Kerala", "Punjab", "Sikkim"], "marks": 1, "answer": "Assam", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s1-b4-i4", "label": "(iv)", "type": "mcq", "q": "The tool used by a mason is a ______.", "options": ["stethoscope", "trowel", "spade", "needle"], "marks": 1, "answer": "trowel", "skill": "occupations", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b4-i5", "label": "(v)", "type": "mcq", "q": "After the community feast, the banana leaves were ______.", "options": ["thrown on the road", "burnt", "disposed of in a pit", "washed and reused"], "marks": 1, "answer": "disposed of in a pit", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s1-b4-i6", "label": "(vi)", "type": "mcq", "q": "Which of these is a place where people wait to catch a ride?", "options": ["Post office", "Bus stop", "Market", "Playground"], "marks": 1, "answer": "Bus stop", "skill": "public-places", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "competency": "Observation and Reporting",
+      "title": "Observe and answer",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Read each situation carefully and answer the questions.",
+          "items": [
+            { "id": "evs-c1-s2-b5-i1", "label": "(a)", "type": "short", "q": "Sameer said, 'I have some wood and nails at home. I can fix the benches in the park.' What did Babita and Noor offer to do for the Van Mahotsav?", "marks": 2, "answer": "Babita offered to repair the street light next to the park (1). Noor offered to bring saplings from her plant nursery to plant along the boundary of the park (1).", "answerPoints": [{ "point": "Babita – repair the street light", "marks": 1 }, { "point": "Noor – bring saplings from her nursery", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s2-b5-i2", "label": "(b)", "type": "short", "q": "Look at the people who work in your school. Name two of them (other than teachers) and write how each one helps the school.", "marks": 2, "answer": "Any two with a correct role (1 each): school bus driver – brings children safely to school; caretaker/helper – keeps the school clean; guard – keeps the school safe; librarian – looks after books; cook – prepares meals.", "answerPoints": [{ "point": "Person 1 with role", "marks": 1 }, { "point": "Person 2 with role", "marks": 1 }], "skill": "community", "difficulty": "easy" },
+            { "id": "evs-c1-s2-b5-i3", "label": "(c)", "type": "short", "q": "During the rainy season the Chinar river overflows. What problems did the people of Kanker face, and how did they solve them?", "marks": 2, "answer": "Movement of goods and vehicles became difficult and reaching schools and hospitals was a big challenge (1). The whole community came together and built a simple, strong bridge in two days using bamboo, stones and other material (1).", "answerPoints": [{ "point": "Problem: goods, vehicles, reaching school/hospital", "marks": 1 }, { "point": "Solution: community built a bamboo-and-stone bridge", "marks": 1 }], "skill": "community", "difficulty": "medium" },
+            { "id": "evs-c1-s2-b5-i4", "label": "(d)", "type": "short", "q": "Read the riddle and answer: 'I keep letters far and near, with stamps and parcels waiting here. Write a note and drop it in.' What am I? Name one more service this place gives.", "marks": 2, "answer": "Post office (1). It also sends parcels and important documents / money orders (1).", "answerPoints": [{ "point": "Post office", "marks": 1 }, { "point": "One more service: parcels / documents / money order", "marks": 1 }], "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c1-s2-b5-i5", "label": "(e)", "type": "short", "q": "Observe your locality. Name one public place there and write two ways in which people use it.", "marks": 2, "answer": "Any public place, e.g. park, school, market, bus stop, hospital (1). Two uses, e.g. park – playing, walking, meeting others, relaxing (1 for two uses).", "answerPoints": [{ "point": "A public place named", "marks": 1 }, { "point": "Two sensible uses", "marks": 1 }], "skill": "observation", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "competency": "Identification and Classification",
+      "title": "Identify and name",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.6",
+          "instruction": "Who am I?",
+          "items": [
+            { "id": "evs-c1-s3-b6-i1", "label": "(a)", "type": "one-word", "q": "I am a place where you run and play, with swings and slides to enjoy your day.", "marks": 1, "answer": "Playground / park", "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b6-i2", "label": "(b)", "type": "one-word", "q": "I am full of colours, lights and sounds of feet; a place where people shop and meet.", "marks": 1, "answer": "Market", "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b6-i3", "label": "(c)", "type": "one-word", "q": "I am a hut made of bamboo and hay, built by people in Assam on Uruka.", "marks": 1, "answer": "Bhela Ghar", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Match the columns.",
+          "items": [
+            { "id": "evs-c1-s3-b7-i1", "type": "match", "q": "Match the person or place with the correct description.", "pairs": [
+              { "left": "Mason", "right": "Mends walls with bricks and cement" },
+              { "left": "Khetala", "right": "Agriculture specialists of Sikkim" },
+              { "left": "Van Mahotsav", "right": "Tree planting festival, 1–7 July" },
+              { "left": "Uruka", "right": "First day of Magh Bihu, 14 January" },
+              { "left": "Kanker", "right": "Community bridge over the Chinar river" }
+            ], "marks": 5, "answer": "Mason – mends walls with bricks and cement; Khetala – agriculture specialists of Sikkim; Van Mahotsav – tree planting festival, 1–7 July; Uruka – first day of Magh Bihu; Kanker – community bridge over the Chinar river. 1 mark per pair.", "answerPoints": [{ "point": "Mason", "marks": 1 }, { "point": "Khetala", "marks": 1 }, { "point": "Van Mahotsav", "marks": 1 }, { "point": "Uruka", "marks": 1 }, { "point": "Kanker", "marks": 1 }], "skill": "recall", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.8",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c1-s3-b8-i1", "label": "(i)", "type": "one-word", "q": "The festival in which people plant trees to make the earth greener.", "marks": 1, "answer": "Van Mahotsav", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b8-i2", "label": "(ii)", "type": "one-word", "q": "The season in which Van Mahotsav is celebrated.", "marks": 1, "answer": "Rainy season (monsoon)", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b8-i3", "label": "(iii)", "type": "one-word", "q": "The leaves on which food was served at the community feast.", "marks": 1, "answer": "Banana leaves", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b8-i4", "label": "(iv)", "type": "one-word", "q": "The insect that lives in a colony where some members collect food and some protect the home.", "marks": 1, "answer": "Ant", "skill": "community", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b8-i5", "label": "(v)", "type": "one-word", "q": "The person who brought saplings from her nursery for the park.", "marks": 1, "answer": "Noor", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Give two examples of each. (½ mark for each example)",
+          "items": [
+            { "id": "evs-c1-s3-b9-i1", "label": "(i)", "type": "one-word", "q": "Public places", "marks": 1, "answer": "Any two: park, school, hospital, market, bus stop, post office, playground, library (½ each).", "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b9-i2", "label": "(ii)", "type": "one-word", "q": "Harvest festivals", "marks": 1, "answer": "Any two: Magh Bihu, Pongal, Baisakhi, Onam, Makar Sankranti, Lohri (½ each).", "skill": "festivals", "difficulty": "medium" },
+            { "id": "evs-c1-s3-b9-i3", "label": "(iii)", "type": "one-word", "q": "Insects that live and work together as a community", "marks": 1, "answer": "Ants and bees (½ each). Also accept termites, wasps.", "skill": "community", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Classify. Write the occupation of the person who does each job.",
+          "items": [
+            { "id": "evs-c1-s3-b10-i1", "label": "(i)", "type": "one-word", "q": "Grows and looks after plants and saplings in a nursery.", "marks": 1, "answer": "Gardener / nursery owner", "skill": "occupations", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b10-i2", "label": "(ii)", "type": "one-word", "q": "Repairs street lights and electric wires.", "marks": 1, "answer": "Electrician", "skill": "occupations", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b10-i3", "label": "(iii)", "type": "one-word", "q": "Fixes wooden benches using wood and nails.", "marks": 1, "answer": "Carpenter", "skill": "occupations", "difficulty": "easy" },
+            { "id": "evs-c1-s3-b10-i4", "label": "(iv)", "type": "one-word", "q": "Paints the walls of the park.", "marks": 1, "answer": "Painter", "skill": "occupations", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "competency": "Identification and Classification",
+      "title": "Answer the following",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Answer the following questions in two or three sentences.",
+          "items": [
+            { "id": "evs-c1-s4-b11-i1", "label": "(i)", "type": "short", "q": "What is Van Mahotsav? When is it celebrated and why?", "marks": 3, "answer": "Van Mahotsav is the Tree Planting Festival of India (1). It is celebrated every year in the rainy season from 1 July to 7 July (1). People plant trees to protect the environment and make the earth greener (1).", "answerPoints": [{ "point": "Tree planting festival", "marks": 1 }, { "point": "1–7 July, rainy season", "marks": 1 }, { "point": "Protect environment, make earth greener", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s4-b11-i2", "label": "(ii)", "type": "short", "q": "Why is it important to have places like parks, schools, hospitals and bus stops in a locality?", "marks": 3, "answer": "Everyone uses them — they are for playing, learning, treatment and travel (1). They give people a place to meet, relax and celebrate together (1). Shared experiences in these places bring people closer and build the community (1).", "answerPoints": [{ "point": "Used by everyone for daily needs", "marks": 1 }, { "point": "Places to meet, relax, celebrate", "marks": 1 }, { "point": "Bring people closer / build community", "marks": 1 }], "skill": "community", "difficulty": "medium" },
+            { "id": "evs-c1-s4-b11-i3", "label": "(iii)", "type": "short", "q": "How does an ant colony work like a human community?", "marks": 3, "answer": "Every ant has a special job (1): some collect food, some look after the babies and some protect the home (1). In the same way, people in a community do different jobs and work together to make life better for everyone (1).", "answerPoints": [{ "point": "Each ant has a special job", "marks": 1 }, { "point": "Examples of jobs", "marks": 1 }, { "point": "Comparison with people working together", "marks": 1 }], "skill": "community", "difficulty": "medium" },
+            { "id": "evs-c1-s4-b11-i4", "label": "(iv)", "type": "short", "q": "Describe the community feast after the tree plantation.", "marks": 3, "answer": "Vegetables and cereals were brought by the villagers and food was cooked together (1). Children handed out banana leaves and volunteers served the food; everyone sat and ate together with jokes and laughter (1). After the feast the leaves were put in a pit, where they become manure (1).", "answerPoints": [{ "point": "Villagers brought food and cooked", "marks": 1 }, { "point": "Children gave leaves, everyone ate together", "marks": 1 }, { "point": "Leaves put in a pit to become manure", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s4-b11-i5", "label": "(v)", "type": "short", "q": "What is Uruka? How do people celebrate it?", "marks": 3, "answer": "Uruka is the first day of Magh Bihu, celebrated on 14 January in Assam (1). People come together to build a hut of bamboo and hay called Bhela Ghar (1). The celebration ends with a big feast where they cook, eat and dance together (1).", "answerPoints": [{ "point": "First day of Magh Bihu, 14 Jan, Assam", "marks": 1 }, { "point": "Bhela Ghar of bamboo and hay", "marks": 1 }, { "point": "Feast, cooking, eating, dancing together", "marks": 1 }], "skill": "festivals", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Complete the table in your answer book.",
+          "items": [
+            { "id": "evs-c1-s4-b12-i1", "type": "long", "q": "Copy and complete the table for people at work in a park. For each occupation write what they do and one material or tool they use: Mason, Gardener, Electrician, Carpenter, Painter.", "marks": 5, "answer": "Mason – mends walls with bricks and cement – trowel; Gardener – plants and waters saplings – spade/watering can; Electrician – repairs lights and wires – screwdriver/tester; Carpenter – fixes benches – hammer, nails, saw; Painter – paints walls – brush, paint. 1 mark per row (½ for work, ½ for tool).", "answerPoints": [{ "point": "Mason row", "marks": 1 }, { "point": "Gardener row", "marks": 1 }, { "point": "Electrician row", "marks": 1 }, { "point": "Carpenter row", "marks": 1 }, { "point": "Painter row", "marks": 1 }], "skill": "occupations", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "competency": "Discovery of Facts",
+      "title": "Facts and reasons",
+      "marks": 14,
+      "blocks": [
+        {
+          "num": "Q.13",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c1-s5-b13-i1", "label": "(i)", "type": "one-word", "q": "The river that overflows in Kanker during the rainy season.", "marks": 1, "answer": "Chinar river", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s5-b13-i2", "label": "(ii)", "type": "one-word", "q": "The date on which Uruka is celebrated.", "marks": 1, "answer": "14 January", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s5-b13-i3", "label": "(iii)", "type": "one-word", "q": "The state where the community practice of Khetala is followed.", "marks": 1, "answer": "Sikkim", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s5-b13-i4", "label": "(iv)", "type": "one-word", "q": "What buried leaves turn into, which improves the soil.", "marks": 1, "answer": "Manure", "skill": "recall", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Give reasons.",
+          "items": [
+            { "id": "evs-c1-s5-b14-i1", "label": "(i)", "type": "short", "q": "Mallika wanted to clean the park and plant trees.", "marks": 2, "answer": "Her grandmother and her friends walk in the park every morning (1). A clean park with trees would make their walks more enjoyable and give them better air to breathe (1).", "answerPoints": [{ "point": "Grandmother walks there daily", "marks": 1 }, { "point": "Better walks and cleaner air", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s5-b14-i2", "label": "(ii)", "type": "short", "q": "It is important for communities to come together in times of need.", "marks": 2, "answer": "Together people can solve big problems that one person cannot, like building the bridge in Kanker (1). Working together makes the work faster and easier and brings people closer (1).", "answerPoints": [{ "point": "Big problems solved together (example)", "marks": 1 }, { "point": "Faster, easier, builds bonds", "marks": 1 }], "skill": "community", "difficulty": "medium" },
+            { "id": "evs-c1-s5-b14-i3", "label": "(iii)", "type": "short", "q": "We should keep public places clean and safe.", "marks": 2, "answer": "Public places are used by everyone, so they belong to all of us (1). Clean and safe places are healthy and pleasant for playing, relaxing and meeting others (1).", "answerPoints": [{ "point": "Shared by everyone", "marks": 1 }, { "point": "Healthy and pleasant to use", "marks": 1 }], "skill": "values", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Answer briefly.",
+          "items": [
+            { "id": "evs-c1-s5-b15-i1", "label": "(i)", "type": "short", "q": "How did the park look after the Van Mahotsav celebration?", "marks": 2, "answer": "It looked beautiful with newly planted saplings (1), clean paths and painted walls (1).", "answerPoints": [{ "point": "Newly planted saplings", "marks": 1 }, { "point": "Clean paths, painted walls", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c1-s5-b15-i2", "label": "(ii)", "type": "short", "q": "Write two questions you would ask a neighbour to learn about their work.", "marks": 2, "answer": "Any two (1 each): What do you like most about your work? What tools or things do you use? What challenges do you face?", "answerPoints": [{ "point": "Question 1", "marks": 1 }, { "point": "Question 2", "marks": 1 }], "skill": "application", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "competency": "Discovery of Facts",
+      "title": "Think, draw and express",
+      "marks": 16,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Answer in detail (five to six sentences).",
+          "items": [
+            { "id": "evs-c1-s6-b16-i1", "label": "(i)", "type": "long", "q": "Describe how the people of Chandan's village prepared for and celebrated Van Mahotsav.", "marks": 5, "answer": "Children, parents and villagers gathered under the banyan tree to plan (1). Sameer fixed the benches, Babita repaired the street light and Noor brought saplings (1). On the day, groups were formed for cleaning, planting, watering and cooking; Mallika made announcements (1). The park became beautiful with saplings, clean paths and painted walls (1). Everyone shared a community feast on banana leaves (1).", "answerPoints": [{ "point": "Planning under the banyan tree", "marks": 1 }, { "point": "Repairs and saplings by Sameer, Babita, Noor", "marks": 1 }, { "point": "Groups for cleaning, planting, watering, cooking", "marks": 1 }, { "point": "Park became beautiful", "marks": 1 }, { "point": "Community feast", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c1-s6-b16-i2", "label": "(ii)", "type": "long", "q": "How does helping others and working together make our community better? Write five sentences.\nOR\nWrite five ways in which we can take care of nature and our neighbourhood.", "marks": 5, "answer": "First option, 1 mark per sensible point: work gets done faster; big problems get solved (bridge example); people feel they belong; public places stay clean and safe; everyone learns from each other. OR option, 1 mark each for five ways: plant trees; keep the park and streets clean; do not litter; save water; put food and water for birds; say no to plastic; help neighbours.", "answerPoints": [{ "point": "Point 1", "marks": 1 }, { "point": "Point 2", "marks": 1 }, { "point": "Point 3", "marks": 1 }, { "point": "Point 4", "marks": 1 }, { "point": "Point 5", "marks": 1 }], "markingGuide": "Five sensible, correct sentences — 5; three or four — 3; one or two — 1.", "skill": "expression", "difficulty": "hard" }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Draw and label.",
+          "items": [
+            { "id": "evs-c1-s6-b17-i1", "type": "draw", "q": "Draw a colourful poster inviting people of your neighbourhood to join Van Mahotsav. Write the name of the festival, the date, and one line telling people why they should come.", "marks": 3, "answer": "Poster shows the festival name (1), the date 1–7 July (1) and a clear inviting message with a drawing of a tree or sapling (1).", "markingGuide": "All three parts present and neat — 3; two parts — 2; one part — 1.", "skill": "expression", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.18",
+          "instruction": "Think and answer.",
+          "items": [
+            { "id": "evs-c1-s6-b18-i1", "type": "short", "q": "Your class has decided to make one thing better in your locality — cleaning, helping others or organising an event. Write the situation you would choose, the activity your group would do, and your own role in it.", "marks": 3, "answer": "A clear situation, e.g. dirty lane / no plants in the park (1); a suitable activity, e.g. cleanliness drive / tree plantation (1); the child's own role, e.g. collecting garbage bags, watering plants, telling neighbours (1).", "answerPoints": [{ "point": "Situation", "marks": 1 }, { "point": "Activity", "marks": 1 }, { "point": "Own role", "marks": 1 }], "skill": "application", "difficulty": "medium" }
+          ]
+        }
+      ]
+    }
+  ]
+}

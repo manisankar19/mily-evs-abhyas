@@ -1,0 +1,41 @@
+subject_code:        evs
+subject_display:     EVS
+grade:               4
+board_or_school:     "Atomic Energy Education Society"
+academic_year:       "2025-26"
+
+locale:              en
+numerals:            latn
+content_language:    English
+
+textbook:            "NCERT Our Wondrous World (The World Around Us), Class 4"
+chapters:            5          # Ch 1–5 = Half-Yearly portion (counted from source/textbook)
+extra_papers:        1          # Half-Yearly mock paper covering Ch 1–5
+sets_per_chapter:    1
+total_marks:         100
+duration_minutes:    120
+
+repo_name:           mily-evs-abhyas
+vercel_project:      mily-evs-abhyas
+student_login:       { user: "Mily", pass: "2026" }
+marking_secret_env:  GANESH_EVS          # env var name; value lives in .env.local / Vercel env, never committed
+
+# Section blueprint — derived from the school's own September 2025 Half-Yearly worksheet
+# (Observation & Reporting 25 / Identification & Classification 30 / Discovery of Facts 25,
+# out of 80) and the July Chapter-3 worksheet (Sections A/B/C, same three competencies),
+# scaled to 100 marks and split into six sections so each fits on a phone screen.
+section_blueprint:
+  - { code: A, competency: "Observation and Reporting",        title: "Objective questions",       marks: 20 }
+  - { code: B, competency: "Observation and Reporting",        title: "Observe and answer",        marks: 10 }
+  - { code: C, competency: "Identification and Classification", title: "Identify and name",        marks: 20 }
+  - { code: D, competency: "Identification and Classification", title: "Answer the following",     marks: 20 }
+  - { code: E, competency: "Discovery of Facts",               title: "Facts and reasons",         marks: 14 }
+  - { code: F, competency: "Discovery of Facts",               title: "Think, draw and express",   marks: 16 }
+
+# Per-paper question pattern (60 scorable items, 100 marks):
+#  A  Q1 Fill in the blanks with options 5×1 · Q2 True/False 5×1 · Q3 Odd one out 4×1 · Q4 MCQ 6×1
+#  B  Q5 Observe the situation and answer 5×2
+#  C  Q6 Who am I? 3×1 · Q7 Match the columns 1×5 · Q8 Name the following 5×1 · Q9 Two examples each 3×1 · Q10 Classify 4×1
+#  D  Q11 Answer the following 5×3 · Q12 Complete the table 1×5
+#  E  Q13 Name the following 4×1 · Q14 Give reasons 3×2 · Q15 Answer briefly 2×2
+#  F  Q16 Answer in detail 2×5 (second has OR) · Q17 Draw and label 1×3 · Q18 Value question 1×3

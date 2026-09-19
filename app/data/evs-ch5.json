@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 5,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Food for Health",
+  "subtitle": "The World Around Us — Class 4 — Chapter 5",
+  "sourceRef": "NCERT Our Wondrous World, Class 4, Chapter 5 — Food for Health",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "competency": "Observation and Reporting",
+      "title": "Objective questions",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given.",
+          "items": [
+            { "id": "evs-c5-s1-b1-i1", "label": "(i)", "type": "mcq", "q": "Ugadi Pachadi is made with ______ different taste elements.", "options": ["four", "five", "six"], "marks": 1, "answer": "six", "skill": "tastes", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b1-i2", "label": "(ii)", "type": "mcq", "q": "Foods like rice, potato, wheat and ghee give us ______.", "options": ["energy", "protection", "water"], "marks": 1, "answer": "energy", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b1-i3", "label": "(iii)", "type": "mcq", "q": "The word 'Chef' in French means a director or head of the ______.", "options": ["school", "kitchen", "bank"], "marks": 1, "answer": "kitchen", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b1-i4", "label": "(iv)", "type": "mcq", "q": "Idli is cooked by ______.", "options": ["frying", "steaming", "roasting"], "marks": 1, "answer": "steaming", "skill": "cooking", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b1-i5", "label": "(v)", "type": "mcq", "q": "A solar cooker cooks food using ______.", "options": ["sunlight", "electricity", "gas"], "marks": 1, "answer": "sunlight", "skill": "cooking", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Write True or False.",
+          "items": [
+            { "id": "evs-c5-s1-b2-i1", "label": "(i)", "type": "true-false", "q": "A single food item contains all the nutrients our body needs.", "marks": 1, "answer": "False", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b2-i2", "label": "(ii)", "type": "true-false", "q": "Millets like jowar, bajra and ragi are rich sources of nutrients.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b2-i3", "label": "(iii)", "type": "true-false", "q": "Junk food contains a high amount of oil, salt and sugar.", "marks": 1, "answer": "True", "skill": "junk-food", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b2-i4", "label": "(iv)", "type": "true-false", "q": "A balanced plate should have energy-giving foods the most.", "marks": 1, "answer": "False", "skill": "balanced-diet", "difficulty": "medium" },
+            { "id": "evs-c5-s1-b2-i5", "label": "(v)", "type": "true-false", "q": "Fruit chaat and vegetable salad can be eaten without cooking.", "marks": 1, "answer": "True", "skill": "cooking", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.3",
+          "instruction": "Circle the odd one out in each group.",
+          "items": [
+            { "id": "evs-c5-s1-b3-i1", "label": "(i)", "type": "mcq", "q": "Healthy food", "options": ["idli", "chips", "sprouts", "dhokla"], "marks": 1, "answer": "chips", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b3-i2", "label": "(ii)", "type": "mcq", "q": "Body-building foods", "options": ["milk", "eggs", "pulses", "sugar"], "marks": 1, "answer": "sugar", "skill": "classification", "difficulty": "medium" },
+            { "id": "evs-c5-s1-b3-i3", "label": "(iii)", "type": "mcq", "q": "Millets", "options": ["jowar", "bajra", "ragi", "wheat"], "marks": 1, "answer": "wheat", "skill": "classification", "difficulty": "medium" },
+            { "id": "evs-c5-s1-b3-i4", "label": "(iv)", "type": "mcq", "q": "Methods of cooking", "options": ["boiling", "frying", "cutting", "baking"], "marks": 1, "answer": "cutting", "skill": "classification", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Choose the correct answer.",
+          "items": [
+            { "id": "evs-c5-s1-b4-i1", "label": "(i)", "type": "mcq", "q": "Which taste does neem have?", "options": ["Sweet", "Sour", "Bitter", "Salty"], "marks": 1, "answer": "Bitter", "skill": "tastes", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b4-i2", "label": "(ii)", "type": "mcq", "q": "Which of these is a protective food?", "options": ["Ghee", "Carrot", "Rice", "Butter"], "marks": 1, "answer": "Carrot", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b4-i3", "label": "(iii)", "type": "mcq", "q": "Ugadi Pachadi is a traditional food of ______.", "options": ["Andhra Pradesh, Karnataka and Telangana", "Punjab and Haryana", "Assam and Tripura", "Kerala and Tamil Nadu"], "marks": 1, "answer": "Andhra Pradesh, Karnataka and Telangana", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c5-s1-b4-i4", "label": "(iv)", "type": "mcq", "q": "Which food item has an astringent (kasaila) taste?", "options": ["Raw mango", "Jaggery", "Salt", "Green chilli"], "marks": 1, "answer": "Raw mango", "skill": "tastes", "difficulty": "medium" },
+            { "id": "evs-c5-s1-b4-i5", "label": "(v)", "type": "mcq", "q": "Water helps to remove waste from our body through ______.", "options": ["urine, sweat and faeces", "hair and nails", "breathing only", "eyes"], "marks": 1, "answer": "urine, sweat and faeces", "skill": "water", "difficulty": "easy" },
+            { "id": "evs-c5-s1-b4-i6", "label": "(vi)", "type": "mcq", "q": "A samosa is cooked by ______.", "options": ["steaming", "boiling", "frying", "grilling"], "marks": 1, "answer": "frying", "skill": "cooking", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "competency": "Observation and Reporting",
+      "title": "Observe and answer",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Read each situation carefully and answer the questions.",
+          "items": [
+            { "id": "evs-c5-s2-b5-i1", "label": "(a)", "type": "short", "q": "At the 'Mystery Masala' stall, the food tasted a little sweet, a little salty and a bit bitter. Name the dish and write why it tasted different to everyone.", "marks": 2, "answer": "Ugadi Pachadi (1). It is made with six different tastes blended together, so each person notices a different taste (1).", "answerPoints": [{ "point": "Ugadi Pachadi", "marks": 1 }, { "point": "Six tastes blended together", "marks": 1 }], "skill": "tastes", "difficulty": "easy" },
+            { "id": "evs-c5-s2-b5-i2", "label": "(b)", "type": "short", "q": "Surbhi's grandmother eats jowar and bajra roti in winter and jau roti in summer. Which food group do these grains belong to, and why are millets called 'super food'?", "marks": 2, "answer": "Millets/cereals are energy-giving foods (1). They are called super food because they are rich sources of nutrients (1).", "answerPoints": [{ "point": "Energy-giving group", "marks": 1 }, { "point": "Rich in nutrients", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c5-s2-b5-i3", "label": "(c)", "type": "short", "q": "Look at a food packet at home. Write two things printed on its label that we should check before eating.", "marks": 2, "answer": "Any two (1 each): expiry / best-before date; ingredients; packed-on date; net weight.", "answerPoints": [{ "point": "Expiry / best before date", "marks": 1 }, { "point": "Ingredients / packed-on date / net weight", "marks": 1 }], "skill": "food-labels", "difficulty": "easy" },
+            { "id": "evs-c5-s2-b5-i4", "label": "(d)", "type": "short", "q": "Mily's lunch today was rice, dal, a bowl of salad and a glass of milk. Name the food group of the salad and of the milk.", "marks": 2, "answer": "Salad (vegetables) – protective food (1). Milk – body-building food (1).", "answerPoints": [{ "point": "Salad – protective", "marks": 1 }, { "point": "Milk – body-building", "marks": 1 }], "skill": "food-groups", "difficulty": "medium" },
+            { "id": "evs-c5-s2-b5-i5", "label": "(e)", "type": "short", "q": "Write the method of cooking for each: rice, papad, gulab jamun, idiyappam.", "marks": 2, "answer": "Rice – boiling; papad – roasting (or frying); gulab jamun – frying; idiyappam – steaming. ½ mark each.", "answerPoints": [{ "point": "Rice – boiling; papad – roasting", "marks": 1 }, { "point": "Gulab jamun – frying; idiyappam – steaming", "marks": 1 }], "skill": "cooking", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "competency": "Identification and Classification",
+      "title": "Identify and name",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.6",
+          "instruction": "Who am I?",
+          "items": [
+            { "id": "evs-c5-s3-b6-i1", "label": "(a)", "type": "one-word", "q": "I am a small grain, round and grey. In winter, I am made into roti. I am a millet full of nutrients.", "marks": 1, "answer": "Bajra", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c5-s3-b6-i2", "label": "(b)", "type": "one-word", "q": "I am a professional cook, skilled in all aspects of food preparation. My name comes from French.", "marks": 1, "answer": "Chef", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b6-i3", "label": "(c)", "type": "one-word", "q": "I cook food using sunlight and do not produce any smoke or ash.", "marks": 1, "answer": "Solar cooker", "skill": "cooking", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Match the columns.",
+          "items": [
+            { "id": "evs-c5-s3-b7-i1", "type": "match", "q": "Match the taste with the food item.", "pairs": [
+              { "left": "Sweet (meetha)", "right": "Jaggery" },
+              { "left": "Sour (khatta)", "right": "Tamarind" },
+              { "left": "Pungent (teekha)", "right": "Green chilli" },
+              { "left": "Bitter (karva)", "right": "Neem" },
+              { "left": "Astringent (kasaila)", "right": "Raw mango" }
+            ], "marks": 5, "answer": "Sweet – jaggery; Sour – tamarind; Pungent – green chilli; Bitter – neem; Astringent – raw mango. 1 mark per pair.", "answerPoints": [{ "point": "Sweet", "marks": 1 }, { "point": "Sour", "marks": 1 }, { "point": "Pungent", "marks": 1 }, { "point": "Bitter", "marks": 1 }, { "point": "Astringent", "marks": 1 }], "skill": "tastes", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.8",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c5-s3-b8-i1", "label": "(i)", "type": "one-word", "q": "The six tastes are known by this name in Ayurveda.", "marks": 1, "answer": "Shad rasa", "skill": "tastes", "difficulty": "medium" },
+            { "id": "evs-c5-s3-b8-i2", "label": "(ii)", "type": "one-word", "q": "The food group that helps us grow and build our muscles.", "marks": 1, "answer": "Body-building foods", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b8-i3", "label": "(iii)", "type": "one-word", "q": "A water-rich fruit that helps maintain water in our body.", "marks": 1, "answer": "Watermelon (or cucumber)", "skill": "water", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b8-i4", "label": "(iv)", "type": "one-word", "q": "The banner at the food festival read: 'Colours on Plate, ______ in Life'.", "marks": 1, "answer": "Wellness", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c5-s3-b8-i5", "label": "(v)", "type": "one-word", "q": "A millet-based sweet sold at the super food stall.", "marks": 1, "answer": "Ragi laddu", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Give two examples of each. (½ mark for each example)",
+          "items": [
+            { "id": "evs-c5-s3-b9-i1", "label": "(i)", "type": "one-word", "q": "Energy-giving foods", "marks": 1, "answer": "Any two: rice, potato, wheat, maize, banana, sweet potato, honey, millets, butter, ghee, oil (½ each).", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b9-i2", "label": "(ii)", "type": "one-word", "q": "Junk food items", "marks": 1, "answer": "Any two: soft drinks, chips, bread pakoda, burger, pizza, packaged snacks (½ each).", "skill": "junk-food", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b9-i3", "label": "(iii)", "type": "one-word", "q": "Food items that are steamed", "marks": 1, "answer": "Any two: idli, idiyappam, dhokla, momos (½ each).", "skill": "cooking", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Classify each food item as ENERGY-GIVING, BODY-BUILDING or PROTECTIVE.",
+          "items": [
+            { "id": "evs-c5-s3-b10-i1", "label": "(i)", "type": "one-word", "q": "Chickpeas (chana)", "marks": 1, "answer": "Body-building", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b10-i2", "label": "(ii)", "type": "one-word", "q": "Papaya", "marks": 1, "answer": "Protective", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b10-i3", "label": "(iii)", "type": "one-word", "q": "Sweet potato", "marks": 1, "answer": "Energy-giving", "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s3-b10-i4", "label": "(iv)", "type": "one-word", "q": "Spinach", "marks": 1, "answer": "Protective", "skill": "food-groups", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "competency": "Identification and Classification",
+      "title": "Answer the following",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Answer the following questions in two or three sentences.",
+          "items": [
+            { "id": "evs-c5-s4-b11-i1", "label": "(i)", "type": "short", "q": "What is a balanced food plate?", "marks": 3, "answer": "A balanced plate has food in the right quantities from all three food groups (1) — protective foods (fruits and vegetables) the most, then body-building foods and some energy-giving foods (1). It keeps us healthy, active and happy (1).", "answerPoints": [{ "point": "Right quantities from all three groups", "marks": 1 }, { "point": "Protective most, then body-building, some energy", "marks": 1 }, { "point": "Keeps us healthy, active, happy", "marks": 1 }], "skill": "balanced-diet", "difficulty": "easy" },
+            { "id": "evs-c5-s4-b11-i2", "label": "(ii)", "type": "short", "q": "Why do we need to eat different kinds of food items?", "marks": 3, "answer": "Our body needs a variety of food to stay healthy, energetic and strong (1). Food is needed for balanced growth of the body (1). No single food contains all the nutrients we need (1).", "answerPoints": [{ "point": "Healthy, energetic, strong", "marks": 1 }, { "point": "Balanced growth", "marks": 1 }, { "point": "No single food has all nutrients", "marks": 1 }], "skill": "food-groups", "difficulty": "easy" },
+            { "id": "evs-c5-s4-b11-i3", "label": "(iii)", "type": "short", "q": "What is junk food? Why should we avoid it?", "marks": 3, "answer": "Junk foods are foods with high amounts of oil, salt and sugar, like soft drinks, chips, burgers, pizza and packaged food (1). They are not healthy if eaten regularly and in large quantities (1). Fresh home-cooked food is better than over-processed food (1).", "answerPoints": [{ "point": "High oil, salt, sugar; examples", "marks": 1 }, { "point": "Unhealthy when eaten often", "marks": 1 }, { "point": "Home-cooked food is better", "marks": 1 }], "skill": "junk-food", "difficulty": "easy" },
+            { "id": "evs-c5-s4-b11-i4", "label": "(iv)", "type": "short", "q": "How does water help our body?", "marks": 3, "answer": "Water helps in digesting food (1). It keeps our skin and body healthy (1). It removes waste from our body through urine, sweat and faeces (1).", "answerPoints": [{ "point": "Digestion", "marks": 1 }, { "point": "Healthy skin and body", "marks": 1 }, { "point": "Removes waste", "marks": 1 }], "skill": "water", "difficulty": "easy" },
+            { "id": "evs-c5-s4-b11-i5", "label": "(v)", "type": "short", "q": "What are the three food groups? Give one example of each.", "marks": 3, "answer": "Energy-giving foods, e.g. rice, wheat, potato (1). Body-building foods, e.g. pulses, milk, eggs (1). Protective foods, e.g. carrot, orange, spinach (1).", "answerPoints": [{ "point": "Energy-giving + example", "marks": 1 }, { "point": "Body-building + example", "marks": 1 }, { "point": "Protective + example", "marks": 1 }], "skill": "food-groups", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Complete the table in your answer book.",
+          "items": [
+            { "id": "evs-c5-s4-b12-i1", "type": "long", "q": "Copy and complete the table: for each method of cooking write one food item — Steaming, Boiling, Roasting, Frying, Baking.", "marks": 5, "answer": "Steaming – idli / idiyappam / dhokla; Boiling – rice / dal / kheer / eggs; Roasting – papad / corn / peanuts; Frying – samosa / vada / gulab jamun; Baking – bread / cake / biscuits. 1 mark per correct row.", "answerPoints": [{ "point": "Steaming", "marks": 1 }, { "point": "Boiling", "marks": 1 }, { "point": "Roasting", "marks": 1 }, { "point": "Frying", "marks": 1 }, { "point": "Baking", "marks": 1 }], "skill": "cooking", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "competency": "Discovery of Facts",
+      "title": "Facts and reasons",
+      "marks": 14,
+      "blocks": [
+        {
+          "num": "Q.13",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c5-s5-b13-i1", "label": "(i)", "type": "one-word", "q": "A grain that Surbhi's grandmother ate as roti in summer.", "marks": 1, "answer": "Jau (barley)", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c5-s5-b13-i2", "label": "(ii)", "type": "one-word", "q": "The special plate of food of a region with many food items and tastes.", "marks": 1, "answer": "Thali", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c5-s5-b13-i3", "label": "(iii)", "type": "one-word", "q": "The Hindi name for the salty taste.", "marks": 1, "answer": "Namkeen", "skill": "tastes", "difficulty": "easy" },
+            { "id": "evs-c5-s5-b13-i4", "label": "(iv)", "type": "one-word", "q": "A fruit rich in protective nutrients whose name starts with 'A' and is very sour.", "marks": 1, "answer": "Amla", "skill": "food-groups", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Give reasons.",
+          "items": [
+            { "id": "evs-c5-s5-b14-i1", "label": "(i)", "type": "short", "q": "Drinking sufficient water should be a part of our healthy habits.", "marks": 2, "answer": "Water helps digest food and keeps the skin and body healthy (1). It removes waste from the body through urine, sweat and faeces (1).", "answerPoints": [{ "point": "Digestion, healthy body", "marks": 1 }, { "point": "Removes waste", "marks": 1 }], "skill": "water", "difficulty": "easy" },
+            { "id": "evs-c5-s5-b14-i2", "label": "(ii)", "type": "short", "q": "It is important to check the label before buying packaged food.", "marks": 2, "answer": "The label shows the expiry date, so we do not eat spoiled food (1). It also lists the ingredients, so we know what is inside and can avoid unhealthy items (1).", "answerPoints": [{ "point": "Expiry date – safety", "marks": 1 }, { "point": "Ingredients – know what is inside", "marks": 1 }], "skill": "food-labels", "difficulty": "easy" },
+            { "id": "evs-c5-s5-b14-i3", "label": "(iii)", "type": "short", "q": "A solar cooker is good for the environment.", "marks": 2, "answer": "It uses sunlight instead of fire from gas or heat from electricity (1). It does not produce any smoke or ash, so it does not pollute (1).", "answerPoints": [{ "point": "Uses sunlight, saves gas/electricity", "marks": 1 }, { "point": "No smoke or ash", "marks": 1 }], "skill": "cooking", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Answer briefly.",
+          "items": [
+            { "id": "evs-c5-s5-b15-i1", "label": "(i)", "type": "short", "q": "What will happen if we eat food from only one food group every day?", "marks": 2, "answer": "Our body will not get all the nutrients it needs (1), so we may become weak, fall sick easily or not grow properly (1).", "answerPoints": [{ "point": "Missing nutrients", "marks": 1 }, { "point": "Weak / sick / poor growth", "marks": 1 }], "skill": "balanced-diet", "difficulty": "medium" },
+            { "id": "evs-c5-s5-b15-i2", "label": "(ii)", "type": "short", "q": "Do you think all family members should know how to cook? Give one reason.", "marks": 2, "answer": "Yes (or a clear opinion) (1). Reason, e.g. everyone can help and share the work, cook when others are unwell or away, and learn to eat healthy food (1).", "answerPoints": [{ "point": "Clear opinion", "marks": 1 }, { "point": "One sensible reason", "marks": 1 }], "skill": "values", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "competency": "Discovery of Facts",
+      "title": "Think, draw and express",
+      "marks": 16,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Answer in detail (five to six sentences).",
+          "items": [
+            { "id": "evs-c5-s6-b16-i1", "label": "(i)", "type": "long", "q": "Describe the three food groups. For each group write what it does for the body and give two examples.", "marks": 5, "answer": "Energy-giving foods give us energy to work and play — rice, wheat, potato, ghee (1½). Body-building foods help us grow and build muscles — pulses, milk, eggs, nuts (1½). Protective foods protect us from diseases — carrot, orange, spinach, amla (1½). We need all three every day (½).", "answerPoints": [{ "point": "Energy-giving: role + two examples", "marks": 2 }, { "point": "Body-building: role + two examples", "marks": 2 }, { "point": "Protective: role + two examples", "marks": 1 }], "skill": "food-groups", "difficulty": "medium" },
+            { "id": "evs-c5-s6-b16-i2", "label": "(ii)", "type": "long", "q": "Write a food diary for one day (breakfast, lunch, dinner) and mark which items are healthy and which are not. Which food group is missing from your day?\nOR\nIf you had to organise a food festival in your school, which five dishes would you include and why? Mention at least three cooking methods used.", "marks": 5, "answer": "Diary option: three meals listed (2); healthy items and unhealthy items marked correctly (2); missing food group identified sensibly (1). OR option: five dishes named (2); a reason for each, e.g. healthy, traditional, tasty (2); three cooking methods correctly identified (1).", "answerPoints": [{ "point": "Main content complete", "marks": 2 }, { "point": "Correct classification / reasons", "marks": 2 }, { "point": "Missing group / cooking methods", "marks": 1 }], "markingGuide": "Complete and correct on either option — 5; mostly complete — 3; only partly attempted — 1.", "skill": "application", "difficulty": "hard" }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Draw and label.",
+          "items": [
+            { "id": "evs-c5-s6-b17-i1", "type": "draw", "q": "Draw a balanced food plate. Divide it into three parts for protective, body-building and energy-giving foods (protective the largest) and draw or write two food items in each part.", "marks": 3, "answer": "Plate divided into three parts with protective foods the largest (1); each part correctly labelled (1); two suitable food items in each part (1).", "markingGuide": "Correct proportions, labels and items — 3; two of these — 2; one — 1.", "skill": "balanced-diet", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.18",
+          "instruction": "Think and answer.",
+          "items": [
+            { "id": "evs-c5-s6-b18-i1", "type": "short", "q": "Your friend eats chips and drinks a soft drink every day after school. Write what you would tell your friend, and suggest two healthy snacks instead.", "marks": 3, "answer": "Explain that chips and soft drinks are junk food with too much oil, salt and sugar and can make us unhealthy (1). Two healthy snacks, e.g. fruit, sprouts, roasted chana, idli, nuts, a glass of milk (2).", "answerPoints": [{ "point": "Why junk food is harmful", "marks": 1 }, { "point": "Two healthy snacks", "marks": 2 }], "skill": "values", "difficulty": "easy" }
+          ]
+        }
+      ]
+    }
+  ]
+}

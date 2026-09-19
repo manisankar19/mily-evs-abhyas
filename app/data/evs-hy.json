@@ -1,0 +1,239 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 0,
+  "kind": "half-yearly",
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Half-Yearly Mock Paper",
+  "subtitle": "The World Around Us — Class 4 — Chapters 1 to 5",
+  "sourceRef": "NCERT Our Wondrous World, Class 4, Chapters 1–5; pattern of the AEES September 2025 worksheet",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "competency": "Observation and Reporting",
+      "title": "Objective questions",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given.",
+          "items": [
+            { "id": "evs-c0-s1-b1-i1", "label": "(i)", "type": "mcq", "q": "Van Mahotsav is celebrated during the ______ season.", "options": ["rainy", "winter", "summer"], "marks": 1, "answer": "rainy", "skill": "ch1", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b1-i2", "label": "(ii)", "type": "mcq", "q": "The post office sorts letters according to ______.", "options": ["colour", "regions", "size"], "marks": 1, "answer": "regions", "skill": "ch2", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b1-i3", "label": "(iii)", "type": "mcq", "q": "The Indian Giant Squirrel is a big ______-coloured squirrel found in Pachmarhi.", "options": ["red", "black", "white"], "marks": 1, "answer": "red", "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b1-i4", "label": "(iv)", "type": "mcq", "q": "The Palash tree is known as the ______.", "options": ["flame of forest", "king of fruits", "queen of flowers"], "marks": 1, "answer": "flame of forest", "skill": "ch4", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b1-i5", "label": "(v)", "type": "mcq", "q": "Fruits and vegetables that protect us from diseases are called ______ foods.", "options": ["energy-giving", "body-building", "protective"], "marks": 1, "answer": "protective", "skill": "ch5", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Write True or False.",
+          "items": [
+            { "id": "evs-c0-s1-b2-i1", "label": "(i)", "type": "true-false", "q": "Bees live and work together as a community, each with a special role.", "marks": 1, "answer": "True", "skill": "ch1", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b2-i2", "label": "(ii)", "type": "true-false", "q": "On a map, East is shown on the left side.", "marks": 1, "answer": "False", "skill": "ch2", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b2-i3", "label": "(iii)", "type": "true-false", "q": "An eagle has a sharp, curved beak and sharp claws to catch its prey.", "marks": 1, "answer": "True", "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b2-i4", "label": "(iv)", "type": "true-false", "q": "Gond art uses plastic paints bought from the market.", "marks": 1, "answer": "False", "skill": "ch4", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b2-i5", "label": "(v)", "type": "true-false", "q": "Fresh home-cooked food is better than over-processed packaged food.", "marks": 1, "answer": "True", "skill": "ch5", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.3",
+          "instruction": "Circle the odd one out in each group.",
+          "items": [
+            { "id": "evs-c0-s1-b3-i1", "label": "(i)", "type": "mcq", "q": "Insects", "options": ["ant", "wasp", "butterfly", "lizard"], "marks": 1, "answer": "lizard", "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b3-i2", "label": "(ii)", "type": "mcq", "q": "Public places", "options": ["school", "playground", "hospital", "bedroom"], "marks": 1, "answer": "bedroom", "skill": "ch1", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b3-i3", "label": "(iii)", "type": "mcq", "q": "Medicinal plants", "options": ["tulsi", "amla", "ajwain", "rose"], "marks": 1, "answer": "rose", "skill": "ch4", "difficulty": "medium" },
+            { "id": "evs-c0-s1-b3-i4", "label": "(iv)", "type": "mcq", "q": "Junk food", "options": ["chips", "idli", "burger", "pizza"], "marks": 1, "answer": "idli", "skill": "ch5", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Choose the correct answer.",
+          "items": [
+            { "id": "evs-c0-s1-b4-i1", "label": "(i)", "type": "mcq", "q": "Which is the state animal of Tripura?", "options": ["Spectacled Monkey", "Gaur", "Indian Giant Squirrel", "Elephant"], "marks": 1, "answer": "Spectacled Monkey", "skill": "ch3", "difficulty": "medium" },
+            { "id": "evs-c0-s1-b4-i2", "label": "(ii)", "type": "mcq", "q": "Bhela Ghar, built during Magh Bihu, is made of ______.", "options": ["bamboo and hay", "bricks and cement", "stone and clay", "wood and glass"], "marks": 1, "answer": "bamboo and hay", "skill": "ch1", "difficulty": "medium" },
+            { "id": "evs-c0-s1-b4-i3", "label": "(iii)", "type": "mcq", "q": "Which of these helps vehicles move above busy roads and crossings?", "options": ["Flyover", "Postbox", "ATM", "Bus stop"], "marks": 1, "answer": "Flyover", "skill": "ch2", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b4-i4", "label": "(iv)", "type": "mcq", "q": "The Jenu Kurubas collect ______ from beehives.", "options": ["honey", "wax", "flowers", "water"], "marks": 1, "answer": "honey", "skill": "ch4", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b4-i5", "label": "(v)", "type": "mcq", "q": "Which food is cooked by steaming?", "options": ["Dhokla", "Samosa", "Papad", "Cake"], "marks": 1, "answer": "Dhokla", "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s1-b4-i6", "label": "(vi)", "type": "mcq", "q": "Frogs can live ______.", "options": ["only on land", "only in water", "both on land and in water", "only on trees"], "marks": 1, "answer": "both on land and in water", "skill": "ch3", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "competency": "Observation and Reporting",
+      "title": "Observe and answer",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Read each situation carefully and answer the questions.",
+          "items": [
+            { "id": "evs-c0-s2-b5-i1", "label": "(a)", "type": "short", "q": "Where do we drop our letters to be sent? Who delivers letters to our home?", "marks": 2, "answer": "In a postbox / at the post office (1). The postman (1).", "answerPoints": [{ "point": "Postbox", "marks": 1 }, { "point": "Postman", "marks": 1 }], "skill": "ch2", "difficulty": "easy" },
+            { "id": "evs-c0-s2-b5-i2", "label": "(b)", "type": "short", "q": "A bird with a sharp, curved beak and sharp claws is sitting on a high branch, looking for prey. Name the bird and write what its beak and claws are used for.", "marks": 2, "answer": "Eagle (1). The sharp curved beak and sharp claws help it catch and eat its prey (1).", "answerPoints": [{ "point": "Eagle", "marks": 1 }, { "point": "To catch and eat prey", "marks": 1 }], "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s2-b5-i3", "label": "(c)", "type": "short", "q": "Name the person who mends walls using bricks and cement. Write the name of one tool used for building walls.", "marks": 2, "answer": "Mason (1). Trowel (1).", "answerPoints": [{ "point": "Mason", "marks": 1 }, { "point": "Trowel", "marks": 1 }], "skill": "ch1", "difficulty": "easy" },
+            { "id": "evs-c0-s2-b5-i4", "label": "(d)", "type": "short", "q": "A machine outside a bank lets Dada ji take out money at night. Name the device and write one benefit of using it.", "marks": 2, "answer": "ATM (Automated Teller Machine) (1). We can take out money any time without waiting in a queue at the bank (1).", "answerPoints": [{ "point": "ATM", "marks": 1 }, { "point": "Money any time / no queue", "marks": 1 }], "skill": "ch2", "difficulty": "easy" },
+            { "id": "evs-c0-s2-b5-i5", "label": "(e)", "type": "short", "q": "Mily's plate has dal, rice and spinach. Which food group is dal? Which is spinach?", "marks": 2, "answer": "Dal (pulses) – body-building food (1). Spinach – protective food (1).", "answerPoints": [{ "point": "Dal – body-building", "marks": 1 }, { "point": "Spinach – protective", "marks": 1 }], "skill": "ch5", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "competency": "Identification and Classification",
+      "title": "Identify and name",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.6",
+          "instruction": "Who am I?",
+          "items": [
+            { "id": "evs-c0-s3-b6-i1", "label": "(a)", "type": "one-word", "q": "I am an insect, green in colour. I have three pairs of legs, one pair of antennae, and sometimes two pairs of wings. I hop out of the grass.", "marks": 1, "answer": "Grasshopper", "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b6-i2", "label": "(b)", "type": "one-word", "q": "I am a small grain, round and grey. In winter roti, I make my way. Good for health and full of might.", "marks": 1, "answer": "Bajra", "skill": "ch5", "difficulty": "medium" },
+            { "id": "evs-c0-s3-b6-i3", "label": "(c)", "type": "one-word", "q": "I am a place where people wait to catch a ride, and not be late. Buses come and buses go.", "marks": 1, "answer": "Bus stop", "skill": "ch1", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Match the columns.",
+          "items": [
+            { "id": "evs-c0-s3-b7-i1", "type": "match", "q": "Match Column A with Column B.", "pairs": [
+              { "left": "Vat Purnima", "right": "Banyan tree" },
+              { "left": "Jenu", "right": "Honey" },
+              { "left": "Tumri", "right": "Uttarakhand" },
+              { "left": "Fish", "right": "Fins" },
+              { "left": "Khetala", "right": "Sikkim" }
+            ], "marks": 5, "answer": "Vat Purnima – banyan tree; Jenu – honey; Tumri – Uttarakhand; Fish – fins; Khetala – Sikkim. 1 mark per pair.", "answerPoints": [{ "point": "Vat Purnima", "marks": 1 }, { "point": "Jenu", "marks": 1 }, { "point": "Tumri", "marks": 1 }, { "point": "Fish", "marks": 1 }, { "point": "Khetala", "marks": 1 }], "skill": "mixed", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.8",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c0-s3-b8-i1", "label": "(i)", "type": "one-word", "q": "People in Sikkim who are specialists in agriculture.", "marks": 1, "answer": "Khetala", "skill": "ch1", "difficulty": "medium" },
+            { "id": "evs-c0-s3-b8-i2", "label": "(ii)", "type": "one-word", "q": "A hut built using bamboo and hay during Magh Bihu.", "marks": 1, "answer": "Bhela Ghar", "skill": "ch1", "difficulty": "medium" },
+            { "id": "evs-c0-s3-b8-i3", "label": "(iii)", "type": "one-word", "q": "A word in French which means a director or head of the kitchen.", "marks": 1, "answer": "Chef", "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b8-i4", "label": "(iv)", "type": "one-word", "q": "An animal which can live in water as well as on land.", "marks": 1, "answer": "Frog", "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b8-i5", "label": "(v)", "type": "one-word", "q": "The system in which goods were exchanged for goods before money was invented.", "marks": 1, "answer": "Barter system", "skill": "ch2", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Give two examples of each. (½ mark for each example)",
+          "items": [
+            { "id": "evs-c0-s3-b9-i1", "label": "(i)", "type": "one-word", "q": "Public places", "marks": 1, "answer": "Any two: park, school, hospital, market, bus stop, post office, library (½ each).", "skill": "ch1", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b9-i2", "label": "(ii)", "type": "one-word", "q": "Harvest festivals", "marks": 1, "answer": "Any two: Magh Bihu, Pongal, Baisakhi, Onam, Makar Sankranti (½ each).", "skill": "ch1", "difficulty": "medium" },
+            { "id": "evs-c0-s3-b9-i3", "label": "(iii)", "type": "one-word", "q": "Indian tribes mentioned in your book", "marks": 1, "answer": "Jenu Kurubas (Karnataka), Gond (½ each). Also accept any correct Indian tribe, e.g. Bhil, Santhal.", "skill": "ch4", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Identify the method of cooking used for each food item.",
+          "items": [
+            { "id": "evs-c0-s3-b10-i1", "label": "(i)", "type": "one-word", "q": "Idli", "marks": 1, "answer": "Steaming", "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b10-i2", "label": "(ii)", "type": "one-word", "q": "Samosa", "marks": 1, "answer": "Frying", "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b10-i3", "label": "(iii)", "type": "one-word", "q": "Rice", "marks": 1, "answer": "Boiling", "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s3-b10-i4", "label": "(iv)", "type": "one-word", "q": "Papad on a flame", "marks": 1, "answer": "Roasting", "skill": "ch5", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "competency": "Identification and Classification",
+      "title": "Answer the following",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Answer the following questions in two or three sentences.",
+          "items": [
+            { "id": "evs-c0-s4-b11-i1", "label": "(i)", "type": "short", "q": "What is Van Mahotsav? When is it celebrated?", "marks": 3, "answer": "Van Mahotsav is the Tree Planting Festival of India (1). It is celebrated every year from 1 July to 7 July in the rainy season (1). People plant trees to protect the environment and make the earth greener (1).", "answerPoints": [{ "point": "Tree planting festival", "marks": 1 }, { "point": "1–7 July", "marks": 1 }, { "point": "Why – greener earth", "marks": 1 }], "skill": "ch1", "difficulty": "easy" },
+            { "id": "evs-c0-s4-b11-i2", "label": "(ii)", "type": "short", "q": "Who is a nature scientist? Write about their role.", "marks": 3, "answer": "A nature scientist is a person who studies plants and animals (1), like Abha Didi at Pachmarhi (1). They guide people in exploring nature and help protect plants and animals (1).", "answerPoints": [{ "point": "Studies plants and animals", "marks": 1 }, { "point": "Example – Abha Didi", "marks": 1 }, { "point": "Guides / helps protect nature", "marks": 1 }], "skill": "ch3", "difficulty": "easy" },
+            { "id": "evs-c0-s4-b11-i3", "label": "(iii)", "type": "short", "q": "What is a balanced diet?", "marks": 3, "answer": "A balanced diet includes food from all three food groups in the right quantities (1) — protective foods the most, then body-building foods and some energy-giving foods (1). It keeps us healthy, active and happy (1).", "answerPoints": [{ "point": "All three groups, right quantities", "marks": 1 }, { "point": "Protective most, then body-building, some energy", "marks": 1 }, { "point": "Healthy, active, happy", "marks": 1 }], "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s4-b11-i4", "label": "(iv)", "type": "short", "q": "Write the full form of ATM. Write any two uses of an ATM.", "marks": 3, "answer": "Automated Teller Machine (1). It lets us take out money any time (1) without going to the bank and waiting in a queue (1).", "answerPoints": [{ "point": "Full form", "marks": 1 }, { "point": "Use 1", "marks": 1 }, { "point": "Use 2", "marks": 1 }], "skill": "ch2", "difficulty": "easy" },
+            { "id": "evs-c0-s4-b11-i5", "label": "(v)", "type": "short", "q": "What is Gond art? How are the paints made for Gond art?", "marks": 3, "answer": "Gond art is a form of painting on walls using natural colours (1), showing trees, animals, birds and humans (1). The paints are made from natural extracts of flowers and leaves and powdered coloured stones (1).", "answerPoints": [{ "point": "Wall painting with natural colours", "marks": 1 }, { "point": "Pictures of nature", "marks": 1 }, { "point": "Paint from flowers, leaves, coloured stones", "marks": 1 }], "skill": "ch4", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Complete the table in your answer book.",
+          "items": [
+            { "id": "evs-c0-s4-b12-i1", "type": "long", "q": "Compare communication in earlier times and in present times on these points: type of communication, speed, frequency, language, challenges faced.", "marks": 5, "answer": "Type: letters, telegram – internet, social media, text messages (1). Speed: slow, weeks – seconds (1). Frequency: rarely – many times a day (1). Language: mostly local, handwritten – many languages, typed (1). Challenges: long wait, letters lost – wrong information spreads fast, needs phone and network (1).", "answerPoints": [{ "point": "Type", "marks": 1 }, { "point": "Speed", "marks": 1 }, { "point": "Frequency", "marks": 1 }, { "point": "Language", "marks": 1 }, { "point": "Challenges", "marks": 1 }], "skill": "ch2", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "competency": "Discovery of Facts",
+      "title": "Facts and reasons",
+      "marks": 14,
+      "blocks": [
+        {
+          "num": "Q.13",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c0-s5-b13-i1", "label": "(i)", "type": "one-word", "q": "A tree known as the flame of forest.", "marks": 1, "answer": "Palash", "skill": "ch4", "difficulty": "easy" },
+            { "id": "evs-c0-s5-b13-i2", "label": "(ii)", "type": "one-word", "q": "A traditional food of Telangana with six different tastes.", "marks": 1, "answer": "Ugadi Pachadi", "skill": "ch5", "difficulty": "medium" },
+            { "id": "evs-c0-s5-b13-i3", "label": "(iii)", "type": "one-word", "q": "Small patches of forest protected by the local community.", "marks": 1, "answer": "Sacred Groves", "skill": "ch4", "difficulty": "medium" },
+            { "id": "evs-c0-s5-b13-i4", "label": "(iv)", "type": "one-word", "q": "The river in Kanker over which the community built a bridge.", "marks": 1, "answer": "Chinar river", "skill": "ch1", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Give reasons.",
+          "items": [
+            { "id": "evs-c0-s5-b14-i1", "label": "(i)", "type": "short", "q": "Different plants and animals are dependent on each other.", "marks": 2, "answer": "Plants give food and shelter to animals, e.g. a tree gives food to a bird; animals help plants too (1). In the web of life, if one living being disappears the others are affected (1).", "answerPoints": [{ "point": "Food / shelter example", "marks": 1 }, { "point": "Web of life – removing one affects others", "marks": 1 }], "skill": "ch3", "difficulty": "medium" },
+            { "id": "evs-c0-s5-b14-i2", "label": "(ii)", "type": "short", "q": "We should avoid eating junk food.", "marks": 2, "answer": "Junk food has high amounts of oil, salt and sugar (1). Eating it regularly and in large quantities makes us unhealthy (1).", "answerPoints": [{ "point": "High oil, salt, sugar", "marks": 1 }, { "point": "Unhealthy if eaten often", "marks": 1 }], "skill": "ch5", "difficulty": "easy" },
+            { "id": "evs-c0-s5-b14-i3", "label": "(iii)", "type": "short", "q": "Drinking sufficient water should be a part of our healthy habits.", "marks": 2, "answer": "Water helps digest food and keeps our skin and body healthy (1). It removes waste from the body through urine, sweat and faeces (1).", "answerPoints": [{ "point": "Digestion, healthy body", "marks": 1 }, { "point": "Removes waste", "marks": 1 }], "skill": "ch5", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Answer briefly.",
+          "items": [
+            { "id": "evs-c0-s5-b15-i1", "label": "(i)", "type": "short", "q": "What is super food? Write the names of any two super foods.", "marks": 2, "answer": "Millets, which are rich sources of nutrients, are called super food (1). Any two: jowar, bajra, ragi, jau (1).", "answerPoints": [{ "point": "Millets – rich in nutrients", "marks": 1 }, { "point": "Two millets", "marks": 1 }], "skill": "ch5", "difficulty": "medium" },
+            { "id": "evs-c0-s5-b15-i2", "label": "(ii)", "type": "short", "q": "What things should be kept in a first-aid box?", "marks": 2, "answer": "Any four (½ each): bandages, cotton, antiseptic cream or liquid, medicines, mosquito repellent cream, scissors, adhesive tape.", "answerPoints": [{ "point": "Two items", "marks": 1 }, { "point": "Two more items", "marks": 1 }], "skill": "ch4", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "competency": "Discovery of Facts",
+      "title": "Think, draw and express",
+      "marks": 16,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Answer in detail (five to six sentences).",
+          "items": [
+            { "id": "evs-c0-s6-b16-i1", "label": "(i)", "type": "long", "q": "Describe how the people of Chandan's village worked together for Van Mahotsav, and what they gained from it.", "marks": 5, "answer": "Villagers, parents and children planned together under the banyan tree (1). Sameer fixed benches, Babita repaired the street light, Noor brought saplings (1). Groups cleaned the park, planted and watered saplings and cooked (1). The park became beautiful and everyone shared a feast (1). They felt happy and closer to each other, and the children decided to care for the park (1).", "answerPoints": [{ "point": "Planning together", "marks": 1 }, { "point": "Repairs and saplings", "marks": 1 }, { "point": "Group work on the day", "marks": 1 }, { "point": "Beautiful park, feast", "marks": 1 }, { "point": "Happiness / togetherness / care", "marks": 1 }], "skill": "ch1", "difficulty": "medium" },
+            { "id": "evs-c0-s6-b16-i2", "label": "(ii)", "type": "long", "q": "Describe the three food groups with two examples each, and say why we need food from all three.\nOR\nWrite five ways in which we can care for plants and animals around us.", "marks": 5, "answer": "Food option: energy-giving (rice, wheat, ghee) (1); body-building (pulses, milk, eggs) (1); protective (carrot, orange, spinach) (1); no single food has all nutrients (1); balanced plate keeps us healthy (1). OR option: 1 mark each for five ways — plant trees, keep food and water for birds, say no to plastic, reduce paper waste, clean-up drive, spread awareness, do not harm animals.", "answerPoints": [{ "point": "Point 1", "marks": 1 }, { "point": "Point 2", "marks": 1 }, { "point": "Point 3", "marks": 1 }, { "point": "Point 4", "marks": 1 }, { "point": "Point 5", "marks": 1 }], "markingGuide": "Five correct sentences on either option — 5; three or four — 3; one or two — 1.", "skill": "mixed", "difficulty": "hard" }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Draw and label.",
+          "items": [
+            { "id": "evs-c0-s6-b17-i1", "type": "draw", "q": "Draw a compass showing the four directions (N, S, E, W), and next to it draw a simple map of your school with two landmarks around it, writing the direction of each landmark.", "marks": 3, "answer": "Compass with N up, S down, E right, W left (1); school with two landmarks drawn and named (1); a correct direction written for each landmark (1).", "markingGuide": "All three parts correct — 3; two — 2; one — 1.", "skill": "ch2", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.18",
+          "instruction": "Think and answer.",
+          "items": [
+            { "id": "evs-c0-s6-b18-i1", "type": "short", "q": "You are visiting a forest with your class. Write three rules you will follow, and explain in one sentence why these rules are important.", "marks": 3, "answer": "Any three rules (½ each, 1½ total): do not tease or feed animals; do not damage trees and flowers; do not bring polythene; do not throw garbage; be careful in a new place. Why (1½): the forest is the home of plants and animals, and the rules keep them and us safe.", "answerPoints": [{ "point": "Three rules", "marks": 2 }, { "point": "Why they matter", "marks": 1 }], "skill": "ch3", "difficulty": "easy" }
+          ]
+        }
+      ]
+    }
+  ]
+}

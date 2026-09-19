@@ -1,0 +1,125 @@
+// Acceptance click-through (BLUEPRINT §13, items 7–19, 23–25) against a local dev server.
+// Usage: GANESH_EVS=<code> node tests/e2e.js   (server must be running on :4173)
+const { chromium } = require(require.resolve('playwright', { paths: [process.env.NPM_GLOBAL || '/home/claude/.npm-global/lib/node_modules'] }));
+const fs = require('fs');
+const URL = process.env.URL || 'http://localhost:4173/';
+const CODE = process.env.GANESH_EVS || (fs.readFileSync(__dirname + '/../.env.local', 'utf8').match(/GANESH_EVS=(.*)/) || [])[1];
+const results = [];
+function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); console.log((ok ? '✓ ' : '✗ ') + name + (extra ? '  (' + extra + ')' : '')); }
+
+(async () => {
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const page = await ctx.newPage();
+  const errors = [];
+  page.on('pageerror', e => errors.push(String(e)));
+  page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
+
+  await page.goto(URL);
+  // Login
+  check('login screen visible', await page.isVisible('#screen-login'));
+  await page.fill('#login-user', 'Mily'); await page.fill('#login-pass', 'wrong'); await page.click('#login-form button[type=submit]');
+  check('wrong login shows error', await page.isVisible('#login-error'));
+  await page.fill('#login-pass', '2026'); await page.click('#login-form button[type=submit]');
+  await page.waitForSelector('#screen-chapters:not([hidden])');
+  const cards = await page.$$('.chapter-card');
+  check('chapter list has 6 papers', cards.length === 6, cards.length);
+  check('no horizontal scroll at 390px (chapters)', await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
+
+  // Open chapter 3
+  await cards[2].click();
+  await page.waitForSelector('#screen-paper:not([hidden])');
+  const itemCount = await page.$$eval('.item', n => n.length);
+  check('paper renders 60 items', itemCount === 60, itemCount);
+  const visible = await page.$eval('#paper', n => n.innerText);
+  check('practice mode: no answer text in rendered paper', !visible.includes('Model answer') && !/Mark split/.test(visible) && (await page.$$('.answer')).length === 0);
+  check('practice mode: no reveal / mark buttons', (await page.$$('.item-check')).length === 0 && (await page.$$('.mark-btn')).length === 0);
+  check('practice mode: score bar & result hidden', await page.isHidden('#check-tools') && await page.isHidden('#result-btn'));
+  check('practice banner visible', await page.isVisible('#practice-banner'));
+  check('no horizontal scroll at 390px (paper)', await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
+
+  // Gate
+  await page.click('#mode-toggle');
+  check('dialog opens', await page.evaluate(() => document.getElementById('mode-dialog').open));
+  await page.keyboard.press('Escape');
+  check('Escape closes without unlocking', await page.evaluate(() => !document.getElementById('mode-dialog').open) && await page.isHidden('#check-tools'));
+  await page.click('#mode-toggle'); await page.click('#mode-cancel');
+  check('Cancel closes without unlocking', await page.evaluate(() => !document.getElementById('mode-dialog').open) && await page.isHidden('#check-tools'));
+  await page.click('#mode-toggle');
+  await page.mouse.click(5, 5);
+  check('backdrop click closes without unlocking', await page.evaluate(() => !document.getElementById('mode-dialog').open) && await page.isHidden('#check-tools'));
+  await page.click('#mode-toggle');
+  await page.fill('#mode-code', 'nope'); await page.click('#mode-confirm');
+  await page.waitForTimeout(200);
+  check('wrong code shows error, stays locked', await page.isVisible('#mode-error') && await page.evaluate(() => document.getElementById('mode-dialog').open) && await page.isHidden('#check-tools'));
+  await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
+  await page.waitForSelector('#check-tools:not([hidden])');
+  check('correct code unlocks checking UI', (await page.$$('.mark-btn')).length > 0);
+
+  // Reveal one
+  const firstToggle = (await page.$$('.item-check .btn'))[0];
+  await firstToggle.click();
+  const firstAns = await page.$eval('.item-check .answer', n => n.textContent);
+  check('per-question reveal shows the right answer', firstAns.includes('Pachmarhi'), firstAns.slice(0, 60));
+  await firstToggle.click();
+  check('reveal hides again', (await page.$$('.answer')).length === 0);
+  await page.click('#show-all-btn');
+  check('show all reveals every answer', (await page.$$('.answer')).length === 60);
+  await page.click('#show-all-btn');
+  check('show all again hides all', (await page.$$('.answer')).length === 0);
+
+  // Full marks everywhere
+  await page.$$eval('.marks-row', rows => rows.forEach(r => { const b = r.querySelectorAll('.mark-btn'); b[b.length - 1].click(); }));
+  const score = await page.textContent('#score-value');
+  check('full marks total exactly 100', score.replace(/\s/g, '') === '100/100', score);
+  await page.click('#result-btn');
+  await page.waitForSelector('#screen-result:not([hidden])');
+  const rows = await page.$$eval('#result-table tbody tr', trs => trs.map(tr => Array.from(tr.children).map(td => td.textContent)));
+  check('result section-wise figures', JSON.stringify(rows.map(r => r[1])) === JSON.stringify(['20', '10', '20', '20', '14', '16', '100']), JSON.stringify(rows.map(r => r[1])));
+  check('result: no unmarked warning', await page.isHidden('#result-warning'));
+  await page.click('#result-back');
+
+  // Re-lock
+  await page.click('#mode-toggle');
+  check('toggle off hides marks and answers', (await page.$$('.mark-btn')).length === 0 && (await page.$$('.answer')).length === 0 && await page.isHidden('#check-tools'));
+  // Reload → practice mode, marks survive
+  await page.reload();
+  await page.waitForSelector('#screen-chapters:not([hidden])');
+  check('reload returns to chapter list (session kept)', true);
+  const prog = await page.$$eval('.chapter-card .progress', n => n.map(x => x.textContent));
+  check('marks survive reload (card shows 60 of 60)', prog.some(p => p.includes('60 of 60')), prog.join('|'));
+  await (await page.$$('.chapter-card'))[2].click();
+  await page.waitForSelector('#screen-paper:not([hidden])');
+  check('paper opens in practice mode after reload', await page.isHidden('#check-tools') && (await page.$$('.mark-btn')).length === 0);
+
+  // Secret not in page
+  const src = await page.content();
+  check('view-source has no plaintext code', !src.includes(CODE));
+  check('64-hex hash present', /<script id="secret-hash"[^>]*>[a-f0-9]{64}<\/script>/.test(src));
+
+  // Print CSS: emulate
+  await page.emulateMedia({ media: 'print' });
+  const printHidden = await page.evaluate(() => ['#practice-banner', '#mode-dialog', '.paper-toolbar', '#topbar'].every(s => { const e = document.querySelector(s); return !e || getComputedStyle(e).display === 'none'; }));
+  check('print hides banner, toolbar, dialog, topbar', printHidden);
+  await page.emulateMedia({ media: 'screen' });
+
+  // Dark theme renders
+  await page.selectOption('#theme-select', 'dark');
+  check('dark theme applied', await page.evaluate(() => document.documentElement.getAttribute('data-theme') === 'dark'));
+  await page.screenshot({ path: __dirname + '/shot-paper-dark.png', fullPage: false });
+  await page.selectOption('#theme-select', 'light');
+  await page.screenshot({ path: __dirname + '/shot-paper-light.png', fullPage: false });
+
+  // Other papers open without errors
+  for (let i = 0; i < 6; i++) {
+    await page.click('#paper-back'); await page.waitForSelector('#screen-chapters:not([hidden])');
+    await (await page.$$('.chapter-card'))[i].click(); await page.waitForSelector('#screen-paper:not([hidden])');
+  }
+  check('all six papers open', true);
+  check('no JavaScript errors in console', errors.length === 0, errors.join(' | ').slice(0, 200));
+
+  await browser.close();
+  const failed = results.filter(r => !r.ok);
+  console.log(`\n${results.length - failed.length}/${results.length} checks passed`);
+  process.exit(failed.length ? 1 : 0);
+})().catch(e => { console.error(e); process.exit(1); });

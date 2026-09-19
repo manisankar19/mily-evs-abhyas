@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 3,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Nature Trail",
+  "subtitle": "The World Around Us — Class 4 — Chapter 3",
+  "sourceRef": "NCERT Our Wondrous World, Class 4, Chapter 3 — Nature Trail",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "competency": "Observation and Reporting",
+      "title": "Objective questions",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given.",
+          "items": [
+            { "id": "evs-c3-s1-b1-i1", "label": "(i)", "type": "mcq", "q": "The students went for a nature trail to ______, Madhya Pradesh.", "options": ["Pachmarhi", "Kanker", "Kaziranga"], "marks": 1, "answer": "Pachmarhi", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b1-i2", "label": "(ii)", "type": "mcq", "q": "Abha Didi is a ______ who studies plants and animals.", "options": ["doctor", "nature scientist", "forest guard"], "marks": 1, "answer": "nature scientist", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b1-i3", "label": "(iii)", "type": "mcq", "q": "The lines on a leaf are called ______.", "options": ["roots", "veins", "stems"], "marks": 1, "answer": "veins", "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b1-i4", "label": "(iv)", "type": "mcq", "q": "An insect has ______ pairs of legs.", "options": ["two", "three", "four"], "marks": 1, "answer": "three", "skill": "insects", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b1-i5", "label": "(v)", "type": "mcq", "q": "The gaur looks like a buffalo but is stronger and has ______ horns.", "options": ["longer", "shorter", "no"], "marks": 1, "answer": "shorter", "skill": "animals", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Write True or False.",
+          "items": [
+            { "id": "evs-c3-s1-b2-i1", "label": "(i)", "type": "true-false", "q": "We should feed the animals in a forest.", "marks": 1, "answer": "False", "skill": "safety-rules", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b2-i2", "label": "(ii)", "type": "true-false", "q": "Different animals leave different footprints.", "marks": 1, "answer": "True", "skill": "observation", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b2-i3", "label": "(iii)", "type": "true-false", "q": "The hornbill gets its name from the headgear growing out of its forehead like a horn.", "marks": 1, "answer": "True", "skill": "birds", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b2-i4", "label": "(iv)", "type": "true-false", "q": "A frog can live only in water.", "marks": 1, "answer": "False", "skill": "animals", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b2-i5", "label": "(v)", "type": "true-false", "q": "The Spectacled Monkey is the state animal of Tripura.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.3",
+          "instruction": "Circle the odd one out in each group.",
+          "items": [
+            { "id": "evs-c3-s1-b3-i1", "label": "(i)", "type": "mcq", "q": "Parts of a bird", "options": ["feathers", "beak", "shoulders", "wings"], "marks": 1, "answer": "shoulders", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b3-i2", "label": "(ii)", "type": "mcq", "q": "Insects", "options": ["ant", "butterfly", "beetle", "goat"], "marks": 1, "answer": "goat", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b3-i3", "label": "(iii)", "type": "mcq", "q": "Animals that live in and around water", "options": ["fish", "frog", "turtle", "tiger"], "marks": 1, "answer": "tiger", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b3-i4", "label": "(iv)", "type": "mcq", "q": "Birds", "options": ["hornbill", "peacock", "gaur", "eagle"], "marks": 1, "answer": "gaur", "skill": "classification", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Choose the correct answer.",
+          "items": [
+            { "id": "evs-c3-s1-b4-i1", "label": "(i)", "type": "mcq", "q": "Which bird has a long beak to drink nectar from flowers?", "options": ["Eagle", "Sunbird", "Sparrow", "Owl"], "marks": 1, "answer": "Sunbird", "skill": "birds", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b4-i2", "label": "(ii)", "type": "mcq", "q": "Which animal has a long, narrow, pointed snout to catch fish?", "options": ["Turtle", "Gharial", "Frog", "Crab"], "marks": 1, "answer": "Gharial", "skill": "animals", "difficulty": "medium" },
+            { "id": "evs-c3-s1-b4-i3", "label": "(iii)", "type": "mcq", "q": "Turtles have ______ feet to help them swim easily.", "options": ["webbed", "clawed", "hairy", "hoofed"], "marks": 1, "answer": "webbed", "skill": "animals", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b4-i4", "label": "(iv)", "type": "mcq", "q": "Which bird has sharp eyesight that helps it see at night?", "options": ["Peacock", "Owl", "Parrot", "Kingfisher"], "marks": 1, "answer": "Owl", "skill": "birds", "difficulty": "easy" },
+            { "id": "evs-c3-s1-b4-i5", "label": "(v)", "type": "mcq", "q": "In the 'Web of Life' game, what is passed from one player to another to show a connection?", "options": ["A ball of yarn", "A leaf", "A feather", "A card"], "marks": 1, "answer": "A ball of yarn", "skill": "interdependence", "difficulty": "medium" },
+            { "id": "evs-c3-s1-b4-i6", "label": "(vi)", "type": "mcq", "q": "Which of these is an insect?", "options": ["Spider", "Praying mantis", "Earthworm", "Snail"], "marks": 1, "answer": "Praying mantis", "skill": "insects", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "competency": "Observation and Reporting",
+      "title": "Observe and answer",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Read each situation carefully and answer the questions.",
+          "items": [
+            { "id": "evs-c3-s2-b5-i1", "label": "(a)", "type": "short", "q": "Near the pond, Arya saw footprints in the mud. What could the students learn from these footprints? Name two animals that might have come to the pond to drink water.", "marks": 2, "answer": "Footprints tell us which animals came to the pond, because different animals have different footprints (1). Any two: deer, tiger, rabbit, gaur (1).", "answerPoints": [{ "point": "Footprints show which animals visited; each animal's footprint is different", "marks": 1 }, { "point": "Any two animals: deer / tiger / rabbit / gaur", "marks": 1 }], "skill": "observation", "difficulty": "medium" },
+            { "id": "evs-c3-s2-b5-i2", "label": "(b)", "type": "short", "q": "Sarthak saw a bird with a long tail and a large curved beak sitting on a tree. Name the bird and write how it got its name.", "marks": 2, "answer": "Hornbill (1). It has a headgear growing out of its forehead like a horn, so it is called hornbill (1).", "answerPoints": [{ "point": "Hornbill", "marks": 1 }, { "point": "Headgear on the forehead like a horn gives it the name", "marks": 1 }], "skill": "birds", "difficulty": "easy" },
+            { "id": "evs-c3-s2-b5-i3", "label": "(c)", "type": "short", "q": "A grasshopper hopped out of the grass. Arya said, 'This is an insect.' Write two features that show it is an insect.", "marks": 2, "answer": "Any two (1 each): three pairs of legs; one pair of antennae to sense surroundings; sometimes two pairs of wings.", "answerPoints": [{ "point": "Three pairs of legs", "marks": 1 }, { "point": "One pair of antennae / two pairs of wings (any one)", "marks": 1 }], "skill": "insects", "difficulty": "easy" },
+            { "id": "evs-c3-s2-b5-i4", "label": "(d)", "type": "short", "q": "You are doing the food-picking activity with a spoon, a toothpick and a pair of sticks. Which tool would you use to pick grains, and which to pick a piece of fruit? What does this activity teach us about birds?", "marks": 2, "answer": "Grains: spoon (or sticks); piece of fruit: toothpick/sticks — any sensible choice (1). It shows that birds have different beaks suited to the food they eat (1).", "answerPoints": [{ "point": "Sensible tool for each food item", "marks": 1 }, { "point": "Different beaks suit different foods; we can guess a bird's food from its beak", "marks": 1 }], "skill": "birds", "difficulty": "medium" },
+            { "id": "evs-c3-s2-b5-i5", "label": "(e)", "type": "short", "q": "Mily collected a lemon leaf and a neem leaf. Write two ways in which the two leaves may be different from each other.", "marks": 2, "answer": "Any two (1 each): colour, shape, size, texture (smooth/rough), smell, pattern of veins. Example: lemon leaf is oval and smooth with a strong smell; neem leaf is narrow with a toothed edge.", "answerPoints": [{ "point": "One difference (shape / size / colour / texture / smell / veins)", "marks": 1 }, { "point": "Second difference", "marks": 1 }], "skill": "plants", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "competency": "Identification and Classification",
+      "title": "Identify and name",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.6",
+          "instruction": "Who am I?",
+          "items": [
+            { "id": "evs-c3-s3-b6-i1", "label": "(a)", "type": "one-word", "q": "I am a big, red-coloured squirrel found in Pachmarhi and a few other places.", "marks": 1, "answer": "Indian Giant Squirrel", "skill": "animals", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b6-i2", "label": "(b)", "type": "one-word", "q": "I look like a buffalo, but I am stronger and have shorter horns.", "marks": 1, "answer": "Gaur", "skill": "animals", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b6-i3", "label": "(c)", "type": "one-word", "q": "I am a type of crocodile with a long, narrow, pointed snout for catching fish.", "marks": 1, "answer": "Gharial", "skill": "animals", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Match the columns.",
+          "items": [
+            { "id": "evs-c3-s3-b7-i1", "type": "match", "q": "Match the animal with its special feature.", "pairs": [
+              { "left": "Fish", "right": "Fins to swim" },
+              { "left": "Turtle", "right": "Strong shell and webbed feet" },
+              { "left": "Eagle", "right": "Sharp curved beak and sharp claws" },
+              { "left": "Elephant", "right": "Long trunk to take food and water" },
+              { "left": "Sparrow", "right": "Short strong beak to crack seeds" }
+            ], "marks": 5, "answer": "Fish – fins to swim; Turtle – strong shell and webbed feet; Eagle – sharp curved beak and sharp claws; Elephant – long trunk to take food and water; Sparrow – short strong beak to crack seeds. 1 mark per correct pair.", "answerPoints": [{ "point": "Fish – fins", "marks": 1 }, { "point": "Turtle – shell, webbed feet", "marks": 1 }, { "point": "Eagle – curved beak, claws", "marks": 1 }, { "point": "Elephant – trunk", "marks": 1 }, { "point": "Sparrow – short strong beak", "marks": 1 }], "skill": "animals", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.8",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c3-s3-b8-i1", "label": "(i)", "type": "one-word", "q": "The animal with a long trunk to take food and water.", "marks": 1, "answer": "Elephant", "skill": "animals", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b8-i2", "label": "(ii)", "type": "one-word", "q": "The part of an insect used to sense its surroundings.", "marks": 1, "answer": "Antennae", "skill": "insects", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b8-i3", "label": "(iii)", "type": "one-word", "q": "The state whose state animal is the Spectacled Monkey.", "marks": 1, "answer": "Tripura", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c3-s3-b8-i4", "label": "(iv)", "type": "one-word", "q": "The game that shows how all living beings are connected.", "marks": 1, "answer": "Web of Life", "skill": "interdependence", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b8-i5", "label": "(v)", "type": "one-word", "q": "The activity in which you rub a crayon over a paper placed on a leaf to get its shape.", "marks": 1, "answer": "Leaf autograph", "skill": "plants", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Give two examples of each. (½ mark for each example)",
+          "items": [
+            { "id": "evs-c3-s3-b9-i1", "label": "(i)", "type": "one-word", "q": "Insects seen around your home", "marks": 1, "answer": "Any two: ant, fly, mosquito, butterfly, bee, beetle, grasshopper, praying mantis (½ each).", "skill": "insects", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b9-i2", "label": "(ii)", "type": "one-word", "q": "Animals that live in and around water", "marks": 1, "answer": "Any two: fish, crab, frog, turtle, crocodile/gharial, water snake (½ each).", "skill": "animals", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b9-i3", "label": "(iii)", "type": "one-word", "q": "Safety rules to follow in a forest", "marks": 1, "answer": "Any two: do not tease animals; do not feed animals; do not damage trees and flowers; do not bring polythene bags; do not throw garbage; do not bring pets or weapons (½ each).", "skill": "safety-rules", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Sort the animals into the correct group: peacock, rabbit, crab, hornbill, deer, turtle, eagle, tiger. Write the group name against each pair.",
+          "items": [
+            { "id": "evs-c3-s3-b10-i1", "label": "(i)", "type": "one-word", "q": "Which two of these are birds in the sky?", "marks": 1, "answer": "Any two of: peacock, hornbill, eagle (½ each).", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b10-i2", "label": "(ii)", "type": "one-word", "q": "Which two of these are animals that live on land?", "marks": 1, "answer": "Any two of: rabbit, deer, tiger (½ each).", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b10-i3", "label": "(iii)", "type": "one-word", "q": "Which two of these live in and around water?", "marks": 1, "answer": "Crab and turtle (½ each).", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c3-s3-b10-i4", "label": "(iv)", "type": "one-word", "q": "Which of these animals in the list is a hunter with sharp claws that catches its prey from the sky?", "marks": 1, "answer": "Eagle", "skill": "classification", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "competency": "Identification and Classification",
+      "title": "Answer the following",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Answer the following questions in two or three sentences.",
+          "items": [
+            { "id": "evs-c3-s4-b11-i1", "label": "(i)", "type": "short", "q": "Write three rules to be followed while visiting a zoo or a forest.", "marks": 3, "answer": "Any three (1 each): be careful in a new place; do not tease animals; do not feed animals; do not damage trees and flowers; do not bring pets, firearms or weapons; do not bring polythene bags; do not damage public utilities; do not throw garbage.", "answerPoints": [{ "point": "Rule 1", "marks": 1 }, { "point": "Rule 2", "marks": 1 }, { "point": "Rule 3", "marks": 1 }], "skill": "safety-rules", "difficulty": "easy" },
+            { "id": "evs-c3-s4-b11-i2", "label": "(ii)", "type": "short", "q": "What special features do water animals have to help them survive? Give three examples.", "marks": 3, "answer": "Fish have fins to swim (1); the gharial has a long, narrow, pointed snout to catch fish (1); turtles have strong shells for safety and webbed feet for swimming (1). Frogs can live both on land and in water — also acceptable.", "answerPoints": [{ "point": "Fish – fins", "marks": 1 }, { "point": "Gharial – pointed snout", "marks": 1 }, { "point": "Turtle – shell / webbed feet (or frog – land and water)", "marks": 1 }], "skill": "animals", "difficulty": "medium" },
+            { "id": "evs-c3-s4-b11-i3", "label": "(iii)", "type": "short", "q": "How do leaves differ from one another? Mention three ways.", "marks": 3, "answer": "Leaves differ in colour (1), shape and size (1), texture and the pattern of veins (1). Any three of colour, shape, size, texture, smell, vein pattern.", "answerPoints": [{ "point": "Colour", "marks": 1 }, { "point": "Shape / size", "marks": 1 }, { "point": "Texture / veins / smell", "marks": 1 }], "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c3-s4-b11-i4", "label": "(iv)", "type": "short", "q": "How can we guess the eating habits of a bird? Explain with two examples.", "marks": 3, "answer": "By observing its beak and claws (1). An eagle has a sharp, curved beak and sharp claws to catch prey (1). A sunbird has a long beak to drink nectar; a sparrow has a short, strong beak to crack seeds (1).", "answerPoints": [{ "point": "By looking at the beak and claws", "marks": 1 }, { "point": "Example 1 (eagle / sunbird / sparrow)", "marks": 1 }, { "point": "Example 2", "marks": 1 }], "skill": "birds", "difficulty": "medium" },
+            { "id": "evs-c3-s4-b11-i5", "label": "(v)", "type": "short", "q": "What is an insect? Write its main features and name two insects.", "marks": 3, "answer": "An insect is a tiny animal with three pairs of legs (1) and one pair of antennae; some have two pairs of wings (1). Examples: grasshopper, ant, bee, beetle, fly, butterfly, praying mantis (1 for two).", "answerPoints": [{ "point": "Three pairs of legs", "marks": 1 }, { "point": "One pair of antennae / two pairs of wings", "marks": 1 }, { "point": "Two examples", "marks": 1 }], "skill": "insects", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Complete the table in your answer book.",
+          "items": [
+            { "id": "evs-c3-s4-b12-i1", "type": "long", "q": "Copy and complete the table writing how each animal moves: Fish, Crab, Frog, Turtle, Snake.", "marks": 5, "answer": "Fish – swims; Crab – walks (sideways); Frog – jumps/hops; Turtle – crawls (walks slowly) and swims; Snake – crawls/slithers. 1 mark each.", "answerPoints": [{ "point": "Fish – swims", "marks": 1 }, { "point": "Crab – walks", "marks": 1 }, { "point": "Frog – jumps", "marks": 1 }, { "point": "Turtle – crawls / swims", "marks": 1 }, { "point": "Snake – crawls / slithers", "marks": 1 }], "skill": "animals", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "competency": "Discovery of Facts",
+      "title": "Facts and reasons",
+      "marks": 14,
+      "blocks": [
+        {
+          "num": "Q.13",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c3-s5-b13-i1", "label": "(i)", "type": "one-word", "q": "The state in which Pachmarhi is located.", "marks": 1, "answer": "Madhya Pradesh", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c3-s5-b13-i2", "label": "(ii)", "type": "one-word", "q": "A colourful bird mentioned in the chapter.", "marks": 1, "answer": "Peacock (also accept kingfisher, parrot)", "skill": "birds", "difficulty": "easy" },
+            { "id": "evs-c3-s5-b13-i3", "label": "(iii)", "type": "one-word", "q": "The vehicle in which the students went into the forest.", "marks": 1, "answer": "Jeep", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c3-s5-b13-i4", "label": "(iv)", "type": "one-word", "q": "The animal Sarthak saw munching on grass near the pond.", "marks": 1, "answer": "Rabbit", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Give reasons.",
+          "items": [
+            { "id": "evs-c3-s5-b14-i1", "label": "(i)", "type": "short", "q": "We should not throw garbage or bring polythene bags into a forest.", "marks": 2, "answer": "Garbage and polythene harm the plants and animals — animals may eat plastic and fall ill, and it makes the forest dirty (1). The forest is the animals' home and we must keep it clean and safe (1).", "answerPoints": [{ "point": "Harms animals / plants, pollutes the forest", "marks": 1 }, { "point": "Forest is the animals' home; we must keep it safe", "marks": 1 }], "skill": "safety-rules", "difficulty": "easy" },
+            { "id": "evs-c3-s5-b14-i2", "label": "(ii)", "type": "short", "q": "Different plants and animals are dependent on each other.", "marks": 2, "answer": "Plants give food and shelter to animals, e.g. a tree provides food to a bird (1). Animals help plants too, and if one part of the web of life disappears, the others are affected — like a tiger without deer (1).", "answerPoints": [{ "point": "Plants give food/shelter to animals (example)", "marks": 1 }, { "point": "Removing one living being affects others (web of life)", "marks": 1 }], "skill": "interdependence", "difficulty": "medium" },
+            { "id": "evs-c3-s5-b14-i3", "label": "(iii)", "type": "short", "q": "An owl can hunt at night.", "marks": 2, "answer": "Owls have very sharp eyesight (1) that helps them see clearly at night, so they can find their prey in the dark (1).", "answerPoints": [{ "point": "Sharp eyesight", "marks": 1 }, { "point": "Helps it see and hunt in the dark", "marks": 1 }], "skill": "birds", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Answer briefly.",
+          "items": [
+            { "id": "evs-c3-s5-b15-i1", "label": "(i)", "type": "short", "q": "What is the role of a nature scientist?", "marks": 2, "answer": "A nature scientist studies plants and animals (1) and helps others explore and understand nature, like Abha Didi guiding the students in the forest (1).", "answerPoints": [{ "point": "Studies plants and animals", "marks": 1 }, { "point": "Guides / helps others explore and protect nature", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c3-s5-b15-i2", "label": "(ii)", "type": "short", "q": "What happens in the 'Web of Life' game when one player is removed? What does it show?", "marks": 2, "answer": "The web weakens or collapses (1). It shows that everything in nature is connected and depends on each other (1).", "answerPoints": [{ "point": "Web weakens / collapses", "marks": 1 }, { "point": "Everything in nature is connected", "marks": 1 }], "skill": "interdependence", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "competency": "Discovery of Facts",
+      "title": "Think, draw and express",
+      "marks": 16,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Answer in detail (five to six sentences).",
+          "items": [
+            { "id": "evs-c3-s6-b16-i1", "label": "(i)", "type": "long", "q": "Describe the nature trail at Pachmarhi. Who guided the students, what did they see near the forest entrance, and what did they see near the pond?", "marks": 5, "answer": "The students went with their teacher to Pachmarhi in Madhya Pradesh (1). Abha Didi, a nature scientist, guided them (1). At the entrance they saw tall trees and chirping birds, then rode in jeeps and saw many plants and animals (1). Near the pond they saw gaur, footprints in the mud, a rabbit, and a hornbill on a tree (1). Presentation: complete sentences and correct order (1).", "answerPoints": [{ "point": "Pachmarhi, Madhya Pradesh, with teacher", "marks": 1 }, { "point": "Guided by Abha Didi, a nature scientist", "marks": 1 }, { "point": "Tall trees, chirping birds, jeep ride", "marks": 1 }, { "point": "Pond: gaur, footprints, rabbit, hornbill", "marks": 1 }, { "point": "Clear, well-ordered writing", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c3-s6-b16-i2", "label": "(ii)", "type": "long", "q": "Which animal would you love to be? What special abilities would it give you? Write five sentences.\nOR\nWhy is it important to protect the plants and animals in a forest? Write five sentences.", "marks": 5, "answer": "First option: names an animal (1), describes at least two real abilities of that animal, e.g. eagle – sharp eyes and claws, fish – fins to swim (2), explains what those abilities would let the child do (1), writing in complete sentences (1). OR option: forests are homes of plants and animals (1); plants and animals depend on each other in the web of life (1); harming one affects the others (1); we get many things from nature (1); complete sentences (1).", "answerPoints": [{ "point": "Clear choice / clear main idea", "marks": 1 }, { "point": "Two correct facts or reasons", "marks": 2 }, { "point": "Explanation or third reason", "marks": 1 }, { "point": "Five complete, sensible sentences", "marks": 1 }], "markingGuide": "Award full marks for five sensible, correct sentences on either option. 3 for three good sentences with one or two mistakes. 1 for a single relevant sentence.", "skill": "expression", "difficulty": "hard" }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Draw and label.",
+          "items": [
+            { "id": "evs-c3-s6-b17-i1", "type": "draw", "q": "Draw an insect (for example, a grasshopper or an ant) and label its three pairs of legs, antennae and wings.", "marks": 3, "answer": "Drawing shows a body with six legs (three pairs) (1), antennae labelled (1), wings labelled or three body parts clearly drawn (1).", "markingGuide": "Neat drawing with all three labels correct — 3; drawing with two labels — 2; drawing with one label or unlabelled — 1.", "skill": "insects", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.18",
+          "instruction": "Think and answer.",
+          "items": [
+            { "id": "evs-c3-s6-b18-i1", "type": "short", "q": "You are planning a nature walk in a nearby park for your family, and you will be the guide. Write three things you will do to prepare, and one rule you will ask everyone to follow.", "marks": 3, "answer": "Preparation, any two (1 each): identify a few plants and animals in the park; study their features and interesting facts; carry a bird diary/notebook; plan the route. Rule (1): e.g. do not pluck flowers, do not feed or tease animals, do not litter.", "answerPoints": [{ "point": "Preparation step 1", "marks": 1 }, { "point": "Preparation step 2", "marks": 1 }, { "point": "One sensible safety rule", "marks": 1 }], "skill": "application", "difficulty": "medium" }
+          ]
+        }
+      ]
+    }
+  ]
+}

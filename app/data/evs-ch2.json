@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 2,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Exploring Our Neighbourhood",
+  "subtitle": "The World Around Us — Class 4 — Chapter 2",
+  "sourceRef": "NCERT Our Wondrous World, Class 4, Chapter 2 — Exploring Our Neighbourhood",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "competency": "Observation and Reporting",
+      "title": "Objective questions",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given.",
+          "items": [
+            { "id": "evs-c2-s1-b1-i1", "label": "(i)", "type": "mcq", "q": "Navya saw a red ______ on the corner of the road from the bus.", "options": ["postbox", "letterbox", "signboard"], "marks": 1, "answer": "postbox", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b1-i2", "label": "(ii)", "type": "mcq", "q": "The ______ takes the letters from the postbox to the post office.", "options": ["policeman", "postman", "driver"], "marks": 1, "answer": "postman", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b1-i3", "label": "(iii)", "type": "mcq", "q": "ATM stands for Automated ______ Machine.", "options": ["Ticket", "Teller", "Token"], "marks": 1, "answer": "Teller", "skill": "banking", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b1-i4", "label": "(iv)", "type": "mcq", "q": "On a map, North is shown ______.", "options": ["upwards", "downwards", "on the right"], "marks": 1, "answer": "upwards", "skill": "maps", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b1-i5", "label": "(v)", "type": "mcq", "q": "Long ago, people used the ______ system to exchange goods and services.", "options": ["barter", "banking", "postal"], "marks": 1, "answer": "barter", "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Write True or False.",
+          "items": [
+            { "id": "evs-c2-s1-b2-i1", "label": "(i)", "type": "true-false", "q": "Long ago, people communicated using drumbeats and carvings on rocks.", "marks": 1, "answer": "True", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b2-i2", "label": "(ii)", "type": "true-false", "q": "Flyovers make vehicles move slower than the busy roads below.", "marks": 1, "answer": "False", "skill": "transport", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b2-i3", "label": "(iii)", "type": "true-false", "q": "A bank is a special place where money is kept safe.", "marks": 1, "answer": "True", "skill": "banking", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b2-i4", "label": "(iv)", "type": "true-false", "q": "The sun rises in the west.", "marks": 1, "answer": "False", "skill": "maps", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b2-i5", "label": "(v)", "type": "true-false", "q": "In earlier times, a reply to a letter could take weeks to arrive.", "marks": 1, "answer": "True", "skill": "communication", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.3",
+          "instruction": "Circle the odd one out in each group.",
+          "items": [
+            { "id": "evs-c2-s1-b3-i1", "label": "(i)", "type": "mcq", "q": "Means of communication", "options": ["letter", "telephone", "email", "bus"], "marks": 1, "answer": "bus", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b3-i2", "label": "(ii)", "type": "mcq", "q": "People who work in a hospital", "options": ["doctor", "nurse", "pharmacist", "postman"], "marks": 1, "answer": "postman", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b3-i3", "label": "(iii)", "type": "mcq", "q": "Directions", "options": ["north", "east", "left", "south"], "marks": 1, "answer": "left", "skill": "maps", "difficulty": "medium" },
+            { "id": "evs-c2-s1-b3-i4", "label": "(iv)", "type": "mcq", "q": "Ways of sending money", "options": ["money order", "mobile phone", "bank", "radio"], "marks": 1, "answer": "radio", "skill": "classification", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Choose the correct answer.",
+          "items": [
+            { "id": "evs-c2-s1-b4-i1", "label": "(i)", "type": "mcq", "q": "Which of these was used to send money through the post office in earlier times?", "options": ["Money Order", "Cheque", "Mobile app", "ATM card"], "marks": 1, "answer": "Money Order", "skill": "banking", "difficulty": "medium" },
+            { "id": "evs-c2-s1-b4-i2", "label": "(ii)", "type": "mcq", "q": "Navya identified the east direction using ______.", "options": ["the rising sun", "a compass", "the moon", "a map"], "marks": 1, "answer": "the rising sun", "skill": "maps", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b4-i3", "label": "(iii)", "type": "mcq", "q": "Which invention came first?", "options": ["Mobile phone", "Telephone", "Internet", "Television"], "marks": 1, "answer": "Telephone", "skill": "communication", "difficulty": "medium" },
+            { "id": "evs-c2-s1-b4-i4", "label": "(iv)", "type": "mcq", "q": "The banner outside the hospital said ______.", "options": ["Eye Check-up Camp", "Blood Donation Camp", "Free Medicine Day", "Health Fair"], "marks": 1, "answer": "Eye Check-up Camp", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b4-i5", "label": "(v)", "type": "mcq", "q": "Which vehicle belongs to a police station?", "options": ["Fire engine", "Ambulance", "Patrolling jeep", "School bus"], "marks": 1, "answer": "Patrolling jeep", "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c2-s1-b4-i6", "label": "(vi)", "type": "mcq", "q": "Which of these is a landmark that helps you find a place easily?", "options": ["A big temple near the crossing", "A passing car", "A cloud in the sky", "A parked bicycle"], "marks": 1, "answer": "A big temple near the crossing", "skill": "maps", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "competency": "Observation and Reporting",
+      "title": "Observe and answer",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Read each situation carefully and answer the questions.",
+          "items": [
+            { "id": "evs-c2-s2-b5-i1", "label": "(a)", "type": "short", "q": "Look at a ₹ 10, ₹ 20 or ₹ 50 note at home. Write two things you see printed on it.", "marks": 2, "answer": "Any two (1 each): the value of the note; the name Reserve Bank of India; the picture of Mahatma Gandhi; the national emblem (Ashoka lions); many Indian languages on the language panel; a picture on the back (e.g. Konark Sun Temple on ₹ 10, Ellora caves on ₹ 20, Hampi chariot on ₹ 50).", "answerPoints": [{ "point": "Feature 1", "marks": 1 }, { "point": "Feature 2", "marks": 1 }], "skill": "observation", "difficulty": "easy" },
+            { "id": "evs-c2-s2-b5-i2", "label": "(b)", "type": "short", "q": "Navya wants to post a letter to her cousin. Write the journey of the letter from the postbox to her cousin's house.", "marks": 2, "answer": "The letter is dropped in the postbox; the postman collects it and takes it to the post office (1). The post office sorts letters by region and sends them to their destination, where a postman delivers it to the cousin's house (1).", "answerPoints": [{ "point": "Postbox → postman → post office", "marks": 1 }, { "point": "Sorted by region → sent → delivered", "marks": 1 }], "skill": "communication", "difficulty": "medium" },
+            { "id": "evs-c2-s2-b5-i3", "label": "(c)", "type": "short", "q": "Navya saw a metro train and a flyover from the bus. How do these two help travellers?", "marks": 2, "answer": "Metro trains travel very fast and carry many people (1). Flyovers are high roads that let vehicles move above busy roads and crossings, saving time (1).", "answerPoints": [{ "point": "Metro – very fast travel", "marks": 1 }, { "point": "Flyover – above busy roads, saves time", "marks": 1 }], "skill": "transport", "difficulty": "easy" },
+            { "id": "evs-c2-s2-b5-i4", "label": "(d)", "type": "short", "q": "Stand facing the rising sun in the morning. Which direction is in front of you, and which direction is behind you?", "marks": 2, "answer": "In front: East (1). Behind: West (1).", "answerPoints": [{ "point": "East in front", "marks": 1 }, { "point": "West behind", "marks": 1 }], "skill": "maps", "difficulty": "medium" },
+            { "id": "evs-c2-s2-b5-i5", "label": "(e)", "type": "short", "q": "Dada ji showed Navya his bank passbook. Write two important things printed on the first page of a passbook.", "marks": 2, "answer": "Any two (1 each): customer's name; account number; IFSC code; bank and branch name; address; opening date; mobile number.", "answerPoints": [{ "point": "Item 1", "marks": 1 }, { "point": "Item 2", "marks": 1 }], "skill": "banking", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "competency": "Identification and Classification",
+      "title": "Identify and name",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.6",
+          "instruction": "Who am I?",
+          "items": [
+            { "id": "evs-c2-s3-b6-i1", "label": "(a)", "type": "one-word", "q": "I am a machine outside a bank that gives you money any time you need it.", "marks": 1, "answer": "ATM (Automated Teller Machine)", "skill": "banking", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b6-i2", "label": "(b)", "type": "one-word", "q": "I am a high road that lets vehicles pass above busy roads and crossings.", "marks": 1, "answer": "Flyover", "skill": "transport", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b6-i3", "label": "(c)", "type": "one-word", "q": "I am a bird that was used long ago to carry messages.", "marks": 1, "answer": "Pigeon", "skill": "communication", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Match the columns.",
+          "items": [
+            { "id": "evs-c2-s3-b7-i1", "type": "match", "q": "Match the public place with the people who work there.", "pairs": [
+              { "left": "Hospital", "right": "Doctors and nurses" },
+              { "left": "Post office", "right": "Postman" },
+              { "left": "Police station", "right": "Police officers and constables" },
+              { "left": "Fire station", "right": "Firefighters" },
+              { "left": "Library", "right": "Librarian" }
+            ], "marks": 5, "answer": "Hospital – doctors and nurses; Post office – postman; Police station – police officers and constables; Fire station – firefighters; Library – librarian. 1 mark per pair.", "answerPoints": [{ "point": "Hospital", "marks": 1 }, { "point": "Post office", "marks": 1 }, { "point": "Police station", "marks": 1 }, { "point": "Fire station", "marks": 1 }, { "point": "Library", "marks": 1 }], "skill": "public-places", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.8",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c2-s3-b8-i1", "label": "(i)", "type": "one-word", "q": "The bank that issues currency notes in India.", "marks": 1, "answer": "Reserve Bank of India (RBI)", "skill": "banking", "difficulty": "medium" },
+            { "id": "evs-c2-s3-b8-i2", "label": "(ii)", "type": "one-word", "q": "The person who treats patients and prescribes medicines.", "marks": 1, "answer": "Doctor", "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b8-i3", "label": "(iii)", "type": "one-word", "q": "A fast train that runs in big cities, often on high tracks.", "marks": 1, "answer": "Metro train", "skill": "transport", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b8-i4", "label": "(iv)", "type": "one-word", "q": "The direction shown on the left side of a map.", "marks": 1, "answer": "West", "skill": "maps", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b8-i5", "label": "(v)", "type": "one-word", "q": "The service that helps us connect with anyone, anywhere, in seconds using computers and mobile phones.", "marks": 1, "answer": "Internet", "skill": "communication", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Give two examples of each. (½ mark for each example)",
+          "items": [
+            { "id": "evs-c2-s3-b9-i1", "label": "(i)", "type": "one-word", "q": "Modern means of communication", "marks": 1, "answer": "Any two: mobile phone, email, internet/video call, television, radio (½ each).", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b9-i2", "label": "(ii)", "type": "one-word", "q": "Services offered by a post office", "marks": 1, "answer": "Any two: sending letters, parcels, important documents, money orders (½ each).", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b9-i3", "label": "(iii)", "type": "one-word", "q": "Public places that give services related to safety", "marks": 1, "answer": "Any two: police station, fire station, hospital (½ each).", "skill": "public-places", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Classify. Write whether each of these belongs to EARLIER TIMES or PRESENT TIMES.",
+          "items": [
+            { "id": "evs-c2-s3-b10-i1", "label": "(i)", "type": "one-word", "q": "Telegram", "marks": 1, "answer": "Earlier times", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b10-i2", "label": "(ii)", "type": "one-word", "q": "Video call", "marks": 1, "answer": "Present times", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b10-i3", "label": "(iii)", "type": "one-word", "q": "Messenger carrying a message on foot", "marks": 1, "answer": "Earlier times", "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s3-b10-i4", "label": "(iv)", "type": "one-word", "q": "Sending money by mobile phone", "marks": 1, "answer": "Present times", "skill": "banking", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "competency": "Identification and Classification",
+      "title": "Answer the following",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Answer the following questions in two or three sentences.",
+          "items": [
+            { "id": "evs-c2-s4-b11-i1", "label": "(i)", "type": "short", "q": "Write the full form of ATM. Write two ways in which it helps people.", "marks": 3, "answer": "Automated Teller Machine (1). It lets us take out money any time we need it (1), so we do not have to visit the bank and wait in long queues (1).", "answerPoints": [{ "point": "Full form", "marks": 1 }, { "point": "Take out money any time", "marks": 1 }, { "point": "No need to queue at the bank / available outside bank hours", "marks": 1 }], "skill": "banking", "difficulty": "easy" },
+            { "id": "evs-c2-s4-b11-i2", "label": "(ii)", "type": "short", "q": "Why do we keep our money in a bank?", "marks": 3, "answer": "The bank keeps our money safe (1). It helps us save money for our future needs (1). We can also take money out through an ATM or send money to others (1).", "answerPoints": [{ "point": "Keeps money safe", "marks": 1 }, { "point": "Helps us save for the future", "marks": 1 }, { "point": "Withdraw / send money easily", "marks": 1 }], "skill": "banking", "difficulty": "easy" },
+            { "id": "evs-c2-s4-b11-i3", "label": "(iii)", "type": "short", "q": "How does the post office help people stay connected?", "marks": 3, "answer": "It carries letters and parcels from one place to another (1). It sorts letters by region and sends them to the right destination (1). It also sends important documents and money orders (1).", "answerPoints": [{ "point": "Carries letters and parcels", "marks": 1 }, { "point": "Sorts and delivers to destinations", "marks": 1 }, { "point": "Documents / money orders", "marks": 1 }], "skill": "communication", "difficulty": "easy" },
+            { "id": "evs-c2-s4-b11-i4", "label": "(iv)", "type": "short", "q": "Modern facilities like flyovers and metros make life easier. What problem did Dada ji point out, and what solution did he suggest?", "marks": 3, "answer": "Many animals, birds and trees that used to be there are no longer around because of these changes (1). Development should keep the environment safe by creating a balance (1). If we plant trees, we can keep our environment secure (1).", "answerPoints": [{ "point": "Animals, birds, trees lost", "marks": 1 }, { "point": "Need a balance between development and environment", "marks": 1 }, { "point": "Plant trees", "marks": 1 }], "skill": "environment", "difficulty": "medium" },
+            { "id": "evs-c2-s4-b11-i5", "label": "(v)", "type": "short", "q": "What is the barter system? Why was money invented?", "marks": 3, "answer": "In the barter system people exchanged goods and services directly, e.g. a farmer exchanged wheat for milk from a shepherd (1). Finding the right trade partner and the right exchange value was not easy (1). Money was invented to make exchanges simple (1).", "answerPoints": [{ "point": "Exchange of goods for goods (example)", "marks": 1 }, { "point": "Hard to find partner / right value", "marks": 1 }, { "point": "Money simplified exchange", "marks": 1 }], "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Complete the table in your answer book.",
+          "items": [
+            { "id": "evs-c2-s4-b12-i1", "type": "long", "q": "Compare communication in earlier times and in present times on these five points: type of communication, speed, frequency (how often), language, and challenges faced.", "marks": 5, "answer": "Type: letters, telegram, messengers – now internet, mobile, text messages, video calls (1). Speed: slow, days or weeks – now seconds (1). Frequency: rarely – now many times a day (1). Language: mostly local language, handwritten – now many languages, typed, emojis (1). Challenges: long wait, letters could get lost – now wrong information spreads quickly, needs network and phone (1). 1 mark per row with both columns filled.", "answerPoints": [{ "point": "Type", "marks": 1 }, { "point": "Speed", "marks": 1 }, { "point": "Frequency", "marks": 1 }, { "point": "Language", "marks": 1 }, { "point": "Challenges", "marks": 1 }], "skill": "communication", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "competency": "Discovery of Facts",
+      "title": "Facts and reasons",
+      "marks": 14,
+      "blocks": [
+        {
+          "num": "Q.13",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c2-s5-b13-i1", "label": "(i)", "type": "one-word", "q": "The festival on which Navya's Mama sent money to her mother by phone.", "marks": 1, "answer": "Raksha Bandhan", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c2-s5-b13-i2", "label": "(ii)", "type": "one-word", "q": "The direction shown at the bottom of a map.", "marks": 1, "answer": "South", "skill": "maps", "difficulty": "easy" },
+            { "id": "evs-c2-s5-b13-i3", "label": "(iii)", "type": "one-word", "q": "The vehicles waiting at the school gate along with the school buses.", "marks": 1, "answer": "E-rickshaws", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c2-s5-b13-i4", "label": "(iv)", "type": "one-word", "q": "A place where a child can keep pocket money savings at home.", "marks": 1, "answer": "Piggy bank", "skill": "banking", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Give reasons.",
+          "items": [
+            { "id": "evs-c2-s5-b14-i1", "label": "(i)", "type": "short", "q": "It is important to save money.", "marks": 2, "answer": "Saved money helps us in our future needs and emergencies (1). It lets us buy something important later or help our family (1).", "answerPoints": [{ "point": "Future needs / emergencies", "marks": 1 }, { "point": "Buy important things later / help family", "marks": 1 }], "skill": "banking", "difficulty": "easy" },
+            { "id": "evs-c2-s5-b14-i2", "label": "(ii)", "type": "short", "q": "We should check whether the news we share on phones is true.", "marks": 2, "answer": "Quick messages spread very fast, so wrong information also spreads quickly (1). Sharing false news can confuse or harm people, so we should check with a trusted source or an elder first (1).", "answerPoints": [{ "point": "Wrong information spreads fast", "marks": 1 }, { "point": "Can harm people; check with trusted source", "marks": 1 }], "skill": "values", "difficulty": "medium" },
+            { "id": "evs-c2-s5-b14-i3", "label": "(iii)", "type": "short", "q": "Dada ji sometimes misses writing letters even though mobile phones are faster.", "marks": 2, "answer": "He enjoys the joy of writing and receiving a handwritten letter (1). A letter feels personal and is a memory one can keep (1).", "answerPoints": [{ "point": "Joy of handwritten letters", "marks": 1 }, { "point": "Personal / can be kept as memory", "marks": 1 }], "skill": "recall", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Answer briefly.",
+          "items": [
+            { "id": "evs-c2-s5-b15-i1", "label": "(i)", "type": "short", "q": "List the people involved and one vehicle used at a fire station.", "marks": 2, "answer": "Firefighters / fire officers (1); fire engine (fire truck) (1).", "answerPoints": [{ "point": "Firefighters", "marks": 1 }, { "point": "Fire engine", "marks": 1 }], "skill": "public-places", "difficulty": "easy" },
+            { "id": "evs-c2-s5-b15-i2", "label": "(ii)", "type": "short", "q": "Why did so many people come to the hospital that day? What did Dada ji say about the hospital?", "marks": 2, "answer": "The hospital was holding an Eye Check-up Camp (1). Dada ji said the hospital is an important part of the community — the doctors there helped his wife see better after her eye operation (1).", "answerPoints": [{ "point": "Eye check-up camp", "marks": 1 }, { "point": "Important part of community / grandmother's operation", "marks": 1 }], "skill": "recall", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "competency": "Discovery of Facts",
+      "title": "Think, draw and express",
+      "marks": 16,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Answer in detail (five to six sentences).",
+          "items": [
+            { "id": "evs-c2-s6-b16-i1", "label": "(i)", "type": "long", "q": "Describe how communication has changed from long ago to today. Mention at least four stages.", "marks": 5, "answer": "Long ago people used drumbeats and carvings on rocks (1). Later, messengers and pigeons carried letters (1). Then the postal service began, sending letters, parcels and documents (1). Inventions like the telephone, radio and television made sharing information easier (1). Today mobile phones and the internet connect us with anyone, anywhere, in seconds (1).", "answerPoints": [{ "point": "Drumbeats, rock carvings", "marks": 1 }, { "point": "Messengers, pigeons", "marks": 1 }, { "point": "Postal service", "marks": 1 }, { "point": "Telephone, radio, TV", "marks": 1 }, { "point": "Mobile phones, internet", "marks": 1 }], "skill": "communication", "difficulty": "medium" },
+            { "id": "evs-c2-s6-b16-i2", "label": "(ii)", "type": "long", "q": "Imagine you have ₹ 100 for a month. Make a simple budget: how much will you save and how much will you spend, on what, and why? How will saving help you in future?\nOR\nWrite five public places in your neighbourhood and one service each of them provides.", "marks": 5, "answer": "Budget option: a savings amount and a spending amount that add up to ₹ 100 (1); at least two spending items like stationery, snacks (1); a reason for the amounts chosen (1); how saving helps in future, e.g. buying something big, emergencies (1); neat, complete sentences (1). OR option: 1 mark for each public place with a correct service (hospital – treatment; post office – letters; police station – safety; library – books; bus stop – travel; bank – keeps money safe).", "answerPoints": [{ "point": "Point 1", "marks": 1 }, { "point": "Point 2", "marks": 1 }, { "point": "Point 3", "marks": 1 }, { "point": "Point 4", "marks": 1 }, { "point": "Point 5", "marks": 1 }], "markingGuide": "Complete and sensible on either option — 5; mostly complete — 3; only one or two relevant points — 1.", "skill": "application", "difficulty": "hard" }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Draw and label.",
+          "items": [
+            { "id": "evs-c2-s6-b17-i1", "type": "draw", "q": "Draw a simple map of the route from your home to your school. Mark the four directions (N, S, E, W) and show at least two landmarks such as a park, shop, temple or bus stop.", "marks": 3, "answer": "Map shows home and school joined by a route (1); N at the top with S, E, W correctly placed (1); at least two landmarks drawn and named (1).", "markingGuide": "Route + correct directions + two landmarks — 3; two of these — 2; one — 1.", "skill": "maps", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.18",
+          "instruction": "Think and answer.",
+          "items": [
+            { "id": "evs-c2-s6-b18-i1", "type": "short", "q": "During COVID-19, many people in the neighbourhood helped the community. Name two such people, write how they helped, and why it is important to thank them.", "marks": 3, "answer": "Two helpers, e.g. doctors, nurses, garbage collectors, shopkeepers, police, teachers (1); how they helped — treated the sick, kept the area clean, supplied food, taught online (1); thanking them shows respect for their courage and hard work and encourages everyone to help each other (1).", "answerPoints": [{ "point": "Two helpers named", "marks": 1 }, { "point": "How they helped", "marks": 1 }, { "point": "Why thank them", "marks": 1 }], "skill": "values", "difficulty": "medium" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "index.html": "4f4786e989e93eb549dc73fa61d57ada5b84dd43d3968257d799f16fdaa9ec69",
+  "data": {
+    "evs-ch1.json": {
+      "url": "https://mily-evs-data-a.vercel.app/evs-ch1.json",
+      "sha256": "a24d8f5de112cd96cbc58e8a4a8c66b476b40f08ea4495a865cb367743ebfc7a"
+    },
+    "evs-ch2.json": {
+      "url": "https://mily-evs-data-b.vercel.app/evs-ch2.json",
+      "sha256": "121ac6c378877b2df834f053378855a1ccadc5fed548491fb0ef971e6da22452"
+    },
+    "evs-ch3.json": {
+      "url": "https://mily-evs-data-c.vercel.app/evs-ch3.json",
+      "sha256": "06233f72b027a9c1b532fa13d435977055ae126e14fac0474f2f3fffa4ecc828"
+    },
+    "evs-ch4.json": {
+      "url": "https://mily-evs-data-d.vercel.app/evs-ch4.json",
+      "sha256": "82aed6cc5a141b064d93e2d981a51115dd21d4b4fa7c1c7248b3a4ed34b557f7"
+    },
+    "evs-ch5.json": {
+      "url": "https://mily-evs-data-e.vercel.app/evs-ch5.json",
+      "sha256": "0dd69476f1bce80b8858e5b70b34549ac1938ce1b375375b10b52a335194f62e"
+    },
+    "evs-half-yearly.json": {
+      "url": "https://mily-evs-data-f.vercel.app/evs-half-yearly.json",
+      "sha256": "5fbafc1d7e3b3968efce88573ad09b143b35ec347a32933b2ffbb84615f44ffd"
+    }
+  }
+}

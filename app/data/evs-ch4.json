@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Growing up with Nature",
+  "subtitle": "The World Around Us — Class 4 — Chapter 4",
+  "sourceRef": "NCERT Our Wondrous World, Class 4, Chapter 4 — Growing up with Nature",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "competency": "Observation and Reporting",
+      "title": "Objective questions",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given.",
+          "items": [
+            { "id": "evs-c4-s1-b1-i1", "label": "(i)", "type": "mcq", "q": "The Palash tree is called the ______ of the forest.", "options": ["flame", "king", "lamp"], "marks": 1, "answer": "flame", "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b1-i2", "label": "(ii)", "type": "mcq", "q": "Reena and Amit's village was going to become a fully ______ powered village.", "options": ["wind", "solar", "coal"], "marks": 1, "answer": "solar", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b1-i3", "label": "(iii)", "type": "mcq", "q": "The Jenu Kurubas are a tribe from ______.", "options": ["Karnataka", "Uttarakhand", "Assam"], "marks": 1, "answer": "Karnataka", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s1-b1-i4", "label": "(iv)", "type": "mcq", "q": "Earthen pots for storing grains were lined inside with ______ leaves.", "options": ["banana", "neem", "mango"], "marks": 1, "answer": "neem", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b1-i5", "label": "(v)", "type": "mcq", "q": "Sacred Groves are small patches of ______ protected by local communities.", "options": ["forest", "desert", "river"], "marks": 1, "answer": "forest", "skill": "recall", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Write True or False.",
+          "items": [
+            { "id": "evs-c4-s1-b2-i1", "label": "(i)", "type": "true-false", "q": "Palash is called Kesuda in Gujarat.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s1-b2-i2", "label": "(ii)", "type": "true-false", "q": "The village houses were made using cement, glass and steel.", "marks": 1, "answer": "False", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b2-i3", "label": "(iii)", "type": "true-false", "q": "A mixture made with neem oil keeps mosquitoes away.", "marks": 1, "answer": "True", "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b2-i4", "label": "(iv)", "type": "true-false", "q": "The Jenu Kurubas sing songs to apologise to the bees when they collect honey.", "marks": 1, "answer": "True", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b2-i5", "label": "(v)", "type": "true-false", "q": "Using more plastic is a good way to care for plants and animals.", "marks": 1, "answer": "False", "skill": "environment", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.3",
+          "instruction": "Circle the odd one out in each group.",
+          "items": [
+            { "id": "evs-c4-s1-b3-i1", "label": "(i)", "type": "mcq", "q": "Plants used to make natural dyes", "options": ["beetroot", "hibiscus", "marigold", "plastic"], "marks": 1, "answer": "plastic", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b3-i2", "label": "(ii)", "type": "mcq", "q": "Materials used to build village houses", "options": ["clay", "hay", "cow dung", "steel"], "marks": 1, "answer": "steel", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b3-i3", "label": "(iii)", "type": "mcq", "q": "Medicinal plants", "options": ["marigold", "tulsi", "amla", "ajwain"], "marks": 1, "answer": "marigold", "skill": "classification", "difficulty": "medium" },
+            { "id": "evs-c4-s1-b3-i4", "label": "(iv)", "type": "mcq", "q": "Things collected from nature for daily use", "options": ["cotton", "fruits", "neem", "television"], "marks": 1, "answer": "television", "skill": "classification", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Choose the correct answer.",
+          "items": [
+            { "id": "evs-c4-s1-b4-i1", "label": "(i)", "type": "mcq", "q": "The dye used by grandmother for the wall painting was made by mixing ______.", "options": ["rice flour and water", "oil and sand", "milk and honey", "clay and ash"], "marks": 1, "answer": "rice flour and water", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s1-b4-i2", "label": "(ii)", "type": "mcq", "q": "The word 'Jenu' means ______.", "options": ["honey", "forest", "bee", "song"], "marks": 1, "answer": "honey", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b4-i3", "label": "(iii)", "type": "mcq", "q": "Tumri, used in Uttarakhand to store grains, is made from a dried ______.", "options": ["bottle gourd", "coconut shell", "pumpkin", "bamboo"], "marks": 1, "answer": "bottle gourd", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s1-b4-i4", "label": "(iv)", "type": "mcq", "q": "Which festival is connected with worshipping the banyan tree?", "options": ["Vat Purnima", "Hari Jiroti", "Kaziranga Elephant Festival", "Van Mahotsav"], "marks": 1, "answer": "Vat Purnima", "skill": "festivals", "difficulty": "medium" },
+            { "id": "evs-c4-s1-b4-i5", "label": "(v)", "type": "mcq", "q": "Gond art is a form of painting done on ______ using natural colours.", "options": ["walls", "paper", "glass", "metal"], "marks": 1, "answer": "walls", "skill": "art", "difficulty": "easy" },
+            { "id": "evs-c4-s1-b4-i6", "label": "(vi)", "type": "mcq", "q": "Which instruments filled the air with sound at the village celebration?", "options": ["Dhol and nagada", "Guitar and piano", "Flute and violin", "Drum set and keyboard"], "marks": 1, "answer": "Dhol and nagada", "skill": "recall", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "competency": "Observation and Reporting",
+      "title": "Observe and answer",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Read each situation carefully and answer the questions.",
+          "items": [
+            { "id": "evs-c4-s2-b5-i1", "label": "(a)", "type": "short", "q": "As they entered the village, the children saw trees full of bright orange-red flowers. Name the tree and explain why it has its special name.", "marks": 2, "answer": "Palash (1). When its flowers bloom, the whole forest looks reddish-orange from far away, so it is called the 'flame of forest' (1).", "answerPoints": [{ "point": "Palash", "marks": 1 }, { "point": "Forest looks reddish-orange like a flame", "marks": 1 }], "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s2-b5-i2", "label": "(b)", "type": "short", "q": "Amit said, 'These houses look so different from houses in the city.' What were the village houses made of, and what was the wall painting made with?", "marks": 2, "answer": "Clay, hay, cow dung and other natural materials (1). The painting was done with a dye of rice flour mixed with water (1).", "answerPoints": [{ "point": "Clay, hay, cow dung", "marks": 1 }, { "point": "Rice flour and water dye", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s2-b5-i3", "label": "(c)", "type": "short", "q": "In the house, grains were stored in earthen pots and bamboo baskets. What was special about the way these containers were prepared, and why?", "marks": 2, "answer": "Earthen pots were lined inside with neem leaves and bamboo baskets were coated with cow dung on the outside (1). This keeps the stored grains protected from insects and pests (1).", "answerPoints": [{ "point": "Neem leaves inside pots; cow dung on baskets", "marks": 1 }, { "point": "Protects grains from insects and pests", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s2-b5-i4", "label": "(d)", "type": "short", "q": "Dada ji took out a bottle of liquid and rubbed it on the children's hands and feet before the celebration. What was it and why was it used? Name one thing from the market that does the same job.", "marks": 2, "answer": "A mixture made with neem oil, used so that mosquitoes do not bite (1). Mosquito repellent cream from the market (1).", "answerPoints": [{ "point": "Neem oil mixture to stop mosquito bites", "marks": 1 }, { "point": "Mosquito repellent cream", "marks": 1 }], "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s2-b5-i5", "label": "(e)", "type": "short", "q": "Imagine there is no electricity in your area for two days. Write two changes you would see in your daily life.", "marks": 2, "answer": "Any two sensible changes (1 each): no fans or lights at night; no TV or phone charging; water pumps may not work; food in the fridge may spoil; more time outdoors or with family.", "answerPoints": [{ "point": "Change 1", "marks": 1 }, { "point": "Change 2", "marks": 1 }], "skill": "application", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "competency": "Identification and Classification",
+      "title": "Identify and name",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.6",
+          "instruction": "Who am I?",
+          "items": [
+            { "id": "evs-c4-s3-b6-i1", "label": "(a)", "type": "one-word", "q": "I am a tree whose orange-red flowers make the forest look like it is on fire.", "marks": 1, "answer": "Palash", "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b6-i2", "label": "(b)", "type": "one-word", "q": "I am a container made from a dried bottle gourd, used in Uttarakhand to store grains.", "marks": 1, "answer": "Tumri", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s3-b6-i3", "label": "(c)", "type": "one-word", "q": "I am a small patch of forest protected by the local community, where trees and wildlife are preserved.", "marks": 1, "answer": "Sacred Grove", "skill": "recall", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Match the columns.",
+          "items": [
+            { "id": "evs-c4-s3-b7-i1", "type": "match", "q": "Match the festival with the plant or animal associated with it.", "pairs": [
+              { "left": "Vat Purnima", "right": "Banyan tree" },
+              { "left": "Hari Jiroti", "right": "Fruit-bearing trees" },
+              { "left": "Kaziranga Elephant Festival", "right": "Elephant" },
+              { "left": "Jenu Kurubas", "right": "Honey bees" },
+              { "left": "Gond art", "right": "Pictures of nature on walls" }
+            ], "marks": 5, "answer": "Vat Purnima – banyan tree; Hari Jiroti – fruit-bearing trees; Kaziranga Elephant Festival – elephant; Jenu Kurubas – honey bees; Gond art – pictures of nature on walls. 1 mark per pair.", "answerPoints": [{ "point": "Vat Purnima", "marks": 1 }, { "point": "Hari Jiroti", "marks": 1 }, { "point": "Kaziranga", "marks": 1 }, { "point": "Jenu Kurubas", "marks": 1 }, { "point": "Gond art", "marks": 1 }], "skill": "festivals", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.8",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c4-s3-b8-i1", "label": "(i)", "type": "one-word", "q": "The local name of Palash in Gujarat.", "marks": 1, "answer": "Kesuda", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s3-b8-i2", "label": "(ii)", "type": "one-word", "q": "The art form in which natural colours are used to paint trees, animals, birds and humans on walls.", "marks": 1, "answer": "Gond art", "skill": "art", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b8-i3", "label": "(iii)", "type": "one-word", "q": "The plant whose leaves are used in the Indian kitchen and as medicine, also called Indian basil.", "marks": 1, "answer": "Tulsi", "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b8-i4", "label": "(iv)", "type": "one-word", "q": "The seeds called Ajwain in Hindi.", "marks": 1, "answer": "Carom seeds", "skill": "plants", "difficulty": "medium" },
+            { "id": "evs-c4-s3-b8-i5", "label": "(v)", "type": "one-word", "q": "The activity in the Kaziranga Elephant Festival.", "marks": 1, "answer": "Awareness drive", "skill": "festivals", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Give two examples of each. (½ mark for each example)",
+          "items": [
+            { "id": "evs-c4-s3-b9-i1", "label": "(i)", "type": "one-word", "q": "Plants or plant parts that can be used to make natural dye", "marks": 1, "answer": "Any two: beetroot, hibiscus, marigold, turmeric, flowers, leaves, barks, roots (½ each).", "skill": "plants", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b9-i2", "label": "(ii)", "type": "one-word", "q": "Things we use from nature in daily life", "marks": 1, "answer": "Any two: fruits, cotton, neem, wood, water, honey (½ each).", "skill": "environment", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b9-i3", "label": "(iii)", "type": "one-word", "q": "Ways to care for plants and animals around us", "marks": 1, "answer": "Any two: plant trees, keep food and water for birds, say no to plastic, reduce paper waste, organise a clean-up drive, spread awareness (½ each).", "skill": "environment", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Classify. Write whether each item is a NATURAL material or a MAN-MADE material.",
+          "items": [
+            { "id": "evs-c4-s3-b10-i1", "label": "(i)", "type": "one-word", "q": "Hay", "marks": 1, "answer": "Natural", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b10-i2", "label": "(ii)", "type": "one-word", "q": "Plastic bag", "marks": 1, "answer": "Man-made", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b10-i3", "label": "(iii)", "type": "one-word", "q": "Cow dung", "marks": 1, "answer": "Natural", "skill": "classification", "difficulty": "easy" },
+            { "id": "evs-c4-s3-b10-i4", "label": "(iv)", "type": "one-word", "q": "Solar panel", "marks": 1, "answer": "Man-made", "skill": "classification", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "competency": "Identification and Classification",
+      "title": "Answer the following",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Answer the following questions in two or three sentences.",
+          "items": [
+            { "id": "evs-c4-s4-b11-i1", "label": "(i)", "type": "short", "q": "What is Gond art? How are the paints for it made?", "marks": 3, "answer": "Gond art is a form of painting on walls using natural colours (1). The artists make pictures of nature like trees, animals, birds and humans (1). The paints are made from natural extracts of flowers and leaves and powdered coloured stones (1).", "answerPoints": [{ "point": "Wall painting with natural colours", "marks": 1 }, { "point": "Pictures of trees, animals, birds, humans", "marks": 1 }, { "point": "Paints from flowers, leaves, powdered coloured stones", "marks": 1 }], "skill": "art", "difficulty": "easy" },
+            { "id": "evs-c4-s4-b11-i2", "label": "(ii)", "type": "short", "q": "Who are the Jenu Kurubas? What do they do that shows their respect for nature?", "marks": 3, "answer": "The Jenu Kurubas are a tribe from Karnataka (1). Their name comes from 'Jenu', which means honey, and they collect honey from beehives (1). While collecting honey they sing songs to apologise to the bees, showing respect for nature (1).", "answerPoints": [{ "point": "Tribe from Karnataka", "marks": 1 }, { "point": "Jenu = honey; collect honey", "marks": 1 }, { "point": "Sing to apologise to bees", "marks": 1 }], "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s4-b11-i3", "label": "(iii)", "type": "short", "q": "What things should be kept in a first-aid box? Why is first aid important?", "marks": 3, "answer": "Bandages, cotton, antiseptic liquid or cream, some medicines, mosquito repellent cream, a pair of scissors (2 for at least four items). First aid gives quick help to an injured person before the doctor comes and stops the injury from getting worse (1).", "answerPoints": [{ "point": "At least four items", "marks": 2 }, { "point": "Why important", "marks": 1 }], "skill": "health", "difficulty": "easy" },
+            { "id": "evs-c4-s4-b11-i4", "label": "(iv)", "type": "short", "q": "What are Sacred Groves? Why are they important?", "marks": 3, "answer": "Sacred Groves are small patches of forest protected by local communities (1). The trees and wildlife inside them are preserved (1). They are important places for the community to gather, worship and celebrate the beauty of nature (1).", "answerPoints": [{ "point": "Small forest patches protected by community", "marks": 1 }, { "point": "Trees and wildlife preserved", "marks": 1 }, { "point": "Gather, worship, celebrate nature", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s4-b11-i5", "label": "(v)", "type": "short", "q": "What challenges arise when we overuse natural resources? Give three examples.", "marks": 3, "answer": "1 mark each: overusing wood makes forests deplete; overusing water dries up rivers and wells; overusing soil (too much farming/digging) makes it poor; overfishing reduces sea life.", "answerPoints": [{ "point": "Example 1", "marks": 1 }, { "point": "Example 2", "marks": 1 }, { "point": "Example 3", "marks": 1 }], "skill": "environment", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Complete the table in your answer book.",
+          "items": [
+            { "id": "evs-c4-s4-b12-i1", "type": "long", "q": "Copy and complete the table: for each plant write the part used and one use — Tulsi, Ajwain (carom), Neem, Marigold, Amla.", "marks": 5, "answer": "Tulsi – leaves – cures cough and cold / tea; Ajwain – seeds – helps digestion, stomach ache; Neem – leaves/oil – keeps insects and mosquitoes away, skin care; Marigold – flowers – natural dye, decoration; Amla – fruit – rich in vitamin C, good for health. 1 mark per row (½ part, ½ use).", "answerPoints": [{ "point": "Tulsi", "marks": 1 }, { "point": "Ajwain", "marks": 1 }, { "point": "Neem", "marks": 1 }, { "point": "Marigold", "marks": 1 }, { "point": "Amla", "marks": 1 }], "skill": "plants", "difficulty": "medium" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "competency": "Discovery of Facts",
+      "title": "Facts and reasons",
+      "marks": 14,
+      "blocks": [
+        {
+          "num": "Q.13",
+          "instruction": "Name the following.",
+          "items": [
+            { "id": "evs-c4-s5-b13-i1", "label": "(i)", "type": "one-word", "q": "The state where Tumri is commonly used.", "marks": 1, "answer": "Uttarakhand", "skill": "recall", "difficulty": "medium" },
+            { "id": "evs-c4-s5-b13-i2", "label": "(ii)", "type": "one-word", "q": "The festival in which fruit-bearing trees are planted.", "marks": 1, "answer": "Hari Jiroti", "skill": "festivals", "difficulty": "medium" },
+            { "id": "evs-c4-s5-b13-i3", "label": "(iii)", "type": "one-word", "q": "The material coated on the outside of bamboo baskets to keep pests away.", "marks": 1, "answer": "Cow dung", "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s5-b13-i4", "label": "(iv)", "type": "one-word", "q": "The source of energy used to light up Reena and Amit's village.", "marks": 1, "answer": "Sunlight / solar energy (solar panels)", "skill": "recall", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Give reasons.",
+          "items": [
+            { "id": "evs-c4-s5-b14-i1", "label": "(i)", "type": "short", "q": "Houses made of natural materials like clay and hay are good for a village.", "marks": 2, "answer": "Natural materials are easily available nearby and cost less (1). They keep the house cool in summer and do not harm the environment (1).", "answerPoints": [{ "point": "Easily available, cheap", "marks": 1 }, { "point": "Cool / environment-friendly", "marks": 1 }], "skill": "environment", "difficulty": "medium" },
+            { "id": "evs-c4-s5-b14-i2", "label": "(ii)", "type": "short", "q": "We should say no to plastic.", "marks": 2, "answer": "Plastic does not rot and stays in the soil and water for years, polluting them (1). Animals may eat plastic and get hurt or die (1).", "answerPoints": [{ "point": "Does not rot, pollutes", "marks": 1 }, { "point": "Harms animals", "marks": 1 }], "skill": "environment", "difficulty": "easy" },
+            { "id": "evs-c4-s5-b14-i3", "label": "(iii)", "type": "short", "q": "People in different parts of our country worship plants and animals.", "marks": 2, "answer": "It shows our rich tradition of respecting and protecting nature (1). Worshipping trees like the banyan or animals like the elephant helps people care for them and not harm them (1).", "answerPoints": [{ "point": "Tradition of respecting nature", "marks": 1 }, { "point": "Helps protect them", "marks": 1 }], "skill": "values", "difficulty": "medium" }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Answer briefly.",
+          "items": [
+            { "id": "evs-c4-s5-b15-i1", "label": "(i)", "type": "short", "q": "How was the natural paint on grandmother's cloth made?", "marks": 2, "answer": "From natural extracts of flowers and leaves (1) mixed with powdered coloured stones (1).", "answerPoints": [{ "point": "Flower and leaf extracts", "marks": 1 }, { "point": "Powdered coloured stones", "marks": 1 }], "skill": "recall", "difficulty": "easy" },
+            { "id": "evs-c4-s5-b15-i2", "label": "(ii)", "type": "short", "q": "What did the people do before the festivities started in the evening? What were they wearing?", "marks": 2, "answer": "They gathered in a big field and offered prayers to God and mother nature (1). They wore traditional clothes and jewels (1).", "answerPoints": [{ "point": "Prayers to God and mother nature", "marks": 1 }, { "point": "Traditional clothes and jewels", "marks": 1 }], "skill": "recall", "difficulty": "easy" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "competency": "Discovery of Facts",
+      "title": "Think, draw and express",
+      "marks": 16,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Answer in detail (five to six sentences).",
+          "items": [
+            { "id": "evs-c4-s6-b16-i1", "label": "(i)", "type": "long", "q": "Write the steps to prepare a natural dye and use it to colour a piece of cloth.", "marks": 5, "answer": "Collect flowers, leaves, barks or roots that have colour, such as beetroot, hibiscus or marigold (1). Boil them in 1–2 litres of water for 30 minutes to an hour with the container covered, with the help of an elder (1). Strain the liquid to remove the plant material — this is the dye (1). Soak a light-coloured cloth in the dye overnight (1). Squeeze and dry it the next morning (1).", "answerPoints": [{ "point": "Collect coloured plant parts", "marks": 1 }, { "point": "Boil 30–60 min, covered, with elder's help", "marks": 1 }, { "point": "Strain", "marks": 1 }, { "point": "Soak cloth overnight", "marks": 1 }, { "point": "Squeeze and dry", "marks": 1 }], "skill": "activity", "difficulty": "medium" },
+            { "id": "evs-c4-s6-b16-i2", "label": "(ii)", "type": "long", "q": "How can we protect the natural environment around us? Write five ways.\nOR\nDescribe the celebration in Reena and Amit's village in the evening. What did the children learn about the villagers' connection with nature?", "marks": 5, "answer": "First option — 1 mark each for five ways: plant trees; keep food and water for birds; say no to plastic; reduce paper waste; organise clean-up drives; spread awareness; save water. OR option: the village was lit with colourful lights (1); everyone gathered in a big field in traditional clothes and jewels (1); prayers were offered to God and mother nature (1); dhol and nagada played and everyone danced (1); the children saw the beautiful connection the villagers had with nature and thought about how to thank nature (1).", "answerPoints": [{ "point": "Point 1", "marks": 1 }, { "point": "Point 2", "marks": 1 }, { "point": "Point 3", "marks": 1 }, { "point": "Point 4", "marks": 1 }, { "point": "Point 5", "marks": 1 }], "markingGuide": "Five correct, sensible sentences — 5; three or four — 3; one or two — 1.", "skill": "expression", "difficulty": "hard" }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Draw and label.",
+          "items": [
+            { "id": "evs-c4-s6-b17-i1", "type": "draw", "q": "Design your herbal garden. Draw at least three herbs or medicinal plants (for example tulsi, ajwain, neem, aloe vera, mint) and write their names.", "marks": 3, "answer": "Three plants drawn (1), all three named correctly (1), neat and coloured with a garden layout (1).", "markingGuide": "Three named plants, neat — 3; two plants named — 2; one plant or unlabelled — 1.", "skill": "plants", "difficulty": "easy" }
+          ]
+        },
+        {
+          "num": "Q.18",
+          "instruction": "Think and answer.",
+          "items": [
+            { "id": "evs-c4-s6-b18-i1", "type": "short", "q": "Reena and Amit wanted to thank nature for everything it gives. Write three things you would do to thank and care for nature in your own locality.", "marks": 3, "answer": "Any three sensible actions (1 each): plant and water a sapling; keep water and grains for birds; refuse plastic bags; not waste paper; clean the park with friends; not pluck flowers or harm animals.", "answerPoints": [{ "point": "Action 1", "marks": 1 }, { "point": "Action 2", "marks": 1 }, { "point": "Action 3", "marks": 1 }], "skill": "values", "difficulty": "easy" }
+          ]
+        }
+      ]
+    }
+  ]
+}

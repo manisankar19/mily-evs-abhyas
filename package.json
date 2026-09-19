@@ -1,0 +1,13 @@
+{
+  "name": "mily-evs-abhyas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chapter-wise EVS (The World Around Us) practice papers for Class 4 — static, single-file site.",
+  "scripts": {
+    "validate": "node validate.js",
+    "build": "node build.js",
+    "dev": "node build.js && node dev-server.js",
+    "pack": "node build.js --minify && node pack.js"
+  },
+  "license": "UNLICENSED"
+}
