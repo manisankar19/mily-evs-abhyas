@@ -82,6 +82,18 @@ check('real sp03 cache: multi-line questions, footers, curly quotes match', real
   'Where do we drop our parcels to be sent? Who delivers letters to our home?',
 ], [true, true, true, true, true, false]));
 
+check('real sp05 cache: spaced mark brackets and number-only strings match; changed marks do not', realCase('sp05', [
+  'Fill in the gaps with the correct answer. ( 6 x 1 = 6 )',
+  '6',
+  '7',
+  'Fill in the gaps with the correct answer. ( 5 x 1 = 6 )',
+  'Fill in the gaps with the wrong answer.',
+], [true, true, true, false, false]));
+check('normalise: digit x digit splits into tokens', () => {
+  const a = normalise('(6x1=6 )'), b = normalise('( 6 x 1 = 6 )'), c = normalise('( 6 × ½ = 3 )'), d = normalise('(6x½=3)');
+  return a === b && c === d ? true : `got "${a}" / "${b}" / "${c}" / "${d}"`;
+});
+
 // ---- review sheet ----
 const { renderSheet } = require(SHEET);
 const rawPass = fs.readFileSync(path.join(FIX, 'pass', 'evs-sp90.json'), 'utf8');

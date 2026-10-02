@@ -22,9 +22,11 @@ const isDevanagariOnly = (l) => /[ऀ-ॿ]/.test(l) && !/[A-Za-z0-9]/.test(l);
 // Normalise to a space-separated sequence of lowercase word tokens. Blanks (____, ……, ( )), punctuation
 // and Devanagari are not tokens, so they vanish; words are compared whole, never as character soup.
 // joinHyphen=false splits line-break hyphens instead of joining them (used as a second cache variant).
-function normalise(text, joinHyphen = true) {
+// cache=true drops page footers (cache text); paper strings keep number-only text such as an option "6".
+function normalise(text, joinHyphen = true, cache = true) {
   let s = String(text == null ? '' : text).normalize('NFKC').replace(/\r\n?|\f/g, '\n');
-  s = s.split('\n').filter(l => !FOOTER_RE.test(l) && !isDevanagariOnly(l)).join('\n');
+  s = s.split('\n').filter(l => !(cache && FOOTER_RE.test(l)) && !isDevanagariOnly(l)).join('\n');
+  s = s.replace(/(\d)\s*[x×X]\s*(?=\d)/g, '$1 x ');                          // printed marks: 6x1 = 6 x 1
   s = s.replace(/[‘’‚‛′`´]/g, "'").replace(/[“”„‟″]/g, '"').replace(/[­]/g, '')
     .replace(/[‐‑‒–—―−]/g, '-');
   s = s.replace(/(\p{L})-[ \t]*\n\s*(?=\p{L})/gu, joinHyphen ? '$1' : '$1 ')   // hyphenated line break
@@ -66,7 +68,7 @@ function checkPaper(paper, intake, cacheTexts) {
   for (const s of paperStrings(paper)) {
     const cover = fb.filter(e => e.where === s.where && fieldOf(e.field) === s.field);
     const hit = cover.find(e => e.text === s.text);
-    const n = normalise(s.text);
+    const n = normalise(s.text, true, false);
     if (!hit && !n && !/[\p{L}\p{N}]/u.test(s.text)) continue;   // only blanks/punctuation: nothing to check
     r.total++;
     if (hit) { hit.used = true; r.fallbacks.push({ where: s.where, field: s.field, reason: hit.reason || '(no reason given)' }); continue; }
