@@ -24,6 +24,9 @@
   "chapters.cardMeta": "{items} questions · {marks} marks",
   "chapters.marked": "{done} of {total} checked",
   "chapters.open": "Open paper",
+  "chapters.subtitleMixed": "Pick a paper. Each card shows its marks.",
+  "chapters.schoolGroup": "School Papers",
+  "chapters.schoolChip": "School paper",
 
   "paper.headerSubject": "Subject: The World Around Us (EVS)",
   "paper.headerClass": "Class: IV",
@@ -45,6 +48,8 @@
   "paper.columnB": "Column B",
   "paper.or": "OR",
   "paper.figure": "Figure",
+  "paper.adaptation": "Adapted:",
+  "paper.pictureNote": "Picture: {text}",
 
   "mode.lock": "Checking mode",
   "mode.unlock": "Exit checking mode",
@@ -64,6 +69,15 @@
   "answer.tag": "Model answer",
   "answer.points": "Mark split",
   "answer.guide": "Marking guide",
+  "answer.answerTag": "Answer",
+  "answer.acceptable": "Also accept: {list}",
+  "answer.rubric": "Marking bands",
+  "answer.model": "Model answer:",
+  "answer.teacherNote": "Note: {note}",
+  "answer.picture": "Answer picture",
+
+  "check.disclaimer": "Answers written for practice, not by the teacher — ⚑ marks ones worth a second look.",
+  "check.flag": "Check this answer",
 
   "marks.label": "Marks given:",
   "marks.clear": "Clear",

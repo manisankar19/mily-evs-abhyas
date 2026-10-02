@@ -66,7 +66,11 @@
     <div class="container">
       <h1 id="chapters-greeting"></h1>
       <p class="muted" id="chapters-subtitle"></p>
-      <div class="chapter-grid" id="chapter-grid"></div>
+      <div class="chapter-grid" id="chapter-grid" data-testid="paper-group-chapters"></div>
+      <section class="paper-group" id="school-group" data-testid="paper-group-school" hidden>
+        <h2 data-ui="chapters.schoolGroup"></h2>
+        <div class="chapter-grid" id="school-grid"></div>
+      </section>
       <p class="tiny muted" data-ui="footer.note"></p>
     </div>
   </section>

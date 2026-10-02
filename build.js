@@ -9,12 +9,38 @@ const { validatePaper } = require('./validate');
 
 const ROOT = __dirname;
 const APP = path.join(ROOT, 'app');
-const DIST = path.join(ROOT, 'dist');
 const CARD = readCard(path.join(ROOT, 'PROJECT-CARD.yml'));
 const SECRET_ENV = CARD.marking_secret_env || 'GANESH_EVS';
 const LOCALE = CARD.locale || 'en';
 
 function fail(msg) { console.error('build: ' + msg); process.exit(1); }
+
+// CLI options (tests build from fixture dirs):
+//   --data-dir D   (repeatable; env EVS_DATA_DIR, path-list)  default app/data
+//   --intake F     (env EVS_INTAKE)      intake file for school papers, passed to validatePaper
+//   --review-dir D (env EVS_REVIEW_DIR)  review sheets for school papers, passed to validatePaper
+//   --out-dir D    (env EVS_OUT_DIR)     default dist
+//   --split, --minify
+function parseArgs(argv) {
+  const o = { dataDirs: [], split: false, minify: false };
+  const VAL = { '--data-dir': 'dataDir', '--intake': 'intake', '--review-dir': 'reviewDir', '--out-dir': 'outDir' };
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a === '--split') o.split = true;
+    else if (a === '--minify') o.minify = true;
+    else if (VAL[a]) {
+      const v = argv[++i];
+      if (!v || v.startsWith('--')) fail(a + ' needs a value');
+      if (a === '--data-dir') o.dataDirs.push(path.resolve(v)); else o[VAL[a]] = path.resolve(v);
+    } else fail('unknown argument ' + a);
+  }
+  if (!o.dataDirs.length) o.dataDirs = process.env.EVS_DATA_DIR ? process.env.EVS_DATA_DIR.split(path.delimiter).filter(Boolean).map(d => path.resolve(d)) : [path.join(APP, 'data')];
+  o.intake = o.intake || (process.env.EVS_INTAKE ? path.resolve(process.env.EVS_INTAKE) : undefined);
+  o.reviewDir = o.reviewDir || (process.env.EVS_REVIEW_DIR ? path.resolve(process.env.EVS_REVIEW_DIR) : undefined);
+  o.outDir = o.outDir || (process.env.EVS_OUT_DIR ? path.resolve(process.env.EVS_OUT_DIR) : path.join(ROOT, 'dist'));
+  return o;
+}
+const OPTS = parseArgs(process.argv.slice(2));
 
 // Minimal YAML reader for the flat keys we need from PROJECT-CARD.yml.
 function readCard(file) {
@@ -49,34 +75,43 @@ function resolveSecret() {
   fail(`${SECRET_ENV} is not set (env var or .env.local). Nothing written.`);
 }
 
-// 2. Validate papers.
+// 2. Validate papers (every evs-*.json in each data dir), then sort: chapter papers by
+// chapter, the mock (chapter 0), then school papers by sp.
+const isSchool = (p) => p.kind === 'school';
+function sortKey(p) { return isSchool(p) ? 2000 + Number(String(p.sp).slice(2)) : (p.chapter === 0 ? 1000 : p.chapter); }
 function loadPapers() {
-  const dir = path.join(APP, 'data');
-  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
-  if (!files.length) fail('no papers in app/data');
-  const papers = [];
+  const papers = [], seen = new Set();
   let bad = false;
-  for (const f of files) {
-    const full = path.join(dir, f);
-    const r = validatePaper(full);
-    if (r.errors.length) { bad = true; console.error(`build: ${f} failed validation:`); r.errors.forEach(e => console.error('   - ' + e)); continue; }
-    papers.push(JSON.parse(fs.readFileSync(full, 'utf8')));
+  for (const dir of OPTS.dataDirs) {
+    if (!fs.existsSync(dir)) fail('data dir missing: ' + dir);
+    for (const f of fs.readdirSync(dir).filter(n => /^evs-[a-z0-9-]+\.json$/.test(n)).sort()) {
+      if (seen.has(f)) fail('duplicate paper file ' + f + ' across data dirs');
+      seen.add(f);
+      const full = path.join(dir, f);
+      const r = validatePaper(full, { intake: OPTS.intake, reviewDir: OPTS.reviewDir });
+      if (r.errors.length) { bad = true; console.error(`build: ${f} failed validation:`); r.errors.forEach(e => console.error('   - ' + e)); continue; }
+      papers.push(JSON.parse(fs.readFileSync(full, 'utf8')));
+    }
   }
   if (bad) fail('validation failed');
-  return papers;
+  if (!papers.length) fail('no papers in ' + OPTS.dataDirs.join(', '));
+  return papers.sort((a, b) => sortKey(a) - sortKey(b));
 }
 
-// 3. Inline assets as data: URIs.
+// 3. Inline assets (block stimulus pictures and school answerAsset pictures) as data: URIs.
+const MIME = { '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp' };
+function dataUri(asset) {
+  const file = path.join(APP, asset);
+  if (!path.resolve(file).startsWith(path.join(APP, 'assets') + path.sep)) fail('asset outside app/assets: ' + asset);
+  if (!fs.existsSync(file)) fail('asset missing: ' + asset);
+  const ext = path.extname(file).toLowerCase();
+  if (!MIME[ext]) fail('unsupported asset type: ' + asset);
+  return `data:${MIME[ext]};base64,` + fs.readFileSync(file).toString('base64');
+}
 function inlineAssets(papers) {
-  const mime = { '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp' };
   for (const p of papers) for (const s of p.sections) for (const b of s.blocks) {
-    if (b.stimulus && b.stimulus.asset) {
-      const file = path.join(APP, b.stimulus.asset);
-      if (!fs.existsSync(file)) fail('asset missing: ' + b.stimulus.asset);
-      const ext = path.extname(file).toLowerCase();
-      if (!mime[ext]) fail('unsupported asset type: ' + b.stimulus.asset);
-      b.stimulus.asset = `data:${mime[ext]};base64,` + fs.readFileSync(file).toString('base64');
-    }
+    if (b.stimulus && b.stimulus.asset) b.stimulus.asset = dataUri(b.stimulus.asset);
+    for (const it of b.items) if (it.answerAsset) it.answerAsset = dataUri(it.answerAsset);
   }
 }
 
@@ -100,7 +135,7 @@ function main() {
   let css = fs.readFileSync(path.join(APP, 'styles.css'), 'utf8');
   let js = fs.readFileSync(path.join(APP, 'app.js'), 'utf8');
   const ui = loadUi(html, js);           // check strings against the un-minified source
-  if (process.argv.includes('--minify')) {
+  if (OPTS.minify) {
     // Optional: shrink CSS/JS with terser + clean-css if they are installed globally (npm i -g terser clean-css-cli).
     const { execFileSync } = require('child_process');
     try {
@@ -120,14 +155,15 @@ function main() {
     subject: CARD.subject_code || 'evs',
     locale: LOCALE,
     numerals: CARD.numerals || 'latn',
-    totalMarks: Number(CARD.total_marks) || 100,
     durationMinutes: Number(CARD.duration_minutes) || 120,
     login: CARD.login
   };
   // --split: papers go to dist/data/*.json and the page fetches them (for hosts where one
   // big upload is impractical). Default: everything inlined into one file.
-  const split = process.argv.includes('--split');
-  const paperFiles = papers.map(p => (p.chapter === 0 ? 'evs-' + (p.kind || 'mock') : 'evs-ch' + p.chapter) + '.json');
+  const split = OPTS.split;
+  const paperFiles = papers.map(p => (isSchool(p) ? 'evs-' + p.sp : p.chapter === 0 ? 'evs-' + (p.kind || 'mock') : 'evs-ch' + p.chapter) + '.json');
+  paperFiles.forEach(f => { if (!/^evs-[a-z0-9-]+\.json$/.test(f)) fail('bad split filename ' + JSON.stringify(f)); });
+  if (new Set(paperFiles).size !== paperFiles.length) fail('split filenames collide: ' + paperFiles.join(', '));
   const dataBlob = JSON.stringify(split ? { ui, papers: null, paperFiles, config } : { ui, papers, config }).replace(/<\/script/gi, '<\\/script');
   const out = html
     .replace('__SECRET_HASH__', () => hash)
@@ -136,6 +172,7 @@ function main() {
     .replace('<!-- __INLINE_JS__ -->', () => '<script>\n' + js + '\n</script>');  // function form: "$$"/"$'" in JS must not be treated as replace patterns
 
   if (out.includes(secret)) fail('secret leaked into output');
+  const DIST = OPTS.outDir;
   fs.mkdirSync(DIST, { recursive: true });
   fs.writeFileSync(path.join(DIST, 'index.html'), out);
   if (split) {
@@ -143,7 +180,8 @@ function main() {
     papers.forEach((p, i) => fs.writeFileSync(path.join(DIST, 'data', paperFiles[i]), JSON.stringify(p)));
   }
   const items = papers.reduce((a, p) => a + p.sections.reduce((b, s) => b + s.blocks.reduce((c, k) => c + k.items.length, 0), 0), 0);
-  console.log(`build: dist/index.html ${(out.length / 1024).toFixed(0)} KB · ${papers.length} papers · ${items} items · hash ${hash.slice(0, 12)}…`);
+  const rel = path.relative(ROOT, path.join(DIST, 'index.html'));
+  console.log(`build: ${rel.startsWith('..') ? path.join(DIST, 'index.html') : rel} ${(out.length / 1024).toFixed(0)} KB · ${papers.length} papers · ${items} items · hash ${hash.slice(0, 12)}…`);
 }
 
 main();

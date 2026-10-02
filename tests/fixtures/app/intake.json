@@ -1,0 +1,27 @@
+{
+  "papers": [
+    {
+      "sp": "sp98",
+      "sourceFile": "fixture app worksheet.pdf",
+      "printedTitle": "Practice Worksheet – Food and Maps",
+      "shortLabel": "Fixture: Food & Maps",
+      "printedTotal": 10,
+      "chapters": [
+        3,
+        5
+      ],
+      "sections": [
+        {
+          "code": "A",
+          "heading": "SECTION A – OBJECTIVE QUESTIONS",
+          "marks": 4.5
+        },
+        {
+          "code": "B",
+          "heading": "SECTION B – ANSWER THE FOLLOWING",
+          "marks": 5.5
+        }
+      ]
+    }
+  ]
+}

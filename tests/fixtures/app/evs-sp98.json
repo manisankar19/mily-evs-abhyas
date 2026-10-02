@@ -1,0 +1,347 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sourceFile": "fixture app worksheet.pdf",
+  "sp": "sp98",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Practice Worksheet – Food and Maps",
+  "shortLabel": "Fixture: Food & Maps",
+  "subtitle": "School paper fixture for the app tests",
+  "header": [
+    "ATOMIC ENERGY CENTRAL SCHOOL – FIXTURE",
+    "Class: IV   Subject: EVS   Marks: 10",
+    "Name of the student: ____________   Roll No.: ______"
+  ],
+  "totalMarks": 10,
+  "durationMinutes": null,
+  "chapters": [
+    3,
+    5
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "SECTION A – OBJECTIVE QUESTIONS",
+      "heading": "SECTION A – OBJECTIVE QUESTIONS",
+      "marks": 4.5,
+      "blocks": [
+        {
+          "num": "1.",
+          "instruction": "Fill in the blanks and answer in one word. (2 × ½ = 1)",
+          "items": [
+            {
+              "id": "evs-sp98-s1-b1-i1",
+              "label": "(a)",
+              "type": "fill-blank",
+              "q": "We get honey from ______.",
+              "marks": 0.5,
+              "answer": "bees",
+              "acceptable": [
+                "bees",
+                "honeybees",
+                "honey bees",
+                "bee"
+              ],
+              "topics": [
+                "animals",
+                "food"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            },
+            {
+              "id": "evs-sp98-s1-b1-i2",
+              "label": "(b)",
+              "type": "one-word",
+              "q": "Name the gas that plants take in to make their food.",
+              "underline": [
+                {
+                  "start": 25,
+                  "end": 32
+                }
+              ],
+              "marks": 0.5,
+              "answer": "carbon dioxide",
+              "acceptable": [
+                "carbon dioxide",
+                "CO2",
+                "carbon-dioxide"
+              ],
+              "topics": [
+                "plants"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "num": "2.",
+          "instruction": "Tick (✓) the correct answer. (2 × 1 = 2)",
+          "items": [
+            {
+              "id": "evs-sp98-s1-b2-i1",
+              "label": "(a)",
+              "type": "mcq",
+              "q": "Which of these is a way of cooking without fire?",
+              "options": [
+                "Boiling",
+                "Using a solar cooker",
+                "Frying",
+                "Baking"
+              ],
+              "marks": 1,
+              "answer": "Using a solar cooker",
+              "topics": [
+                "cooking"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            },
+            {
+              "id": "evs-sp98-s1-b2-i2",
+              "label": "(b)",
+              "type": "mcq",
+              "q": "Which food is usually steamed?",
+              "options": [
+                "Puri",
+                "Idli",
+                "Pakora",
+                "Dhokla"
+              ],
+              "marks": 1,
+              "answer": [
+                "Idli",
+                "Dhokla"
+              ],
+              "teacherNote": "Idli and dhokla are both steamed; the printed paper expects one tick, so accept either.",
+              "topics": [
+                "cooking"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "check",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "num": "3.",
+          "instruction": "Write True or False. (3 × ½ = 1½)",
+          "items": [
+            {
+              "id": "evs-sp98-s1-b3-i1",
+              "label": "(i)",
+              "type": "true-false",
+              "q": "Rajasthan is a desert state.",
+              "marks": 0.5,
+              "answer": "True",
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            },
+            {
+              "id": "evs-sp98-s1-b3-i2",
+              "label": "(ii)",
+              "type": "true-false",
+              "q": "Kerala has no coastline.",
+              "marks": 0.5,
+              "answer": "False",
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            },
+            {
+              "id": "evs-sp98-s1-b3-i3",
+              "label": "(iii)",
+              "type": "true-false",
+              "q": "We should cover cooked food.",
+              "marks": 0.5,
+              "answer": "True",
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "SECTION B – ANSWER THE FOLLOWING",
+      "heading": "SECTION B – ANSWER THE FOLLOWING",
+      "marks": 5.5,
+      "blocks": [
+        {
+          "num": "4.",
+          "instruction": "Look at the picture and answer. (1)",
+          "stimulus": {
+            "asset": "assets/shared-cook-frying.svg",
+            "caption": "Food cooking in a pan on a stove.",
+            "alt": "A pan with two cutlets on a gas stove"
+          },
+          "items": [
+            {
+              "id": "evs-sp98-s2-b1-i1",
+              "label": "(a)",
+              "type": "one-word",
+              "q": "Which way of cooking is shown in the picture?",
+              "marks": 1,
+              "answer": "Frying",
+              "acceptable": [
+                "frying",
+                "fry",
+                "shallow frying",
+                "pan frying"
+              ],
+              "topics": [
+                "cooking"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "num": "5.",
+          "instruction": "Match the following. (4 × ½ = 2)",
+          "items": [
+            {
+              "id": "evs-sp98-s2-b2-i1",
+              "type": "match",
+              "q": "Match the food with the way it is cooked.",
+              "pairs": [
+                {
+                  "left": "Idli",
+                  "right": "Steaming"
+                },
+                {
+                  "left": "Puri",
+                  "right": "Frying"
+                },
+                {
+                  "left": "Cake",
+                  "right": "Baking"
+                },
+                {
+                  "left": "Rice",
+                  "right": "Boiling"
+                }
+              ],
+              "marks": 2,
+              "answer": "Idli – Steaming; Puri – Frying; Cake – Baking; Rice – Boiling.",
+              "answerPoints": [
+                {
+                  "point": "Idli – Steaming",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Puri – Frying",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Cake – Baking",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Rice – Boiling",
+                  "marks": 0.5
+                }
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "num": "6.",
+          "instruction": "On the outline map of India, colour Kerala and Rajasthan. (1½)",
+          "adaptation": "Colour the two states on a printed outline map; the parent compares it with the answer map in checking mode.",
+          "items": [
+            {
+              "id": "evs-sp98-s2-b3-i1",
+              "type": "draw",
+              "q": "Colour Kerala and Rajasthan on the map of India.",
+              "marks": 1.5,
+              "answer": "Kerala (south-west coast) and Rajasthan (north-west) coloured.",
+              "answerAsset": "assets/shared-india-states.svg",
+              "markingGuide": "Award ½ for each state coloured in the right place and ½ for a neat map.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1.5,
+                  "descriptor": "Both states in the right place, neatly coloured."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "One state in the right place."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither state in the right place."
+                }
+              ],
+              "topics": [
+                "maps",
+                "states"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "check",
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "num": "7.",
+          "instruction": "Answer in one or two sentences. (1)",
+          "items": [
+            {
+              "id": "evs-sp98-s2-b4-i1",
+              "label": "(a)",
+              "type": "short",
+              "q": "Why should we cover cooked food?",
+              "pictureDescription": "A plate of rotis with a net cover over it.",
+              "marks": 1,
+              "answer": "To keep flies, dust and germs away from it.",
+              "modelAnswer": "We cover cooked food so that flies, dust and germs do not get on it.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Gives a sensible reason (flies, dust or germs)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Says it keeps food clean, with no reason."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible reason."
+                }
+              ],
+              "topics": [
+                "food",
+                "hygiene"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
