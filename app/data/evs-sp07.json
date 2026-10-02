@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sp": "sp07",
+  "sourceFile": "2.1.8 IV TWAU Revision WS Chapters 1 & 2.pdf",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "कार्यपत्रक/ Worksheet (2026-27)",
+  "shortLabel": "Revision Worksheet: Chapters 1 & 2",
+  "subtitle": "Revision Worksheet — Class IV — Chapters 1 & 2",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या /Total No. of printed pages: – 04",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक/ Worksheet (2026-27)",
+    "कक्षा /Class: IV विषय /Subject: TWAU माह/ Month: April to June अंक/Marks: 40",
+    "दिया गया पाठ्यक्रम/Portion covered: Chapter 1&2 – Living Together and Exploring our Neighbourhood",
+    "विद्यार्थी का नाम/Name of the student: ______________________",
+    "अनुक्रमांक /Roll No.______ कक्षा/अनुभाग Class /Sec.:_______ दिनांक/Date: _____"
+  ],
+  "totalMarks": 40,
+  "durationMinutes": null,
+  "chapters": [
+    1,
+    2
+  ],
+  "sections": [
+    {
+      "code": "1",
+      "title": "Q.1 Fill in the blanks. (1x5=5)",
+      "heading": "Q.1 Fill in the blanks. (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Fill in the blanks. (1x5=5)",
+          "items": [
+            {
+              "id": "evs-sp07-s1-b1-i1",
+              "label": "1.",
+              "type": "fill-blank",
+              "q": "A ______ is a group of people living together and helping one another.",
+              "marks": 1,
+              "answer": "community",
+              "acceptable": [
+                "community",
+                "communities",
+                "a community",
+                "samudaay",
+                "samuday",
+                "society",
+                "neighbourhood",
+                "neighborhood"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.1 l.4-12; p.10 l.6-14",
+              "topics": [
+                "community"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s1-b1-i2",
+              "label": "2.",
+              "type": "fill-blank",
+              "q": "______ Mahotsav is a festival celebrated by planting trees.",
+              "marks": 1,
+              "answer": "Van",
+              "acceptable": [
+                "Van",
+                "Vana",
+                "Ban",
+                "Vann",
+                "Van Mahotsav"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.5 l.15; p.6 l.2-12",
+              "topics": [
+                "Van Mahotsav",
+                "festivals"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s1-b1-i3",
+              "label": "3.",
+              "type": "fill-blank",
+              "q": "A ______ collects letters from the postbox and delivers them.",
+              "marks": 1,
+              "answer": "postman",
+              "acceptable": [
+                "postman",
+                "post man",
+                "postwoman",
+                "post woman",
+                "postperson",
+                "post person",
+                "postal worker",
+                "mailman",
+                "mail carrier",
+                "letter carrier",
+                "dakiya",
+                "daakiya",
+                "postie"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.2 l.19-23",
+              "topics": [
+                "post office",
+                "occupations"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s1-b1-i4",
+              "label": "4.",
+              "type": "fill-blank",
+              "q": "An ATM stands for Automated ______ Machine.",
+              "marks": 1,
+              "answer": "Teller",
+              "acceptable": [
+                "Teller",
+                "teller",
+                "Tellar",
+                "Teler"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.8 l.5-8",
+              "topics": [
+                "bank",
+                "ATM"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s1-b1-i5",
+              "label": "5.",
+              "type": "fill-blank",
+              "q": "A ______ is a place where sick and injured people are treated.",
+              "marks": 1,
+              "answer": "hospital",
+              "acceptable": [
+                "hospital",
+                "hospitals",
+                "health centre",
+                "health center",
+                "clinic",
+                "dispensary",
+                "nursing home",
+                "primary health centre",
+                "PHC",
+                "aspatal",
+                "dawakhana"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.7 l.8-19; Ch 1 (deev101), p.4 l.19-20",
+              "topics": [
+                "hospital",
+                "public places"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "title": "Q.2 Tick the correct answer- (1x5=5)",
+      "heading": "Q.2 Tick the correct answer- (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "Q.2",
+          "instruction": "Tick the correct answer- (1x5=5)",
+          "items": [
+            {
+              "id": "evs-sp07-s2-b1-i1",
+              "label": "1.",
+              "type": "mcq",
+              "q": "Where did Dadaji take Navya’s grandmother for her eye treatment?",
+              "options": [
+                "Library",
+                "Park",
+                "Hospital",
+                "Post Office"
+              ],
+              "marks": 1,
+              "answer": "Hospital",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.7 l.13-19",
+              "topics": [
+                "hospital",
+                "Navya"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s2-b1-i2",
+              "label": "2.",
+              "type": "mcq",
+              "q": "What do flyovers help with?",
+              "options": [
+                "Growing crops",
+                "Storing water",
+                "Helping birds fly",
+                "Reducing traffic on busy roads"
+              ],
+              "marks": 1,
+              "answer": "Reducing traffic on busy roads",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.5 l.20-28",
+              "topics": [
+                "transport",
+                "flyovers"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s2-b1-i3",
+              "label": "3.",
+              "type": "mcq",
+              "q": "What should we do to keep our environment safe?",
+              "options": [
+                "Cut trees",
+                "Throw waste on roads",
+                "Plant more trees",
+                "Use more plastic"
+              ],
+              "marks": 1,
+              "answer": "Plant more trees",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.6 l.8-13",
+              "topics": [
+                "environment",
+                "trees"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s2-b1-i4",
+              "label": "4.",
+              "type": "mcq",
+              "q": "The tool that is used by an electrician is called",
+              "options": [
+                "broom",
+                "hand saw",
+                "watering can",
+                "pliers."
+              ],
+              "marks": 1,
+              "answer": "pliers.",
+              "teacherNote": "Printed with no blank or question mark, and option (d) ends with a full stop (\"pliers.\"). Electricians and their tools are not in the Chapter 1–2 text; this is general knowledge. Mark (d) pliers as correct.",
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "occupations",
+                "tools"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s2-b1-i5",
+              "label": "5.",
+              "type": "mcq",
+              "q": "What is the agriculture specialist called in Sikkim?",
+              "options": [
+                "Khetala",
+                "Bela Ghar",
+                "Uruka",
+                "None of these"
+              ],
+              "marks": 1,
+              "answer": "Khetala",
+              "teacherNote": "Option (b) is printed \"Bela Ghar\"; the textbook spells it \"Bhela Ghar\" (the hay-and-bamboo hut of Magh Bihu, Assam). Kept as printed; it is a wrong option either way. Answer (a) Khetala.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.13 l.2-6",
+              "topics": [
+                "Sikkim",
+                "farming",
+                "community"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "title": "Q3. Frame correct words. (1x5=5)",
+      "heading": "Q3. Frame correct words. (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "Q3",
+          "instruction": "Frame correct words. (1x5=5)",
+          "adaptation": "Unscramble each jumbled word and type the correct word.",
+          "items": [
+            {
+              "id": "evs-sp07-s3-b1-i1",
+              "label": "1.",
+              "type": "one-word",
+              "q": "OTLSAHPI- ______",
+              "marks": 1,
+              "answer": "HOSPITAL",
+              "acceptable": [
+                "hospital",
+                "HOSPITAL",
+                "Hospital"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.7 l.13",
+              "topics": [
+                "jumbled words",
+                "public places"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s3-b1-i2",
+              "label": "2.",
+              "type": "one-word",
+              "q": "BAKN - ______",
+              "marks": 1,
+              "answer": "BANK",
+              "acceptable": [
+                "bank",
+                "BANK",
+                "Bank"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.8 l.4-15",
+              "topics": [
+                "jumbled words",
+                "bank"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s3-b1-i3",
+              "label": "3.",
+              "type": "one-word",
+              "q": "TTESREL- ______",
+              "marks": 1,
+              "answer": "LETTERS",
+              "acceptable": [
+                "letters",
+                "LETTERS",
+                "Letters",
+                "settler",
+                "SETTLER"
+              ],
+              "teacherNote": "TTESREL also unscrambles to the real word \"SETTLER\". The chapter word is LETTERS (post office); accept SETTLER too, since it uses exactly the same letters.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.2 l.16-23",
+              "topics": [
+                "jumbled words",
+                "post office"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s3-b1-i4",
+              "label": "4.",
+              "type": "one-word",
+              "q": "ROYFLAEV- ______",
+              "marks": 1,
+              "answer": "FLYOVER",
+              "acceptable": [
+                "flyover",
+                "FLYOVER",
+                "Flyover",
+                "fly over",
+                "fly-over",
+                "flyovers",
+                "FLY OVER"
+              ],
+              "teacherNote": "Misprint: ROYFLAEV has 8 letters, one more than FLYOVER (an extra A). Kept as printed; accept FLYOVER (also \"fly over\", \"fly-over\") and do not penalise the unused A.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.5 l.20-28",
+              "topics": [
+                "jumbled words",
+                "transport"
+              ],
+              "difficulty": "hard",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s3-b1-i5",
+              "label": "5.",
+              "type": "one-word",
+              "q": "RTAMKE- ______",
+              "marks": 1,
+              "answer": "MARKET",
+              "acceptable": [
+                "market",
+                "MARKET",
+                "Market"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.1 l.17; p.5 l.9",
+              "topics": [
+                "jumbled words",
+                "public places"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "title": "Q.4 Write True or False. ( ½ X5 = 2 ½)",
+      "heading": "Q.4 Write True or False. ( ½ X5 = 2 ½)",
+      "marks": 2.5,
+      "blocks": [
+        {
+          "num": "Q.4",
+          "instruction": "Write True or False. ( ½ X5 = 2 ½)",
+          "items": [
+            {
+              "id": "evs-sp07-s4-b1-i1",
+              "label": "1.",
+              "type": "true-false",
+              "q": "Ants work alone and do not help each other. ______",
+              "marks": 0.5,
+              "answer": "False",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.10 l.10-15",
+              "topics": [
+                "community",
+                "ants"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s4-b1-i2",
+              "label": "2.",
+              "type": "true-false",
+              "q": "Police officers teach in schools. ______",
+              "marks": 0.5,
+              "answer": "False",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.4 l.23-24; p.14 l.2-4",
+              "topics": [
+                "occupations"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s4-b1-i3",
+              "label": "3.",
+              "type": "true-false",
+              "q": "Festivals bring people together. ______",
+              "marks": 0.5,
+              "answer": "True",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.5 l.12-14; p.12 l.1-12",
+              "topics": [
+                "festivals",
+                "community"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s4-b1-i4",
+              "label": "4.",
+              "type": "true-false",
+              "q": "Radio is used to send letters to other cities. ______",
+              "marks": 0.5,
+              "answer": "False",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.2 l.19-23; p.3 l.14-21",
+              "topics": [
+                "communication",
+                "post office"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s4-b1-i5",
+              "label": "5.",
+              "type": "true-false",
+              "q": "The bank has a machine called an ATM to withdraw money. ______",
+              "marks": 0.5,
+              "answer": "True",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.8 l.4-8",
+              "topics": [
+                "bank",
+                "ATM"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "title": "Q.5 Match the following-( ½ X5 = 2 ½)",
+      "heading": "Q.5 Match the following-( ½ X5 = 2 ½)",
+      "marks": 2.5,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Match the following-( ½ X5 = 2 ½)",
+          "items": [
+            {
+              "id": "evs-sp07-s5-b1-i1",
+              "type": "match",
+              "q": "Group A Group B",
+              "pairs": [
+                {
+                  "left": "school",
+                  "right": "Learn new things"
+                },
+                {
+                  "left": "park",
+                  "right": "Walk and relax"
+                },
+                {
+                  "left": "hospital",
+                  "right": "Treat sick people"
+                },
+                {
+                  "left": "playground",
+                  "right": "Kabaddi and games"
+                },
+                {
+                  "left": "police station",
+                  "right": "Safety and security"
+                }
+              ],
+              "marks": 2.5,
+              "answer": "a. school – 5. Learn new things; b. park – 1. Walk and relax; c. hospital – 2. Treat sick people; d. playground – 3. Kabaddi and games; e. police station – 4. Safety and security.",
+              "answerPoints": [
+                {
+                  "point": "a. school – 5. Learn new things",
+                  "marks": 0.5
+                },
+                {
+                  "point": "b. park – 1. Walk and relax",
+                  "marks": 0.5
+                },
+                {
+                  "point": "c. hospital – 2. Treat sick people",
+                  "marks": 0.5
+                },
+                {
+                  "point": "d. playground – 3. Kabaddi and games",
+                  "marks": 0.5
+                },
+                {
+                  "point": "e. police station – 4. Safety and security",
+                  "marks": 0.5
+                }
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.3 l.4-8; p.4 l.19-24; p.5 l.23-27; p.14 l.2-4",
+              "topics": [
+                "public places"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "title": "Q. 6 See the given picture and identify the occupation: (1x5=5)",
+      "heading": "Q. 6 See the given picture and identify the occupation: (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "Q. 6",
+          "instruction": "See the given picture and identify the occupation: (1x5=5)",
+          "adaptation": "The five pictures are numbered (1) to (5) here; write one answer for each picture. Pictures 4 and 5 show a place, not a worker, so name the place.",
+          "stimulus": {
+            "asset": "assets/sp07-q6.svg",
+            "caption": "Pictures (1) to (5)",
+            "alt": "Five numbered pictures. (1) A woman in a white coat with a stethoscope round her neck, holding a clipboard. (2) A woman pointing with a stick at a green board with 2+3 written on it, holding a book. (3) A person in a red helmet and a red suit with yellow stripes, spraying water from a hose at flames. (4) A slide with a ladder, a swing and a see-saw on green grass. (5) A tall cone-shaped shelter made of hay on a bamboo frame, with a small doorway."
+          },
+          "items": [
+            {
+              "id": "evs-sp07-s6-b1-i1",
+              "label": "(1)",
+              "type": "one-word",
+              "q": "See the given picture and identify the occupation:",
+              "marks": 1,
+              "answer": "Doctor",
+              "acceptable": [
+                "doctor",
+                "doctors",
+                "Dr",
+                "Dr.",
+                "lady doctor",
+                "physician",
+                "daktar",
+                "doctor didi",
+                "vaidya"
+              ],
+              "markingGuide": "Picture (1): white coat, stethoscope, clipboard. If the child writes \"nurse\", the parent decides (a nurse can also use a stethoscope, but the coat and clipboard point to a doctor).",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.7 l.20-25",
+              "topics": [
+                "occupations",
+                "hospital"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s6-b1-i2",
+              "label": "(2)",
+              "type": "one-word",
+              "q": "See the given picture and identify the occupation:",
+              "marks": 1,
+              "answer": "Teacher",
+              "acceptable": [
+                "teacher",
+                "teachers",
+                "school teacher",
+                "teaching",
+                "madam",
+                "ma'am",
+                "mam",
+                "miss",
+                "tutor",
+                "shikshak",
+                "adhyapak",
+                "guru"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.14 l.1-4",
+              "topics": [
+                "occupations",
+                "school"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s6-b1-i3",
+              "label": "(3)",
+              "type": "one-word",
+              "q": "See the given picture and identify the occupation:",
+              "marks": 1,
+              "answer": "Firefighter",
+              "acceptable": [
+                "firefighter",
+                "fire fighter",
+                "fire-fighter",
+                "fireman",
+                "firemen",
+                "firewoman",
+                "fire officer",
+                "fire brigade",
+                "fire service worker",
+                "fire extinguisher man"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "occupations",
+                "safety"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s6-b1-i4",
+              "label": "(4)",
+              "type": "one-word",
+              "q": "See the given picture and identify the occupation:",
+              "marks": 1,
+              "answer": "Playground",
+              "acceptable": [
+                "playground",
+                "playgrounds",
+                "play ground",
+                "park",
+                "children's park",
+                "childrens park",
+                "kids park",
+                "play area",
+                "playing area",
+                "play zone",
+                "play place",
+                "garden",
+                "playing",
+                "play",
+                "games",
+                "playing games"
+              ],
+              "teacherNote": "Picture 4 is a playground (slide, swing, see-saw), a place, not an occupation, and has no answer line in print, yet it is counted in 1x5. Owner decision (Gate 0b): accept a place or activity name such as \"playground\", \"park\" or \"play area\" for 1 mark.",
+              "markingGuide": "Accept any sensible place or activity name. A related worker (e.g. \"gardener\", \"park caretaker\") is not listed; the parent decides.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.3 l.4-8; p.5 l.8-11",
+              "topics": [
+                "public places",
+                "playground"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s6-b1-i5",
+              "label": "(5)",
+              "type": "one-word",
+              "q": "See the given picture and identify the occupation:",
+              "marks": 1,
+              "answer": "Bhela Ghar",
+              "acceptable": [
+                "Bhela Ghar",
+                "Bhelaghar",
+                "Bhela ghor",
+                "Bhelaghor",
+                "Bela Ghar",
+                "Belaghar",
+                "Bhela",
+                "Meji",
+                "Mezi",
+                "Meiji",
+                "hut",
+                "huts",
+                "hay hut",
+                "straw hut",
+                "grass hut",
+                "bamboo hut",
+                "thatched hut",
+                "Bihu hut",
+                "Magh Bihu hut",
+                "Magh Bihu",
+                "Bhogali Bihu",
+                "Bihu",
+                "Uruka"
+              ],
+              "teacherNote": "Picture 5 is a hay-and-bamboo hut, the Bhela Ghar of Magh Bihu (Assam); a place, not an occupation, with no answer line in print, yet counted in 1x5. Owner decision (Gate 0b): accept the name of the hut or the festival (\"Bhela Ghar\", \"Meji\", \"hut\", \"Magh Bihu hut\") for 1 mark.",
+              "markingGuide": "Accept the hut or the festival it belongs to. \"Haystack\" or \"farmer\" (hay) are readings of the picture rather than the chapter word; the parent decides.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.12 l.1-12",
+              "topics": [
+                "festivals",
+                "Magh Bihu",
+                "Assam"
+              ],
+              "difficulty": "hard",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "title": "Q.7) Look at the picture answer the questions-(1x4=4)",
+      "heading": "Q.7) Look at the picture answer the questions-(1x4=4)",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "Q.7",
+          "instruction": "Look at the picture answer the questions-(1x4=4)",
+          "stimulus": {
+            "asset": "assets/sp07-q7.svg",
+            "caption": "Look at the picture.",
+            "alt": "A scene beside a road with hills and trees behind. On the left is a two-storey building with a signboard; on the right is a smaller building with a signboard and a red postbox in front of it. In front, one person sweeps with a broom, a child kneels by a small plant at a hole in the soil, two adults work on a wooden bench, one holding a hammer, and another person sweeps with a broom."
+          },
+          "items": [
+            {
+              "id": "evs-sp07-s7-b1-i1",
+              "label": "1.",
+              "type": "short",
+              "q": "What public places do you see in the picture? ________",
+              "marks": 1,
+              "answer": "School and post office.",
+              "teacherNote": "The printed instruction is missing \"and\" (\"Look at the picture answer the questions\"). Kept as printed.",
+              "markingGuide": "½ mark each for school and post office. Also accept road (Ch 1 lists the road as a shared place) in place of one of them.",
+              "modelAnswer": "I see a school and a post office.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Names both the school and the post office (or one of them plus the road)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Names only one public place."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No answer, or an answer that does not match the picture."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.4 l.15-17; p.5 l.8-11",
+              "topics": [
+                "public places"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s7-b1-i2",
+              "label": "2.",
+              "type": "short",
+              "q": "What is the child doing with the sapling? __________",
+              "marks": 1,
+              "answer": "The child is planting the sapling in the soil.",
+              "markingGuide": "Accept \"planting it\", \"planting a tree\", \"putting it in the soil\".",
+              "modelAnswer": "The child is planting the sapling.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Says the child is planting the sapling (or putting it in the soil)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Vague, e.g. \"holding it\" or \"gardening\"."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No answer, or an answer that does not match the picture."
+                }
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.7 l.1-4; p.9 l.4-6",
+              "topics": [
+                "planting",
+                "community"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s7-b1-i3",
+              "label": "3.",
+              "type": "short",
+              "q": "What are the adults doing with the wooden bench? ________",
+              "marks": 1,
+              "answer": "They are repairing (fixing) the bench.",
+              "markingGuide": "Accept \"repairing\", \"fixing\", \"mending\", \"hammering nails into it\", \"making it\".",
+              "modelAnswer": "The adults are repairing the wooden bench.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Says they are repairing / fixing / mending the bench."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Only says they are \"working on it\" or \"touching it\"."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No answer, or an answer that does not match the picture."
+                }
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.6 l.23-27",
+              "topics": [
+                "community",
+                "helping"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s7-b1-i4",
+              "label": "4.",
+              "type": "short",
+              "q": "How are the people in the picture helping the community? _____",
+              "marks": 1,
+              "answer": "They are keeping the place clean by sweeping, planting trees and repairing the bench, so everyone can use it.",
+              "markingGuide": "Open-ended. Full mark for any two ways shown in the picture (sweeping/cleaning, planting a sapling, repairing the bench), or one way with why it helps.",
+              "modelAnswer": "They are cleaning the area, planting trees and repairing the bench for everyone to use.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Gives two ways from the picture (cleaning/sweeping, planting, repairing), or one way with why it helps everyone."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Gives only one way, with no reason."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No answer, or an answer that does not match the picture."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.6 l.17-p.7 l.10; p.9 l.1-9",
+              "topics": [
+                "community",
+                "helping"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "title": "Q.8 Answer the following-( 2X4 = 8)",
+      "heading": "Q.8 Answer the following-( 2X4 = 8)",
+      "marks": 8,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Answer the following-( 2X4 = 8)",
+          "items": [
+            {
+              "id": "evs-sp07-s8-b1-i1",
+              "label": "1.",
+              "type": "short",
+              "q": "Why do you think it is important to save money?",
+              "marks": 2,
+              "answer": "Saving money helps us meet our future needs and pay for emergencies such as illness. Money kept in a bank is safe.",
+              "answerPoints": [
+                {
+                  "point": "For future needs (studies, buying things later)",
+                  "marks": 1
+                },
+                {
+                  "point": "For emergencies / sudden needs, or money is kept safe in a bank",
+                  "marks": 1
+                }
+              ],
+              "modelAnswer": "It is important to save money so that we have money for our future needs and for emergencies. Banks keep our saved money safe.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Two sensible reasons (future needs, emergencies, keeping money safe)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "One sensible reason."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible reason."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.8 l.9-15",
+              "topics": [
+                "savings",
+                "bank"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s8-b1-i2",
+              "label": "2.",
+              "type": "short",
+              "q": "What is the role of Public places?",
+              "marks": 2,
+              "answer": "Public places help people by providing services related to health, safety, cleanliness and the environment (e.g. hospitals, banks, post offices, police stations). They are also used for playing, relaxing and meeting others.",
+              "answerPoints": [
+                {
+                  "point": "They provide services for everyone (health, safety, cleanliness, environment)",
+                  "marks": 1
+                },
+                {
+                  "point": "An example or another use (playing, relaxing, meeting others; hospital, bank, post office, police station, park)",
+                  "marks": 1
+                }
+              ],
+              "modelAnswer": "Public places help people by giving services like health, safety and cleanliness. For example, a hospital treats sick people and a park is used for playing and relaxing.",
+              "teacherNote": "\"Public\" is printed with a capital P. Kept as printed.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "States that public places serve everyone / give services, with an example or second use."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one point, or only lists examples of public places."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible answer."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.11 l.19-23; Ch 1 (deev101), p.5 l.8-14",
+              "topics": [
+                "public places"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s8-b1-i3",
+              "label": "3.",
+              "type": "short",
+              "q": "Which equipment did Mallika use to make announcements?",
+              "marks": 2,
+              "answer": "Mallika used a microphone to make announcements (at the Van Mahotsav celebration).",
+              "answerPoints": [
+                {
+                  "point": "Microphone (mic / mike)",
+                  "marks": 2
+                }
+              ],
+              "modelAnswer": "Mallika used a microphone to make announcements.",
+              "teacherNote": "A one-word answer (microphone) for 2 marks as printed. Full marks for \"microphone\" / \"mic\" / \"mike\"; a full sentence is not required.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Microphone (mic / mike), in a word or a sentence."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "A near answer such as \"loudspeaker\", \"speaker\" or \"sound system\"."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Any other equipment, or no answer."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.9 l.2-4",
+              "topics": [
+                "Van Mahotsav",
+                "communication"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s8-b1-i4",
+              "label": "4.",
+              "type": "short",
+              "q": "How does the post office help people stay connected with each other?",
+              "marks": 2,
+              "answer": "The post office collects letters, parcels and important documents, sorts them by region and delivers them to people in other places, so people can keep in touch. It also helped send money (money orders).",
+              "answerPoints": [
+                {
+                  "point": "Sends/delivers letters, parcels and documents",
+                  "marks": 1
+                },
+                {
+                  "point": "To people in other places/cities, so they keep in touch (or sorts by region / money orders)",
+                  "marks": 1
+                }
+              ],
+              "modelAnswer": "The post office sends our letters and parcels to people living in other cities. So we can keep in touch with our family and friends far away.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Says the post office sends/delivers letters or parcels AND that this keeps people in different places in touch."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one of the two ideas."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible answer."
+                }
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.2 l.19-24; p.3 l.14-17; p.8 l.20-22",
+              "topics": [
+                "post office",
+                "communication"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "title": "Q.10) Locate the following states/ UTs in the given map. (1 × 3 = 3)",
+      "heading": "Q.10) Locate the following states/ UTs in the given map. (1 × 3 = 3)",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "Q.10",
+          "instruction": "Locate the following states/ UTs in the given map. (1 × 3 = 3)",
+          "adaptation": "Do this on the printed sheet: mark and name each state on the map; your parent marks it with the answer-key map.",
+          "stimulus": {
+            "asset": "assets/shared-india-states.svg",
+            "caption": "Outline map of India",
+            "alt": "Outline map of India with state and union territory boundaries and no names."
+          },
+          "items": [
+            {
+              "id": "evs-sp07-s9-b1-i1",
+              "label": "1)",
+              "type": "diagram-label",
+              "q": "Assam",
+              "marks": 1,
+              "answer": "Assam — marked and named in the right place on the map",
+              "answerAsset": "assets/sp07-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Assam on the printed map; the parent checks against the answer-key map (shaded orange). Assam is in the north-east, the long state along the Brahmaputra valley, east of the narrow strip that joins the north-east to the rest of India. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Assam marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "difficulty": "medium",
+              "teacherNote": "Numbering jumps from Q.8 to Q.10 in print (there is no Q.9). Kept as \"Q.10\"; nothing is missing because the marks still add up to 40.",
+              "sourceRef": "Ch 1 (deev101), p.12 l.6",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s9-b1-i2",
+              "label": "2)",
+              "type": "diagram-label",
+              "q": "Chhattisgarh",
+              "marks": 1,
+              "answer": "Chhattisgarh — marked and named in the right place on the map",
+              "answerAsset": "assets/sp07-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Chhattisgarh on the printed map; the parent checks against the answer-key map (shaded green). Chhattisgarh is in the middle-east of India, east of Madhya Pradesh and west of Odisha. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Chhattisgarh marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "difficulty": "medium",
+              "sourceRef": "Ch 1 (deev101), p.9 l.11",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp07-s9-b1-i3",
+              "label": "3)",
+              "type": "diagram-label",
+              "q": "Sikkim",
+              "marks": 1,
+              "answer": "Sikkim — marked and named in the right place on the map",
+              "answerAsset": "assets/sp07-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Sikkim on the printed map; the parent checks against the answer-key map (shaded red). Sikkim is the very small state in the north-east, between Nepal and Bhutan, just north of West Bengal. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Sikkim marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "difficulty": "medium",
+              "sourceRef": "Ch 1 (deev101), p.13 l.2",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

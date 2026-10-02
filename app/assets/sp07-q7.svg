@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="Arial, Helvetica, sans-serif">
+<title>A neighbourhood scene with people at work</title>
+<defs>
+  <clipPath id="frame"><rect x="0" y="0" width="800" height="520" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <!-- sky and hills -->
+  <rect width="800" height="520" fill="#cfe8f6"/>
+  <path d="M0 190 Q120 120 240 170 Q360 100 480 160 Q600 110 800 150 L800 300 L0 300 Z" fill="#9ccc7a"/>
+  <path d="M0 230 Q160 180 320 220 Q480 170 640 210 Q720 195 800 205 L800 320 L0 320 Z" fill="#7fbf5f"/>
+  <!-- distant houses -->
+  <g><rect x="352" y="196" width="26" height="18" fill="#f3e6d3"/><path d="M348 198 L365 184 L382 198 Z" fill="#b5332e"/></g>
+  <g><rect x="458" y="212" width="26" height="18" fill="#f3e6d3"/><path d="M454 214 L471 200 L488 214 Z" fill="#b5332e"/></g>
+  <!-- background trees -->
+  <g fill="#3f8a3a"><ellipse cx="420" cy="196" rx="16" ry="34"/><ellipse cx="510" cy="224" rx="18" ry="30"/><ellipse cx="300" cy="226" rx="14" ry="26"/><ellipse cx="40" cy="170" rx="14" ry="28"/></g>
+  <g stroke="#6b4a2b" stroke-width="4"><line x1="420" y1="222" x2="420" y2="250"/><line x1="510" y1="248" x2="510" y2="270"/><line x1="300" y1="246" x2="300" y2="268"/><line x1="40" y1="194" x2="40" y2="214"/></g>
+  <!-- ground -->
+  <rect x="0" y="290" width="800" height="230" fill="#86c66a"/>
+  <!-- road -->
+  <path d="M0 360 L800 296 L800 330 L0 400 Z" fill="#9a9a9a"/>
+  <path d="M0 380 L800 313" stroke="#f4f4f4" stroke-width="3" stroke-dasharray="18 14"/>
+  <!-- SCHOOL building -->
+  <path d="M10 128 L40 92 L292 92 L322 128 Z" fill="#b5332e"/>
+  <rect x="22" y="128" width="290" height="190" fill="#f5dcc8" stroke="#c9a88f" stroke-width="2"/>
+  <line x1="22" y1="222" x2="312" y2="222" stroke="#c9a88f" stroke-width="3"/>
+  <g fill="#5b7fa3" stroke="#ffffff" stroke-width="3">
+    <rect x="38" y="148" width="34" height="42"/><rect x="90" y="148" width="34" height="42"/><rect x="210" y="148" width="34" height="42"/><rect x="262" y="148" width="34" height="42"/>
+    <rect x="38" y="242" width="34" height="42"/><rect x="90" y="242" width="34" height="42"/><rect x="262" y="242" width="34" height="42"/>
+  </g>
+  <rect x="134" y="150" width="66" height="22" rx="3" fill="#b5332e"/>
+  <text x="167" y="167" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">SCHOOL</text>
+  <rect x="146" y="244" width="44" height="74" fill="#a8322c"/>
+  <line x1="168" y1="244" x2="168" y2="318" stroke="#7a221d" stroke-width="2"/>
+  <!-- big tree behind the post office -->
+  <rect x="622" y="150" width="22" height="120" fill="#5a3d22"/>
+  <circle cx="634" cy="110" r="70" fill="#3d7b35"/><circle cx="584" cy="140" r="40" fill="#3d7b35"/><circle cx="690" cy="140" r="42" fill="#3d7b35"/>
+  <!-- POST OFFICE building -->
+  <path d="M540 230 L640 168 L760 230 Z" fill="#b5332e"/>
+  <rect x="556" y="230" width="190" height="120" fill="#f2c79a" stroke="#c99a6c" stroke-width="2"/>
+  <rect x="566" y="244" width="110" height="24" rx="3" fill="#ffffff" stroke="#b5332e" stroke-width="2"/>
+  <text x="621" y="262" font-size="14" font-weight="bold" fill="#b5332e" text-anchor="middle">POST OFFICE</text>
+  <rect x="616" y="282" width="34" height="68" fill="#a8322c"/>
+  <g fill="#5b7fa3" stroke="#ffffff" stroke-width="3"><rect x="576" y="284" width="26" height="30"/><rect x="694" y="250" width="36" height="40"/></g>
+  <!-- red postbox -->
+  <rect x="512" y="320" width="30" height="62" rx="6" fill="#d0201a" stroke="#8c1410" stroke-width="2"/>
+  <path d="M510 322 Q527 300 544 322 Z" fill="#d0201a" stroke="#8c1410" stroke-width="2"/>
+  <rect x="518" y="334" width="18" height="4" fill="#3a0d0b"/>
+  <rect x="508" y="380" width="38" height="6" fill="#5a1410"/>
+  <!-- person 1 (left) sweeping with a broom -->
+  <g>
+    <rect x="62" y="420" width="10" height="50" fill="#2d2d2d" transform="rotate(10 67 420)"/>
+    <rect x="80" y="420" width="10" height="50" fill="#2d2d2d" transform="rotate(-8 85 420)"/>
+    <rect x="62" y="372" width="30" height="52" rx="6" fill="#e2672f"/>
+    <circle cx="77" cy="356" r="13" fill="#c68a5a"/>
+    <path d="M62 352 Q77 334 92 352 Z" fill="#f2a516"/>
+    <line x1="84" y1="384" x2="122" y2="474" stroke="#8a5a2b" stroke-width="4"/>
+    <path d="M114 470 L140 486 L118 492 L106 478 Z" fill="#c9a24a"/>
+    <line x1="90" y1="384" x2="104" y2="430" stroke="#c68a5a" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- child kneeling and planting a sapling in a small hole -->
+  <g>
+    <ellipse cx="232" cy="490" rx="34" ry="8" fill="#6b4a2b"/>
+    <line x1="232" y1="490" x2="232" y2="456" stroke="#2e7d32" stroke-width="3"/>
+    <path d="M232 470 Q216 462 220 452 Q232 458 232 470 Z" fill="#43a047"/>
+    <path d="M232 464 Q248 454 246 446 Q232 450 232 464 Z" fill="#43a047"/>
+    <path d="M232 458 Q226 444 232 438 Q238 444 232 458 Z" fill="#43a047"/>
+    <path d="M168 494 L210 494 L208 476 L176 476 Z" fill="#2d3e50"/>
+    <path d="M170 430 Q190 420 206 434 L210 478 L174 478 Z" fill="#f2c40f"/>
+    <line x1="204" y1="444" x2="226" y2="484" stroke="#c68a5a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="190" cy="414" r="14" fill="#c68a5a"/>
+    <path d="M174 410 Q190 390 206 410 Q196 402 174 410 Z" fill="#2a1a10"/>
+  </g>
+  <!-- two adults repairing a wooden bench -->
+  <g>
+    <!-- bench -->
+    <rect x="330" y="420" width="120" height="12" fill="#6b3f1f"/>
+    <rect x="330" y="398" width="120" height="10" fill="#6b3f1f" transform="rotate(-4 390 403)"/>
+    <rect x="340" y="432" width="10" height="44" fill="#4a2a14"/><rect x="430" y="432" width="10" height="44" fill="#4a2a14"/>
+    <rect x="344" y="404" width="8" height="18" fill="#4a2a14"/><rect x="428" y="400" width="8" height="22" fill="#4a2a14"/>
+    <!-- adult A, bending and holding a plank -->
+    <rect x="298" y="432" width="12" height="50" fill="#2d2d2d"/><rect x="316" y="432" width="12" height="50" fill="#2d2d2d"/>
+    <path d="M294 396 Q314 382 334 398 L332 438 L294 438 Z" fill="#e2672f"/>
+    <line x1="330" y1="408" x2="352" y2="420" stroke="#c68a5a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="316" cy="378" r="14" fill="#c68a5a"/>
+    <path d="M300 374 Q316 354 332 374 Z" fill="#e65100"/>
+    <!-- adult B, hammering a nail into the bench -->
+    <rect x="452" y="430" width="12" height="52" fill="#34495e"/><rect x="470" y="430" width="12" height="52" fill="#34495e"/>
+    <path d="M448 372 Q468 360 488 372 L488 434 L448 434 Z" fill="#f4f4f4" stroke="#bbb" stroke-width="1.5"/>
+    <line x1="452" y1="388" x2="420" y2="396" stroke="#c68a5a" stroke-width="8" stroke-linecap="round"/>
+    <line x1="418" y1="396" x2="414" y2="374" stroke="#6b4a2b" stroke-width="4"/>
+    <rect x="404" y="366" width="22" height="9" rx="2" fill="#555"/>
+    <circle cx="468" cy="352" r="14" fill="#d9a066"/>
+    <path d="M454 348 Q468 332 482 348 Q470 340 454 348 Z" fill="#2a1a10"/>
+  </g>
+  <!-- person 2 (right) sweeping with a broom -->
+  <g>
+    <rect x="700" y="436" width="10" height="50" fill="#2d2d2d" transform="rotate(-10 705 436)"/>
+    <rect x="718" y="436" width="10" height="50" fill="#2d2d2d" transform="rotate(8 723 436)"/>
+    <rect x="698" y="388" width="30" height="52" rx="6" fill="#f4d29c"/>
+    <circle cx="713" cy="372" r="13" fill="#c68a5a"/>
+    <path d="M698 368 Q713 350 728 368 Z" fill="#f2a516"/>
+    <line x1="704" y1="400" x2="664" y2="486" stroke="#8a5a2b" stroke-width="4"/>
+    <path d="M670 482 L644 498 L664 504 L678 490 Z" fill="#c9a24a"/>
+    <line x1="700" y1="400" x2="684" y2="444" stroke="#c68a5a" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</g>
+<rect x="1" y="1" width="798" height="518" rx="22" fill="none" stroke="#7aa36a" stroke-width="2"/>
+</svg>
