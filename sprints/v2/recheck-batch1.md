@@ -25,3 +25,6 @@ No systematic under-flagging. All three agents met or exceeded the intake ⚑ es
 - sp07 Q. 6 picture 1: "nurse" is not in `acceptable` (the parent decides; the item is ⚑).
 - sp05 Q9 roasting/grilling: both pairings are accepted.
 - **Parent reads `sprints/v2/answer-review/sp05.md`, `sp07.md`, `sp01.md` before the child uses these papers.**
+
+## Owner review
+2026-10-02: the owner reviewed the answers and confirmed: "answers are correct". The open ₹500 language-count question is settled as authored (2 / 15 / 17 accepted, ⚑).

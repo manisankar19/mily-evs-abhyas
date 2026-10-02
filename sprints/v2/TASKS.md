@@ -134,9 +134,10 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Completed: 2026-10-02 — worktree commit a06dc4b cherry-picked as ebcd436; verified on a build of the committed data (9 papers, 475 items, 1157 KB, hash present/plaintext absent); real sp05 practice + checking (map key) checked in browser
 
 ### Phase 9 — Test & deploy (brief §8)
-- [ ] Task 33: e2e: counts come from the data, not hard-coded; new school-paper spec (practice, checking, marking ½ marks, result shows the printed total, no answers in the DOM in practice mode) (P0)
+- [x] Task 33: e2e: counts come from the data, not hard-coded; new school-paper spec (practice, checking, marking ½ marks, result shows the printed total, no answers in the DOM in practice mode) (P0)
   - Acceptance: full suite green; screenshots at 390 px, dark and print reviewed
   - Files: tests/e2e.js, tests/e2e-school.js
+  - Completed: 2026-10-02 — tests/e2e.js counts from app/data (chapter + school groups, ch3 items/sections/total); loops every real school paper (practice: no answers/topics in DOM; checking: every answer + ⚑ + disclaimer; full marks = printed total). Found and fixed: topic tags leaked answers in practice mode (sp07 'community') → topics only in checking mode; list subtitle no longer says every paper is 100 marks. tests/run-e2e.js (npm run test:e2e): e2e 40/40, e2e-school 58/58. Screenshots tests/screenshots/task33-*. Owner confirmed answers correct
 - [ ] Task 34: Deploy config: retire `deploy/check.js` and `deploy/expected.json`; root `vercel.json` stops rebuilding on Vercel without the secret; single-file `npm run build` + CLI deploy documented in the README (P0)
   - Acceptance: a dry run (`vercel build` or a preview deploy) serves `index.html` only. **STOP — owner approves the production deploy**
   - Files: vercel.json, deploy/*, README.md

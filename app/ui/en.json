@@ -18,7 +18,7 @@
   "theme.dark": "Dark",
 
   "chapters.greeting": "Hello, {name}!",
-  "chapters.subtitle": "Pick a chapter. Each paper is {marks} marks and takes about {minutes} minutes.",
+  "chapters.subtitle": "Pick a paper. Each chapter paper is {marks} marks and takes about {minutes} minutes; school papers show their printed marks.",
   "chapters.chapterLabel": "Chapter {n}",
   "chapters.mockLabel": "Half-Yearly",
   "chapters.cardMeta": "{items} questions · {marks} marks",

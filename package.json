@@ -13,7 +13,8 @@
     "test:fixtures": "node tests/fixtures.js && node tests/fidelity-fixtures.js",
     "check:existing": "node scripts/hash-existing.js --check",
     "test:assets": "node tests/assets.js",
-    "test:brief": "node tests/brief.js"
+    "test:brief": "node tests/brief.js",
+    "test:e2e": "node tests/run-e2e.js"
   },
   "license": "UNLICENSED",
   "devDependencies": {

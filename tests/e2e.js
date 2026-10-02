@@ -4,6 +4,16 @@ const { chromium } = require(process.env.NPM_GLOBAL ? require.resolve('playwrigh
 const fs = require('fs');
 const URL = process.env.URL || 'http://localhost:4173/';
 const CODE = process.env.GANESH_EVS || (fs.readFileSync(__dirname + '/../.env.local', 'utf8').match(/GANESH_EVS=(.*)/) || [])[1];
+const path = require('path');
+// Counts come from the paper data, never hard-coded (Task 33).
+const DATA = path.join(__dirname, '..', 'app', 'data');
+const PAPERS = fs.readdirSync(DATA).filter(f => /^evs-.*\.json$/.test(f)).map(f => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8')));
+const CHAPTERS = PAPERS.filter(p => p.kind !== 'school').sort((a, b) => (a.chapter || 99) - (b.chapter || 99));
+const SCHOOL = PAPERS.filter(p => p.kind === 'school').sort((a, b) => a.sp.localeCompare(b.sp));
+const itemsOf = (p) => p.sections.reduce((n, s) => n + s.blocks.reduce((m, b) => m + b.items.length, 0), 0);
+const CH3 = CHAPTERS.find(p => p.chapter === 3);
+const CH3_INDEX = CHAPTERS.indexOf(CH3), CH3_ITEMS = itemsOf(CH3);
+const fmtTotal = (n) => String(n).replace('.5', '½');
 const results = [];
 function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); console.log((ok ? '✓ ' : '✗ ') + name + (extra ? '  (' + extra + ')' : '')); }
 
@@ -22,15 +32,18 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
   check('wrong login shows error', await page.isVisible('#login-error'));
   await page.fill('#login-pass', '2026'); await page.click('#login-form button[type=submit]');
   await page.waitForSelector('#screen-chapters:not([hidden])');
-  const cards = await page.$$('.chapter-card');
-  check('chapter list has 6 papers', cards.length === 6, cards.length);
+  const cards = await page.$$('[data-testid=paper-group-chapters] .chapter-card');
+  check(`chapter list has ${CHAPTERS.length} chapter papers`, cards.length === CHAPTERS.length, cards.length);
+  const schoolCards = await page.$$('[data-testid=paper-group-school] .chapter-card');
+  check(`School Papers group has ${SCHOOL.length} papers`, schoolCards.length === SCHOOL.length, schoolCards.length);
+  await page.screenshot({ path: path.join(__dirname, 'screenshots', 'task33-01-paper-list.png'), fullPage: true });
   check('no horizontal scroll at 390px (chapters)', await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1));
 
   // Open chapter 3
-  await cards[2].click();
+  await cards[CH3_INDEX].click();
   await page.waitForSelector('#screen-paper:not([hidden])');
   const itemCount = await page.$$eval('.item', n => n.length);
-  check('paper renders 60 items', itemCount === 60, itemCount);
+  check(`paper renders ${CH3_ITEMS} items`, itemCount === CH3_ITEMS, itemCount);
   const visible = await page.$eval('#paper', n => n.innerText);
   check('practice mode: no answer text in rendered paper', !visible.includes('Model answer') && !/Mark split/.test(visible) && (await page.$$('.answer')).length === 0);
   check('practice mode: no reveal / mark buttons', (await page.$$('.item-check')).length === 0 && (await page.$$('.mark-btn')).length === 0);
@@ -64,18 +77,19 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
   await firstToggle.click();
   check('reveal hides again', (await page.$$('.answer')).length === 0);
   await page.click('#show-all-btn');
-  check('show all reveals every answer', (await page.$$('.answer')).length === 60);
+  check('show all reveals every answer', (await page.$$('.answer')).length === CH3_ITEMS);
   await page.click('#show-all-btn');
   check('show all again hides all', (await page.$$('.answer')).length === 0);
 
   // Full marks everywhere
   await page.$$eval('.marks-row', rows => rows.forEach(r => { const b = r.querySelectorAll('.mark-btn'); b[b.length - 1].click(); }));
   const score = await page.textContent('#score-value');
-  check('full marks total exactly 100', score.replace(/\s/g, '') === '100/100', score);
+  check(`full marks total exactly ${CH3.totalMarks}`, score.replace(/\s/g, '') === `${CH3.totalMarks}/${CH3.totalMarks}`, score);
   await page.click('#result-btn');
   await page.waitForSelector('#screen-result:not([hidden])');
   const rows = await page.$$eval('#result-table tbody tr', trs => trs.map(tr => Array.from(tr.children).map(td => td.textContent)));
-  check('result section-wise figures', JSON.stringify(rows.map(r => r[1])) === JSON.stringify(['20', '10', '20', '20', '14', '16', '100']), JSON.stringify(rows.map(r => r[1])));
+  const wantRows = CH3.sections.map(s => String(s.marks)).concat(String(CH3.totalMarks));
+  check('result section-wise figures', JSON.stringify(rows.map(r => r[1])) === JSON.stringify(wantRows), JSON.stringify(rows.map(r => r[1])));
   check('result: no unmarked warning', await page.isHidden('#result-warning'));
   await page.click('#result-back');
 
@@ -87,8 +101,8 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
   await page.waitForSelector('#screen-chapters:not([hidden])');
   check('reload returns to chapter list (session kept)', true);
   const prog = await page.$$eval('.chapter-card .progress', n => n.map(x => x.textContent));
-  check('marks survive reload (card shows 60 of 60)', prog.some(p => p.includes('60 of 60')), prog.join('|'));
-  await (await page.$$('.chapter-card'))[2].click();
+  check(`marks survive reload (card shows ${CH3_ITEMS} of ${CH3_ITEMS})`, prog.some(p => p.includes(`${CH3_ITEMS} of ${CH3_ITEMS}`)), prog.join('|'));
+  await (await page.$$('[data-testid=paper-group-chapters] .chapter-card'))[CH3_INDEX].click();
   await page.waitForSelector('#screen-paper:not([hidden])');
   check('paper opens in practice mode after reload', await page.isHidden('#check-tools') && (await page.$$('.mark-btn')).length === 0);
 
@@ -106,16 +120,43 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
   // Dark theme renders
   await page.selectOption('#theme-select', 'dark');
   check('dark theme applied', await page.evaluate(() => document.documentElement.getAttribute('data-theme') === 'dark'));
-  await page.screenshot({ path: __dirname + '/shot-paper-dark.png', fullPage: false });
+  await page.screenshot({ path: path.join(__dirname, 'screenshots', 'task33-chapter-dark.png'), fullPage: false });
   await page.selectOption('#theme-select', 'light');
-  await page.screenshot({ path: __dirname + '/shot-paper-light.png', fullPage: false });
+  await page.screenshot({ path: path.join(__dirname, 'screenshots', 'task33-chapter-light.png'), fullPage: false });
 
-  // Other papers open without errors
-  for (let i = 0; i < 6; i++) {
+  // Other chapter papers open without errors
+  for (let i = 0; i < CHAPTERS.length; i++) {
     await page.click('#paper-back'); await page.waitForSelector('#screen-chapters:not([hidden])');
-    await (await page.$$('.chapter-card'))[i].click(); await page.waitForSelector('#screen-paper:not([hidden])');
+    await (await page.$$('[data-testid=paper-group-chapters] .chapter-card'))[i].click(); await page.waitForSelector('#screen-paper:not([hidden])');
+    const n = await page.$$eval('.item', x => x.length);
+    if (n !== itemsOf(CHAPTERS[i])) check(`chapter paper ${i + 1} item count`, false, n);
   }
-  check('all six papers open', true);
+  check(`all ${CHAPTERS.length} chapter papers open with the right item counts`, true);
+
+  // Every real school paper: practice (no answers in the DOM), checking (every answer), printed total
+  for (const sp of SCHOOL) {
+    const n = itemsOf(sp);
+    await page.click('#paper-back'); await page.waitForSelector('#screen-chapters:not([hidden])');
+    await page.click(`[data-testid=school-card-${sp.sp}]`); await page.waitForSelector('#screen-paper:not([hidden])');
+    const shown = await page.$$eval('.item', x => x.length);
+    const leaked = await page.$$eval('[data-testid=answer-box],[data-testid=acceptable],[data-testid=rubric],[data-testid=teacher-note],[data-testid=flag],[data-testid=answer-asset],[data-testid=checking-disclaimer],[data-testid=topics]', x => x.length);
+    const noScroll = await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
+    await page.screenshot({ path: path.join(__dirname, 'screenshots', `task33-${sp.sp}-practice.png`) });
+    await page.click('#mode-toggle'); await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
+    await page.waitForSelector('#check-tools:not([hidden])');
+    await page.click('#show-all-btn');
+    const boxes = await page.$$eval('[data-testid=answer-box]', x => x.length);
+    const flags = await page.$$eval('[data-testid=flag]', x => x.length);
+    const wantFlags = sp.sections.reduce((a, s) => a + s.blocks.reduce((b, bl) => b + bl.items.filter(i => i.answerConfidence === 'check').length, 0), 0);
+    const disclaimer = await page.$$eval('[data-testid=checking-disclaimer]', x => x.length);
+    await page.$$eval('.marks-row', rows => rows.forEach(r => { const b = r.querySelectorAll('.mark-btn'); b[b.length - 1].click(); }));
+    const score = (await page.textContent('#score-value')).replace(/\s/g, '');
+    await page.screenshot({ path: path.join(__dirname, 'screenshots', `task33-${sp.sp}-checking.png`) });
+    check(`${sp.sp}: ${n} items, no answers in practice mode, ${n} answers + ${wantFlags} ⚑ in checking mode, full marks = ${fmtTotal(sp.totalMarks)}`,
+      shown === n && leaked === 0 && noScroll && boxes === n && flags === wantFlags && disclaimer === 1 && score === `${fmtTotal(sp.totalMarks)}/${fmtTotal(sp.totalMarks)}`,
+      `items ${shown}, leaked ${leaked}, scroll ${noScroll}, answers ${boxes}, flags ${flags}, disclaimer ${disclaimer}, score ${score}`);
+    await page.click('#mode-toggle');
+  }
   check('no JavaScript errors in console', errors.length === 0, errors.join(' | ').slice(0, 200));
 
   await browser.close();

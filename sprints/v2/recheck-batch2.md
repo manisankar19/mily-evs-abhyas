@@ -27,3 +27,6 @@ None. All agents flagged at or above the intake estimate. Total: 171 ⚑ of 253 
 - Map, encircle, drawing and word-search items are paper-based (Gate 0b).
 
 **Parent reads `sprints/v2/answer-review/sp03.md`, `sp04.md` and `sp06.md` (and sp01, sp05, sp07) before the child uses these papers.**
+
+## Owner review
+2026-10-02: the owner reviewed the answers and confirmed: "answers are correct". The open ₹500 language-count question is settled as authored (2 / 15 / 17 accepted, ⚑).

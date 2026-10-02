@@ -109,8 +109,8 @@ const server = http.createServer((req, res) => {
   check('paper: stimulus picture loads (inlined data: URI)', img.w > 0 && img.src.startsWith('data:image/svg+xml'), JSON.stringify(img));
   const pd = await page.$eval('[data-testid=picture-description]', n => ({ t: n.textContent, s: getComputedStyle(n).fontStyle })).catch(() => ({}));
   check('paper: pictureDescription as an italic note', pd.t && pd.t.includes(byType('short').pictureDescription) && pd.s === 'italic', JSON.stringify(pd));
-  const topics = await page.$$eval('[data-testid=topics] li', n => n.map(x => x.textContent));
-  check('paper: topics as tags', topics.includes('cooking') && topics.includes('hygiene'), topics.length);
+  // Topic tags can name the answer (e.g. "community"), so they appear only in checking mode.
+  check('practice: no topic tags (they can give the answer away)', (await page.$$('[data-testid=topics]')).length === 0);
   const opts = await page.$$eval(`.item[data-id="${byType('mcq').id}"] .options li`, n => n.map(x => x.textContent));
   check('paper: MCQ options rendered', JSON.stringify(opts) === JSON.stringify(byType('mcq').options));
   check('paper: match table rendered', await count(`.item[data-id="${byType('match').id}"] .match-table tbody tr`) === byType('match').pairs.length);
@@ -148,6 +148,8 @@ const server = http.createServer((req, res) => {
   await page.click('#mode-toggle');
   await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
   await page.waitForSelector('#check-tools:not([hidden])');
+  const topics = await page.$$eval('[data-testid=topics] li', n => n.map(x => x.textContent));
+  check('checking: topics as tags', topics.includes('cooking') && topics.includes('hygiene'), topics.length);
   const disc = await page.$$eval('[data-testid=checking-disclaimer]', n => n.map(x => x.textContent));
   check('checking: disclaimer line once, exact text', disc.length === 1 && disc[0] === DISCLAIMER, disc.join('|'));
   const flagged = items.filter(i => i.answerConfidence === 'check').map(i => i.id).sort();

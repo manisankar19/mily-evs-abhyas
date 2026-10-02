@@ -361,7 +361,8 @@
       ]));
     }
     if (item.pictureDescription) body.appendChild(el('p', { class: 'picture-desc', 'data-testid': 'picture-description', text: t('paper.pictureNote', { text: item.pictureDescription }) }));
-    if (Array.isArray(item.topics) && item.topics.length) body.appendChild(el('ul', { class: 'topics', 'data-testid': 'topics' }, item.topics.map(x => el('li', { text: x }))));
+    // Topic tags can name the answer (e.g. "community"), so they exist only in checking mode.
+    if (state.checking && Array.isArray(item.topics) && item.topics.length) body.appendChild(el('ul', { class: 'topics', 'data-testid': 'topics' }, item.topics.map(x => el('li', { text: x }))));
     return body;
   }
 
