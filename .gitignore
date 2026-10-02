@@ -3,3 +3,4 @@ dist/
 node_modules/
 .vercel/
 source/page-images/
+.claude/worktrees/

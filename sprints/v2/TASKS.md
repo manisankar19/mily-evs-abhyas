@@ -113,16 +113,20 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Files: sprints/v2/recheck-batch3.md
 
 ### Phase 8 — App (brief §7)
-- [ ] Task 29: `build.js`: no hard-coded counts; per-paper totals instead of `config.totalMarks`; unique split filenames (`evs-spNN.json`); a "School Papers" group with short labels (from intake) in confirmed order (P0)
+- [x] Task 29: `build.js`: no hard-coded counts; per-paper totals instead of `config.totalMarks`; unique split filenames (`evs-spNN.json`); a "School Papers" group with short labels (from intake) in confirmed order (P0)
   - Acceptance: build succeeds; the built list shows 6 + 7 papers; the existing paper hashes are unchanged
   - Files: build.js, app/ui/en.json
-- [ ] Task 30: `app.js` and `styles.css` render labels, headings, topic tags, pictureDescription, SVG pictures, underline spans and ½ marks ("2½") (P0)
+  - Completed: 2026-10-02 — build.js: per-paper totals, unique split names, sp order, answerAsset inlining, --data-dir/--intake/--review-dir/--out-dir flags; reads only evs-*.json
+- [x] Task 30: `app.js` and `styles.css` render labels, headings, topic tags, pictureDescription, SVG pictures, underline spans and ½ marks ("2½") (P0)
   - Acceptance: a school paper renders at 390 px and on desktop, in light, dark and print
   - Files: app/app.js, app/styles.css
-- [ ] Task 31: Checking mode for school papers (answer, acceptable, rubric, model answer, ⚑, teacherNote, the disclaimer line); choice items match on the chosen text, not position; the result uses the printed total; the checking UI is absent from the DOM in practice mode (P0)
+  - Completed: 2026-10-02 — School Papers group (shortLabel + printed total), header/title/sections verbatim, adaptation, labels, underline (DOM nodes), pictureDescription, pictures, topics, ½ marks; 390px/dark/print
+- [x] Task 31: Checking mode for school papers (answer, acceptable, rubric, model answer, ⚑, teacherNote, the disclaimer line); choice items match on the chosen text, not position; the result uses the printed total; the checking UI is absent from the DOM in practice mode (P0)
   - Acceptance: manual check on one school paper; chapter papers render as before
   - Files: app/app.js, app/ui/en.json
-- [ ] Task 32: Commit the app and build changes (P0)
+  - Completed: 2026-10-02 — checking mode: answer, acceptable, rubric, model answer, guide, ⚑, teacherNote, answerAsset, disclaimer; absent in practice mode; ½-step marking; text-matched choices; printed total in result. tests/e2e-school.js 56/56; existing e2e 33/33
+- [x] Task 32: Commit the app and build changes (P0)
+  - Completed: 2026-10-02 — worktree commit a06dc4b cherry-picked as ebcd436; verified on a build of the committed data (9 papers, 475 items, 1157 KB, hash present/plaintext absent); real sp05 practice + checking (map key) checked in browser
 
 ### Phase 9 — Test & deploy (brief §8)
 - [ ] Task 33: e2e: counts come from the data, not hard-coded; new school-paper spec (practice, checking, marking ½ marks, result shows the printed total, no answers in the DOM in practice mode) (P0)
