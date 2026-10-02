@@ -114,3 +114,12 @@ e.g. "Do this on the printed sheet; your parent marks it." or "Each row of the t
 - Fidelity line (`X/Y matched, F fallback`) and why each fallback was needed
 - Any HARD STOP items, with the question and why no answer is defensible
 - Anything the coordinator should re-derive
+
+## 9. Lessons from batch 1 (coordinator, after re-check)
+- `scripts/fidelity.js` now matches printed marks with or without spaces ("(6x1=6 )" = "( 6 x 1 = 6 )") and number-only options ("6"). Do not add fallbackText for these. After fidelity passes, run `node scripts/prune-fallback.js spNN` to drop any entries that are no longer needed, then regenerate the sheet.
+- The paper `title` and `header` are not fidelity-checked: never add a fallbackText entry for them (validate rejects `where: "title"`).
+- **Picture-naming items:** if you accept a general name for one picture ("bird"), accept the matching general name for every picture in that block ("insect", "animal"), and mark those items ⚑.
+- **Every drawn object must show its defining features** so that it cannot be mistaken for something else: a webbed foot needs separate toes with the web between them; a cooking method needs its vessel and heat source. Look at it at 2× and ask: "would a nine-year-old name this correctly?"
+- Panel numerals: circle radius at least 27 and font size 28 (in a ~400-wide panel), so they read at phone width.
+- Printed signboards in a scene (e.g. "SCHOOL") may be kept when the printed picture has them.
+- Over-flagging is fine; consistency matters more. If two similar items differ in ⚑, say why in the teacherNote.

@@ -88,13 +88,17 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Acceptance: brief saved at `sprints/v2/subagent-brief.md`, quoting brief §4 and §6
   - Files: sprints/v2/subagent-brief.md
   - Completed: 2026-10-02 — sprints/v2/subagent-brief.md quotes instruction §4/§6 verbatim (tests/brief.js 50/50 checks quotes, required rules, paths). Added for the brief: source/textbook-text/ch1–5.txt (page+line numbered for sourceRef); item answerAsset (checking-mode key, e.g. map-key.js) and block adaptation (keeps printed instruction verbatim) in SCHEMA/validator/review sheet with fixtures (35/35)
-- [ ] Task 19: Batch 1 paper A = **sp05**: sub-agent writes JSON and assets → validate + fidelity + sheet → one commit (P0)
+- [x] Task 19: Batch 1 paper A = **sp05**: sub-agent writes JSON and assets → validate + fidelity + sheet → one commit (P0)
   - Files: app/data/evs-spNN.json, app/assets/spNN-*.svg, sprints/v2/answer-review/spNN.md
-- [ ] Task 20: Batch 1 paper B = **sp07** (same as Task 19; Q. 6 pictures 4–5 accept place/activity names, ⚑ + teacherNote) (P0)
-- [ ] Task 21: Batch 1 paper C = **sp01** (same as Task 19) (P0)
-- [ ] Task 22: Coordinator re-check of batch 1 (not delegated): re-derive every ⚑ answer from the textbook PDFs; sweep every non-⚑ objective item for a missed ⚑ or a narrow `acceptable`; check pictures are drawn, not described; check fallback text against the page images; tighten the sub-agent brief if it under-flagged (P0)
+  - Completed: 2026-10-02 — sp05: 41 items, 25 ⚑, fidelity 87/87 (fallback 12→0 after fidelity.js fix); commit bca8d6b
+- [x] Task 20: Batch 1 paper B = **sp07** (same as Task 19; Q. 6 pictures 4–5 accept place/activity names, ⚑ + teacherNote) (P0)
+  - Completed: 2026-10-02 — sp07: 37 items, 15 ⚑, fidelity 75/75, 2 new SVGs + map key; commit b2b5e98
+- [x] Task 21: Batch 1 paper C = **sp01** (same as Task 19) (P0)
+  - Completed: 2026-10-02 — sp01: 37 items, 22 ⚑, fidelity 89/89, 2 new SVGs (Q4 foot redrawn at re-check); commit 4dfe105
+- [x] Task 22: Coordinator re-check of batch 1 (not delegated): re-derive every ⚑ answer from the textbook PDFs; sweep every non-⚑ objective item for a missed ⚑ or a narrow `acceptable`; check pictures are drawn, not described; check fallback text against the page images; tighten the sub-agent brief if it under-flagged (P0)
   - Acceptance: corrections committed; re-check notes in `sprints/v2/recheck-batch1.md`. **STOP — batch gate:** parent reads the sheets
   - Files: sprints/v2/recheck-batch1.md, sprints/v2/subagent-brief.md
+  - Completed: 2026-10-02 — sprints/v2/recheck-batch1.md; corrections in sp05 Q8e, sp01 Q4/Q8; brief §9 added. Batch gate: owner asked to run on to Task 32; parent reads the sheets before deploy (Task 34 gate)
 
 ### Phase 6 — Papers, batch 2
 - [ ] Task 23: Batch 2 paper D = **sp04** (as Task 19; 100% fallbackText from the transcript) (P0)
