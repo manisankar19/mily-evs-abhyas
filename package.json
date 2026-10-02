@@ -17,7 +17,8 @@
     "test:e2e": "node tests/run-e2e.js",
     "test:deploy": "node tests/deploy-config.js",
     "test:build": "node tests/build-assets.js",
-    "test:live": "node tests/e2e-live.js"
+    "test:live": "node tests/e2e-live.js",
+    "test:walkthrough": "node tests/walkthrough.js"
   },
   "license": "UNLICENSED",
   "devDependencies": {
