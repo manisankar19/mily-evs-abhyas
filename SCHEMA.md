@@ -49,7 +49,7 @@ A "required" string must be present and not `""`. The raw file must not contain 
 | `block.num` | string | required, the printed question number (`Q.1`, `Q1`) |
 | `block.instruction` | string | the printed instruction verbatim |
 | `block.passage` | string | optional, a printed passage verbatim |
-| `block.stimulus` | object | optional: `asset` (must match `assets/<lowercase-name>.svg|png|jpg`, so no path traversal, and must exist under `app/`; applies to every paper, and no existing paper has a stimulus), `caption` (required when there is an `asset`), `alt` |
+| `block.stimulus` | object | optional: `asset` (must match `assets/<lowercase-name>.svg` (or `.png`, `.jpg`), so no path traversal, and must exist under `app/`; applies to every paper, and no existing paper has a stimulus), `caption` (required when there is an `asset`), `alt` |
 | `block.items` | array | the items |
 
 ## 3. Item fields
