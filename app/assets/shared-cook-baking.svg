@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<title>Cooking picture A</title>
+<desc>A kitchen box with a glass door and a tray of small cakes inside.</desc>
+<rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="30" y1="272" x2="370" y2="272"/>
+<rect x="88" y="256" width="22" height="16" fill="#6b5a4e"/>
+<rect x="290" y="256" width="22" height="16" fill="#6b5a4e"/>
+<rect x="70" y="30" width="260" height="228" rx="16" fill="#f3dfb8"/>
+<rect x="70" y="30" width="260" height="42" rx="16" fill="#e8c48f"/>
+<circle cx="110" cy="51" r="11" fill="#fff8ea"/><line x1="110" y1="51" x2="110" y2="42"/>
+<circle cx="150" cy="51" r="11" fill="#fff8ea"/><line x1="150" y1="51" x2="157" y2="45"/>
+<rect x="232" y="42" width="72" height="18" rx="5" fill="#5a4a40"/>
+<rect x="88" y="84" width="224" height="160" rx="12" fill="#e2c597"/>
+<rect x="138" y="92" width="124" height="10" rx="5" fill="#b9bcc0"/>
+<rect x="104" y="110" width="192" height="122" rx="8" fill="#fff1d2"/>
+<!-- heat glow band near the bottom element -->
+<path d="M106 230 L106 196 Q200 178 294 196 L294 230 Z" fill="#ffd9a0" stroke="none"/>
+<!-- bottom element -->
+<path d="M114 214 H286" stroke="#3b2a20" stroke-width="11"/>
+<path d="M114 214 H286" stroke="#e8562f" stroke-width="5"/>
+<!-- heat waves rising -->
+<g fill="none" stroke-width="2.5">
+<path d="M135 202 q5 -5 0 -10 q-5 -5 0 -10"/>
+<path d="M175 202 q5 -5 0 -10 q-5 -5 0 -10"/>
+<path d="M215 202 q5 -5 0 -10 q-5 -5 0 -10"/>
+<path d="M255 202 q5 -5 0 -10 q-5 -5 0 -10"/>
+</g>
+<!-- rack -->
+<line x1="106" y1="178" x2="294" y2="178" stroke-width="2.5"/>
+<!-- muffin tray -->
+<rect x="118" y="168" width="164" height="10" rx="3" fill="#9a9ea4"/>
+<g fill="#f6a85a">
+<path d="M126 168 L122 148 H158 L154 168 Z"/>
+<path d="M166 168 L162 148 H198 L194 168 Z"/>
+<path d="M206 168 L202 148 H238 L234 168 Z"/>
+<path d="M246 168 L242 148 H278 L274 168 Z"/>
+</g>
+<g fill="none" stroke-width="2">
+<path d="M131 166 L129 151 M140 166 V151 M149 166 L151 151"/>
+<path d="M171 166 L169 151 M180 166 V151 M189 166 L191 151"/>
+<path d="M211 166 L209 151 M220 166 V151 M229 166 L231 151"/>
+<path d="M251 166 L249 151 M260 166 V151 M269 166 L271 151"/>
+</g>
+<g fill="#b06a2e">
+<path d="M119 149 Q120 126 140 125 Q160 126 161 149 Z"/>
+<path d="M159 149 Q160 126 180 125 Q200 126 201 149 Z"/>
+<path d="M199 149 Q200 126 220 125 Q240 126 241 149 Z"/>
+<path d="M239 149 Q240 126 260 125 Q280 126 281 149 Z"/>
+</g>
+<g fill="#3b2a20" stroke="none">
+<circle cx="133" cy="137" r="2.2"/><circle cx="146" cy="140" r="2.2"/>
+<circle cx="174" cy="135" r="2.2"/><circle cx="187" cy="141" r="2.2"/>
+<circle cx="214" cy="139" r="2.2"/><circle cx="227" cy="134" r="2.2"/>
+<circle cx="254" cy="136" r="2.2"/><circle cx="267" cy="141" r="2.2"/>
+</g>
+<!-- glass shine -->
+<path d="M118 122 L138 116 M118 132 L150 122" stroke="#ffffff" stroke-width="3"/>
+</g>
+</svg>

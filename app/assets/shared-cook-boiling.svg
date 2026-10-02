@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<title>Cooking picture D</title>
+<desc>An open pot of water on a stove with eggs inside.</desc>
+<defs>
+<path id="fl" d="M0 0 C-9 -8 -8 -20 0 -32 C8 -20 9 -8 0 0 Z"/>
+<path id="fs" d="M0 0 C-4 -4 -4 -10 0 -16 C4 -10 4 -4 0 0 Z"/>
+</defs>
+<rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- stove -->
+<rect x="90" y="262" width="220" height="22" rx="6" fill="#6b5a4e"/>
+<g fill="#f0913a"><use href="#fl" x="155" y="262"/><use href="#fl" x="185" y="262"/><use href="#fl" x="215" y="262"/><use href="#fl" x="245" y="262"/></g>
+<g fill="#ffd34d" stroke-width="2"><use href="#fs" x="155" y="262"/><use href="#fs" x="185" y="262"/><use href="#fs" x="215" y="262"/><use href="#fs" x="245" y="262"/></g>
+<!-- handles -->
+<path d="M100 104 H80 Q72 104 72 112 V118 Q72 126 80 126 H100" fill="#8d9196"/>
+<path d="M300 104 H320 Q328 104 328 112 V118 Q328 126 320 126 H300" fill="#8d9196"/>
+<!-- open pot, seen as if the front were clear -->
+<path d="M100 80 V218 Q100 238 120 238 H280 Q300 238 300 218 V80" fill="#eef0f2"/>
+<!-- water -->
+<path d="M103 112 Q118 104 133 112 T163 112 T193 112 T223 112 T253 112 T283 112 Q290 108 297 110 V218 Q297 235 280 235 H120 Q103 235 103 218 Z" fill="#bfe0ef"/>
+<!-- rim -->
+<ellipse cx="200" cy="80" rx="104" ry="14" fill="#cfd2d6"/>
+<ellipse cx="200" cy="80" rx="92" ry="8" fill="#8d9196"/>
+<!-- eggs under the water -->
+<g fill="#fff8ea">
+<ellipse cx="150" cy="212" rx="22" ry="17" transform="rotate(-15 150 212)"/>
+<ellipse cx="203" cy="214" rx="22" ry="17" transform="rotate(10 203 214)"/>
+<ellipse cx="252" cy="208" rx="22" ry="17" transform="rotate(-5 252 208)"/>
+</g>
+<!-- big bubbles rising -->
+<g fill="#ffffff">
+<circle cx="130" cy="172" r="12"/><circle cx="180" cy="158" r="15"/><circle cx="228" cy="180" r="10"/><circle cx="268" cy="156" r="14"/>
+<circle cx="150" cy="138" r="7"/><circle cx="210" cy="132" r="9"/><circle cx="250" cy="128" r="6"/><circle cx="118" cy="128" r="5"/>
+<circle cx="180" cy="196" r="5"/><circle cx="228" cy="196" r="5"/>
+</g>
+<!-- bubbles breaking the surface, with splashes -->
+<g fill="#ffffff">
+<circle cx="146" cy="108" r="8"/><circle cx="200" cy="110" r="6"/><circle cx="256" cy="107" r="9"/>
+</g>
+<g fill="none" stroke-width="2.5">
+<path d="M146 94 V86"/><path d="M134 98 L128 92"/><path d="M158 98 L164 92"/>
+<path d="M256 92 V84"/><path d="M243 96 L237 90"/><path d="M269 96 L275 90"/>
+</g>
+<!-- pot outline drawn again on top -->
+<path d="M100 80 V218 Q100 238 120 238 H280 Q300 238 300 218 V80" fill="none"/>
+</g>
+</svg>

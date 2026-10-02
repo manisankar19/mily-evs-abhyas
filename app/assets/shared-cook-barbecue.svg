@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<title>Cooking picture F</title>
+<desc>A round bowl on three legs, used outdoors, with corn and sticks of food on top.</desc>
+<rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- grass line -->
+<path d="M20 276 H380" />
+<path d="M60 276 l4 -8 l4 8 M300 276 l4 -8 l4 8 M340 276 l3 -6 l3 6" fill="none" stroke-width="2.5"/>
+<!-- legs -->
+<path d="M140 200 L112 274" stroke-width="7"/>
+<path d="M260 200 L288 274" stroke-width="7"/>
+<path d="M200 214 L200 268" stroke-width="7"/>
+<circle cx="112" cy="272" r="6" fill="#3b3b3b"/><circle cx="288" cy="272" r="6" fill="#3b3b3b"/>
+<!-- bowl -->
+<path d="M84 140 Q86 222 200 224 Q314 222 316 140 Z" fill="#3b3b3b"/>
+<path d="M110 176 Q120 204 160 212" fill="none" stroke="#8d9196" stroke-width="4"/>
+<circle cx="200" cy="196" r="6" fill="#8d9196"/>
+<!-- inside of bowl with glowing coals -->
+<ellipse cx="200" cy="140" rx="116" ry="34" fill="#5a4a40"/>
+<g fill="#f0913a">
+<path d="M110 146 l12 -10 l16 2 l6 12 l-14 8 l-16 -2 Z"/>
+<path d="M146 156 l10 -12 l18 0 l6 12 l-12 10 l-18 -2 Z"/>
+<path d="M188 160 l8 -12 l18 -2 l8 12 l-10 10 l-18 0 Z"/>
+<path d="M230 156 l10 -12 l18 2 l4 12 l-14 8 l-16 -2 Z"/>
+<path d="M268 146 l12 -10 l14 4 l2 10 l-12 6 l-14 -2 Z"/>
+<path d="M160 128 l10 -8 l14 2 l4 10 l-12 6 l-14 -2 Z"/>
+<path d="M214 126 l10 -8 l14 2 l4 10 l-12 6 l-14 -2 Z"/>
+</g>
+<g fill="#ffd34d" stroke="none">
+<circle cx="126" cy="146" r="4"/><circle cx="162" cy="155" r="4"/><circle cx="205" cy="158" r="4"/><circle cx="246" cy="155" r="4"/><circle cx="282" cy="146" r="3.5"/><circle cx="175" cy="128" r="3.5"/><circle cx="228" cy="126" r="3.5"/>
+</g>
+<!-- grate -->
+<ellipse cx="200" cy="138" rx="112" ry="30" fill="none" stroke-width="3"/>
+<g stroke-width="2.5" fill="none">
+<path d="M110 120 V156 M130 113 V164 M150 110 V167 M170 108 V168 M190 108 V168 M210 108 V168 M230 108 V168 M250 110 V167 M270 113 V164 M290 120 V156"/>
+</g>
+<!-- rim -->
+<ellipse cx="200" cy="140" rx="116" ry="34" fill="none" stroke-width="5"/>
+<!-- skewers -->
+<g>
+<line x1="96" y1="128" x2="236" y2="110" stroke-width="4"/>
+<rect x="114" y="112" width="22" height="20" rx="4" fill="#c9773a" transform="rotate(-7 125 122)"/>
+<rect x="142" y="109" width="22" height="20" rx="4" fill="#e8562f" transform="rotate(-7 153 119)"/>
+<rect x="170" y="105" width="22" height="20" rx="4" fill="#c9773a" transform="rotate(-7 181 115)"/>
+<rect x="198" y="102" width="22" height="20" rx="4" fill="#7bb661" transform="rotate(-7 209 112)"/>
+<path d="M118 120 l6 8 M146 116 l6 8 M174 112 l6 8 M202 109 l6 8" stroke-width="2.5"/>
+</g>
+<g>
+<line x1="118" y1="160" x2="262" y2="142" stroke-width="4"/>
+<rect x="136" y="144" width="22" height="20" rx="4" fill="#e8562f" transform="rotate(-7 147 154)"/>
+<rect x="164" y="141" width="22" height="20" rx="4" fill="#c9773a" transform="rotate(-7 175 151)"/>
+<rect x="192" y="137" width="22" height="20" rx="4" fill="#7bb661" transform="rotate(-7 203 147)"/>
+<rect x="220" y="134" width="22" height="20" rx="4" fill="#c9773a" transform="rotate(-7 231 144)"/>
+<path d="M140 152 l6 8 M168 148 l6 8 M196 145 l6 8 M224 142 l6 8" stroke-width="2.5"/>
+</g>
+<!-- corn -->
+<g transform="rotate(-10 268 122)">
+<rect x="236" y="112" width="58" height="22" rx="11" fill="#ffd34d"/>
+<path d="M248 113 V133 M260 112 V134 M272 112 V134 M284 113 V133" stroke-width="2"/>
+<path d="M248 124 H290" stroke-width="2"/>
+<path d="M294 123 q16 -12 26 -4 q-10 2 -26 8" fill="#7bb661"/>
+</g>
+<!-- smoke -->
+<g fill="none" stroke="#8d9196" stroke-width="4">
+<path d="M160 96 C148 84 170 74 158 60 C148 48 166 40 160 30"/>
+<path d="M214 92 C202 78 226 70 212 54 C202 42 220 32 214 22"/>
+<path d="M256 98 C246 88 264 80 256 68"/>
+</g>
+</g>
+</svg>

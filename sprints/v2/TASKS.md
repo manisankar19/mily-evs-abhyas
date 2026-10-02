@@ -78,9 +78,10 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Completed: 2026-10-02 — two commits; semgrep: path-join warnings only, reviewed (inputs regex-checked); npm audit 0
 
 ### Phase 4 — Shared pictures (brief §4)
-- [ ] Task 17: From the intake picture list, draw shared SVGs used by 2 or more papers (labelling diagrams with numbered blanks, no labels shown); view each at 2×; check that alt text does not give the answer away and that no picture shows unsafe behaviour (P1)
+- [x] Task 17: From the intake picture list, draw shared SVGs used by 2 or more papers (labelling diagrams with numbered blanks, no labels shown); view each at 2×; check that alt text does not give the answer away and that no picture shows unsafe behaviour (P1)
   - Acceptance: each shared SVG is listed with the papers and questions that use it; skip with a note if none are shared
   - Files: app/assets/shared-*.svg
+  - Completed: 2026-10-02 — 11 shared SVGs: India state map (Natural Earth public domain, India POV boundary; scripts/build-india-map.sh, map-key.js for checking-mode keys), 6 cooking methods + solar cooker, ₹100 front / ₹500 front+back banknotes (SPECIMEN, simplified; scripts/gen-notes.js). tests/assets.js 78/78, each viewed at 2×. Indic scripts need device fonts (Windows/Android/iOS ship them; build host shows tofu)
 
 ### Phase 5 — Papers, batch 1 (sp05, sp07, sp01; Gate 0b 2026-10-02)
 - [ ] Task 18: Write the sub-agent brief (exact copying rules, item-type mapping, wide `acceptable` with Hindi-English, local and regional names, ⚑ rules, teacherNote, picture rules, writes only its own JSON and assets) (P0)

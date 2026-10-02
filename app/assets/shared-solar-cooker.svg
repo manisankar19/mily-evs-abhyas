@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<title>Cooking picture G</title>
+<desc>A box with a shiny lid propped open and the sun in the sky.</desc>
+<rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- sun -->
+<g stroke-width="4">
+<path d="M58 8 V22 M58 94 V108 M8 58 H22 M94 58 H108 M23 23 L33 33 M83 83 L93 93 M93 23 L83 33 M33 83 L23 93"/>
+</g>
+<circle cx="58" cy="58" r="30" fill="#ffd34d"/>
+<path d="M46 62 q12 10 24 0" fill="none" stroke-width="2.5"/>
+<circle cx="48" cy="52" r="2.5" fill="#3b2a20"/><circle cx="68" cy="52" r="2.5" fill="#3b2a20"/>
+<!-- ground -->
+<line x1="20" y1="276" x2="380" y2="276"/>
+<!-- mirror reflector propped open behind the box -->
+<path d="M150 150 L330 150 L370 40 L190 40 Z" fill="#d6e6ee"/>
+<path d="M160 146 L322 146 L358 46 L196 46 Z" fill="#eef6fa" stroke-width="2"/>
+<g stroke="#ffffff" stroke-width="5"><path d="M230 120 L262 66"/><path d="M252 126 L276 84"/></g>
+<!-- prop stick -->
+
+<!-- rays from sun to mirror and down into the box -->
+<g fill="none" stroke="#f0913a" stroke-width="3" stroke-dasharray="8 6">
+<path d="M98 62 L232 82"/><path d="M96 80 L270 110"/>
+
+</g>
+<g fill="#f0913a" stroke-width="2">
+<path d="M232 82 l-12 -7 l2 13 Z"/><path d="M270 110 l-12 -7 l2 13 Z"/>
+
+</g>
+<!-- box: top glass face -->
+<path d="M90 190 L150 150 L330 150 L290 190 Z" fill="#9fc6d6"/>
+<!-- black inside visible through glass with two dark pots -->
+<path d="M104 186 L154 156 L318 156 L284 186 Z" fill="#2a2a2a" stroke-width="2"/>
+<g fill="#4a4a4a" stroke="#d8dadd" stroke-width="2.5">
+<ellipse cx="170" cy="172" rx="28" ry="10"/>
+<ellipse cx="248" cy="172" rx="28" ry="10"/>
+<rect x="160" y="158" width="20" height="5" rx="2.5"/>
+<rect x="238" y="158" width="20" height="5" rx="2.5"/>
+</g>
+<!-- glass shine -->
+<g stroke="#ffffff" stroke-width="4"><path d="M130 182 L152 164"/><path d="M142 184 L158 172"/><path d="M290 172 L304 160"/></g>
+<!-- box front and side -->
+<path d="M90 190 L290 190 L290 262 L90 262 Z" fill="#3b3b3b"/>
+<path d="M290 190 L330 150 L330 222 L290 262 Z" fill="#2a2a2a"/>
+<path d="M106 204 H274" stroke="#6b6b6b" stroke-width="3"/>
+<rect x="176" y="222" width="28" height="10" rx="5" fill="#8d9196"/>
+<rect x="100" y="262" width="20" height="12" fill="#6b5a4e"/><rect x="262" y="262" width="20" height="12" fill="#6b5a4e"/>
+<!-- reflected rays landing on the glass -->
+<g fill="none" stroke="#f0913a" stroke-width="3" stroke-dasharray="8 6"><path d="M232 82 L210 160"/><path d="M270 110 L262 160"/></g>
+<g fill="#f0913a" stroke-width="2"><path d="M208 168 l-6 -12 l12 1 Z"/><path d="M261 168 l-6 -12 l12 0 Z"/></g>
+<!-- prop stick holding the mirror open -->
+<line x1="352" y1="84" x2="330" y2="178" stroke-width="5"/>
+</g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<title>Cooking picture E</title>
+<desc>A wide kitchen box with a glass door; pieces of chicken sit on a wire rack inside.</desc>
+<defs>
+<g id="leg">
+<path d="M-6 6 L18 -8" stroke-width="9"/>
+<path d="M-6 6 L18 -8" stroke="#fff8ea" stroke-width="4"/>
+<circle cx="20" cy="-12" r="5" fill="#fff8ea"/><circle cx="24" cy="-6" r="5" fill="#fff8ea"/>
+<path d="M-40 12 Q-44 -12 -20 -14 Q0 -14 4 2 Q2 16 -16 18 Q-36 20 -40 12 Z" fill="#c9773a"/>
+<path d="M-32 0 L-26 -10 M-22 4 L-15 -10 M-12 8 L-5 -6" stroke="#6b3a1a" stroke-width="3.5"/>
+</g>
+</defs>
+<rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="20" y1="268" x2="380" y2="268"/>
+<rect x="60" y="252" width="26" height="16" fill="#6b5a4e"/>
+<rect x="314" y="252" width="26" height="16" fill="#6b5a4e"/>
+<rect x="36" y="46" width="328" height="208" rx="14" fill="#d8dadd"/>
+<!-- side control panel -->
+<rect x="290" y="60" width="60" height="180" rx="8" fill="#b9bcc0"/>
+<circle cx="320" cy="96" r="13" fill="#fff8ea"/><line x1="320" y1="96" x2="320" y2="85"/>
+<circle cx="320" cy="146" r="13" fill="#fff8ea"/><line x1="320" y1="146" x2="329" y2="139"/>
+<circle cx="320" cy="196" r="13" fill="#fff8ea"/><line x1="320" y1="196" x2="311" y2="189"/>
+<!-- door with window -->
+<rect x="50" y="60" width="230" height="180" rx="10" fill="#8d9196"/>
+<rect x="64" y="72" width="202" height="150" rx="6" fill="#fdf1dc"/>
+<path d="M66 74 H264 V136 Q165 120 66 136 Z" fill="#ffc98a" stroke="none"/>
+<!-- glowing zig-zag top element -->
+<path d="M74 84 L88 100 L102 84 L116 100 L130 84 L144 100 L158 84 L172 100 L186 84 L200 100 L214 84 L228 100 L242 84 L256 100" fill="none" stroke-width="10"/>
+<path d="M74 84 L88 100 L102 84 L116 100 L130 84 L144 100 L158 84 L172 100 L186 84 L200 100 L214 84 L228 100 L242 84 L256 100" fill="none" stroke="#e8302a" stroke-width="5"/>
+<!-- heat rays pointing down -->
+<g stroke-width="2.5">
+<path d="M95 110 V126 M89 120 L95 126 L101 120"/>
+<path d="M165 110 V126 M159 120 L165 126 L171 120"/>
+<path d="M235 110 V126 M229 120 L235 126 L241 120"/>
+<path d="M130 112 V120"/><path d="M200 112 V120"/>
+</g>
+<!-- wire rack -->
+<path d="M70 190 L260 190 L246 172 L84 172 Z" fill="none" stroke-width="3"/>
+<path d="M77 181 H253" stroke-width="2"/>
+<path d="M98 172 L92 190 M118 172 L114 190 M138 172 L135 190 M158 172 L156 190 M178 172 L177 190 M198 172 L198 190 M218 172 L219 190 M236 172 L240 190" stroke-width="2"/>
+<path d="M64 190 H72 M258 190 H266" stroke-width="5"/>
+<!-- food directly on the rack -->
+<use href="#leg" x="112" y="166"/>
+<use href="#leg" x="176" y="168"/>
+<use href="#leg" x="240" y="166" transform="translate(0 0)"/>
+<!-- drip below -->
+<g fill="#c9773a" stroke-width="2"><path d="M120 196 q-4 7 0 10 q4 -3 0 -10 Z"/><path d="M186 198 q-4 7 0 10 q4 -3 0 -10 Z"/></g>
+<rect x="60" y="64" width="210" height="10" rx="5" fill="#5a4a40"/>
+</g>
+</svg>

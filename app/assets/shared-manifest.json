@@ -1,0 +1,19 @@
+{
+  "note": "Shared pictures used by 2+ school papers (Task 17). Each must be answerable from the drawing alone, original (not traced from the papers), and must not print the answer. 'forbiddenText' lists answers that must not appear as text in the SVG or its <title>/<desc>.",
+  "assets": [
+    { "file": "shared-india-states.svg", "what": "Outline political map of India with state and UT boundaries, no names; Lakshadweep and Andaman & Nicobar included; official boundary of India (Natural Earth India point-of-view, public domain)",
+      "usedBy": ["sp03 Q15", "sp04 Q X", "sp05 Q11", "sp06 Q15", "sp07 Q.10"],
+      "requiredIds": ["IN-AP", "IN-TG", "IN-KA", "IN-MH", "IN-UT", "IN-KL", "IN-TN", "IN-GJ", "IN-RJ", "IN-UP", "IN-WB", "IN-AS"],
+      "forbiddenText": ["Andhra", "Telangana", "Karnataka", "Maharashtra", "Uttarakhand", "Kerala", "Tamil", "Gujarat", "Rajasthan", "Pradesh", "Assam", "West Bengal"] },
+    { "file": "shared-cook-baking.svg", "what": "Oven with a tray of muffins, heat inside (baking)", "usedBy": ["sp03 Q4", "sp06 Q4"], "forbiddenText": ["bak"] },
+    { "file": "shared-cook-steaming.svg", "what": "Covered pot with a perforated tray of idlis over boiling water, steam escaping (steaming)", "usedBy": ["sp03 Q4", "sp06 Q4"], "forbiddenText": ["steam"] },
+    { "file": "shared-cook-frying.svg", "what": "Frying pan with oil and two cutlets on a gas stove (frying)", "usedBy": ["sp03 Q4", "sp06 Q4"], "forbiddenText": ["fry", "fried"] },
+    { "file": "shared-cook-boiling.svg", "what": "Open pot of bubbling water with eggs/potatoes under the water on a stove (boiling)", "usedBy": ["sp06 Q4"], "forbiddenText": ["boil"] },
+    { "file": "shared-cook-oven-grill.svg", "what": "Oven with food on a grill rack under a glowing top element (grilling/roasting)", "usedBy": ["sp06 Q4"], "forbiddenText": ["grill", "roast"] },
+    { "file": "shared-cook-barbecue.svg", "what": "Round charcoal barbecue on legs with food on the grate, glowing coals (grilling/roasting)", "usedBy": ["sp06 Q4"], "forbiddenText": ["grill", "roast", "barbecue", "bbq"] },
+    { "file": "shared-solar-cooker.svg", "what": "Box-type solar cooker: black box, glass lid, mirror reflector propped open, two dark pots inside, sun with rays", "usedBy": ["sp03 Q1", "sp06 Q1"], "forbiddenText": ["solar", "cooker"] },
+    { "file": "shared-note-100-front.svg", "what": "Simplified original drawing of a ₹100 note front: 'RESERVE BANK OF INDIA' in Hindi and English, ₹100, portrait oval, Ashoka Lion Capital emblem at the right; marked SPECIMEN", "usedBy": ["sp03 Q5"], "forbiddenText": [] },
+    { "file": "shared-note-500-front.svg", "what": "Same template, ₹500 front, SPECIMEN", "usedBy": ["sp06 Q5"], "forbiddenText": [] },
+    { "file": "shared-note-500-back.svg", "what": "₹500 back: Red Fort outline, Swachh Bharat spectacles logo, language panel with the denomination written in 15 languages, SPECIMEN", "usedBy": ["sp06 Q5"], "forbiddenText": [] }
+  ]
+}
