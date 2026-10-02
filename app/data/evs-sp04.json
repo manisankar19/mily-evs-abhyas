@@ -1,0 +1,1748 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sp": "sp04",
+  "sourceFile": "2.1.5 L5 EVS.pdf",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Worksheet (2025-26)",
+  "subtitle": "Worksheet — Class IV — Chapter 4",
+  "shortLabel": "Worksheet: Lesson 4",
+  "header": [
+    "कुल मुद्रित पृष्ठों की  संख्या /Total No. of printed pages:   04",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "Worksheet (2025-26)",
+    "कक्षा /Class:IV        विषय /Subject:  TWAU        अंक/Marks:  40",
+    "दिया गया पाठ्यक्रम/Portion  covered:  : Lesson 4 - Growing up with nature",
+    "विद्यार्थी का नाम/Name of the student: ______",
+    "अनुक्रमांक /Roll No.______कक्षा/अनुभाग Class /Sec.: ______ दिनांक /Date: ______"
+  ],
+  "sourceRef": "Ch 4 (deev104) Growing up with Nature",
+  "totalMarks": 40,
+  "durationMinutes": null,
+  "chapters": [
+    4
+  ],
+  "sections": [
+    {
+      "code": "1",
+      "title": "1. How can we protect the natural environment around us?",
+      "heading": "1. How can we protect the natural environment around us?",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "1.",
+          "instruction": "How can we protect the natural environment around us? (4x1=4)",
+          "adaptation": "The four printed pictures are drawn as panels 1 to 4: panel 1 goes with a) At home, 2 with b) At school, 3 with c) In parks and 4 with d) In our locality. Write one or two ways for each place.",
+          "stimulus": {
+            "asset": "assets/sp04-q1.svg",
+            "caption": "Pictures 1 to 4 for parts a) to d)",
+            "alt": "Four numbered drawings. (1) A house with a red roof, a path and flowering bushes on a lawn. (2) A school building with a SCHOOL sign, windows, a gate and bushes. (3) A park with big trees, a see-saw and a bench on the grass. (4) A row of houses with trees beside them and a road in front."
+          },
+          "items": [
+            {
+              "id": "evs-sp04-s1-b1-i1",
+              "label": "a)",
+              "type": "short",
+              "q": "At home",
+              "marks": 1,
+              "answer": "At home we can save water and electricity, plant trees and look after plants, put waste in the dustbin, reuse and recycle things, and say no to plastic.",
+              "markingGuide": "Open answer about what we can do at home to protect nature. Any one or two sensible ways get the mark, for example: Save water: close taps, fix leaks, reuse water for plants; Save electricity: switch off lights and fans; Grow and water plants / a kitchen or herbal garden; Separate wet and dry waste, compost kitchen waste, use the dustbin; Say no to plastic; use cloth bags; reuse and recycle; reduce paper waste. The textbook activity (Ch 4, p.12) leaves this open.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "One or more sensible, specific ways to protect nature in this place (2 ways is ideal for the three printed lines)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A vague answer (\"keep it clean\", \"be good to nature\") with no specific action."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or an answer unrelated to protecting nature."
+                }
+              ],
+              "modelAnswer": "At home I switch off lights and fans when not in use, close the tap while brushing, and water the plants.",
+              "teacherNote": "The four printed prompts (At home, At school, In parks, In our locality) appear only as the captions of the four pictures; the captions are used as the questions here. Answers are personal, so mark with the rubric.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.12 l.1-6; p.10 l.22-26; p.11 l.1-5",
+              "topics": [
+                "home",
+                "saving resources"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s1-b1-i2",
+              "label": "b)",
+              "type": "short",
+              "q": "At school",
+              "marks": 1,
+              "answer": "At school we can plant and water trees, keep the classroom and campus clean, use dustbins, save paper, water and electricity, and spread awareness about saving plants.",
+              "markingGuide": "Open answer about what we can do at school to protect nature. Any one or two sensible ways get the mark, for example: Keep the classroom and campus clean; use dustbins; Save paper (use both sides, reduce paper waste); Switch off fans and lights; close taps; Plant trees / look after the school garden; Hold a clean-up drive or an awareness drive; say no to plastic. The textbook activity (Ch 4, p.12) leaves this open.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "One or more sensible, specific ways to protect nature in this place (2 ways is ideal for the three printed lines)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A vague answer (\"keep it clean\", \"be good to nature\") with no specific action."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or an answer unrelated to protecting nature."
+                }
+              ],
+              "modelAnswer": "At school we keep our classroom clean, use both sides of paper, and take care of the school garden.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.12 l.1-6; p.10 l.22-26; p.11 l.1-5",
+              "topics": [
+                "school",
+                "clean-up drive"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s1-b1-i3",
+              "label": "c)",
+              "type": "short",
+              "q": "In parks",
+              "marks": 1,
+              "answer": "In parks we should not pluck flowers or break branches, throw litter only in dustbins, keep food and water for birds, plant trees, and take part in clean-up drives.",
+              "markingGuide": "Open answer about what we can do in parks to protect nature. Any one or two sensible ways get the mark, for example: Do not pluck flowers or break plants; do not write on trees; Throw waste only in dustbins; do not litter; Keep food and water for birds; do not disturb animals; Plant trees; water plants; Join a clean-up drive. The textbook activity (Ch 4, p.12) leaves this open.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "One or more sensible, specific ways to protect nature in this place (2 ways is ideal for the three printed lines)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A vague answer (\"keep it clean\", \"be good to nature\") with no specific action."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or an answer unrelated to protecting nature."
+                }
+              ],
+              "modelAnswer": "In parks we should not pluck flowers or litter, and we should keep water for birds.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.12 l.1-6; p.10 l.22-26; p.11 l.1-5",
+              "topics": [
+                "parks",
+                "plants and animals"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s1-b1-i4",
+              "label": "d)",
+              "type": "short",
+              "q": "In our locality",
+              "marks": 1,
+              "answer": "In our locality we can plant trees, organise a clean-up drive, keep the streets and water bodies clean, say no to plastic, keep water for birds and animals, and spread awareness about protecting nature.",
+              "markingGuide": "Open answer about what we can do in our locality to protect nature. Any one or two sensible ways get the mark, for example: Plant trees along the roads; Organise a clean-up drive; keep streets, ponds and rivers clean; Say no to plastic; do not burn waste; Keep food and water for birds and stray animals; Spread awareness about saving plants. The textbook activity (Ch 4, p.12) leaves this open.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "One or more sensible, specific ways to protect nature in this place (2 ways is ideal for the three printed lines)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A vague answer (\"keep it clean\", \"be good to nature\") with no specific action."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or an answer unrelated to protecting nature."
+                }
+              ],
+              "modelAnswer": "In our locality we can plant trees, organise a clean-up drive and say no to plastic.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.12 l.1-6; p.10 l.22-26; p.11 l.1-5",
+              "topics": [
+                "locality",
+                "clean-up drive"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "title": "11. Fill in the blanks.",
+      "heading": "11. Fill in the blanks.",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "11.",
+          "instruction": "Fill in the blanks. (4x1=4)",
+          "items": [
+            {
+              "id": "evs-sp04-s2-b1-i1",
+              "type": "fill-blank",
+              "marks": 1,
+              "label": "1.",
+              "q": "The village was going to be solar-powered by ______ energy for the celebrations.",
+              "answer": "solar",
+              "acceptable": [
+                "solar",
+                "Solar",
+                "solar energy",
+                "sun",
+                "sun's",
+                "sunlight",
+                "the sun",
+                "sun energy",
+                "surya"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.1 l.7-10",
+              "topics": [
+                "solar energy"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "The blank repeats the idea of \"solar-powered\": solar (energy from the sun). \"Sun\" or \"sunlight\" also gets the mark.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s2-b1-i2",
+              "type": "fill-blank",
+              "marks": 1,
+              "label": "2.",
+              "q": "______ is a tree whose leaves are used to repel insects.",
+              "answer": "Neem",
+              "acceptable": [
+                "neem",
+                "Neem",
+                "neem tree",
+                "the neem tree",
+                "neem leaves",
+                "nim",
+                "neemb",
+                "margosa",
+                "vepa",
+                "vembu",
+                "bevu",
+                "kadu limbu",
+                "limdo",
+                "Indian lilac",
+                "tulsi"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.5 l.4-7; p.7 l.3-5",
+              "topics": [
+                "neem",
+                "insect repellent"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "Neem: earthen pots were lined with neem leaves to keep insects and pests away from stored grain (and neem oil keeps mosquitoes away). Tulsi is also used at home to keep insects away, so a child who writes tulsi may be given the mark; the expected answer is neem.",
+              "teacherNote": "The textbook answer is neem. Tulsi (holy basil) leaves are also commonly used to repel insects, so it is accepted; that is why this item is ⚑.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s2-b1-i3",
+              "type": "fill-blank",
+              "marks": 1,
+              "label": "3.",
+              "q": "______ is used to make homes cool and environmentally friendly in the village.",
+              "answer": "Clay (mud)",
+              "acceptable": [
+                "clay",
+                "Clay",
+                "mud",
+                "mitti",
+                "soil",
+                "clay and cow dung",
+                "cow dung",
+                "cowdung",
+                "gobar",
+                "clay and hay",
+                "mud and cow dung",
+                "hay",
+                "natural materials",
+                "clay, hay and cow dung",
+                "earth"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.3 l.5-6, l.10-11",
+              "topics": [
+                "houses",
+                "natural materials"
+              ],
+              "difficulty": "medium",
+              "markingGuide": "The textbook says the village houses are made of clay, hay, cow dung and other natural materials. It does not say which one keeps homes cool, so clay/mud, cow dung, hay or \"natural materials\" all get the mark.",
+              "teacherNote": "The textbook does not name one material that \"makes homes cool\"; it lists clay, hay and cow dung. Any of them (or \"natural materials\") is accepted.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s2-b1-i4",
+              "type": "fill-blank",
+              "marks": 1,
+              "label": "4.",
+              "q": "______ festival involves planting fruit bearing trees.",
+              "answer": "Hari Jiroti",
+              "acceptable": [
+                "Hari Jiroti",
+                "hari jiroti",
+                "Harijiroti",
+                "Hari Jirothi",
+                "Hari Jeroti",
+                "Hari Jiroti festival",
+                "Harjiroti",
+                "Van Mahotsav",
+                "Vanmahotsav"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.10 l.12-13",
+              "topics": [
+                "festivals",
+                "tree plantation"
+              ],
+              "difficulty": "hard",
+              "markingGuide": "Textbook table: Hari Jiroti — fruit-bearing trees — plantation. Accept any close spelling. Van Mahotsav (the tree-planting festival) is a sensible answer from general knowledge and is accepted.",
+              "teacherNote": "The textbook name is \"Hari Jiroti\" (an unfamiliar word that children spell many ways). Close spellings are accepted, and so is Van Mahotsav, a well-known tree-planting festival.",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "title": "111. Match the following.",
+      "heading": "111. Match the following.",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "111.",
+          "instruction": "Match the following. (5x1=5)",
+          "adaptation": "Match each item on the left with the right meaning; the printed right-hand column is jumbled.",
+          "items": [
+            {
+              "id": "evs-sp04-s3-b1-i1",
+              "type": "match",
+              "q": "Match the following.",
+              "marks": 5,
+              "pairs": [
+                {
+                  "left": "a) Tumri",
+                  "right": "a traditional way of preserving grains in Uttarakhand"
+                },
+                {
+                  "left": "b) Neem oil",
+                  "right": "to keep mosquitoes away"
+                },
+                {
+                  "left": "c) Nagada",
+                  "right": "a type of drum (instrument)"
+                },
+                {
+                  "left": "d) Vat Purnima",
+                  "right": "worshipping the banyan tree"
+                },
+                {
+                  "left": "e) Solar panels",
+                  "right": "generate electricity for fans, bulbs etc."
+                }
+              ],
+              "answer": "a) Tumri – a traditional way of preserving grains in Uttarakhand; b) Neem oil – to keep mosquitoes away; c) Nagada – a type of drum (instrument); d) Vat Purnima – worshipping the banyan tree; e) Solar panels – generate electricity for fans, bulbs etc.",
+              "answerPoints": [
+                {
+                  "point": "a) Tumri – a traditional way of preserving grains in Uttarakhand (Ch 4, p.6 l.24-27)",
+                  "marks": 1
+                },
+                {
+                  "point": "b) Neem oil – to keep mosquitoes away (p.7 l.3-5)",
+                  "marks": 1
+                },
+                {
+                  "point": "c) Nagada – a type of drum (instrument) (p.8 l.6-7)",
+                  "marks": 1
+                },
+                {
+                  "point": "d) Vat Purnima – worshipping the banyan tree (p.10 l.10-11)",
+                  "marks": 1
+                },
+                {
+                  "point": "e) Solar panels – generate electricity for fans, bulbs etc. (p.2 l.22-24)",
+                  "marks": 1
+                }
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.2 l.22-24; p.6 l.24-27; p.7 l.3-5; p.8 l.6-7; p.10 l.10-11",
+              "topics": [
+                "traditions",
+                "natural resources"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "title": "1V. Write True or False.",
+      "heading": "1V. Write True or False.",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "1V.",
+          "instruction": "Write True or False. (4x1=4)",
+          "items": [
+            {
+              "id": "evs-sp04-s4-b1-i1",
+              "type": "true-false",
+              "marks": 1,
+              "label": "a)",
+              "q": "Grandmother’s paint is made with natural extracts for painting on cloth.",
+              "answer": "True",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.4 l.7-11",
+              "topics": [
+                "natural colours"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "True: grandmother was painting on a cloth with paint made of natural extracts of flowers, leaves and powdered coloured stones.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s4-b1-i2",
+              "type": "true-false",
+              "marks": 1,
+              "label": "b)",
+              "q": "The village was decorated with plastic and artificial materials for the festival.",
+              "answer": "False",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.3 l.1-8",
+              "topics": [
+                "festivals",
+                "natural materials"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "False: the village houses and their decorations used clay, hay, cow dung and natural dyes (rice flour and water). The textbook does not list every decoration, but the chapter is about living with natural materials, so the expected answer is False.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s4-b1-i3",
+              "type": "true-false",
+              "marks": 1,
+              "label": "c)",
+              "q": "The Jenu tribes uses modern equipment to collect honey.",
+              "answer": "False",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.6 l.1-14",
+              "topics": [
+                "Jenu Kurubas",
+                "honey"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "False: the Jenu Kurubas collect honey in the traditional way and sing songs to apologise to the bees. The textbook does not mention equipment, so the expected answer is False.",
+              "teacherNote": "Printed \"The Jenu tribes uses\" (plural subject with \"uses\"; the textbook says \"The Jenu Kurubas is a tribe\"). Kept as printed; it does not change the answer.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s4-b1-i4",
+              "type": "true-false",
+              "marks": 1,
+              "label": "d)",
+              "q": "Reena and Amit were excited about a family trip, to a forest near their village.",
+              "answer": [
+                "True",
+                "False — corrected: the trip was to their village near a forest"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.1 l.4-5",
+              "topics": [
+                "family trip"
+              ],
+              "difficulty": "medium",
+              "markingGuide": "Accept True or False. The textbook says they were excited about a family trip to \"their village near a forest\". A child who reads the sentence as \"they were excited about a family trip\" writes True; a child who notices that the trip was to the village (near a forest), not to a forest near the village, writes False. Both readings are defensible.",
+              "teacherNote": "Printed with a stray comma (\"family trip, to a forest near their village\") and the places swapped compared with the textbook (\"their village near a forest\"). Kept as printed; both True and False get the mark.",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "title": "V. Answer the following.",
+      "heading": "V. Answer the following.",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "V.",
+          "instruction": "Answer the following. (5x1=5)",
+          "items": [
+            {
+              "id": "evs-sp04-s5-b1-i1",
+              "type": "short",
+              "marks": 1,
+              "label": "1.",
+              "q": "Who are Jenu Kurubas?",
+              "answer": "The Jenu Kurubas are a tribe from Karnataka. Their name comes from \"Jenu\", which means honey. They collect honey and sing songs to apologise to the bees, which shows their respect for nature.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Says they are a tribe (from Karnataka) AND links them to honey (honey collectors / name means honey / sing to the bees)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Only one part: \"a tribe\" or \"they collect honey\"."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong or blank."
+                }
+              ],
+              "modelAnswer": "The Jenu Kurubas are a tribe from Karnataka who collect honey. They sing songs to say sorry to the bees.",
+              "sourceRef": "Ch 4 (deev104), p.6 l.2-14",
+              "topics": [
+                "Jenu Kurubas",
+                "tribes"
+              ],
+              "difficulty": "easy",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s5-b1-i2",
+              "type": "short",
+              "marks": 1,
+              "label": "2.",
+              "q": "Name some things in a first - aid box.",
+              "answer": "Medicines, mosquito repellent cream (or the neem oil mixture), bandages, cotton wool, antiseptic lotion or cream, plaster, scissors and a thermometer.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Names two or more sensible first-aid items (medicines, bandage, cotton, antiseptic, plaster/band-aid, mosquito repellent cream, neem oil mixture, scissors, thermometer)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Names only one sensible item."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible item."
+                }
+              ],
+              "modelAnswer": "Medicines, bandages, cotton, antiseptic cream and mosquito repellent cream.",
+              "teacherNote": "Printed \"first - aid\" with spaces round the hyphen; kept as printed. The textbook names only medicines and mosquito repellent cream, so other common first-aid items are accepted.",
+              "sourceRef": "Ch 4 (deev104), p.7 l.6-9, l.20",
+              "topics": [
+                "first aid"
+              ],
+              "difficulty": "easy",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s5-b1-i3",
+              "type": "short",
+              "marks": 1,
+              "label": "3.",
+              "q": "What are sacred groves?",
+              "answer": "Sacred groves are small patches of forest protected by local communities. The trees and wildlife in them are preserved, and people gather there to worship and celebrate nature.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Small patches of forest protected (looked after) by local people/communities, where trees and animals are preserved (worship/gathering welcome)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Says only \"a forest\" or \"a holy place\" without the idea of protection by the community."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong or blank."
+                }
+              ],
+              "modelAnswer": "Sacred groves are small patches of forest that local people protect. The trees and animals there are kept safe.",
+              "sourceRef": "Ch 4 (deev104), p.9 l.23-31",
+              "topics": [
+                "sacred groves"
+              ],
+              "difficulty": "medium",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s5-b1-i4",
+              "type": "short",
+              "marks": 1,
+              "label": "4.",
+              "q": "Write 2 ways to care for plants and animals in oursurroundings.",
+              "answer": "Any two of: reduce paper waste; say no to plastic; spread awareness about saving plants; keep food and water for birds; plant trees; organise a clean-up drive.",
+              "answerPoints": [
+                {
+                  "point": "First sensible way (e.g. plant trees / keep food and water for birds)",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Second sensible way (e.g. say no to plastic / reduce paper waste / clean-up drive / spread awareness)",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Two sensible ways (½ each)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "One sensible way."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible way."
+                }
+              ],
+              "modelAnswer": "Plant trees, and keep food and water for birds.",
+              "teacherNote": "Printed \"oursurroundings\" (missing space: \"our surroundings\"); kept as printed. Two ways for 1 mark, so ½ mark each.",
+              "sourceRef": "Ch 4 (deev104), p.10 l.22-26; p.11 l.1-5",
+              "topics": [
+                "caring for nature"
+              ],
+              "difficulty": "easy",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s5-b1-i5",
+              "type": "short",
+              "marks": 1,
+              "label": "5.",
+              "q": "What does worshipping plants and animals in our country indicate?",
+              "answer": "It indicates our rich tradition of respecting and protecting nature.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Says it shows our tradition/culture of respecting and protecting (caring for) nature."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Says only \"we love plants and animals\" or \"it is our tradition\" without respect/protection of nature."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong or blank."
+                }
+              ],
+              "modelAnswer": "It shows our rich tradition of respecting and protecting nature.",
+              "sourceRef": "Ch 4 (deev104), p.10 l.19-21",
+              "topics": [
+                "traditions",
+                "respect for nature"
+              ],
+              "difficulty": "medium",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "title": "V1. Give two examples of each.",
+      "heading": "V1. Give two examples of each.",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "V1.",
+          "instruction": "Give two examples of each. (3X1=3)",
+          "adaptation": "Write two examples for each part; each example gets ½ mark.",
+          "items": [
+            {
+              "id": "evs-sp04-s6-b1-i1",
+              "type": "one-word",
+              "marks": 1,
+              "label": "1.",
+              "q": "Natural materials used to make houses.",
+              "answer": "Any two of: clay (mud), hay, cow dung, wood (wooden sticks), bamboo, grass, leaves, stone.",
+              "acceptable": [
+                "clay",
+                "mud",
+                "mitti",
+                "soil",
+                "hay",
+                "straw",
+                "cow dung",
+                "cowdung",
+                "gobar",
+                "dung",
+                "wood",
+                "wooden sticks",
+                "sticks",
+                "timber",
+                "bamboo",
+                "grass",
+                "dry grass",
+                "leaves",
+                "palm leaves",
+                "coconut leaves",
+                "stone",
+                "stones",
+                "rocks",
+                "thatch",
+                "lime",
+                "sand"
+              ],
+              "sourceRef": "Ch 4 (deev104), p.3 l.5-6; p.4 l.2-3",
+              "topics": [
+                "houses",
+                "natural materials"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "½ mark for each correct example, up to 2 examples (1 mark).",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s6-b1-i2",
+              "type": "one-word",
+              "marks": 1,
+              "label": "2.",
+              "q": "Flowers used to make dye.",
+              "answer": "Any two of: hibiscus, marigold, palash (flame of the forest), rose, others with colour such as butterfly pea (aparajita), lotus, sunflower, saffron (kesar), harsingar (night jasmine).",
+              "acceptable": [
+                "hibiscus",
+                "gudhal",
+                "jasud",
+                "joba",
+                "chembarathi",
+                "mandaram",
+                "marigold",
+                "genda",
+                "gendha",
+                "zendu",
+                "chendumalli",
+                "palash",
+                "palas",
+                "tesu",
+                "kesuda",
+                "flame of the forest",
+                "rose",
+                "gulab",
+                "butterfly pea",
+                "aparajita",
+                "shankhpushpi",
+                "lotus",
+                "kamal",
+                "sunflower",
+                "saffron",
+                "kesar",
+                "harsingar",
+                "parijat",
+                "night jasmine",
+                "bougainvillea",
+                "jasmine"
+              ],
+              "teacherNote": "The textbook names hibiscus and marigold (and beetroot, which is not a flower). Other colourful flowers that give a dye, such as palash, rose or butterfly pea, are accepted.",
+              "sourceRef": "Ch 4 (deev104), p.4 l.19-22; p.2 l.4-9",
+              "topics": [
+                "natural dye",
+                "flowers"
+              ],
+              "difficulty": "medium",
+              "markingGuide": "½ mark for each correct example, up to 2 examples (1 mark).",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s6-b1-i3",
+              "type": "one-word",
+              "marks": 1,
+              "label": "3.",
+              "q": "Things used by the villagers to store grains.",
+              "answer": "Any two of: earthen pots (lined with neem leaves), bamboo baskets (coated with cow dung), tumri (dried bottle gourd).",
+              "acceptable": [
+                "earthen pots",
+                "earthen pot",
+                "clay pots",
+                "clay pot",
+                "mud pots",
+                "matka",
+                "matki",
+                "pots",
+                "bamboo baskets",
+                "bamboo basket",
+                "baskets",
+                "basket",
+                "tumri",
+                "dried bottle gourd",
+                "bottle gourd",
+                "lauki",
+                "neem leaves",
+                "jute bags",
+                "sacks",
+                "gunny bags",
+                "kothi",
+                "mud bins"
+              ],
+              "teacherNote": "The textbook names earthen pots, bamboo baskets and the tumri. Other traditional stores a child knows from home (jute sacks, mud bins / kothi) are accepted.",
+              "sourceRef": "Ch 4 (deev104), p.5 l.2-7; p.6 l.24-27",
+              "topics": [
+                "storing grains"
+              ],
+              "difficulty": "easy",
+              "markingGuide": "½ mark for each correct example, up to 2 examples (1 mark).",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "title": "V11. Name the following.",
+      "heading": "V11. Name the following.",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "V11.",
+          "instruction": "Name the following. (3x1=3)",
+          "items": [
+            {
+              "id": "evs-sp04-s7-b1-i1",
+              "type": "one-word",
+              "marks": 1,
+              "label": "1.",
+              "q": "Flame of the forest",
+              "answer": "Palash",
+              "acceptable": [
+                "palash",
+                "Palash",
+                "palash tree",
+                "palas",
+                "palaash",
+                "polash",
+                "kesuda",
+                "kesudo",
+                "tesu",
+                "dhak",
+                "kesu",
+                "muthuga",
+                "modugu",
+                "purasu",
+                "chamata",
+                "butea",
+                "parrot tree"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.2 l.6-9",
+              "topics": [
+                "Palash",
+                "trees"
+              ],
+              "difficulty": "easy",
+              "teacherNote": "Printed \"Flame of the forest\"; the textbook says \"flame of forest\". Same meaning; the answer is Palash (also called Kesuda, Tesu or Dhak).",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s7-b1-i2",
+              "type": "one-word",
+              "marks": 1,
+              "label": "2.",
+              "q": "A form of painting on walls using natural colours.",
+              "answer": "Gond art",
+              "acceptable": [
+                "Gond art",
+                "gond art",
+                "gond",
+                "Gond",
+                "gond painting",
+                "gond paintings",
+                "gondi art",
+                "warli",
+                "warli art",
+                "warli painting",
+                "madhubani",
+                "madhubani painting",
+                "mithila painting",
+                "mandana",
+                "mandana art",
+                "pithora",
+                "pithora painting",
+                "saura painting",
+                "kohbar",
+                "wall painting",
+                "mural"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.4 l.13-18",
+              "topics": [
+                "Gond art",
+                "art forms"
+              ],
+              "difficulty": "medium",
+              "markingGuide": "Textbook answer: Gond art. Other Indian wall-painting traditions that use natural colours (Warli, Madhubani, Mandana, Pithora, Saura) are correct too and get the mark.",
+              "teacherNote": "The textbook answer is Gond art, but several Indian folk arts are painted on walls with natural colours (Warli, Madhubani, Mandana, Pithora), so these are accepted.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s7-b1-i3",
+              "type": "one-word",
+              "marks": 1,
+              "label": "3.",
+              "q": "The name of your state animal.",
+              "answer": "Depends on the child's state, e.g. Maharashtra: Indian giant squirrel (shekru); Karnataka: elephant; Uttarakhand: alpine musk deer.",
+              "acceptable": [
+                "blackbuck",
+                "black buck",
+                "mithun",
+                "gayal",
+                "one-horned rhinoceros",
+                "rhinoceros",
+                "rhino",
+                "gaur",
+                "Indian bison",
+                "bison",
+                "wild water buffalo",
+                "wild buffalo",
+                "Asiatic lion",
+                "lion",
+                "snow leopard",
+                "elephant",
+                "Asian elephant",
+                "Indian elephant",
+                "haathi",
+                "barasingha",
+                "swamp deer",
+                "Indian giant squirrel",
+                "giant squirrel",
+                "shekru",
+                "Malabar giant squirrel",
+                "sangai",
+                "brow-antlered deer",
+                "clouded leopard",
+                "serow",
+                "sambar",
+                "sambar deer",
+                "camel",
+                "chinkara",
+                "red panda",
+                "Nilgiri tahr",
+                "tahr",
+                "spotted deer",
+                "chital",
+                "deer",
+                "Phayre's leaf monkey",
+                "Phayre's langur",
+                "langur",
+                "alpine musk deer",
+                "musk deer",
+                "kasturi mrig",
+                "fishing cat",
+                "nilgai",
+                "blue bull",
+                "hangul",
+                "Kashmir stag",
+                "dugong"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "state animal"
+              ],
+              "difficulty": "medium",
+              "markingGuide": "Open: the answer depends on the state the child lives in. The parent checks it against their own state. State animals: Andhra Pradesh: blackbuck; Arunachal Pradesh: mithun; Assam: one-horned rhinoceros; Bihar: gaur; Chhattisgarh: wild water buffalo; Goa: gaur; Gujarat: Asiatic lion; Haryana: blackbuck; Himachal Pradesh: snow leopard; Jharkhand: elephant; Karnataka: elephant; Kerala: elephant; Madhya Pradesh: barasingha; Maharashtra: Indian giant squirrel (shekru); Manipur: sangai; Meghalaya: clouded leopard; Mizoram: serow; Nagaland: mithun; Odisha: sambar; Punjab: blackbuck; Rajasthan: camel (domestic) / chinkara (wild); Sikkim: red panda; Tamil Nadu: Nilgiri tahr; Telangana: spotted deer (chital); Tripura: Phayre's leaf monkey; Uttar Pradesh: barasingha (swamp deer); Uttarakhand: alpine musk deer; West Bengal: fishing cat; Delhi: nilgai; Jammu and Kashmir: hangul; Ladakh: snow leopard. The tiger is India's national animal, not a state animal; give the mark only if the child's state has adopted it.",
+              "teacherNote": "No single answer: \"your state animal\" depends on where the child lives. Mark against the child's own state using the list in the marking guide.",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "title": "V111. Give reasons for the following.",
+      "heading": "V111. Give reasons for the following.",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "V111.",
+          "instruction": "Give reasons for the following. (2x2=4)",
+          "adaptation": "Part 2 is an unfinished sentence: finish it by writing what happens.",
+          "items": [
+            {
+              "id": "evs-sp04-s8-b1-i1",
+              "type": "short",
+              "marks": 2,
+              "label": "1.",
+              "q": "Bamboo baskets were coated with cow dung on the outside.",
+              "answer": "Bamboo baskets were coated with cow dung on the outside so that the grains stored in them stay protected from insects and pests.",
+              "answerPoints": [
+                {
+                  "point": "The baskets were used to store grains",
+                  "marks": 1
+                },
+                {
+                  "point": "The cow dung coating keeps insects and pests away / protects the grains",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Says the baskets store grain AND the cow dung protects the grain from insects and pests."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one part: \"to keep insects away\" or \"to store grains safely\", or a sensible other reason (to seal gaps, keep out moisture)."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong or blank."
+                }
+              ],
+              "modelAnswer": "The baskets were used to store grains. The cow dung coating keeps insects and pests away, so the grains stay safe.",
+              "sourceRef": "Ch 4 (deev104), p.5 l.2-7",
+              "topics": [
+                "storing grains",
+                "cow dung"
+              ],
+              "difficulty": "medium",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s8-b1-i2",
+              "type": "short",
+              "marks": 2,
+              "label": "2.",
+              "q": "If we overuse wood from nature,",
+              "answer": "If we overuse wood from nature, our forests will deplete (get used up). Trees will be cut down, and animals and birds will lose their homes.",
+              "answerPoints": [
+                {
+                  "point": "Forests will deplete / trees will be cut down and get used up",
+                  "marks": 1
+                },
+                {
+                  "point": "A sensible further effect: animals and birds lose their homes, less rain or fresh air, soil erosion, pollution, no wood for the future",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Completes the sentence sensibly: forests deplete / trees are cut down, plus one further effect (animals lose homes, less rain, soil erosion, less fresh air, no wood left for later)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one sensible effect, e.g. \"forests will finish\"."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible consequence."
+                }
+              ],
+              "modelAnswer": "If we overuse wood from nature, our forests will deplete, and animals and birds will lose their homes.",
+              "teacherNote": "Printed as an incomplete sentence ending with a comma, under \"Give reasons\". The child completes it with the result; the textbook example is \"our forests deplete\". Accept any sensible completion.",
+              "sourceRef": "Ch 4 (deev104), p.11 l.17-20",
+              "topics": [
+                "overuse of resources",
+                "forests"
+              ],
+              "difficulty": "medium",
+              "answerConfidence": "check",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "title": "1X. What are the things that we use from nature in our daily life?",
+      "heading": "1X. What are the things that we use from nature in our daily life?",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "1X.",
+          "instruction": "What are the things that we use from nature in our daily life? (1x5=5)",
+          "adaptation": "Each row of the printed table (Activities | Collected from nature, four blank cells) is asked separately here: write up to four things from nature for each activity.",
+          "items": [
+            {
+              "id": "evs-sp04-s9-b1-i1",
+              "label": "Eating",
+              "type": "short",
+              "q": "Eating",
+              "marks": 1,
+              "answer": "Fruits, vegetables, grains (rice, wheat, millets), pulses, honey, milk, spices.",
+              "markingGuide": "Row \"Eating\": the table has four blank cells. Full mark when the row is mostly filled (3 or 4 sensible things collected from nature); ½ mark when it is partly filled (1 or 2 sensible things). Examples: Fruits, vegetables, grains (rice, wheat, millets), pulses, honey, milk, spices. The textbook example is fruits.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Row mostly filled: 3 or 4 sensible things from nature for this activity."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Row partly filled: 1 or 2 sensible things."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or only man-made things (plastic, nylon, medicines from the shop)."
+                }
+              ],
+              "modelAnswer": "Fruits, vegetables, rice, honey",
+              "teacherNote": "The printed table has 4 blank cells per row for 1 mark per row (printed \"(1x5=5)\"). Each row is one item here: full mark for a mostly filled row, ½ for a partly filled row.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.11 l.6-16",
+              "topics": [
+                "things from nature",
+                "food"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s9-b1-i2",
+              "label": "Clothing",
+              "type": "short",
+              "q": "Clothing",
+              "marks": 1,
+              "answer": "Cotton, wool, silk, jute, natural dyes from flowers and leaves.",
+              "markingGuide": "Row \"Clothing\": the table has four blank cells. Full mark when the row is mostly filled (3 or 4 sensible things collected from nature); ½ mark when it is partly filled (1 or 2 sensible things). Examples: Cotton, wool, silk, jute, natural dyes from flowers and leaves. The textbook example is cotton.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Row mostly filled: 3 or 4 sensible things from nature for this activity."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Row partly filled: 1 or 2 sensible things."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or only man-made things (plastic, nylon, medicines from the shop)."
+                }
+              ],
+              "modelAnswer": "Cotton, wool, silk, jute",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.11 l.6-16; p.4 l.19-22",
+              "topics": [
+                "things from nature",
+                "clothing"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s9-b1-i3",
+              "label": "Healthcare",
+              "type": "short",
+              "q": "Healthcare",
+              "marks": 1,
+              "answer": "Neem, tulsi (Indian basil), ajwain (carom seeds), turmeric (haldi), aloe vera, honey, ginger.",
+              "markingGuide": "Row \"Healthcare\": the table has four blank cells. Full mark when the row is mostly filled (3 or 4 sensible things collected from nature); ½ mark when it is partly filled (1 or 2 sensible things). Examples: Neem, tulsi (Indian basil), ajwain (carom seeds), turmeric (haldi), aloe vera, honey, ginger. The textbook example is neem.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Row mostly filled: 3 or 4 sensible things from nature for this activity."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Row partly filled: 1 or 2 sensible things."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or only man-made things (plastic, nylon, medicines from the shop)."
+                }
+              ],
+              "modelAnswer": "Neem, tulsi, ajwain, turmeric",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.11 l.6-16; p.7 l.3-19",
+              "topics": [
+                "things from nature",
+                "medicinal plants"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s9-b1-i4",
+              "label": "Fuel",
+              "type": "short",
+              "q": "Fuel",
+              "marks": 1,
+              "answer": "Wood (firewood), cow dung cakes, dry leaves and twigs, coal, sunlight (solar energy).",
+              "markingGuide": "Row \"Fuel\": the table has four blank cells. Full mark when the row is mostly filled (3 or 4 sensible things collected from nature); ½ mark when it is partly filled (1 or 2 sensible things). Examples: Wood (firewood), cow dung cakes, dry leaves and twigs, coal, sunlight (solar energy).",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Row mostly filled: 3 or 4 sensible things from nature for this activity."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Row partly filled: 1 or 2 sensible things."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or only man-made things (plastic, nylon, medicines from the shop)."
+                }
+              ],
+              "modelAnswer": "Wood, cow dung cakes, dry leaves, sunlight",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.11 l.19-20; p.1 l.8",
+              "topics": [
+                "things from nature",
+                "fuel"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s9-b1-i5",
+              "label": "Shelter",
+              "type": "short",
+              "q": "Shelter",
+              "marks": 1,
+              "answer": "Clay (mud), hay, cow dung, wood, bamboo, grass, leaves, stone.",
+              "markingGuide": "Row \"Shelter\": the table has four blank cells. Full mark when the row is mostly filled (3 or 4 sensible things collected from nature); ½ mark when it is partly filled (1 or 2 sensible things). Examples: Clay (mud), hay, cow dung, wood, bamboo, grass, leaves, stone.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Row mostly filled: 3 or 4 sensible things from nature for this activity."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Row partly filled: 1 or 2 sensible things."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing sensible, or only man-made things (plastic, nylon, medicines from the shop)."
+                }
+              ],
+              "modelAnswer": "Clay, hay, bamboo, wood",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.3 l.5-6; p.4 l.2-3",
+              "topics": [
+                "things from nature",
+                "houses"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "title": "X. Locate the following states in the given map.",
+      "heading": "X. Locate the following states in the given map.",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "X.",
+          "instruction": "Locate the following states in the given map. (3x1= 3)",
+          "adaptation": "Do this on the printed sheet: mark and name each state on the map; your parent marks it with the answer map.",
+          "stimulus": {
+            "asset": "assets/shared-india-states.svg",
+            "caption": "Outline map of India with state boundaries (no names).",
+            "alt": "Outline political map of India showing state borders without any names."
+          },
+          "items": [
+            {
+              "id": "evs-sp04-s10-b1-i1",
+              "label": "1)",
+              "type": "diagram-label",
+              "q": "Uttarakhand",
+              "marks": 1,
+              "answer": "Uttarakhand marked and named correctly on the map (north, in the Himalayas).",
+              "markingGuide": "Answer map: orange. Uttarakhand: a hilly state in the north, in the Himalayas, east of Himachal Pradesh, north of Uttar Pradesh, bordering Tibet (China) and Nepal. 1 mark if the right region is marked and named; ½ if it is marked in the right area but overlaps a neighbour.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "The correct state is marked and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Marked near the right place but spilling into a neighbouring state, or marked without a name."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "modelAnswer": "The small hilly state in the north, east of Himachal Pradesh and north of Uttar Pradesh, is shaded and named Uttarakhand.",
+              "answerAsset": "assets/sp04-map-key.svg",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.6 l.24-25",
+              "topics": [
+                "map",
+                "states of India"
+              ],
+              "difficulty": "hard",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s10-b1-i2",
+              "label": "2)",
+              "type": "diagram-label",
+              "q": "Karnataka",
+              "marks": 1,
+              "answer": "Karnataka marked and named correctly on the map (south-west, on the Arabian Sea coast).",
+              "markingGuide": "Answer map: green. Karnataka: in the south-west, on the Arabian Sea coast south of Goa and Maharashtra, north of Kerala, west of Andhra Pradesh and Telangana. 1 mark if the right region is marked and named; ½ if it is marked in the right area but overlaps a neighbour.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "The correct state is marked and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Marked near the right place but spilling into a neighbouring state, or marked without a name."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "modelAnswer": "The state on the south-west coast above Kerala is shaded and named Karnataka.",
+              "answerAsset": "assets/sp04-map-key.svg",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.6 l.2-4",
+              "topics": [
+                "map",
+                "states of India"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp04-s10-b1-i3",
+              "label": "3)",
+              "type": "diagram-label",
+              "q": "Maharashra",
+              "marks": 1,
+              "answer": "Maharashtra marked and named correctly on the map (west, on the Arabian Sea coast).",
+              "markingGuide": "Answer map: red. Maharashtra: the large state in the west on the Arabian Sea coast, south of Gujarat and Madhya Pradesh, north of Goa and Karnataka, west of Chhattisgarh and Telangana; Mumbai is on its coast. 1 mark if the right region is marked and named (any spelling); ½ if it is marked in the right area but overlaps a neighbour.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "The correct state is marked and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Marked near the right place but spilling into a neighbouring state, or marked without a name."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "modelAnswer": "The large state on the west coast, north of Goa and Karnataka, is shaded and named Maharashtra.",
+              "answerAsset": "assets/sp04-map-key.svg",
+              "teacherNote": "Printed \"Maharashra\" (missing \"t\"); kept as printed. The state is Maharashtra; do not mark the child down for either spelling.",
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "map",
+                "states of India"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fallbackText": [
+    {
+      "where": "s1",
+      "field": "heading",
+      "text": "1. How can we protect the natural environment around us?",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s1-b1",
+      "field": "instruction",
+      "text": "How can we protect the natural environment around us? (4x1=4)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s1-b1-i1",
+      "field": "q",
+      "text": "At home",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s1-b1-i2",
+      "field": "q",
+      "text": "At school",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s1-b1-i3",
+      "field": "q",
+      "text": "In parks",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s1-b1-i4",
+      "field": "q",
+      "text": "In our locality",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s2",
+      "field": "heading",
+      "text": "11. Fill in the blanks.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s2-b1",
+      "field": "instruction",
+      "text": "Fill in the blanks. (4x1=4)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s2-b1-i1",
+      "field": "q",
+      "text": "The village was going to be solar-powered by ______ energy for the celebrations.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s2-b1-i2",
+      "field": "q",
+      "text": "______ is a tree whose leaves are used to repel insects.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s2-b1-i3",
+      "field": "q",
+      "text": "______ is used to make homes cool and environmentally friendly in the village.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s2-b1-i4",
+      "field": "q",
+      "text": "______ festival involves planting fruit bearing trees.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s3",
+      "field": "heading",
+      "text": "111. Match the following.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s3-b1",
+      "field": "instruction",
+      "text": "Match the following. (5x1=5)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "q",
+      "text": "Match the following.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s4",
+      "field": "heading",
+      "text": "1V. Write True or False.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s4-b1",
+      "field": "instruction",
+      "text": "Write True or False. (4x1=4)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s4-b1-i1",
+      "field": "q",
+      "text": "Grandmother’s paint is made with natural extracts for painting on cloth.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s4-b1-i2",
+      "field": "q",
+      "text": "The village was decorated with plastic and artificial materials for the festival.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s4-b1-i3",
+      "field": "q",
+      "text": "The Jenu tribes uses modern equipment to collect honey.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s4-b1-i4",
+      "field": "q",
+      "text": "Reena and Amit were excited about a family trip, to a forest near their village.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s5",
+      "field": "heading",
+      "text": "V. Answer the following.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s5-b1",
+      "field": "instruction",
+      "text": "Answer the following. (5x1=5)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s5-b1-i1",
+      "field": "q",
+      "text": "Who are Jenu Kurubas?",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s5-b1-i2",
+      "field": "q",
+      "text": "Name some things in a first - aid box.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s5-b1-i3",
+      "field": "q",
+      "text": "What are sacred groves?",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s5-b1-i4",
+      "field": "q",
+      "text": "Write 2 ways to care for plants and animals in oursurroundings.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s5-b1-i5",
+      "field": "q",
+      "text": "What does worshipping plants and animals in our country indicate?",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s6",
+      "field": "heading",
+      "text": "V1. Give two examples of each.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s6-b1",
+      "field": "instruction",
+      "text": "Give two examples of each. (3X1=3)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s6-b1-i1",
+      "field": "q",
+      "text": "Natural materials used to make houses.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s6-b1-i2",
+      "field": "q",
+      "text": "Flowers used to make dye.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s6-b1-i3",
+      "field": "q",
+      "text": "Things used by the villagers to store grains.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s7",
+      "field": "heading",
+      "text": "V11. Name the following.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s7-b1",
+      "field": "instruction",
+      "text": "Name the following. (3x1=3)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s7-b1-i1",
+      "field": "q",
+      "text": "Flame of the forest",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s7-b1-i2",
+      "field": "q",
+      "text": "A form of painting on walls using natural colours.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s7-b1-i3",
+      "field": "q",
+      "text": "The name of your state animal.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s8",
+      "field": "heading",
+      "text": "V111. Give reasons for the following.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s8-b1",
+      "field": "instruction",
+      "text": "Give reasons for the following. (2x2=4)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s8-b1-i1",
+      "field": "q",
+      "text": "Bamboo baskets were coated with cow dung on the outside.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s8-b1-i2",
+      "field": "q",
+      "text": "If we overuse wood from nature,",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s9",
+      "field": "heading",
+      "text": "1X. What are the things that we use from nature in our daily life?",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s9-b1",
+      "field": "instruction",
+      "text": "What are the things that we use from nature in our daily life? (1x5=5)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s9-b1-i1",
+      "field": "q",
+      "text": "Eating",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s9-b1-i2",
+      "field": "q",
+      "text": "Clothing",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s9-b1-i3",
+      "field": "q",
+      "text": "Healthcare",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s9-b1-i4",
+      "field": "q",
+      "text": "Fuel",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s9-b1-i5",
+      "field": "q",
+      "text": "Shelter",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s10",
+      "field": "heading",
+      "text": "X. Locate the following states in the given map.",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "s10-b1",
+      "field": "instruction",
+      "text": "Locate the following states in the given map. (3x1= 3)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s10-b1-i1",
+      "field": "q",
+      "text": "Uttarakhand",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s10-b1-i2",
+      "field": "q",
+      "text": "Karnataka",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s10-b1-i3",
+      "field": "q",
+      "text": "Maharashra",
+      "reason": "garbled text layer"
+    }
+  ]
+}
