@@ -18,9 +18,10 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Acceptance: four pass lines in the session log; no secret value printed
   - Files: none
   - Completed: 2026-10-02 — GANESH_EVS set; build hash present, plaintext absent; vercel CLI whoami OK (raw /v2/user API → 403, CLI auth used instead); live URL 200
-- [ ] Task 4: Install Playwright on this host; repoint the require path in `tests/e2e.js`; run the existing suite against the local build (ch1–5 and hy, practice and checking modes) (P0)
+- [x] Task 4: Install Playwright on this host; repoint the require path in `tests/e2e.js`; run the existing suite against the local build (ch1–5 and hy, practice and checking modes) (P0)
   - Acceptance: existing suite passes (33/33) with no change to its assertions except the require path
   - Files: tests/e2e.js, package.json (devDependency)
+  - Completed: 2026-10-02 — playwright ^1.63.0 devDependency + chromium; require line repointed; existing suite 33/33; npm audit 0 vulns
 
 ### Phase 1 — Intake (brief §2)
 - [x] Task 5: Text cache and page images for all 7 PDFs (`pdftotext -layout`, `pdftoppm -r 100 -png` into scratch/cache); record PDF hashes and a usable or garbled flag per file (P0)

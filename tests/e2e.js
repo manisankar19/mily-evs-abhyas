@@ -1,6 +1,6 @@
 // Acceptance click-through (BLUEPRINT §13, items 7–19, 23–25) against a local dev server.
 // Usage: GANESH_EVS=<code> node tests/e2e.js   (server must be running on :4173)
-const { chromium } = require(require.resolve('playwright', { paths: [process.env.NPM_GLOBAL || '/home/claude/.npm-global/lib/node_modules'] }));
+const { chromium } = require(process.env.NPM_GLOBAL ? require.resolve('playwright', { paths: [process.env.NPM_GLOBAL] }) : 'playwright');
 const fs = require('fs');
 const URL = process.env.URL || 'http://localhost:4173/';
 const CODE = process.env.GANESH_EVS || (fs.readFileSync(__dirname + '/../.env.local', 'utf8').match(/GANESH_EVS=(.*)/) || [])[1];
