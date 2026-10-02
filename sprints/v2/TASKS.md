@@ -101,16 +101,21 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Completed: 2026-10-02 — sprints/v2/recheck-batch1.md; corrections in sp05 Q8e, sp01 Q4/Q8; brief §9 added. Batch gate: owner asked to run on to Task 32; parent reads the sheets before deploy (Task 34 gate)
 
 ### Phase 6 — Papers, batch 2
-- [ ] Task 23: Batch 2 paper D = **sp04** (as Task 19; 100% fallbackText from the transcript) (P0)
-- [ ] Task 24: Batch 2 paper E = **sp03** (as Task 19) (P0)
-- [ ] Task 25: Batch 2 paper F = **sp06** (as Task 19) (P0)
-- [ ] Task 26: Coordinator re-check of batch 2 (as Task 22). **STOP — batch gate** (P0)
+- [x] Task 23: Batch 2 paper D = **sp04** (as Task 19; 100% fallbackText from the transcript) (P0)
+  - Completed: 2026-10-02 — sp04: 34 items, 30 ⚑, 100% fallback (garbled), all strings checked against page images; commit 7733c1f
+- [x] Task 24: Batch 2 paper E = **sp03** (as Task 19) (P0)
+  - Completed: 2026-10-02 — sp03: 53 items, 40 ⚑, fidelity 95/95; word search verified; commit 9865b74
+- [x] Task 25: Batch 2 paper F = **sp06** (as Task 19) (P0)
+  - Completed: 2026-10-02 — sp06: 51 items, 39 ⚑, fidelity 99/105 + 6 fallback; commit 35ccf97
+- [x] Task 26: Coordinator re-check of batch 2 (as Task 22). **STOP — batch gate** (P0)
   - Files: sprints/v2/recheck-batch2.md
+  - Completed: 2026-10-02 — sprints/v2/recheck-batch2.md; match-item display fix (printedRight, pairs fidelity-checked, commit 0c8d267); sp06 ragi removed. Batch gate: owner asked to continue; parent reads sheets before deploy (Task 34)
 
 ### Phase 7 — Papers, batch 3
 - [x] Task 27: ~~Batch 3 paper G~~ — not needed: sp02 dropped at Gate 0b (duplicate of sp05), so 6 papers fit in 2 batches
-- [ ] Task 28: Final cross-paper sweep (after batch 2) across all papers for consistent `acceptable` and ⚑ (as Task 22). **STOP — batch gate** (P0)
+- [x] Task 28: Final cross-paper sweep (after batch 2) across all papers for consistent `acceptable` and ⚑ (as Task 22). **STOP — batch gate** (P0)
   - Files: sprints/v2/recheck-batch3.md
+  - Completed: 2026-10-02 — cross-paper sweep: 26 shared questions sp03/sp06; acceptable merged and ⚑ aligned where answers agree; map keys checked against printed states
 
 ### Phase 8 — App (brief §7)
 - [x] Task 29: `build.js`: no hard-coded counts; per-paper totals instead of `config.totalMarks`; unique split filenames (`evs-spNN.json`); a "School Papers" group with short labels (from intake) in confirmed order (P0)
