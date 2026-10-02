@@ -27,6 +27,7 @@ function normalise(text, joinHyphen = true, cache = true) {
   let s = String(text == null ? '' : text).normalize('NFKC').replace(/\r\n?|\f/g, '\n');
   s = s.split('\n').filter(l => !(cache && FOOTER_RE.test(l)) && !isDevanagariOnly(l)).join('\n');
   s = s.replace(/(\d)\s*[x×X]\s*(?=\d)/g, '$1 x ');                          // printed marks: 6x1 = 6 x 1
+  s = s.replace(/(\d)(?=\p{L})/gu, '$1 ');                                        // 5M = 5 M
   s = s.replace(/[‘’‚‛′`´]/g, "'").replace(/[“”„‟″]/g, '"').replace(/[­]/g, '')
     .replace(/[‐‑‒–—―−]/g, '-');
   s = s.replace(/(\p{L})-[ \t]*\n\s*(?=\p{L})/gu, joinHyphen ? '$1' : '$1 ')   // hyphenated line break

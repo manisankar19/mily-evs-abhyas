@@ -108,6 +108,11 @@ check('match pairs are fidelity-checked (left, right and printedRight)', () => {
   return true;
 });
 
+check('normalise: digits glued to a unit letter split ("5M" = "5 M")', () => {
+  const a = normalise('(1x5=5M)'), b = normalise('( 1 x 5 = 5 M )'), c = normalise('5×1=5Marks');
+  return a === b && c === normalise('5 x 1 = 5 Marks') ? true : `got "${a}" / "${b}" / "${c}"`;
+});
+
 // ---- review sheet ----
 const { renderSheet } = require(SHEET);
 const rawPass = fs.readFileSync(path.join(FIX, 'pass', 'evs-sp90.json'), 'utf8');
