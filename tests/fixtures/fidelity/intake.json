@@ -1,0 +1,9 @@
+{
+  "papers": [
+    { "sp": "sp90", "sourceFile": "fixture-sp90.pdf", "printedTotal": 10,
+      "sections": [ { "code": "A", "heading": "OBSERVATION AND REPORTING", "marks": 6 },
+                    { "code": "B", "heading": "", "marks": 4 } ] },
+    { "sp": "sp91", "sourceFile": "fixture-sp91.pdf", "printedTotal": 1,
+      "sections": [ { "code": "1", "heading": "", "marks": 1 } ] }
+  ]
+}

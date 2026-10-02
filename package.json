@@ -7,7 +7,11 @@
     "validate": "node validate.js",
     "build": "node build.js",
     "dev": "node build.js && node dev-server.js",
-    "pack": "node build.js --minify && node pack.js"
+    "pack": "node build.js --minify && node pack.js",
+    "fidelity": "node scripts/fidelity.js",
+    "review-sheets": "node scripts/review-sheet.js --all",
+    "test:fixtures": "node tests/fixtures.js && node tests/fidelity-fixtures.js",
+    "check:existing": "node scripts/hash-existing.js --check"
   },
   "license": "UNLICENSED",
   "devDependencies": {

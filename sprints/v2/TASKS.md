@@ -42,32 +42,40 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Completed: 2026-10-02 — sp02 ≡ sp05 (text diff, only annotations differ) → propose drop; sp03~sp06 0.73, kept; no chapters >5; batches proposed. Gate 0b questions open
 
 ### Phase 2 — Schema & validator (brief §3)
-- [ ] Task 9: Write `SCHEMA.md` documenting chapter papers (current behaviour) and `kind: "school"` (new fields, id pattern `evs-spNN-sX-bY-iZ`, ½ marks, `fallbackText`) (P0)
+- [x] Task 9: Write `SCHEMA.md` documenting chapter papers (current behaviour) and `kind: "school"` (new fields, id pattern `evs-spNN-sX-bY-iZ`, ½ marks, `fallbackText`) (P0)
   - Acceptance: every field in brief §3 documented with its type and when it is required
   - Files: SCHEMA.md
-- [ ] Task 10: `validate.js`: branch on `kind`. School papers: total from intake.json, no item-count limits, school id regex, MCQ and match rules relaxed only for flagged printed exceptions; the chapter branch stays unchanged (P0)
+  - Completed: 2026-10-02 — SCHEMA.md documents chapter + school kinds, Decisions section
+- [x] Task 10: `validate.js`: branch on `kind`. School papers: total from intake.json, no item-count limits, school id regex, MCQ and match rules relaxed only for flagged printed exceptions; the chapter branch stays unchanged (P0)
   - Acceptance: the 6 existing papers produce the same validator output as preflight; hash check passes
   - Files: validate.js
-- [ ] Task 11: `validate.js`: half-mark arithmetic (integer half-units) for school papers; new all-paper checks on top of v1 (`acceptable` on fill-blank, one-word and transformation items; band rubric on judgement items; caption/alt-text-gives-away-the-answer). Each check is added only if all 6 existing papers already pass it, otherwise it is gated to `kind: "school"` and the case is reported (P0)
+  - Completed: 2026-10-02 — validate.js branches on kind; chapter rules unchanged (evs-hy kind 'half-yearly' keeps chapter rules); intake-matched totals/sections/sourceFile
+- [x] Task 11: `validate.js`: half-mark arithmetic (integer half-units) for school papers; new all-paper checks on top of v1 (`acceptable` on fill-blank, one-word and transformation items; band rubric on judgement items; caption/alt-text-gives-away-the-answer). Each check is added only if all 6 existing papers already pass it, otherwise it is gated to `kind: "school"` and the case is reported (P0)
   - Acceptance: the existing papers still pass; a decision note per check is recorded in SCHEMA.md
   - Files: validate.js, SCHEMA.md
-- [ ] Task 12: Bad fixtures in `tests/fixtures/school/`, one per new rule, plus `npm run test:fixtures`, which asserts each fixture fails with the expected message (P0)
+  - Completed: 2026-10-02 — half-unit arithmetic; acceptable + band-rubric gated to school (existing papers fail: 114 one-word / 120 judgement items), caption-gives-away + asset-path applied to all; review-sheet freshness check
+- [x] Task 12: Bad fixtures in `tests/fixtures/school/`, one per new rule, plus `npm run test:fixtures`, which asserts each fixture fails with the expected message (P0)
   - Acceptance: every fixture fails for the stated reason; the 6 existing papers are hash-identical
   - Files: tests/fixtures/school/*, tests/fixtures.js, package.json
+  - Completed: 2026-10-02 — tests/fixtures.js 32/32 (27 school bad, 2 chapter bad, good, CLI, real data)
 
 ### Phase 3 — Fidelity & review sheets (brief §5–6)
-- [ ] Task 13: `scripts/fidelity.js`: normalise whitespace, quotes, hyphenation, footers and Devanagari header lines; match every section title, instruction, passage, question and choice against the text cache; hard-fail if total, section count or section marks differ from the intake; report every `fallbackText` use (one line "spNN: 100% fallback" for garbled papers) (P0)
+- [x] Task 13: `scripts/fidelity.js`: normalise whitespace, quotes, hyphenation, footers and Devanagari header lines; match every section title, instruction, passage, question and choice against the text cache; hard-fail if total, section count or section marks differ from the intake; report every `fallbackText` use (one line "spNN: 100% fallback" for garbled papers) (P0)
   - Acceptance: runs over all school JSONs present; exit code non-zero on any mismatch
   - Files: scripts/fidelity.js, package.json (`fidelity` script)
-- [ ] Task 14: Fidelity fixtures: one altered word fails; one wrong section mark fails; a whitespace or quote variant passes (P0)
+  - Completed: 2026-10-02 — scripts/fidelity.js: token-run matching, NFKC, Devanagari/footers dropped, layout+raw caches, intake totals; reports fallback share
+- [x] Task 14: Fidelity fixtures: one altered word fails; one wrong section mark fails; a whitespace or quote variant passes (P0)
   - Acceptance: all three behave as stated under `npm run test:fixtures`
   - Files: tests/fixtures/fidelity/*
-- [ ] Task 15: `scripts/review-sheet.js` generates `sprints/v2/answer-review/spNN.md` (⚑ items first, then in section order: label, question, answer, acceptable, rubric, source, teacherNote); `validate.js` fails if a sheet is missing or out of date (P0)
+  - Completed: 2026-10-02 — tests/fidelity-fixtures.js 18/18 incl. one-altered-word, wrong section mark, whitespace/quote variant, fallback, 100% fallback, real sp01/sp03 lines
+- [x] Task 15: `scripts/review-sheet.js` generates `sprints/v2/answer-review/spNN.md` (⚑ items first, then in section order: label, question, answer, acceptable, rubric, source, teacherNote); `validate.js` fails if a sheet is missing or out of date (P0)
   - Acceptance: regenerating is idempotent; hand-editing a sheet makes validate fail
   - Files: scripts/review-sheet.js, validate.js
-- [ ] Task 16: Commit the tooling: schema and validator in one commit, fidelity and review tooling in another (P0)
+  - Completed: 2026-10-02 — scripts/review-sheet.js renderSheet + --all/--check; validate fails on missing/stale sheet (fixture)
+- [x] Task 16: Commit the tooling: schema and validator in one commit, fidelity and review tooling in another (P0)
   - Acceptance: two commits; `npm run validate` and the fixture tests pass; existing paper hashes unchanged
   - Files: —
+  - Completed: 2026-10-02 — two commits; semgrep: path-join warnings only, reviewed (inputs regex-checked); npm audit 0
 
 ### Phase 4 — Shared pictures (brief §4)
 - [ ] Task 17: From the intake picture list, draw shared SVGs used by 2 or more papers (labelling diagrams with numbered blanks, no labels shown); view each at 2×; check that alt text does not give the answer away and that no picture shows unsafe behaviour (P1)

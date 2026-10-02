@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.0", "kind": "school", "sourceFile": "fixture-sp90.pdf", "sp": "sp90",
+  "subject": "evs", "subjectDisplay": "EVS", "grade": 4, "locale": "en", "numerals": "latn",
+  "title": "Worksheet (2025-26)", "shortLabel": "Fixture worksheet", "subtitle": "Fidelity fixture",
+  "header": ["Atomic Energy Education Society"], "totalMarks": 10, "durationMinutes": null, "chapters": [1],
+  "fallbackText": [ { "where": "evs-sp90-s2-b1-i1", "field": "q", "text": "Name the bird in the picture.", "reason": "read from page image" } ],
+  "sections": [
+    { "code": "A", "title": "OBSERVATION AND REPORTING", "heading": "SECTION A", "marks": 6,
+      "blocks": [
+        { "num": "1", "instruction": "Fill in the blanks choosing the correct answer from the options given below (2 x 1 = 2)",
+          "items": [
+            { "id": "evs-sp90-s1-b1-i1", "label": "i.", "type": "fill-blank", "q": "Nature is full of amazing ________.",
+              "options": ["books and toys", "plants and animals", "boys and girls"], "marks": 1,
+              "answer": "plants and animals", "acceptable": ["plants and animals"],
+              "answerSource": "authored", "answerConfidence": "sure", "sourceRef": "Ch 1, p.2 line 3" },
+            { "id": "evs-sp90-s1-b1-i2", "label": "ii.", "type": "fill-blank", "q": "The Indian Giant Squirrel is a big, red-coloured ______ found in Pachmarhi.",
+              "options": ["beast", "squirrel", "snake"], "marks": 1,
+              "answer": "squirrel", "acceptable": ["squirrel", "giant squirrel"],
+              "answerSource": "authored", "answerConfidence": "check", "teacherNote": "Printed options include the word in the question.", "sourceRef": "Ch 1, p.5" }
+          ] },
+        { "num": "2", "instruction": "Answer the following (2 x 2 = 4)",
+          "items": [
+            { "id": "evs-sp90-s1-b2-i1", "label": "i.", "type": "short", "q": "Why do the children’s footprints look different from the footprints of a bird?",
+              "marks": 2, "answer": "Children have wide feet with five toes; birds have thin toes.",
+              "answerPoints": [ { "point": "children: five toes, wide foot", "marks": 1 }, { "point": "bird: three thin toes", "marks": 1 } ],
+              "rubric": [ { "band": "full", "marks": 2, "descriptor": "Both differences" }, { "band": "partial", "marks": 1, "descriptor": "One difference" }, { "band": "none", "marks": 0, "descriptor": "No difference" } ],
+              "modelAnswer": "A child's foot is wide with five toes, a bird's foot has thin toes.",
+              "answerSource": "authored", "answerConfidence": "check", "sourceRef": "Ch 1, p.7" },
+            { "id": "evs-sp90-s1-b2-i2", "label": "ii.", "type": "short", "q": "Write two rules to be followed in a zoo or forest.",
+              "marks": 2, "answer": "Do not feed the animals. Do not litter.",
+              "answerPoints": [ { "point": "rule 1", "marks": 1 }, { "point": "rule 2", "marks": 1 } ],
+              "rubric": [ { "band": "full", "marks": 2, "descriptor": "Two rules" }, { "band": "partial", "marks": 1, "descriptor": "One rule" }, { "band": "none", "marks": 0, "descriptor": "None" } ],
+              "answerSource": "authored", "answerConfidence": "sure", "sourceRef": "Ch 1, p.8" }
+          ] }
+      ] },
+    { "code": "B", "title": "SECTION B", "marks": 4,
+      "blocks": [
+        { "num": "3", "instruction": "Read the passage and answer. (4)",
+          "passage": "Abha Didi took the students on a nature trail near the forest.",
+          "items": [
+            { "id": "evs-sp90-s2-b1-i1", "label": "Q.", "type": "one-word", "q": "Name the bird shown in the picture.",
+              "marks": 4, "answer": "Abha Didi", "acceptable": ["Abha Didi", "Abha"],
+              "rubric": [ { "band": "full", "marks": 4, "descriptor": "Names Abha Didi" }, { "band": "none", "marks": 0, "descriptor": "Other" } ],
+              "pictureDescription": "A teacher walking with children on a forest path.",
+              "answerSource": "authored", "answerConfidence": "sure", "sourceRef": "passage" }
+          ] }
+      ] }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "2.0", "kind": "school", "sourceFile": "fixture-sp91.pdf", "sp": "sp91",
+  "subject": "evs", "subjectDisplay": "EVS", "grade": 4, "locale": "en", "numerals": "latn",
+  "title": "Worksheet", "shortLabel": "Garbled fixture", "subtitle": "Fidelity fixture",
+  "header": [], "totalMarks": 1, "durationMinutes": null, "chapters": [5],
+  "fallbackText": [
+    { "where": "s1", "field": "heading", "text": "Food we eat", "reason": "garbled text layer" },
+    { "where": "s1-b1", "field": "instruction", "text": "Tick the correct answer. (1)", "reason": "garbled text layer" },
+    { "where": "evs-sp91-s1-b1-i1", "field": "q", "text": "We get milk from a ______.", "reason": "garbled text layer" },
+    { "where": "evs-sp91-s1-b1-i1", "field": "option", "text": "cow", "reason": "garbled text layer" },
+    { "where": "evs-sp91-s1-b1-i1", "field": "option", "text": "stone", "reason": "garbled text layer" }
+  ],
+  "sections": [
+    { "code": "1", "title": "Food we eat", "marks": 1,
+      "blocks": [
+        { "num": "1", "instruction": "Tick the correct answer. (1)",
+          "items": [
+            { "id": "evs-sp91-s1-b1-i1", "label": "(a)", "type": "mcq", "q": "We get milk from a ______.",
+              "options": ["cow", "stone"], "marks": 1, "answer": "cow",
+              "answerSource": "authored", "answerConfidence": "sure", "sourceRef": "Ch 5" }
+          ] }
+      ] }
+  ]
+}
