@@ -392,7 +392,7 @@
         3,
         4
       ],
-      "status": "duplicate-of-sp05"
+      "status": "excluded-duplicate-of-sp05"
     },
     {
       "sp": "sp03",
@@ -1672,7 +1672,29 @@
         3,
         4
       ],
-      "status": "include"
+      "status": "include",
+      "decisions": [
+        "Gate 0b: Q. 6 pictures 4–5 accept place/activity names, answerConfidence \"check\" + teacherNote"
+      ]
     }
-  ]
+  ],
+  "gate0b": {
+    "date": "2026-10-02",
+    "sp02": "dropped (duplicate of sp05); sp numbers unchanged, sp02 is a gap",
+    "drawingAndMapItems": "paper-based: child marks on printout; parent marks with rubric in checking mode; no tap-to-locate UI",
+    "sp07Q6": "accept place/activity names, ⚑ + teacherNote",
+    "batches": {
+      "1": [
+        "sp05",
+        "sp07",
+        "sp01"
+      ],
+      "2": [
+        "sp04",
+        "sp03",
+        "sp06"
+      ]
+    },
+    "liveCheckPaper": "sp05"
+  }
 }

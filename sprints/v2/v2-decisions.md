@@ -86,3 +86,14 @@ The PRD has been reviewed and revised. Key changes from the initial draft:
 - GitHub public commit approved
 
 No further PRD revisions needed. Ready to write TASKS.md.
+
+---
+
+## Gate 0b — after intake (2026-10-02, owner)
+
+1. **sp02 (`2.1.2 EVS L5.pdf`) dropped.** At first the owner chose to keep it. The coordinator then showed that it is identical to sp05 (`2.1.6`), checked by text and by viewing page 3 of both, and the owner chose to drop it. The sp numbers are unchanged (sp02 is a gap), so the site shows **6 school papers**: sp01, sp03, sp04, sp05, sp06, sp07.
+2. **Drawing, map and annotation items are paper-based.** The child marks them on a printout, and the parent marks them with the rubric in checking mode. There is no tap-to-locate UI this sprint.
+3. **sp07 Q. 6 (pictures 4–5):** accept place or activity names, with `answerConfidence: "check"` (⚑) and a `teacherNote`.
+4. **Batches:** 1 = sp05, sp07, sp01 · 2 = sp04, sp03, sp06. **Live-check paper: sp05.**
+
+Intake facts (see `source/SCHOOL-PAPERS-INTAKE.md`): the text layers of 2.1.2 and 2.1.5 are garbled (the earlier "readable" note above applies to the page images only); 2.1.5 covers **Chapter 4**, not 5; 2.1.7 is complete (8 of 8 pages, and the header "09" is a miscount); no paper goes beyond Chapter 5.

@@ -82,28 +82,28 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Acceptance: each shared SVG is listed with the papers and questions that use it; skip with a note if none are shared
   - Files: app/assets/shared-*.svg
 
-### Phase 5 — Papers, batch 1 (order confirmed at Gate 0b)
+### Phase 5 — Papers, batch 1 (sp05, sp07, sp01; Gate 0b 2026-10-02)
 - [ ] Task 18: Write the sub-agent brief (exact copying rules, item-type mapping, wide `acceptable` with Hindi-English, local and regional names, ⚑ rules, teacherNote, picture rules, writes only its own JSON and assets) (P0)
   - Acceptance: brief saved at `sprints/v2/subagent-brief.md`, quoting brief §4 and §6
   - Files: sprints/v2/subagent-brief.md
-- [ ] Task 19: Batch 1 paper A: sub-agent writes JSON and assets → validate + fidelity + sheet → one commit (P0)
+- [ ] Task 19: Batch 1 paper A = **sp05**: sub-agent writes JSON and assets → validate + fidelity + sheet → one commit (P0)
   - Files: app/data/evs-spNN.json, app/assets/spNN-*.svg, sprints/v2/answer-review/spNN.md
-- [ ] Task 20: Batch 1 paper B (same as Task 19) (P0)
-- [ ] Task 21: Batch 1 paper C (same as Task 19) (P0)
+- [ ] Task 20: Batch 1 paper B = **sp07** (same as Task 19; Q. 6 pictures 4–5 accept place/activity names, ⚑ + teacherNote) (P0)
+- [ ] Task 21: Batch 1 paper C = **sp01** (same as Task 19) (P0)
 - [ ] Task 22: Coordinator re-check of batch 1 (not delegated): re-derive every ⚑ answer from the textbook PDFs; sweep every non-⚑ objective item for a missed ⚑ or a narrow `acceptable`; check pictures are drawn, not described; check fallback text against the page images; tighten the sub-agent brief if it under-flagged (P0)
   - Acceptance: corrections committed; re-check notes in `sprints/v2/recheck-batch1.md`. **STOP — batch gate:** parent reads the sheets
   - Files: sprints/v2/recheck-batch1.md, sprints/v2/subagent-brief.md
 
 ### Phase 6 — Papers, batch 2
-- [ ] Task 23: Batch 2 paper D (as Task 19) (P0)
-- [ ] Task 24: Batch 2 paper E (as Task 19) (P0)
-- [ ] Task 25: Batch 2 paper F (as Task 19) (P0)
+- [ ] Task 23: Batch 2 paper D = **sp04** (as Task 19; 100% fallbackText from the transcript) (P0)
+- [ ] Task 24: Batch 2 paper E = **sp03** (as Task 19) (P0)
+- [ ] Task 25: Batch 2 paper F = **sp06** (as Task 19) (P0)
 - [ ] Task 26: Coordinator re-check of batch 2 (as Task 22). **STOP — batch gate** (P0)
   - Files: sprints/v2/recheck-batch2.md
 
 ### Phase 7 — Papers, batch 3
-- [ ] Task 27: Batch 3 paper G (the remaining paper, usually the long, picture-heavy or garbled one) (as Task 19) (P0)
-- [ ] Task 28: Coordinator re-check of batch 3, plus a final sweep across all papers for consistent `acceptable` and ⚑ (as Task 22). **STOP — batch gate** (P0)
+- [x] Task 27: ~~Batch 3 paper G~~ — not needed: sp02 dropped at Gate 0b (duplicate of sp05), so 6 papers fit in 2 batches
+- [ ] Task 28: Final cross-paper sweep (after batch 2) across all papers for consistent `acceptable` and ⚑ (as Task 22). **STOP — batch gate** (P0)
   - Files: sprints/v2/recheck-batch3.md
 
 ### Phase 8 — App (brief §7)

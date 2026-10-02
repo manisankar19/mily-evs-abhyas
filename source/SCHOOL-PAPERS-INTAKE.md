@@ -7,7 +7,7 @@ Machine-readable: `source/intake.json`. Text cache: `source/text-cache/`. Transc
 | sp | Source file | Short label | Total | Sections | Chapters | Text layer | Pictures | ⚑ est. | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | sp01 | `2.1.1 class 4_twau_ch-3_ws.pdf` | Worksheet: Chapter 3 | 40 | 3 | 3 | usable | 8 | 18 | include |
-| sp02 | `2.1.2 EVS L5.pdf` | Worksheet: Chapter 5 (August) | 40 | 3 | 5 | garbled | 2 | 9 | duplicate-of-sp05 |
+| sp02 | `2.1.2 EVS L5.pdf` | Worksheet: Chapter 5 (August) | 40 | 3 | 5 | garbled | 2 | 9 | **excluded** (duplicate of sp05) |
 | sp03 | `2.1.4 Worksheet_Class-4_TWAU_Sept'25 HYE.pdf` | Worksheet: September (Ch 1–5, Term 1) | 80 | 3 | 1, 2, 3, 4, 5 | usable | 11 | 16 | include |
 | sp04 | `2.1.5 L5 EVS.pdf` | Worksheet: Lesson 4 | 40 | 10 | 4 | garbled | 5 | 15 | include |
 | sp05 | `2.1.6  Worksheet_Class-4_TWAU_August'25 L-5.pdf` | Worksheet: Chapter 5 (August) | 40 | 3 | 5 | usable | 1 | 11 | include |
@@ -27,7 +27,7 @@ Compared by text (normalised token sequences; transcripts used for garbled layer
 ## Chapters beyond 5
 None. Every paper covers Chapters 1–5 (sp04 = Ch 4 despite its "L5" filename). Some items go beyond the textbook text (electrician/pliers, dragonfly, termite, national emblem); these get authored answers with ⚑ and a Class 4 content-standard source.
 
-## Proposed batches (if sp02 is dropped → 6 papers)
+## Batches (confirmed at Gate 0b)
 Rule: fewest pictures first, picture-heavy last, garbled last in its group.
 | Batch | Papers | Why |
 |---|---|---|
@@ -39,11 +39,11 @@ Rule: fewest pictures first, picture-heavy last, garbled last in its group.
 - **Banknote with the national emblem** (sp03 ₹100, sp06 ₹500): an original simplified note; never reproduce currency faithfully.
 - **Cooking methods** (sp03 Q4, sp06 Q4): candidates for a shared set.
 
-## Open for owner (Gate 0b)
-1. Drop sp02 as a duplicate of sp05, and renumber? (Options: renumber to sp01–sp06 in filename order, or keep sp02 as a gap.)
-2. Map, "encircle on the note" and drawing items: on the app, these become a printed/oral task that the parent marks with a rubric (no tap-to-locate UI this sprint).
-3. sp07 Q. 6 pictures 4–5 (playground, Bhela Ghar) are not occupations but count toward 1×5. Proposed: accept the place/activity name, ⚑ + teacherNote.
-4. Live-check paper: default the first paper of batch 1.
+## Gate 0b decisions (owner, 2026-10-02)
+1. **sp02 dropped** as a duplicate of sp05 (confirmed again by viewing page 3 of both). sp numbers are unchanged; sp02 is a documented gap. The site shows 6 school papers.
+2. **Drawing, map and "encircle" items are paper-based:** the child marks them on a printout, and the parent marks them with a rubric in checking mode. There is no tap-to-locate UI.
+3. **sp07 Q. 6** pictures 4–5: accept place or activity names, with `answerConfidence: "check"` (⚑) and a `teacherNote`.
+4. **Batches:** 1 = sp05, sp07, sp01; 2 = sp04, sp03, sp06. **Live-check paper: sp05.**
 
 ---
 

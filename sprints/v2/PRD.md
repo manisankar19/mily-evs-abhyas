@@ -12,7 +12,7 @@ the child uses the paper. Practice mode, checking mode and the result page work 
 The sprint also replaces v1's 7-project split deploy with a single-file CLI deploy.
 
 ## Goals
-- The 7 EVS school papers (sp01–sp07) are on the site in filename order, with short card labels and each paper's printed total.
+- The 6 EVS school papers (sp01, sp03–sp07; sp02 dropped as a duplicate of sp05 at Gate 0b) are on the site in filename order, with short card labels and each paper's printed total.
 - Every school paper passes `validate.js` (`kind: "school"`) and `scripts/fidelity.js`, and every `fallbackText` use is counted and reported.
 - The 6 existing paper JSONs are **byte-identical** to their preflight SHA-256 hashes and pass `npm run validate` unchanged.
 - Every picture-dependent question is drawn as an original SVG and can be answered from the drawing alone.
@@ -30,11 +30,11 @@ The sprint also replaces v1's 7-project split deploy with a single-file CLI depl
 | sp | Source file (`source/school-papers/`, copied from `source/samples/`) | Pages | Text layer |
 |---|---|---|---|
 | sp01 | `2.1.1 class 4_twau_ch-3_ws.pdf` | 4 | usable (bilingual header) |
-| sp02 | `2.1.2 EVS L5.pdf` | 4 | **garbled → 100% fallbackText** |
+| sp02 | `2.1.2 EVS L5.pdf` | 4 | garbled. **Dropped at Gate 0b: duplicate of sp05.** |
 | sp03 | `2.1.4 Worksheet_Class-4_TWAU_Sept'25 HYE.pdf` | 8 | usable |
-| sp04 | `2.1.5 L5 EVS.pdf` | 4 | **garbled → 100% fallbackText** |
+| sp04 | `2.1.5 L5 EVS.pdf` | 4 | **garbled → 100% fallbackText**; covers Ch 4 |
 | sp05 | `2.1.6  Worksheet_Class-4_TWAU_August'25 L-5.pdf` | 4 | usable |
-| sp06 | `2.1.7 IV TWAU HY Practice Paper-2.pdf` | 8 | usable. **The paper prints "pages: 09" but the PDF has 8 pages.** Intake must check for a missing page. |
+| sp06 | `2.1.7 IV TWAU HY Practice Paper-2.pdf` | 8 | usable. Header says 09 pages; the footers show 8 of 8, so nothing is missing. |
 | sp07 | `2.1.8 IV TWAU Revision WS Chapters 1 & 2.pdf` | 4 | usable |
 | — | `2.1.3 EVS L1 to 7.pdf` | 12 | Maths. **Excluded.** |
 
