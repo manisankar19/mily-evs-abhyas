@@ -1,0 +1,89 @@
+{
+  "sp": "sp01",
+  "sourceFile": "2.1.1 class 4_twau_ch-3_ws.pdf",
+  "sha256": "2dfa74c2057bddab85f79c4fcf704063cd508bb70f3b7a5fa55c71e4bf43c55b",
+  "pdfPages": 4,
+  "printedPages": 4,
+  "textLayer": "usable",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या /Total No. of printed pages: 4",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक / Worksheet (2025-26)",
+    "कक्षा /Class:_IV_ विषय /Subject: TWAU माह/ Month: JULY अंक/Marks: 40",
+    "दिया गया पाठ्यक्रम/Portion covered: Lesson-3, Nature Trail",
+    "विद्यार्थी का नाम/Name of the student: ____",
+    "अनुक्रमांक /Roll No.____ कक्षा/अनुभाग Class /Sec.:____ दिनांक /Date: ____"
+  ],
+  "printedTitle": "Atomic Energy Education Society / Worksheet (2025-26)",
+  "shortLabel": "Worksheet: Chapter 3",
+  "printedTotal": 40,
+  "duration": null,
+  "chapters": [3],
+  "chaptersBeyond5": false,
+  "sections": [
+    { "code": "A", "heading": "SECTION A OBSERVATION AND REPORTING", "marks": 15,
+      "blocks": [
+        { "label": "1.", "instruction": "Fill in the blanks choosing the correct answer from the options given below (5)",
+          "pattern": "mcq", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Fill-blank with 3 options a./b./c. each (mcq). (ii) option c. spelled 'Panchmarhi' (textbook: 'Pachmarhi'); (v) item also says 'found in Panchmarhi'. (v) answer 'squirrel' is given away by the stem 'Indian Giant Squirrel'. Keep as printed." },
+        { "label": "2.", "instruction": "State if the following sentences are True or False (5)",
+          "pattern": "true-false", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "(i) 'Abha Didi was a natural scientist.' — textbook says 'a nature scientist'; intended True, but a child could argue the wording. ⚑" },
+        { "label": "3.", "instruction": "Circle the odd one in each group (5)",
+          "pattern": "odd-one-out", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Five words per group. (iii) milk/nuts/grains/fruits/seeds — intended milk (not bird food / not plant product). (iv) fish/snake/frog/turtle/tiger — intended tiger (others live in/near water), but fish is defensible (only one living only in water). ⚑ on iii, iv." }
+      ] },
+    { "code": "B", "heading": "SECTION B IDENTIFYING GROUP AND CLASSIFICATION", "marks": 13,
+      "blocks": [
+        { "label": "4.", "instruction": "Match the following (3)",
+          "pattern": "match", "items": 3, "marksEach": 1, "marks": 3,
+          "pictures": [
+            { "page": 2, "what": "two small black paw prints (animal footprints)", "need": "answer-from" },
+            { "page": 2, "what": "duck/bird webbed foot (stippled drawing)", "need": "answer-from" },
+            { "page": 2, "what": "outline of a hooked bird beak", "need": "answer-from" }
+          ],
+          "notes": "Left column is pictures, right column a. webbed feet / b. beak of a bird / c. footprint of an animal. Numerals sit at the bottom-left of each picture: paw prints above 'i.', webbed foot between 'i.' and 'ii', beak above 'iii.' — read as i=paw prints, ii=webbed foot, iii=beak (each picture ends at its numeral). 'ii' printed without a full stop. Intended key i-c, ii-a, iii-b." },
+        { "label": "5.", "instruction": "Name the following (5)",
+          "pattern": "one-word", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "(ii) 'An insect with three pairs of legs and one antennae' — factually/grammatically off (insects have one pair of antennae; 'antennae' is plural); any insect is a defensible answer (open) ⚑. (iii) veins. (iv) intended 'web of life' (textbook game name) — wording loose ⚑. (v) owl. Items (ii) and (iv) lack a closing full stop; others have one." },
+        { "label": "6.", "instruction": "Answer the following (5)",
+          "pattern": "short", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "(i) answer Pachmarhi (textbook: 'got ready for a nature trail at Pachmarhi'); question wording 'Where did the students get ready to go' is odd but answerable. (ii) open (two rules). (iv) printed 'How do  leaves' with double space. (ii)-(v) judgement ⚑." }
+      ] },
+    { "code": "C", "heading": "SECTION C DISCOVERY OF FACTS", "marks": 12,
+      "blocks": [
+        { "label": "7.", "instruction": "Name two of the following (5)",
+          "pattern": "short", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Two blanks per item, likely 0.5 per name. Printed 'Name  two' with double space. All five are open-list answers; (i) 'Common birds seen around you' is personal. ⚑ all 5." },
+        { "label": "8.", "instruction": "Identify the following pictures and name them (5)",
+          "pattern": "one-word", "items": 5, "marksEach": 1, "marks": 5,
+          "pictures": [
+            { "page": 4, "what": "bird's foot with long curved sharp claws/talons (eagle-type)", "need": "answer-from" },
+            { "page": 4, "what": "cartoon parrot-like bird with hooked beak", "need": "answer-from" },
+            { "page": 4, "what": "zoo scene: fenced enclosures with ostriches, giraffe, elephants, trees, path", "need": "answer-from" },
+            { "page": 4, "what": "butterfly (line art, open wings, antennae)", "need": "answer-from" },
+            { "page": 4, "what": "cartoon squirrel holding an acorn, sitting on grass", "need": "answer-from" }
+          ],
+          "notes": "Items unnumbered (layout 3 + 2, a blank under each). Claws: claws/talons/'feet of a bird' all defensible ⚑; bird: parrot vs 'bird' ⚑; scene: zoo vs 'wildlife park' ⚑." },
+        { "label": "9.", "instruction": "Draw a picture denoting the diversity of animals in a forest. (2)",
+          "pattern": "draw", "items": 1, "marksEach": 2, "marks": 2, "pictures": [],
+          "notes": "No drawing box printed; blank space below. Judgement ⚑." }
+      ] }
+  ],
+  "markArithmetic": "No section totals printed. Block marks: A = 5+5+5 = 15; B = 3+5+5 = 13; C = 5+5+2 = 12; 15+13+12 = 40 = printed 'Marks: 40'. Matches.",
+  "flagEstimate": 18,
+  "issues": [
+    "Section headings are two printed lines each ('SECTION A' + 'OBSERVATION AND REPORTING', etc.); recorded joined with a space — owner to confirm how the JSON 'title'/'heading' split them.",
+    "Q1(ii)/(v) print 'Panchmarhi'; textbook spelling is 'Pachmarhi'. Keep as printed; teacherNote.",
+    "Q2(i) 'natural scientist' vs textbook 'nature scientist'; intended True.",
+    "Q5(ii) 'one antennae' is factually wrong (insects have one pair of antennae); keep as printed, accept any insect.",
+    "Q4 picture-to-numeral placement is ambiguous (numerals sit below/beside images); recorded as i=paw prints, ii=webbed foot, iii=beak.",
+    "Q7 and Q8 marks per sub-part not printed (5 marks over 5 items / 10 names); assumed 1 per item, 0.5 per name in Q7.",
+    "Q8 picture items are unnumbered; item labels must be authored (e.g. (i)-(v) in reading order).",
+    "Q3(iv) fish vs tiger both defensible as odd one out.",
+    "Subject printed as 'TWAU' (The World Around Us), not 'EVS'.",
+    "All 4 pages readable; no hard stop."
+  ],
+  "pagesViewed": [1, 2, 3, 4]
+}

@@ -1,0 +1,183 @@
+{
+  "sp": "sp05",
+  "sourceFile": "2.1.6  Worksheet_Class-4_TWAU_August'25 L-5.pdf",
+  "sha256": "c7ddd4b606d2aacdac43aeedf3d5ca63c9fd0f56fc28ff495718084b631c066d",
+  "pdfPages": 4,
+  "printedPages": 4,
+  "textLayer": "usable",
+  "header": [
+    "कुल मुद्रित पृष्ठों की  संख्या /Total No. of printed pages: 4",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक / Worksheet (2025-26)",
+    "कक्षा /Class: 4   विषय /Subject: TWAU   माह/Month : August   अंक/Marks: 40",
+    "दिया गया पाठ्यक्रम/Portion covered: Chapter-5   Food for Health",
+    "विद्यार्थी का नाम/Name of the student: ____",
+    "अनुक्रमांक/Roll No.____कक्षा/अनुभागClass /Sec.:____दिनांक /Date: ____"
+  ],
+  "printedTitle": "कार्यपत्रक / Worksheet (2025-26)",
+  "shortLabel": "Worksheet: Chapter 5 (August)",
+  "printedTotal": 40,
+  "duration": null,
+  "chapters": [
+    5
+  ],
+  "chaptersBeyond5": false,
+  "sections": [
+    {
+      "code": "A",
+      "heading": "Section – A : OBSERVATION AND REPORTING ( 15 marks )",
+      "marks": 15,
+      "blocks": [
+        {
+          "label": "1",
+          "instruction": "Fill in the gaps with the correct answer. ( 6 x 1 = 6 )",
+          "pattern": "fill-blank",
+          "items": 6,
+          "marksEach": 1,
+          "marks": 6,
+          "pictures": [],
+          "notes": "Each item prints two bracketed choices, e.g. '( Kerala / Karnataka )' — effectively a 2-option choose-and-fill; keep choices in q. (c) choice wraps over two lines ('( Energy Giving / Body-Building )'). (a) textbook: Ugadi Pachadi is from Andhra Pradesh, Karnataka and Telengana → Karnataka."
+        },
+        {
+          "label": "2",
+          "instruction": "Write True or False. ( 5 x 1 = 5 )",
+          "pattern": "true-false",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Answer brackets '(   )' after each statement. (e) is a negative-framed statement (answer False)."
+        },
+        {
+          "label": "3",
+          "instruction": "Write a short note on the following. ( 2 x 2 = 4 )",
+          "pattern": "short",
+          "items": 2,
+          "marksEach": 2,
+          "marks": 4,
+          "pictures": [],
+          "notes": "(a) 'Importance of water in our diet.' (b) 'Balanced food' (no full stop). 4 ruled answer lines each. Judgement items, need rubric."
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "heading": "Section – B : IDENTIFICATION AND CLASSIFICATION ( 12 marks )",
+      "marks": 12,
+      "blocks": [
+        {
+          "label": "4",
+          "instruction": "Answer the following. ( 5 x 1 = 5 )",
+          "pattern": "short",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "TYPO (a) 'What did Surabhi’s grandmother use to eat to during summers and winters?' — stray 'to' and 'use' for 'used'; textbook spells the name 'Surbhi' (deev105 p.74: jowar and bajra roti in winters, jau roti in summers). Keep as printed + teacherNote. (e) 'Who is a ‘Chef’?' — curly quotes. (b)–(d) open-ended."
+        },
+        {
+          "label": "5",
+          "instruction": "Write the difference between. ( 2 x 1 = 2 )",
+          "pattern": "table",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "pictures": [],
+          "notes": "Two-column table, headers 'Protective Foods' | 'Energy Giving Foods', one empty row. Marks '2 x 1' read as one point per column (describe each food type). Ambiguous: could also mean two differences. Owner to confirm."
+        },
+        {
+          "label": "6",
+          "instruction": "Give an example of the ingredients or food items that match each of the tastes listed below? ( 6 x ½ = 3 )",
+          "pattern": "table",
+          "items": 6,
+          "marksEach": 0.5,
+          "marks": 3,
+          "pictures": [],
+          "notes": "Instruction ends with '?' though it is an imperative — keep. Table header cells: Sweet | Sour | Salty | Pungent | Bitter | Astringent, one empty answer row. Map to 6 one-word items with broad acceptable lists."
+        },
+        {
+          "label": "7",
+          "instruction": "Draw any two junk food and also write the names. ( 2 x 1 = 2 )",
+          "pattern": "draw",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "pictures": [],
+          "notes": "'two junk food' (grammar) kept. Two empty boxes each with a drawn name line '_________' (drawn-line blank, appears in cache as underscores). App cannot grade drawing: nearest type draw/one-word (name) + rubric; say so in instruction."
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "heading": "Section – C :  DISCOVERY OF FACTS ( 13 marks )",
+      "marks": 13,
+      "blocks": [
+        {
+          "label": "8",
+          "instruction": "Name any two. ( 5 x 1 = 5 )",
+          "pattern": "one-word",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Each item has two answer blanks (½ each implied, not printed). (b) 'Water – rich fruits' with spaced en-dash (kept). (d) 'super food' refers to textbook millet stall (jowar upma etc.). Open lists → broad acceptable."
+        },
+        {
+          "label": "9",
+          "instruction": "Match the following. ( 6 x ½ = 3)",
+          "pattern": "match",
+          "items": 6,
+          "marksEach": 0.5,
+          "marks": 3,
+          "pictures": [],
+          "notes": "Left: a. Boiling b. Steaming c. Frying d. Roasting e. Grilling f. Baking. Right (with '(   )' answer brackets): cakes, rice, popcorn, idiyappam, puri, chicken. Expected: Boiling–rice, Steaming–idiyappam, Frying–puri, Roasting–popcorn, Grilling–chicken, Baking–cakes. Mark bracket '( 6 x ½ = 3)' has no space before ')'."
+        },
+        {
+          "label": "10",
+          "instruction": "Circle the odd one out. ( 4 x ½ = 2 )",
+          "pattern": "odd-one-out",
+          "items": 4,
+          "marksEach": 0.5,
+          "marks": 2,
+          "pictures": [],
+          "notes": "Printed '10.Circle' (no space after number) and Q10/Q11 are indented as if sub-items — keep labels 10, 11. Items list words with ' , ' spacing and italic '( Clue: … )'. Likely answers: a lemon, b tomato, c cheese, d pizza. (a) potato is arguably fine; (b) almonds are also body-building per some books — accept as printed key."
+        },
+        {
+          "label": "11",
+          "instruction": "Locate the following states in the given map. ( 3 x 1 = 3 )",
+          "pattern": "diagram-label",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "pictures": [
+            {
+              "page": 4,
+              "what": "Outline political map of India with state boundaries, no names (low-resolution raster, framed box)",
+              "need": "label"
+            }
+          ],
+          "notes": "Sub-line printed in bold: 'a. Andhra Pradesh , b. Karnataka , c. Telangana' (states where Ugadi Pachadi is traditional, Ch 5). MUST draw an India state-outline SVG with numbered/marked regions so the child can pick which region is each state; answerable from drawing alone. Map is an image — not in text cache."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "A: 6+5+4 = 15 (printed 15). B: 5+2+3+2 = 12 (printed 12). C: 5+3+2+3 = 13 (printed 13). 15+12+13 = 40 = printed Marks: 40. All block 'n x m = t' products correct.",
+  "flagEstimate": 11,
+  "issues": [
+    "Q11 needs an original SVG outline map of India (southern states at least) with selectable/numbered regions — heaviest asset of the paper.",
+    "Q4a typo 'use to eat to' and spelling 'Surabhi' (textbook: 'Surbhi') — keep as printed, teacherNote.",
+    "Q5 '2 x 1' for a two-column difference table: decide 1 mark per column description vs two differences.",
+    "Q7 drawing task: app can only take names; drawing part needs self/parent check (rubric).",
+    "Q6 imperative instruction ends with '?' — keep.",
+    "Q10/Q11 bad numbering layout: '10.Circle' no space; printed indented under Q9.",
+    "Hindi header lines are mangled in the text layer (e.g. 'ऊर्ाा' for 'ऊर्जा', 'शिषय' for 'विषय', 'शिया' for 'दिया', 'सों ख्या'); header above is from the image. English text layer is complete.",
+    "Lesson 5 duplicate check: sp02 and sp04 are also Lesson 5 papers — compare by extracted text."
+  ],
+  "pagesViewed": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

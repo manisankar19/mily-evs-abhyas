@@ -1,0 +1,237 @@
+{
+  "sp": "sp07",
+  "sourceFile": "2.1.8 IV TWAU Revision WS Chapters 1 & 2.pdf",
+  "sha256": "881d24c0400c9064be686fe662131b9ec5163664ff09e93717e55a2ce77ecc86",
+  "pdfPages": 4,
+  "printedPages": 4,
+  "textLayer": "usable",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या /Total No. of printed pages: – 04",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक/ Worksheet (2026-27)",
+    "कक्षा /Class: IV विषय /Subject: TWAU माह/ Month: April to June अंक/Marks: 40",
+    "दिया गया पाठ्यक्रम/Portion covered: Chapter 1&2 – Living Together and Exploring our Neighbourhood",
+    "विद्यार्थी का नाम/Name of the student: ______________________",
+    "अनुक्रमांक /Roll No.______ कक्षा/अनुभाग Class /Sec.:_______ दिनांक/Date: _____"
+  ],
+  "printedTitle": "कार्यपत्रक/ Worksheet (2026-27)",
+  "shortLabel": "Revision Worksheet: Chapters 1 & 2",
+  "printedTotal": 40,
+  "duration": null,
+  "chapters": [
+    1,
+    2
+  ],
+  "chaptersBeyond5": false,
+  "sections": [
+    {
+      "code": "1",
+      "heading": "Q.1 Fill in the blanks. (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q.1",
+          "instruction": "Q.1 Fill in the blanks. (1x5=5)",
+          "pattern": "fill-blank",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Items numbered 1.-5. Answers from Ch 1/Ch 2: community, Van, postman, Teller, hospital. Item 1 is set in a serif font in print (cosmetic)."
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "heading": "Q.2 Tick the correct answer- (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q.2",
+          "instruction": "Q.2 Tick the correct answer- (1x5=5)",
+          "pattern": "mcq",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Option labels mix 'a.' (items 1-3) and '(a)' (items 4-5). Item 1 '1.Where' and item 2 '2.What' have no space after the number. Item 4 'The tool that is used by an electrician is called' has no blank or '?', and option '(d) pliers.' has a full stop; electrician/pliers is not in the Ch 1-2 text (general knowledge; pliers only appears in Ch 3 as a beak analogy). Item 5 option '(b) Bela Ghar' is a misspelling of the textbook's 'Bhela Ghar' (Ch 1); answer (a) Khetala (Ch 1, Sikkim). Keep as printed + teacherNote."
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "heading": "Q3. Frame correct words. (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q3",
+          "instruction": "Q3. Frame correct words. (1x5=5)",
+          "pattern": "one-word",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Unscramble jumbled words (nearest type one-word; say so in instruction note). Printed 'Q3.' (no dot after Q, unlike 'Q.1'). Item 2 printed 'BAKN -' with a space before the dash. Answers: OTLSAHPI=HOSPITAL, BAKN=BANK, TTESREL=LETTERS, RTAMKE=MARKET. TYPO: 'ROYFLAEV' has 8 letters (extra A) and does not unscramble exactly to FLYOVER (7 letters); keep as printed, accept FLYOVER, teacherNote."
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "heading": "Q.4 Write True or False. ( ½ X5 = 2 ½)",
+      "marks": 2.5,
+      "blocks": [
+        {
+          "label": "Q.4",
+          "instruction": "Q.4 Write True or False. ( ½ X5 = 2 ½)",
+          "pattern": "true-false",
+          "items": 5,
+          "marksEach": 0.5,
+          "marks": 2.5,
+          "pictures": [],
+          "notes": "Answers: F, F, T, F, T. Item 4 'Radio is used to send letters' (False; Ch 2 post office/radio)."
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "heading": "Q.5 Match the following-( ½ X5 = 2 ½)",
+      "marks": 2.5,
+      "blocks": [
+        {
+          "label": "Q.5",
+          "instruction": "Q.5 Match the following-( ½ X5 = 2 ½)",
+          "pattern": "match",
+          "items": 5,
+          "marksEach": 0.5,
+          "marks": 2.5,
+          "pictures": [],
+          "notes": "Columns headed 'Group A' / 'Group B'. A: a. school, b. park, c. hospital, d. playground, e. police station. B: 1. Walk and relax, 2. Treat sick people, 3. Kabaddi and games, 4. Safety and security, 5. Learn new things. Key a-5, b-1, c-2, d-3, e-4."
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "heading": "Q. 6 See the given picture and identify the occupation: (1x5=5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q. 6",
+          "instruction": "Q. 6 See the given picture and identify the occupation: (1x5=5)",
+          "pattern": "one-word",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [
+            {
+              "page": 2,
+              "what": "cartoon woman in white coat with stethoscope and clipboard (doctor); pink answer line below",
+              "need": "answer-from"
+            },
+            {
+              "page": 2,
+              "what": "cartoon woman pointing at a green board showing '2+3' (teacher); pink answer line below",
+              "need": "answer-from"
+            },
+            {
+              "page": 2,
+              "what": "cartoon person in red helmet and uniform holding a hose with flames (firefighter); pink answer line below",
+              "need": "answer-from"
+            },
+            {
+              "page": 2,
+              "what": "photo of a colourful children's playground / play structure with slides (a PLACE, not an occupation); no answer line",
+              "need": "answer-from"
+            },
+            {
+              "page": 2,
+              "what": "photo of a conical hut made of hay/straw — matches Ch 1 'Bhela Ghar' (Magh Bihu/Uruka, Assam), not an occupation; no answer line",
+              "need": "answer-from"
+            }
+          ],
+          "notes": "Printed 'Q. 6' (space). Only pictures 1-3 show occupations and have answer lines; pictures 4 (playground) and 5 (hay hut, Bhela Ghar) are not occupations and have no lines, yet marks are 1x5. Pictures are unnumbered; number them (1)-(5) left to right. Owner decision needed for items 4-5 (accept the place name, e.g. 'playground'/'park' and 'Bhela Ghar', or a related worker). All 5 must be drawn as SVGs."
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "heading": "Q.7) Look at the picture answer the questions-(1x4=4)",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "Q.7",
+          "instruction": "Q.7) Look at the picture answer the questions-(1x4=4)",
+          "pattern": "short",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "pictures": [
+            {
+              "page": 3,
+              "what": "scene: building labelled 'SCHOOL', building labelled 'POST OFFICE' with red postbox, road, trees, hills; a child planting a sapling; two adults repairing/fixing a wooden bench; two people sweeping with brooms",
+              "need": "answer-from"
+            }
+          ],
+          "notes": "Printed 'Q.7)'; instruction missing 'and' ('Look at the picture answer the questions'). Item 2 '2.What' no space. Must draw scene with SCHOOL and POST OFFICE signs, sapling-planting child, bench-repairing adults, sweepers. Item 1 answer: school, post office (road/park arguable). Item 4 open-ended (cleaning, planting, repairing)."
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "heading": "Q.8 Answer the following-( 2X4 = 8)",
+      "marks": 8,
+      "blocks": [
+        {
+          "label": "Q.8",
+          "instruction": "Q.8 Answer the following-( 2X4 = 8)",
+          "pattern": "short",
+          "items": 4,
+          "marksEach": 2,
+          "marks": 8,
+          "pictures": [],
+          "notes": "Items 1 and 4 are verbatim textbook questions (Ch 2). Item 2 '2.What is the role of Public places?' (no space, capital 'Public'). Item 3 answer 'microphone' (Ch 1, Van Mahotsav) is one word for 2 marks. Each needs a 2-band rubric."
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "heading": "Q.10) Locate the following states/ UTs in the given map. (1 × 3 = 3)",
+      "marks": 3,
+      "blocks": [
+        {
+          "label": "Q.10",
+          "instruction": "Q.10) Locate the following states/ UTs in the given map. (1 × 3 = 3)",
+          "pattern": "diagram-label",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "pictures": [
+            {
+              "page": 4,
+              "what": "outline political map of India with state/UT boundaries, no names; title 'INDIA OUTLINE MAP WITH STATES & UNION TERRITORIES', legend, 'Copyright © 2019 www.mapsofworld.com'",
+              "need": "label"
+            }
+          ],
+          "notes": "BAD NUMBERING: there is no Q.9 (Q.8 then Q.10). Keep 'Q.10'. Items printed '1) Assam 2) Chhattisgarh 3) Sikkim' on one line (Ch 1 mentions all three). Map is copyrighted mapsofworld artwork: draw an original simplified India outline SVG with numbered/lettered marker regions; child picks which marker is each state (nearest type: label by choosing marker; say so in instruction note)."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "Printed total 40 (header 'अंक/Marks: 40'). Block marks: 5+5+5+2.5+2.5+5+4+8+3 = 40. Matches. Each block's printed product is correct (1x5=5, ½X5=2½, 1x4=4, 2X4=8, 1×3=3). No section-level marks printed.",
+  "flagEstimate": 11,
+  "issues": [
+    "No section letters: one section per printed question (codes '1'-'9', as in sp04); heading = printed question line. Note code '9' is printed Q.10 (no Q.9 exists).",
+    "Q.9 is missing (numbering jumps Q.8 -> Q.10). Total still 40, so nothing appears dropped; keep 'Q.10'.",
+    "Q. 6 pictures 4 (playground) and 5 (hay hut = Bhela Ghar) are not occupations and have no answer lines but are counted in 1x5=5. Owner must choose accepted answers.",
+    "Q3 item 4 'ROYFLAEV' has an extra 'A' vs FLYOVER.",
+    "Q.2 item 5 option 'Bela Ghar' misspells textbook 'Bhela Ghar'; Q.2 item 4 (electrician/pliers) is outside Ch 1-2 text.",
+    "Q.10 needs an original India map SVG (source map is © mapsofworld.com) and a non-drawing item type.",
+    "Title/header Devanagari is mangled in the text cache (e.g. 'कायापत्रक', 'ऊर्ाा', 'द्रिया'); image wins. If the JSON title keeps 'कार्यपत्रक/ Worksheet (2026-27)', add fallbackText {where: title, field: heading/title, reason: 'garbled Devanagari in text layer'}, or use the English part 'Worksheet (2026-27)' which matches the cache. All English question text in the cache matches the images."
+  ],
+  "pagesViewed": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

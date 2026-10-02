@@ -1,0 +1,82 @@
+{
+  "sp": "sp02",
+  "sourceFile": "2.1.2 EVS L5.pdf",
+  "sha256": "4fd92bb601d2df28badcf196220fc3b09e2421dbee5fce322d93eec47d9883cf",
+  "pdfPages": 4,
+  "printedPages": 4,
+  "textLayer": "garbled",
+  "header": [
+    "कुल मुद्रित पृष्ठों की  संख्या /Total No. of printed pages: 4",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक / Worksheet (2025-26)",
+    "कक्षा /Class: 4   विषय /Subject: TWAU   माह/Month : August   अंक/Marks: 40",
+    "दिया गया पाठ्यक्रम/Portion covered: Chapter-5   Food for Health",
+    "विद्यार्थी का नाम/Name of the student:",
+    "अनुक्रमांक/Roll No.____कक्षा/अनुभागClass /Sec.:____दिनांक /Date: ____"
+  ],
+  "printedTitle": "कार्यपत्रक / Worksheet (2025-26)",
+  "shortLabel": "Worksheet: Chapter 5 (August)",
+  "printedTotal": 40,
+  "duration": null,
+  "chapters": [5],
+  "chaptersBeyond5": false,
+  "sections": [
+    { "code": "A", "heading": "Section – A : OBSERVATION AND REPORTING  ( 15 marks )", "marks": 15,
+      "blocks": [
+        { "label": "1.", "instruction": "Fill in the gaps with the correct answer. ( 6 x 1 = 6  )",
+          "pattern": "fill-blank", "items": 6, "marksEach": 1, "marks": 6, "pictures": [],
+          "notes": "Each item gives two choices in brackets, e.g. '( Kerala / Karnataka )' (effectively 2-option choice). (a) Ugadi Pachadi: textbook p.73 says Andhra Pradesh, Karnataka and Telengana, so Karnataka. (c) choice bracket wraps over two lines: '( Energy Giving / Body-Building )'. (d) uses curly quotes ‘No’." },
+        { "label": "2.", "instruction": "Write True or False. ( 5 x 1 = 5 )",
+          "pattern": "true-false", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Answer slot is '(          )' after each statement. (b) Idli is steamed -> False; (e) False." },
+        { "label": "3.", "instruction": "Write a short note on the following. ( 2 x 2 = 4  )",
+          "pattern": "short", "items": 2, "marksEach": 2, "marks": 4, "pictures": [],
+          "notes": "(a) 'Importance of water in our diet.' (b) 'Balanced food' (no full stop). 4 answer lines each. Judgement items: need rubrics." }
+      ] },
+    { "code": "B", "heading": "Section – B : IDENTIFICATION AND CLASSIFICATION  ( 12 marks )", "marks": 12,
+      "blocks": [
+        { "label": "4.", "instruction": "Answer the following. ( 5 x 1 = 5  )",
+          "pattern": "short", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "TYPO kept: (a) 'What did Surabhi’s grandmother use to eat to during summers and winters?' ('use to eat to' — stray 'to'; textbook spells the name 'Surbhi'). Answer from textbook p.74: jowar and bajra roti in winters, jau roti in summers. (e) 'Who is a ‘Chef’?' — its 3 answer lines run onto page 3. Short-answer questions sit in a section headed IDENTIFICATION AND CLASSIFICATION (as printed)." },
+        { "label": "5.", "instruction": "Write the difference between. ( 2 x 1 = 2 )",
+          "pattern": "table", "items": 2, "marksEach": 1, "marks": 2, "pictures": [],
+          "notes": "Two-column table 'Protective Foods' | 'Energy Giving Foods' with one empty row. Printed as 2 x 1 — interpretation: one point for each column (what each food type does). Instruction ends 'between.' with nothing after (the table supplies the terms). Judgement item." },
+        { "label": "6.", "instruction": "Give an example of the ingredients or food items that match each of the tastes listed below? ( 6 x ½ = 3 )",
+          "pattern": "table", "items": 6, "marksEach": 0.5, "marks": 3, "pictures": [],
+          "notes": "Imperative instruction ends with '?' as printed. Six-column table: Sweet | Sour | Salty | Pungent | Bitter | Astringent, one empty row. Open answers — need wide acceptable lists." },
+        { "label": "7.", "instruction": "Draw any two junk food and also write the names. ( 2 x 1 = 2 )",
+          "pattern": "draw", "items": 2, "marksEach": 1, "marks": 2,
+          "pictures": [ { "page": 3, "what": "two empty boxes side by side, each with a short name line at the top", "need": "decorative" } ],
+          "notes": "Grammar as printed ('two junk food'). Drawing task — child draws; in the app likely name + description/self-check; rubric needed." }
+      ] },
+    { "code": "C", "heading": "Section – C :  DISCOVERY OF FACTS ( 13 marks )", "marks": 13,
+      "blocks": [
+        { "label": "8.", "instruction": "Name any two. ( 5 x 1 = 5 )",
+          "pattern": "one-word", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Each item has two blanks (½ per name implied). Items: a. Food items which can be eaten without cooking; b. Water – rich fruits (spaced en dash as printed); c. Food groups; d. Food items in the stall of super food (textbook p.74: millet foods — jowar upma, jowar/bajra roti, jau roti); e. Meals of the day." },
+        { "label": "9.", "instruction": "Match the following. ( 6 x ½ = 3)",
+          "pattern": "match", "items": 6, "marksEach": 0.5, "marks": 3, "pictures": [],
+          "notes": "Left: a. Boiling b. Steaming c. Frying d. Roasting e. Grilling f. Baking. Right (with '(      )' slots): cakes, rice, popcorn, idiyappam, puri, chicken. Marks bracket '( 6 x ½ = 3)' has no space before ')'. Intended: Boiling–rice, Steaming–idiyappam, Frying–puri, Roasting–popcorn, Grilling–chicken, Baking–cakes. Roasting/Grilling vs popcorn/chicken is debatable (chicken can be roasted) — accept both readings." },
+        { "label": "10.", "instruction": "Circle the odd one out. ( 4 x ½ = 2 )",
+          "pattern": "odd-one-out", "items": 4, "marksEach": 0.5, "marks": 2, "pictures": [],
+          "notes": "Printed '10.Circle' with no space after the number. Each item ends with an italic clue in brackets naming the group the OTHER four belong to, e.g. '( Clue: Energy-Giving Food )'. Expected: a. lemon, b. tomato, c. cheese, d. pizza. (a) potato is a tuber, still energy-giving; fine." },
+        { "label": "11.", "instruction": "Locate the following states in the given map. ( 3 x 1 = 3 )",
+          "pattern": "diagram-label", "items": 3, "marksEach": 1, "marks": 3,
+          "pictures": [ { "page": 4, "what": "outline political map of India with state boundaries and no names, in a heavy black frame; the child must mark a. Andhra Pradesh, b. Karnataka, c. Telangana", "need": "label" } ],
+          "notes": "Item line printed in bold: 'a. Andhra Pradesh , b. Karnataka , c. Telangana'. Links to Ugadi Pachadi states. Must be drawn as an SVG India map with numbered/selectable southern states (at least AP, Karnataka, Telangana plus neighbours as distractors). Not in the textbook as a map task — beyond-textbook skill." }
+      ] }
+  ],
+  "markArithmetic": "A: 6+5+4 = 15 (printed 15). B: 5+2+3+2 = 12 (printed 12). C: 5+3+2+3 = 13 (printed 13). 15+12+13 = 40 = printed Marks: 40. All block products match their brackets.",
+  "flagEstimate": 9,
+  "issues": [
+    "Q4a typo 'use to eat to' and spelling 'Surabhi' (textbook: 'Surbhi') — keep as printed with teacherNote.",
+    "Q9 Roasting/Grilling vs popcorn/chicken is ambiguous — accept both pairings?",
+    "Q11 needs an original SVG India state map with selectable states (Andhra Pradesh, Karnataka, Telangana); how should the app take a 'locate on map' answer (tap a state / numbered regions)?",
+    "Q7 is a drawing task (2 marks) — decide app treatment (name the two junk foods + self-check drawing).",
+    "Q5 '2 x 1' difference table — confirm one mark per column definition.",
+    "Subject printed as 'TWAU' (The World Around Us), not EVS; title is a generic 'Worksheet (2025-26)', Month: August.",
+    "No unreadable text; text layer garbled, so every string needs fallbackText."
+  ],
+  "pagesViewed": [1, 2, 3, 4]
+}

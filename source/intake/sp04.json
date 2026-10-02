@@ -1,0 +1,245 @@
+{
+  "sp": "sp04",
+  "sourceFile": "2.1.5 L5 EVS.pdf",
+  "sha256": "6e86fa42c38d6a99cc47a3d5801bcba9ad754ccd8e2578429a59a544492b32c2",
+  "pdfPages": 4,
+  "printedPages": 4,
+  "textLayer": "garbled",
+  "header": [
+    "कुल मुद्रित पृष्ठों की  संख्या /Total No. of printed pages:   04",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "Worksheet (2025-26)",
+    "कक्षा /Class:IV        विषय /Subject:  TWAU        अंक/Marks:  40",
+    "दिया गया पाठ्यक्रम/Portion  covered:  : Lesson 4 - Growing up with nature",
+    "विद्यार्थी का नाम/Name of the student:",
+    "अनुक्रमांक /Roll No.______कक्षा/अनुभाग Class /Sec.: ______ दिनांक /Date: ______"
+  ],
+  "printedTitle": "Worksheet (2025-26)",
+  "shortLabel": "Worksheet: Lesson 4",
+  "printedTotal": 40,
+  "duration": null,
+  "chapters": [
+    4
+  ],
+  "chaptersBeyond5": false,
+  "sections": [
+    {
+      "code": "1",
+      "heading": "1. How can we protect the natural environment around us?",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "Q1",
+          "instruction": "1. How can we protect the natural environment around us?     (4x1=4)",
+          "pattern": "short",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "pictures": [
+            {
+              "page": 1,
+              "what": "house with garden, caption 'At home' (item a)",
+              "need": "answer-from"
+            },
+            {
+              "page": 1,
+              "what": "school building, caption 'At school' (item b)",
+              "need": "answer-from"
+            },
+            {
+              "page": 1,
+              "what": "park with see-saw and trees, caption 'In parks' (item c)",
+              "need": "answer-from"
+            },
+            {
+              "page": 1,
+              "what": "houses and trees, caption 'In our locality' (item d)",
+              "need": "answer-from"
+            }
+          ],
+          "notes": "Item prompts exist only as picture captions (At home / At school / In parks / In our locality); each item has 3 answer lines. Open answers. Printed '1.' is the section number (Roman I)."
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "heading": "11. Fill in the blanks.",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "Q2",
+          "instruction": "11. Fill in the blanks.                                   (4x1=4)",
+          "pattern": "fill-blank",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "pictures": [],
+          "notes": "Section number printed '11.' for Roman II. Items numbered 1-4. Item 3 answer open-ish (clay/mud/cow dung/natural materials); item 4 answer 'Fruit-bearing trees Plantation' (textbook) - phrasing loose."
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "heading": "111. Match the following.",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q3",
+          "instruction": "111. Match the following.                                 (5x1=5)",
+          "pattern": "match",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Section number printed '111.' for Roman III. Right column is jumbled; key: Tumri-preserving grains in Uttarakhand, Neem oil-mosquitoes, Nagada-drum, Vat Purnima-banyan tree, Solar panels-electricity."
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "heading": "1V. Write True or False.",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "Q4",
+          "instruction": "1V. Write True or False.                                  (4x1=4)",
+          "pattern": "true-false",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "pictures": [],
+          "notes": "Section number printed '1V.' (digit one) for IV. Item c grammar: 'The Jenu tribes uses' (keep). Item d has stray comma 'family trip, to a forest'; textbook says trip to their village near a forest - truth value arguable (check)."
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "heading": "V. Answer the following.",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q5",
+          "instruction": "V. Answer the following.  (5x1=5)",
+          "pattern": "short",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Spans pages 2-3. Typo item 4 'oursurroundings' (keep). Item 2 'first - aid' spacing (keep). Item 4 asks for 2 ways for 1 mark."
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "heading": "V1. Give two examples of each.",
+      "marks": 3,
+      "blocks": [
+        {
+          "label": "Q6",
+          "instruction": "V1. Give two examples of each.  (3X1=3)",
+          "pattern": "short",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "pictures": [],
+          "notes": "Section number printed 'V1.' for VI; marks use capital 'X' '(3X1=3)'. Two blanks per item, 1 mark per item (0.5 each implied)."
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "heading": "V11. Name the following.",
+      "marks": 3,
+      "blocks": [
+        {
+          "label": "Q7",
+          "instruction": "V11. Name the following.                                  (3x1=3)",
+          "pattern": "one-word",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "pictures": [],
+          "notes": "Printed 'V11.' for VII. Item 1 'Flame of the forest' (answer Palash; textbook says 'flame of forest'). Item 3 'your state animal' depends on the child's state - open/⚑."
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "heading": "V111. Give reasons for the following.",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "Q8",
+          "instruction": "V111. Give reasons for the following.                     (2x2=4)",
+          "pattern": "short",
+          "items": 2,
+          "marksEach": 2,
+          "marks": 4,
+          "pictures": [],
+          "notes": "Printed 'V111.' for VIII. Item 2 is an incomplete sentence ending with a comma: 'If we overuse wood from nature,' - child completes the consequence (keep as printed, teacherNote)."
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "heading": "1X. What are the things that we use from nature in our daily life?",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "Q9",
+          "instruction": "1X. What are the things that we use from nature in our daily life?       (1x5=5)",
+          "pattern": "table",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "pictures": [],
+          "notes": "Printed '1X.' (digit one) for IX; marks printed '(1x5=5)' (order reversed vs other sections). Table: column 'Activities' with rows Eating, Clothing, Healthcare, Fuel, Shelter; header 'Collected from nature' spans 4 blank cells per row. 1 mark per row (4 cells → 0.25 each not allowed; mark per row, e.g. full mark for ≥2 correct - owner decide)."
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "heading": "X. Locate the following states in the given map.",
+      "marks": 3,
+      "blocks": [
+        {
+          "label": "Q10",
+          "instruction": "X. Locate the following states in the given map. (3x1= 3)",
+          "pattern": "diagram-label",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "pictures": [
+            {
+              "page": 4,
+              "what": "Outline map of India with state/UT boundaries, seas labelled (Arabian Sea, Bay of Bengal, Indian Ocean); copyright mapsofworld.com 2019",
+              "need": "label"
+            }
+          ],
+          "notes": "States listed on one line: '1) Uttarakhand     2) Karnataka     3) Maharashra' - typo 'Maharashra' (keep). Marks printed '(3x1= 3)' with space. Needs an original India map SVG with selectable/numbered state regions; copyrighted source image must not be copied."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "4+4+5+4+5+3+3+4+5+3 = 40 = printed Marks: 40. Every block's (n x m) matches its stated product.",
+  "flagEstimate": 15,
+  "issues": [
+    "Filename says 'L5' but the printed portion is 'Lesson 4 - Growing up with nature' and all content is textbook Ch 4 (deev104, 'Growing up with Nature'). Chapters set to [4]. Coordinator: sp02/sp05 being 'Lesson 5' papers does not make this a duplicate by name; compare by content.",
+    "Subject printed 'TWAU' (The World Around Us), not 'EVS'.",
+    "No section letters; sections numbered with digit-for-Roman typos: 1., 11., 111., 1V., V., V1., V11., V111., 1X., X. Kept as printed; codes 1-10.",
+    "Typos to keep: 'oursurroundings' (V.4), 'Maharashra' (X), 'The Jenu tribes uses' (IV.c), 'first - aid' (V.2), stray comma in IV.d, incomplete sentence 'If we overuse wood from nature,' (VIII.2), double colon 'covered:  :' in header.",
+    "Q1 four picture-captioned open questions: pictures must be drawn (captions carry the prompt).",
+    "Q10 map-location task: needs an original India outline SVG with state shapes (source map is © mapsofworld.com); answer mode (click state / numbered regions) to decide.",
+    "Q9 table: 4 blank cells per row for 1 mark per row — how many entries earn the mark is the owner's call.",
+    "VII.3 'your state animal' has no single answer (depends on the child's state).",
+    "No date printed on the paper (Date field is a blank for the student). PDF CreationDate 2026-09-12.",
+    "Text layer garbled: every string will need a fallbackText entry (whole paper); transcript at source/intake/sp04-transcript.txt."
+  ],
+  "pagesViewed": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

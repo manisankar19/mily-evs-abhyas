@@ -1,0 +1,116 @@
+{
+  "sp": "sp03",
+  "sourceFile": "2.1.4 Worksheet_Class-4_TWAU_Sept'25 HYE.pdf",
+  "sha256": "81906ffa9c9eff201db36bda855671991d885ebd73d185a538281a4dcee0d57b",
+  "pdfPages": 8,
+  "printedPages": 8,
+  "textLayer": "usable",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या / No. of printed pages - 08",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक / Worksheet (2025-26)",
+    "कक्षा/Class : IV अनुभाग / Sec : _________ अंक / Marks : 80",
+    "विषय / Subject : हमारे आस-पास की दुनिया / The World Around Us",
+    "माह / Month : सितम्बर / September",
+    "दिया गया पाठ्यक्रम / Portion covered – Chapter 1 to 5 ( Term 1)",
+    "विद्यार्थी का नाम / Name of the student : _________________________________",
+    "अनुक्रमांक / Roll No:_____________"
+  ],
+  "printedTitle": "Atomic Energy Education Society / Worksheet (2025-26)",
+  "shortLabel": "Worksheet: September (Ch 1–5, Term 1)",
+  "printedTotal": 80,
+  "duration": null,
+  "chapters": [1, 2, 3, 4, 5],
+  "chaptersBeyond5": false,
+  "sections": [
+    { "code": "1", "heading": "OBSERVATION AND REPORTING (25 MARKS)", "marks": 25,
+      "blocks": [
+        { "label": "Q1", "instruction": "Q1.Observe the picture and answer the questions. (5 x 2 =10)",
+          "pattern": "short", "items": 5, "marksEach": 2, "marks": 10,
+          "pictures": [
+            { "page": 1, "what": "Post office building (sign 'POST OFFICE') with a red pillar letter box and a postman carrying letters and a bag", "need": "answer-from" },
+            { "page": 1, "what": "Eagle perched on a branch (hooked beak, sharp claws)", "need": "answer-from" },
+            { "page": 1, "what": "Group of foods: bowl of cereal/rice, jar (honey/jam), sweet potatoes, potatoes, bananas, corn cob, grains and rice — energy-giving foods", "need": "answer-from" },
+            { "page": 2, "what": "Mason kneeling, laying bricks in a row with a trowel, cement pan beside him", "need": "answer-from" },
+            { "page": 2, "what": "Solar cooker: open box with glass lid/reflector and cooking pots inside", "need": "answer-from" }
+          ],
+          "notes": "Items numbered 1)–5), each a two-part question with a picture to the left. Item 4 wording is ungrammatical as printed: 'Name the person who mends wall using bricks and cement called?' — keep. Item 3 'What kind of food group is this?' expects energy-giving food (Ch 5). Instruction marks printed '(5 x 2 =10)' with irregular spacing. Ch 1 (post office, mason), Ch 3 (eagle claws), Ch 5 (food group), Ch 4/5 (solar cooker)." },
+        { "label": "Q2", "instruction": "Q2. Name the following . (4x1=4)",
+          "pattern": "one-word", "items": 4, "marksEach": 1, "marks": 4, "pictures": [],
+          "notes": "Space before the full stop in 'Name the following .' — keep. Item 1 'who are specialist' (singular) — keep. Answers in textbook: Khetala (Ch 1), Bhela Ghar (Ch 1), Chef (Ch 5), Frog (Ch 3). Blanks are drawn underscores after an en dash." },
+        { "label": "Q3", "instruction": "Q3. Give two examples of each- (3 x 1 = 3)",
+          "pattern": "short", "items": 3, "marksEach": 1, "marks": 3, "pictures": [],
+          "notes": "Each item needs two answers (two blanks) for 1 mark → 0.5 per example. Open-ended (public places, harvest festivals, Indian tribes); accept any defensible pair. Ch 1, Ch 4." },
+        { "label": "Q4", "instruction": "Q4.Identify the method of cooking and write its name. (3 x 1 = 3)",
+          "pattern": "one-word", "items": 3, "marksEach": 1, "marks": 3,
+          "pictures": [
+            { "page": 2, "what": "Oven with muffins on a tray, heat lines (baking)", "need": "answer-from" },
+            { "page": 2, "what": "Covered pot with a perforated tray holding flat cakes over boiling water, steam escaping (steaming)", "need": "answer-from" },
+            { "page": 2, "what": "Frying pan with oil and two cutlets on a gas stove (frying / shallow frying)", "need": "answer-from" }
+          ],
+          "notes": "Answer blanks are dotted lines '……' under each picture (drawn, not text). No item labels printed — use (a)(b)(c). Ch 5 cooking methods (Steaming, Frying, Baking in textbook list)." },
+        { "label": "Q5", "instruction": "Q5. Answer the questions based on the picture given. ( 1 X 5 = 5)",
+          "pattern": "short", "items": 5, "marksEach": 1, "marks": 5,
+          "pictures": [
+            { "page": 3, "what": "₹100 banknote (2018 series), front: Mahatma Gandhi portrait, 'RESERVE BANK OF INDIA' in Hindi and English, ₹100, Ashoka Lion Capital emblem at right; back: Rani ki Vav, Swachh Bharat logo, language panel with the denomination in 15 languages, 2018", "need": "answer-from" }
+          ],
+          "notes": "Capital 'X' in '( 1 X 5 = 5)'. Item d) 'Which famous Indian prominent leader’s image' — redundant wording, curly apostrophe, keep. Item e) 'Encircle the national emblem of our country on the above note.' is an on-picture action (needs a tap/select on the drawn note — emblem must be drawn as a distinct selectable element). Item b) 'How many languages are there on the note?' is ambiguous: Hindi + English on front, 15 in the back language panel → 17; accept 2 / 15 / 17 with teacherNote. Ch 2 (ATM/bank, note with languages)." }
+      ] },
+    { "code": "2", "heading": "IDENTIFICATION AND CLASSIFICATION (30 MARKS)", "marks": 30,
+      "blocks": [
+        { "label": "Q6", "instruction": "Q6.Who am I? (2 x 1 = 2)",
+          "pattern": "one-word", "items": 2, "marksEach": 1, "marks": 2, "pictures": [],
+          "notes": "Riddles labelled (a), (b), each ending 'Ans: ____'. (a) grasshopper (insect, Ch 3); (b) bajra (Ch 5). (a) 'also sometimes have two pairs of wings' — grammar as printed." },
+        { "label": "Q7", "instruction": "Q7. Match the column. ( 4 x 1 = 4)",
+          "pattern": "match", "items": 4, "marksEach": 1, "marks": 4, "pictures": [],
+          "notes": "Column A: 1) Vat Purnima 2) Jenu 3) Tumri 4) Fish; Column B: a) Honey b) Banyan Tree c) Fins d) Uttarakhand. Key: 1-b, 2-a, 3-d, 4-c. Ch 4 (+ Ch 3 for fish/fins). Headings 'Column A' / 'Column B' printed." },
+        { "label": "Q8", "instruction": "Q8. Circle the one which does not belong to the group. ( 4 x 1 = 4)",
+          "pattern": "odd-one-out", "items": 4, "marksEach": 1, "marks": 4, "pictures": [],
+          "notes": "1. Ant / Wasp / Butterfly / Termite — ambiguous (all insects; butterfly is the only non-colony insect; textbook does not teach this grouping) → ⚑. 2. School / Playground / Hospital / Kitchen → Kitchen (not a public place, Ch 1). 3. Marigold / Tulsi / Amla / Ajwain → Marigold (others medicinal; marigold used for dye, Ch 4) — some ambiguity. 4. Chips / Idli / Burger / Pizza → Idli (not junk food, Ch 5). Text cache has a leading space before 'Ajwain'." },
+        { "label": "Q9", "instruction": "Q9. Answer the following questions. (5×3=15)",
+          "pattern": "long", "items": 5, "marksEach": 3, "marks": 15, "pictures": [],
+          "notes": "Uses '×' (multiplication sign) here, unlike 'x' elsewhere. Items: Van Mahotsav (Ch 1), nature scientist — 'Write about its role.' ('its' for a person, keep) (Ch 3), balanced diet (Ch 5), ATM full form + two uses (Ch 2), Gond art + how paints are made (Ch 4). All need rubrics." },
+        { "label": "Q10", "instruction": "Q10. Compare between communication in earlier times and communication in present time on the following points. (1x5=5)",
+          "pattern": "table", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "'earlier times' and 'present time' are printed bold-italic-underlined → underline spans. Table: header row 'Category | Communication in earlier times | Communication in present time'; rows: Type of communication, Speed of communication, Frequency of communication, Language of communication, Challenges faced. Each row has two cells for 1 mark → 0.5 per cell. Ch 2 (communication). Open-ended → rubric/check." }
+      ] },
+    { "code": "3", "heading": "DISCOVERY OF FACTS (25 MARKS)", "marks": 25,
+      "blocks": [
+        { "label": "Q11", "instruction": "Q11:Name the following. (5 x 1 = 5)",
+          "pattern": "one-word", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Colon after 'Q11' (others use '.'). Item 4 'with six different taste' (singular, keep; full stop after the blank). Answers: Spectacled Monkey (Ch 3), Indian Giant Squirrel (Ch 3), Palash (Ch 4), Ugadi Pachadi (Ch 5), Sacred Groves (Ch 4)." },
+        { "label": "Q12", "instruction": "Q12. Answers the following questions. ( 2 x 2 = 4)",
+          "pattern": "short", "items": 2, "marksEach": 2, "marks": 4, "pictures": [],
+          "notes": "Typo 'Answers the following questions.' — keep. Item 1 'any two super food' (singular, keep) — Ch 5; item 2 first-aid box — Ch 4. Image shows a double space '2 x  2'." },
+        { "label": "Q13", "instruction": "Q13. Give reason. (3x2=6)",
+          "pattern": "short", "items": 3, "marksEach": 2, "marks": 6, "pictures": [],
+          "notes": "Image renders marks as '( 3 x 2 = 6 )' with spaces; text layer has '(3x2=6)' — use the text-layer form so fidelity matches (or add fallbackText). Items: plants and animals dependent on each other (Ch 3), avoid junk food (Ch 5), drinking sufficient water (Ch 5)." },
+        { "label": "Q14", "instruction": "Q14. Circle ten words related to food in the grid below. One example is given below. ( 10 x ½ = 5 )",
+          "pattern": "other", "items": 10, "marksEach": 0.5, "marks": 5,
+          "pictures": [
+            { "page": 7, "what": "9×9 letter grid (word search); example POTATO circled in orange, vertical in column 8 rows 2–7. Rows: KOBLCISAB / HEAEBTEPE / OTJMENGOA / NUROJLGTN / EPANRHOAS / YMANGOATR / SAOCARROT / NTAMLALFE / LGTJAUAUW", "need": "answer-from" }
+          ],
+          "notes": "Instruction is split over two printed lines (second line indented). Word-search grid must be rebuilt as data (fallbackText): text cache puts the 'P' of row 2 col 8 on its own line, so the grid in the cache is mangled — image wins. Words found (horizontal/vertical only, besides POTATO): HONEY (col1↓), BAJRA (col3↓), LEMON (col4↓), BEANS (col9↓), EGG (col7↓ rows 2–4), MANGO (row6), OAT (row6 cols 6–8), CARROT (row7), AMLA (row8), TOFU (col8↓ rows 6–9, shares T,O with POTATO). Exactly 10 → answer set likely these; ⚑ check (OAT vs GOAT overlap; TOFU shares letters with the example). Nearest item type: one block of 10 select-word items or a word-search widget." },
+        { "label": "Q15", "instruction": "Q15. Locate the state in the given map. (1x5=5)",
+          "pattern": "diagram-label", "items": 5, "marksEach": 1, "marks": 5,
+          "pictures": [
+            { "page": 8, "what": "Outline political map of India with state boundaries (no names), incl. Lakshadweep and Andaman & Nicobar islands", "need": "label" }
+          ],
+          "notes": "'state' singular for five states — keep. States: 1. Madhya Pradesh 2. Karnataka 3. Uttarakhand 4. Andhra Pradesh 5. Tripura. Needs an SVG India map with selectable state regions (numbered/unlabelled) — the heaviest drawing in the paper. Map skill is not directly taught in Ch 1–5; states appear as context (Pachmarhi/MP, Jenu/Karnataka, Tumri/Uttarakhand, Ugadi/Andhra, Tripura state animal)." }
+      ] }
+  ],
+  "markArithmetic": "Section 1: Q1 10 + Q2 4 + Q3 3 + Q4 3 + Q5 5 = 25 (printed 25). Section 2: Q6 2 + Q7 4 + Q8 4 + Q9 15 + Q10 5 = 30 (printed 30). Section 3: Q11 5 + Q12 4 + Q13 6 + Q14 5 + Q15 5 = 25 (printed 25). 25 + 30 + 25 = 80 = printed total (Marks : 80). All block marks = items × marksEach. Half-marks: Q14 (10 × ½); implied 0.5 splits in Q3 (two examples per 1 mark) and Q10 (two cells per row).",
+  "flagEstimate": 16,
+  "issues": [
+    "Q5 b) 'How many languages are there on the note?' — 2 (front), 15 (back panel) or 17; accept all with teacherNote, or owner decides.",
+    "Q5 e) 'Encircle the national emblem…' and Q15 map locating need interactive pictures (tap on emblem; tap on state regions of an India SVG map). Q15 map is a large original drawing.",
+    "Q8.1 Ant/Wasp/Butterfly/Termite has no clear textbook-based odd one out (Butterfly most defensible); Q8.3 Marigold vs others also needs a teacherNote.",
+    "Q14 word-search: grid must come from the image (text cache displaces the 'P'); answer set derived by search (HONEY, BAJRA, LEMON, BEANS, EGG, MANGO, OAT, CARROT, AMLA, TOFU) — unclear whether the POTATO example counts among the ten.",
+    "Header Hindi in text cache is mangled (e.g. 'ऊर्ाा', 'कार्ापत्रक', 'शिषर्', 'दु शनर्ा', 'शसतम्बर', 'शदर्ा गर्ा') — header taken from the image.",
+    "Q13 marks print '( 3 x 2 = 6 )' in the image but '(3x2=6)' in the text layer — keep the text-layer string for fidelity.",
+    "Q10 earlier times/present time are bold-italic-underlined → underline spans.",
+    "Typos kept as printed: Q1.4 '…mends wall … called?', Q2 'Name the following .', 'specialist', Q9.2 'its role', Q11 'six different taste', Q12 'Answers the following', 'two super food', Q15 'the state'."
+  ],
+  "pagesViewed": [1, 2, 3, 4, 5, 6, 7, 8]
+}

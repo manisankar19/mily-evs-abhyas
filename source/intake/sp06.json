@@ -1,0 +1,124 @@
+{
+  "sp": "sp06",
+  "sourceFile": "2.1.7 IV TWAU HY Practice Paper-2.pdf",
+  "sha256": "ffda89d33ed6307a0a6851e2a3d65f195692f937471c09a12d44cca84213f5ae",
+  "pdfPages": 8,
+  "printedPages": 9,
+  "textLayer": "usable",
+  "header": [
+    "कुल मुद्रित पृष्ठों की  संख्या /Total No. of printed pages:  09",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "अर्ध-वार्षिक अभ्यास प्रश्न-पत्र / Half-Yearly Practice Paper (2026-27)",
+    "सेट/Set 1",
+    "कक्षा /Class: IV    विषय /Subject: TWAU    माह/ Month: April-September    अंक/Marks: 80",
+    "दिया गया पाठ्यक्रम/Portion covered: Lesson 1 to Lesson 5",
+    "विद्यार्थी का नाम/Name of the student: ____",
+    "अनुक्रमांक /Roll No.____   कक्षा/अनुभाग  Class /Sec.:____  दिनांक /Date: ____"
+  ],
+  "printedTitle": "अर्ध-वार्षिक अभ्यास प्रश्न-पत्र / Half-Yearly Practice Paper (2026-27)",
+  "shortLabel": "Half-Yearly Practice Paper 2",
+  "printedTotal": 80,
+  "duration": null,
+  "chapters": [1, 2, 3, 4, 5],
+  "chaptersBeyond5": false,
+  "sections": [
+    { "code": "1", "heading": "OBSERVATION AND REPORTING (25 MARKS)", "marks": 25,
+      "blocks": [
+        { "label": "Q1", "instruction": "Q1.Observe the picture and answer the questions. 5 x 2 =10M",
+          "pattern": "short", "items": 5, "marksEach": 2, "marks": 10,
+          "pictures": [
+            { "page": 1, "what": "bank building with 'BANK' on the pediment (Q1 1)", "need": "answer-from" },
+            { "page": 1, "what": "duck (mallard) standing (Q1 2)", "need": "answer-from" },
+            { "page": 1, "what": "protein foods: steak, chicken leg, fish steaks, fried eggs, beans/pulses, 'PROTEIN' shaker, cheese (Q1 3)", "need": "answer-from" },
+            { "page": 2, "what": "electrician in helmet, gloves and tool belt at an open electrical panel (Q1 4)", "need": "answer-from" },
+            { "page": 2, "what": "box-type solar cooker with glass lid propped open and pots inside (Q1 5)", "need": "answer-from" }
+          ],
+          "notes": "Each sub-question is two-part (1 mark per part assumed). Sub-items numbered '1)'..'5)'. Item 4 has stray space 'fixes the wires .'. 'Electrician' is not in Ch 1-5 text (general knowledge). Answer lines for item 3 continue at top of p.2 (not a break)." },
+        { "label": "Q2", "instruction": "Q2. Name the following . 4x1= 4M",
+          "pattern": "fill-blank", "items": 4, "marksEach": 1, "marks": 4, "pictures": [],
+          "notes": "Space before full stop in 'following .' kept. Answers in textbook: Khetala (Ch1), Uruka (Ch1), Gond art (Ch4), frog (Ch3). 'specialist' singular kept; 'live on water' kept." },
+        { "label": "Q3", "instruction": "Q3. Give two examples of each- 3 x 1 = 3M",
+          "pattern": "short", "items": 3, "marksEach": 1, "marks": 3, "pictures": [],
+          "notes": "Two blanks per item (0.5 each). Item 2 'Traditional food of Andhra Pradesh': textbook (Ch5) names only Ugadi Pachadi — second example needs general knowledge; flag. Item 3 'Indian tribes': textbook gives Jenu Kurubas (Ch4); second from general knowledge." },
+        { "label": "Q4", "instruction": "Q4. Match the method of cooking and with its name. 3 x 1 = 3M",
+          "pattern": "match", "items": 6, "marksEach": 0.5, "marks": 3,
+          "pictures": [
+            { "page": 3, "what": "covered pot of water on stove with food submerged (boiling)", "need": "answer-from" },
+            { "page": 3, "what": "covered pot with perforated tray above steaming water (steaming)", "need": "answer-from" },
+            { "page": 3, "what": "oven with food on a grill rack under heating element (grilling or roasting)", "need": "answer-from" },
+            { "page": 3, "what": "frying pan with food and rising heat on stove (frying)", "need": "answer-from" },
+            { "page": 3, "what": "round charcoal barbecue grill on legs with food on grate (grilling or roasting)", "need": "answer-from" },
+            { "page": 3, "what": "oven with muffins on tray (baking)", "need": "answer-from" }
+          ],
+          "notes": "PRINTED MARKS MISMATCH: 6 pictures and 6 names (baking, roasting, grilling, boiling, steaming, frying) but marks printed '3 x 1 = 3M'. Recorded as 6 x 0.5 = 3 to keep the printed 3 marks; owner to confirm. Stray 'and' in 'cooking and with its name' kept. Pictures 3 (oven grill rack) and 5 (barbecue grill) are ambiguous between grilling and roasting — accept either pairing. Names column order: baking, roasting, grilling, boiling, steaming, frying. Ch5 (cooking methods list)." },
+        { "label": "Q5", "instruction": "Q5. Answer the questions based on the picture given- 1 X 5 = 5M",
+          "pattern": "short", "items": 5, "marksEach": 1, "marks": 5,
+          "pictures": [
+            { "page": 4, "what": "Rs 500 SPECIMEN banknote, front (Gandhi portrait, RESERVE BANK OF INDIA, Ashoka emblem at right) and back (Red Fort, Swachh Bharat logo, language panel)", "need": "answer-from" }
+          ],
+          "notes": "Marks '1 X 5 = 5M' printed beside the picture, not on the heading line — instruction string will need fallbackText. Item e) 'Encircle the national emblem ... on the above note' is a picture-interaction item (label) — drawing must show the emblem as a selectable region. Item b) 'How many languages' depends on the language panel (15 panel languages + Hindi + English = 17) — drawing must make that countable or accept a range; flag. Item d) 'Which famous Indian prominent leader's image' (redundant 'famous ... prominent') kept; curly apostrophe. Ch2 activity (currency note)." }
+      ] },
+    { "code": "2", "heading": "IDENTIFICATION AND CLASSIFICATION (30MARKS)", "marks": 30,
+      "blocks": [
+        { "label": "Q6", "instruction": "Q6.Who am I? 2 x 1 = 2M",
+          "pattern": "one-word", "items": 2, "marksEach": 1, "marks": 2, "pictures": [],
+          "notes": "No space after 'Q6.' and after 'a)' / 'b)'. a) grasshopper (Ch3); b) bajra (Ch5 mentions jowar and bajra; riddle 'round and grey ... winter roti')." },
+        { "label": "Q7", "instruction": "Q7. Match the column. 4 x 1 = 4M",
+          "pattern": "match", "items": 4, "marksEach": 1, "marks": 4, "pictures": [],
+          "notes": "Column A 1) Chinar 2) Jenu 3) Tumri 4) Fish; Column B a) Honey b) Chhattisgarh c) Fins d) Uttarakhand. Key: Chinar-Chhattisgarh (Ch1 Chinar river, Kanker), Jenu-Honey (Ch4), Tumri-Uttarakhand (Ch4), Fish-Fins (Ch3)." },
+        { "label": "Q8", "instruction": "Q8. Circle the one which does not belong to the group. 4 x 1 = 4M",
+          "pattern": "odd-one-out", "items": 4, "marksEach": 1, "marks": 4, "pictures": [],
+          "notes": "1. Ant Wasp Butterfly Termite — ambiguous (Butterfly: not a colony insect; Termite: not in textbook, not Hymenoptera) — flag. 2. Lemon (not a cereal). 3. Marigold (flower vs herbs/medicinal; Ch4 lists marigold and ajwain) — likely, check. 4. Idli (not junk food)." },
+        { "label": "Q9", "instruction": "Q9. Answer the following questions. 5×3=15M",
+          "pattern": "long", "items": 5, "marksEach": 3, "marks": 15, "pictures": [],
+          "notes": "Uses '×' character. Item 2 'Who is a nature scientist? Write about its role.' — 'its' for a person kept. Item 5 printed '5.What' (no space). Topics: Van Mahotsav (Ch1), nature scientist (Ch3), balanced diet (Ch5), ATM (Ch2), sacred groves (Ch4). Item 5 answer lines continue on p.6 (not a break)." },
+        { "label": "Q10", "instruction": "Q10. Identify the picture and write its name- 5 x 1 = 5 M",
+          "pattern": "one-word", "items": 5, "marksEach": 1, "marks": 5,
+          "pictures": [
+            { "page": 6, "what": "elevated road / flyover on pillars", "need": "answer-from" },
+            { "page": 6, "what": "arched wooden footbridge over water", "need": "answer-from" },
+            { "page": 6, "what": "electric train / metro with overhead pantograph on tracks", "need": "answer-from" },
+            { "page": 6, "what": "hornbill perched on a branch", "need": "answer-from" },
+            { "page": 6, "what": "dragonfly, wings spread (top view)", "need": "answer-from" }
+          ],
+          "notes": "Image shows '5 x 1 = 5 M'; text cache has '5x1=5M' — image wins, fallbackText for instruction. Flyover (Ch2), bridge (Ch1/Ch2), metro/train (Ch2), hornbill (Ch3); dragonfly not in textbook. Metro vs train vs electric train: accept several." }
+      ] },
+    { "code": "3", "heading": "DISCOVERY OF FACTS (25 MARKS)", "marks": 25,
+      "blocks": [
+        { "label": "Q11", "instruction": "Q11:Name the following. 5 x 1 = 5M",
+          "pattern": "fill-blank", "items": 5, "marksEach": 1, "marks": 5, "pictures": [],
+          "notes": "Colon after 'Q11' kept. Items numbered '1.State' etc. without space. Answers: Spectacled Monkey (Ch3), Indian Giant Squirrel (Ch3), Palash (Ch4), Ugadi Pachadi (Ch5; textbook says AP, Karnataka and Telengana), Chef (Ch5). Item 4 'six different taste' (singular) and trailing '.' after blank kept." },
+        { "label": "Q12", "instruction": "Q12. Answers the following questions. 2 x 2 = 4 M",
+          "pattern": "short", "items": 2, "marksEach": 2, "marks": 4, "pictures": [],
+          "notes": "Typo 'Answers' kept. Image shows '2 x  2 = 4 M'; cache '2x 2=4M' — fallbackText. Item 1 'any two super food' (singular) kept. Super food (Ch5), first-aid box (Ch4)." },
+        { "label": "Q13", "instruction": "Q13. Give reason. 3 x 2 = 6 M",
+          "pattern": "short", "items": 3, "marksEach": 2, "marks": 6, "pictures": [],
+          "notes": "Image '3 x 2 = 6 M'; cache '3x2=6M' — fallbackText. Items 2 and 3 printed '2.We' / '3.Drinking' (no space). Interdependence (Ch3), junk food (Ch5), water (Ch5)." },
+        { "label": "Q14", "instruction": "Q14.  Draw 1 junk food , 1 healthy food , a bird and colour it-- 3+ 2 = 5M",
+          "pattern": "draw", "items": 3, "marksEach": null, "marks": 5, "pictures": [],
+          "notes": "Marks '3+ 2 = 5M' = 3 for drawings (1 each) + 2 for colouring; no picture printed, blank space. Spaces before commas and '--' kept. Activity — rubric + owner check; render as draw/activity item(s) with 0.5-multiples summing to 5." },
+        { "label": "Q15", "instruction": "Q15. Locate the state in the given map. 1x 5 = 5 M",
+          "pattern": "diagram-label", "items": 5, "marksEach": 1, "marks": 5,
+          "pictures": [
+            { "page": 8, "what": "outline political map of India with state boundaries, no names (whole of p.8)", "need": "label" }
+          ],
+          "notes": "States: 1.Madhya Pradesh 2. Karnataka 3. Uttarakhand 4. Andhra Pradesh 5. Tripura. Marks written '1x 5' (reversed order) kept. Map is on a separate page (p.8) after Q15 text on p.7. Must be drawn as map with numbered blank regions (or select-the-state). States tie to Ch3 (Pachmarhi MP, Tripura), Ch4 (Karnataka, Uttarakhand), Ch5 (Andhra Pradesh)." }
+      ] }
+  ],
+  "markArithmetic": "Sec 1: 10+4+3+3+5 = 25 = printed (25 MARKS). Sec 2: 2+4+4+15+5 = 30 = printed (30MARKS). Sec 3: 5+4+6+5+5 = 25 = printed (25 MARKS). 25+30+25 = 80 = printed Marks: 80. All match. Only internal mismatch: Q4 shows 6 match pairs for '3 x 1 = 3M' (treated as 6 x 0.5).",
+  "flagEstimate": 12,
+  "issues": [
+    "Page-missing verdict: complete — header miscount. Header says 'Total No. of printed pages: 09' but every footer reads 'Page N of 8' (1-8 all present), questions run Q1-Q15 with no gap, each section and the total sum exactly, and no question breaks off (Q1.3 and Q9.5 answer lines simply continue on the next page; Q15's map is p.8).",
+    "Q4: 6 pictures / 6 cooking names but printed '3 x 1 = 3M' — record as 6 x 0.5? Owner to confirm. Grilling vs roasting pictures (3 and 5) ambiguous.",
+    "Q5: currency-note picture must be redrawn (Rs 500 specimen); e) 'Encircle the national emblem' needs an interactive/labelled region; b) language count depends on the drawn language panel.",
+    "Q15: map of India must be drawn with numbered state regions; map sits on p.8 separate from the question.",
+    "Q14: drawing/colouring activity (5 marks) — cannot be auto-marked; parent check.",
+    "Q8.1 (Ant/Wasp/Butterfly/Termite) and Q8.3 (Marigold/Tulsi/Amla/Ajwain) have more than one defensible odd one.",
+    "Q3.2: textbook gives only one Andhra Pradesh traditional food (Ugadi Pachadi); two required.",
+    "Off-textbook content: electrician (Q1.4), dragonfly (Q10), termite (Q8.1), national emblem (Q5e).",
+    "fallbackText needed (image wins over cache): Q5 instruction (marks printed beside picture), Q10/Q12/Q13 marks spacing ('5 x 1 = 5 M', '2 x  2 = 4 M', '3 x 2 = 6 M' in image vs '5x1=5M', '2x 2=4M', '3x2=6M' in cache). Devanagari header lines are garbled in the cache (e.g. 'ऊर्ाा', 'शवषय') — header above is from the image.",
+    "Typos kept as printed: 'Name the following .', 'cooking and with its name', 'Answers the following questions', 'Write about its role', 'six different taste', 'any two super food', '(30MARKS)', 'Q11:', 'colour it--', 'fixes the wires .'."
+  ],
+  "pagesViewed": [1, 2, 3, 4, 5, 6, 7, 8]
+}

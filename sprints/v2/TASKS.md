@@ -28,15 +28,18 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Acceptance: one text file and N page PNGs per PDF; sp02 and sp04 flagged garbled
   - Files: source/intake.json (skeleton)
   - Completed: 2026-10-02 — text cache in source/text-cache/ (committed), page images 100+200 dpi in source/page-images/ (gitignored); sp02, sp04 garbled (0 English words)
-- [ ] Task 6: Intake sp01, sp02, sp03: **view every page image**; record the printed title and header, total marks, every section heading and block pattern quoted exactly, chapters covered, and every picture with what the question needs from it; estimate the ⚑ count (P0)
+- [x] Task 6: Intake sp01, sp02, sp03: **view every page image**; record the printed title and header, total marks, every section heading and block pattern quoted exactly, chapters covered, and every picture with what the question needs from it; estimate the ⚑ count (P0)
   - Acceptance: intake.json and SCHOOL-PAPERS-INTAKE.md entries complete for the 3 papers; page count viewed = PDF page count
   - Files: source/intake.json, source/SCHOOL-PAPERS-INTAKE.md
-- [ ] Task 7: Intake sp04, sp05, sp06, sp07 (same fields). For sp06, settle "printed pages: 09" against the 8 PDF pages (P0)
+  - Completed: 2026-10-02 — sp01–sp03 intake by per-paper agents; every page viewed (pagesViewed recorded); transcripts for garbled sp02
+- [x] Task 7: Intake sp04, sp05, sp06, sp07 (same fields). For sp06, settle "printed pages: 09" against the 8 PDF pages (P0)
   - Acceptance: all 7 papers complete; sp06 page discrepancy explained or raised
   - Files: source/intake.json, source/SCHOOL-PAPERS-INTAKE.md
-- [ ] Task 8: Duplicate check (by text for usable layers, page image by page image for sp02, sp04 and sp05); flag chapters beyond 5; propose batch order (no pictures first, picture-heavy last, garbled papers last in their group) (P0)
+  - Completed: 2026-10-02 — sp04–sp07; sp06 complete (footers Page 1–8 of 8; header '09' is a miscount); sp04 is Ch 4 not Ch 5
+- [x] Task 8: Duplicate check (by text for usable layers, page image by page image for sp02, sp04 and sp05); flag chapters beyond 5; propose batch order (no pictures first, picture-heavy last, garbled papers last in their group) (P0)
   - Acceptance: duplicate verdicts, chapters beyond 5 and proposed batches written in the intake. **STOP — Gate 0b:** owner confirms renumbering, sp06, chapters beyond 5, and the live-check paper
   - Files: source/SCHOOL-PAPERS-INTAKE.md
+  - Completed: 2026-10-02 — sp02 ≡ sp05 (text diff, only annotations differ) → propose drop; sp03~sp06 0.73, kept; no chapters >5; batches proposed. Gate 0b questions open
 
 ### Phase 2 — Schema & validator (brief §3)
 - [ ] Task 9: Write `SCHEMA.md` documenting chapter papers (current behaviour) and `kind: "school"` (new fields, id pattern `evs-spNN-sX-bY-iZ`, ½ marks, `fallbackText`) (P0)
