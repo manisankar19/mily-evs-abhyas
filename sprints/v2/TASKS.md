@@ -146,8 +146,9 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Acceptance: live checks pass; the live `index.html` SHA-256 equals the local `dist/index.html`
   - Files: —
   - Completed: 2026-10-02 — owner approved (/dev task 35). scripts/deploy.sh --prod → deployment mily-evs-abhyas-6du8yxz73; verify-live: https://mily-evs-abhyas.vercel.app serves the tested index.html (sha256 856d8f9cf51df160…). tests/e2e-live.js (npm run test:live) 16/16 on production: ch3 + sp05, practice + checking, phone 390px + desktop 1280px, answer maps load, no console errors, no plaintext code. Rollback: previous v1 deployment in Vercel history
-- [ ] Task 36: After the owner has checked the site: delete the 6 `mily-evs-data-*` Vercel projects (P1)
+- [x] Task 36: After the owner has checked the site: delete the 6 `mily-evs-data-*` Vercel projects (P1)
   - Acceptance: owner confirms in chat before the deletion; the site still loads afterwards
+  - Completed: 2026-10-02 — owner confirmed the live site works and chose to delete (2026-10-02). Removed Vercel projects mily-evs-data-a … -f (v1 hosting of chapter-paper JSON copies only; the live page carries all 12 papers inline and made no requests to them). All chapter-wise and school papers kept. After deletion: verify-live OK (sha256 856d8f9cf51df160…), e2e-live 16/16; other projects untouched
 
 ### Phase 10 — Walkthrough (brief §8.9)
 - [ ] Task 37: `sprints/v2/WALKTHROUGH.md`: per-paper table (sp, source, total, sections, items, ⚑ actual vs estimate, fallback share); every teacherNote; adapted layouts; pictures; PDF hashes re-checked against the intake; existing JSON hashes re-checked against preflight; the line *"Parent reads every answer review sheet (`sprints/v2/answer-review/spNN.md`) before the child uses each paper."* (P0)
