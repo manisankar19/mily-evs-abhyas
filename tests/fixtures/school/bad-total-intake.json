@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sourceFile": "fixture good worksheet.pdf",
+  "sp": "sp99",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Fixture Worksheet",
+  "shortLabel": "Fixture Worksheet",
+  "subtitle": "School paper fixture",
+  "header": [
+    "Fixture School",
+    "Class IV - EVS"
+  ],
+  "totalMarks": 11,
+  "durationMinutes": null,
+  "chapters": [
+    3
+  ],
+  "fallbackText": [
+    {
+      "where": "evs-sp99-s1-b1-i2",
+      "field": "q",
+      "text": "Insects have ______ pairs of legs.",
+      "reason": "drawn-line blank"
+    }
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Section A - Objective",
+      "heading": "Section A - Objective",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "Q1",
+          "instruction": "Fill in the blanks. (2 x 1/2 = 1)",
+          "items": [
+            {
+              "id": "evs-sp99-s1-b1-i1",
+              "label": "(a)",
+              "type": "fill-blank",
+              "q": "The lines on a leaf are called ______.",
+              "marks": 0.5,
+              "answer": "veins",
+              "acceptable": [
+                "veins",
+                "vein"
+              ],
+              "topics": [
+                "plants"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3, p.2",
+              "skill": "plants",
+              "difficulty": "easy"
+            },
+            {
+              "id": "evs-sp99-s1-b1-i2",
+              "label": "(b)",
+              "type": "fill-blank",
+              "q": "Insects have ______ pairs of legs.",
+              "marks": 0.5,
+              "answer": "three",
+              "acceptable": [
+                "three",
+                "3"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3, p.4",
+              "skill": "insects",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "num": "Q2",
+          "instruction": "Tick the correct answer. (1)",
+          "items": [
+            {
+              "id": "evs-sp99-s1-b2-i1",
+              "label": "(a)",
+              "type": "mcq",
+              "q": "Which animal can live in a desert?",
+              "options": [
+                "camel",
+                "goat",
+                "fish"
+              ],
+              "marks": 1,
+              "answer": [
+                "camel",
+                "goat"
+              ],
+              "teacherNote": "Goats also live in deserts; both options are accepted.",
+              "answerSource": "authored",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5, p.3",
+              "skill": "animals",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "num": "Q3",
+          "instruction": "Match the following. (4 x 1/2 = 2)",
+          "items": [
+            {
+              "id": "evs-sp99-s1-b3-i1",
+              "label": "(a)",
+              "type": "match",
+              "q": "Match the animal with its home.",
+              "pairs": [
+                {
+                  "left": "Bird",
+                  "right": "Nest"
+                },
+                {
+                  "left": "Lion",
+                  "right": "Den"
+                },
+                {
+                  "left": "Bee",
+                  "right": "Hive"
+                },
+                {
+                  "left": "Spider",
+                  "right": "Web"
+                }
+              ],
+              "marks": 2,
+              "answer": "Bird - Nest; Lion - Den; Bee - Hive; Spider - Web.",
+              "answerPoints": [
+                {
+                  "point": "Bird - Nest",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Lion - Den",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Bee - Hive",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Spider - Web",
+                  "marks": 0.5
+                }
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3, p.5",
+              "skill": "animals",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Section B - Answer the following",
+      "heading": "Section B - Answer the following",
+      "marks": 6,
+      "blocks": [
+        {
+          "num": "Q4",
+          "instruction": "Look at the picture and answer. (1)",
+          "stimulus": {
+            "caption": "An animal of the hot sandy land",
+            "alt": "A tall animal with a hump on its back"
+          },
+          "items": [
+            {
+              "id": "evs-sp99-s2-b1-i1",
+              "label": "(a)",
+              "type": "one-word",
+              "q": "Name the animal shown in the picture.",
+              "marks": 1,
+              "answer": "camel",
+              "acceptable": [
+                "camel",
+                "ship of the desert"
+              ],
+              "underline": [
+                {
+                  "start": 0,
+                  "end": 4
+                }
+              ],
+              "pictureDescription": "A tall brown animal with a hump, standing on sand.",
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 5, p.3",
+              "skill": "animals",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "num": "Q5",
+          "instruction": "Answer in one or two sentences. (2)",
+          "items": [
+            {
+              "id": "evs-sp99-s2-b2-i1",
+              "label": "(a)",
+              "type": "short",
+              "q": "Why should we not feed animals in a forest?",
+              "marks": 2,
+              "answer": "Human food can make animals sick, and they may stop finding their own food.",
+              "markingGuide": "One mark for each sensible reason.",
+              "modelAnswer": "Our food can make them sick and they may stop looking for their own food.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Two sensible reasons."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "One sensible reason."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible reason."
+                }
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3, p.6",
+              "skill": "safety-rules",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "num": "Q6",
+          "instruction": "Answer in detail. (3)",
+          "items": [
+            {
+              "id": "evs-sp99-s2-b3-i1",
+              "label": "(a)",
+              "type": "long",
+              "q": "Write three things you can observe on a nature trail.",
+              "marks": 3,
+              "answer": "Leaves of different shapes, footprints of animals, and insects on plants.",
+              "markingGuide": "One mark for each sensible observation.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "Three sensible observations."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1.5,
+                  "descriptor": "One or two sensible observations."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible observation."
+                }
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3, p.1",
+              "skill": "observation",
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

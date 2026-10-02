@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sourceFile": "fixture good worksheet.pdf",
+  "sp": "sp99",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Fixture Worksheet",
+  "shortLabel": "Fixture Worksheet",
+  "subtitle": "School paper fixture",
+  "header": [
+    "Fixture School",
+    "Class IV - EVS"
+  ],
+  "totalMarks": 4,
+  "durationMinutes": null,
+  "chapters": [
+    3
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "Section A - Objective",
+      "heading": "Section A - Objective",
+      "marks": 4,
+      "blocks": [
+        {
+          "num": "Q1",
+          "instruction": "Fill in the blanks. (2 x 1/2 = 1)",
+          "items": [
+            {
+              "id": "evs-sp99-s1-b1-i1",
+              "label": "(a)",
+              "type": "fill-blank",
+              "q": "The lines on a leaf are called ______.",
+              "marks": 0.5,
+              "answer": "veins",
+              "acceptable": [
+                "veins",
+                "vein"
+              ],
+              "topics": [
+                "plants"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3, p.2",
+              "skill": "plants",
+              "difficulty": "easy"
+            },
+            {
+              "id": "evs-sp99-s1-b1-i2",
+              "label": "(b)",
+              "type": "fill-blank",
+              "q": "Insects have ______ pairs of legs.",
+              "marks": 0.5,
+              "answer": "three",
+              "acceptable": [
+                "three",
+                "3"
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3, p.4",
+              "skill": "insects",
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "num": "Q2",
+          "instruction": "Tick the correct answer. (1)",
+          "items": [
+            {
+              "id": "evs-sp99-s1-b2-i1",
+              "label": "(a)",
+              "type": "mcq",
+              "q": "Which animal can live in a desert?",
+              "options": [
+                "camel",
+                "goat",
+                "fish"
+              ],
+              "marks": 1,
+              "answer": [
+                "camel",
+                "goat"
+              ],
+              "teacherNote": "Goats also live in deserts; both options are accepted.",
+              "answerSource": "authored",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5, p.3",
+              "skill": "animals",
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "num": "Q3",
+          "instruction": "Match the following. (4 x 1/2 = 2)",
+          "items": [
+            {
+              "id": "evs-sp99-s1-b3-i1",
+              "label": "(a)",
+              "type": "match",
+              "q": "Match the animal with its home.",
+              "pairs": [
+                {
+                  "left": "Bird",
+                  "right": "Nest"
+                },
+                {
+                  "left": "Lion",
+                  "right": "Den"
+                },
+                {
+                  "left": "Bee",
+                  "right": "Hive"
+                },
+                {
+                  "left": "Spider",
+                  "right": "Web"
+                }
+              ],
+              "marks": 2,
+              "answer": "Bird - Nest; Lion - Den; Bee - Hive; Spider - Web.",
+              "answerPoints": [
+                {
+                  "point": "Bird - Nest",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Lion - Den",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Bee - Hive",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Spider - Web",
+                  "marks": 0.5
+                }
+              ],
+              "answerSource": "authored",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3, p.5",
+              "skill": "animals",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

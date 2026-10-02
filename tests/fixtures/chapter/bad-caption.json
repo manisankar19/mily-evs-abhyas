@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "chapter": 3,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Chapter caption fixture",
+  "subtitle": "Chapter-paper fixture: the caption check applies to every kind",
+  "totalMarks": 1,
+  "durationMinutes": 10,
+  "sections": [
+    {
+      "code": "A", "title": "Objective questions", "marks": 1,
+      "blocks": [
+        {
+          "num": "Q.1", "instruction": "Look at the picture and answer.",
+          "stimulus": { "caption": "A gaur in the forest", "alt": "A large dark animal" },
+          "items": [
+            { "id": "evs-c3-s1-b1-i1", "label": "(i)", "type": "one-word", "q": "Name the animal in the picture.", "marks": 1, "answer": "Gaur", "skill": "animals", "difficulty": "easy" }
+          ]
+        }
+      ]
+    }
+  ]
+}
