@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 630" width="1220" height="630">
+<title>Question 1: five numbered pictures</title>
+<rect width="1220" height="630" fill="#ffffff"/>
+<g transform="translate(5,5)">
+<rect x="2" y="2" width="396" height="296" rx="14" fill="#ffffff"/>
+<svg x="6" y="6" width="388" height="288" viewBox="0 0 400 300">
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="10" y1="272" x2="390" y2="272"/>
+<!-- building -->
+<rect x="178" y="122" width="200" height="150" fill="#f3dfb8"/>
+<path d="M160 124 L396 124 L362 74 L194 74 Z" fill="#c0504d"/>
+<g stroke-width="2" fill="none"><path d="M206 84 H352 M196 98 H362 M184 112 H376"/></g>
+<rect x="206" y="132" width="140" height="24" rx="3" fill="#ffffff"/>
+<text x="276" y="149" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#3b2a20" stroke="none">POST OFFICE</text>
+<rect x="196" y="172" width="84" height="60" fill="#bfe0ef"/>
+<path d="M196 202 H280 M238 172 V232" stroke-width="2"/>
+<rect x="190" y="232" width="96" height="8" fill="#b08a5a"/>
+<rect x="306" y="176" width="52" height="96" fill="#8b5a2b"/>
+<circle cx="347" cy="226" r="3" fill="#ffd34d"/>
+<!-- pillar postbox -->
+<rect x="38" y="262" width="48" height="10" fill="#7a1f1f"/>
+<path d="M44 262 V178 Q44 156 62 156 Q80 156 80 178 V262 Z" fill="#d32f2f"/>
+<path d="M40 180 Q62 168 84 180" fill="#b71c1c"/>
+<rect x="50" y="196" width="24" height="6" rx="2" fill="#3b2a20"/>
+<rect x="52" y="214" width="20" height="14" rx="2" fill="#ffffff" stroke-width="2"/>
+<!-- postman -->
+<path d="M112 268 L116 214 L130 214 L128 268 Z" fill="#a08355"/>
+<path d="M132 268 L134 214 L148 214 L150 268 Z" fill="#a08355"/>
+<path d="M106 270 h24 v-6 h-20 z M130 270 h24 v-6 h-20 z" fill="#3b2a20"/>
+<path d="M110 218 L112 168 Q130 156 148 168 L152 218 Z" fill="#c8ad7f"/>
+<path d="M131 166 V218" stroke-width="2"/>
+<circle cx="131" cy="140" r="16" fill="#f1c59a"/>
+<path d="M114 134 Q131 112 148 134 Z" fill="#a08355"/>
+<path d="M112 134 H156" stroke-width="4"/>
+<circle cx="126" cy="141" r="1.8" fill="#3b2a20"/><circle cx="137" cy="141" r="1.8" fill="#3b2a20"/>
+<path d="M126 149 Q131 152 136 149" fill="none" stroke-width="2"/>
+<!-- bag strap and bag -->
+<path d="M116 168 L160 214" stroke="#5a3a20" stroke-width="5"/>
+<path d="M146 204 h30 v32 h-30 z" fill="#7a4a22"/>
+<path d="M146 204 h30 v12 h-30 z" fill="#5a3a20"/>
+<!-- arm and envelopes -->
+<path d="M112 172 L98 204" stroke-width="9" stroke="#c8ad7f"/>
+<path d="M112 172 L98 204" fill="none"/>
+<g fill="#ffffff" stroke-width="2">
+<rect x="80" y="196" width="30" height="20" transform="rotate(-10 95 206)"/>
+<path d="M80 196 L95 207 L110 196" transform="rotate(-10 95 206)" fill="none"/>
+<rect x="84" y="208" width="30" height="20" transform="rotate(8 99 218)"/>
+<path d="M84 208 L99 219 L114 208" transform="rotate(8 99 218)" fill="none"/>
+</g>
+</g></svg>
+<rect x="2" y="2" width="396" height="296" rx="14" fill="none" stroke="#9a8f7a" stroke-width="3"/>
+<circle cx="36" cy="36" r="28" fill="#2f4f8f" stroke="#ffffff" stroke-width="3"/>
+<text x="36" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">1</text>
+</g>
+<g transform="translate(410,5)">
+<rect x="2" y="2" width="396" height="296" rx="14" fill="#ffffff"/>
+<svg x="6" y="6" width="388" height="288" viewBox="0 0 400 300">
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- branch -->
+<path d="M30 252 Q200 232 380 222 L380 236 Q200 248 34 266 Z" fill="#8b5a2b"/>
+<path d="M300 228 L340 196 M330 202 L352 200" fill="none" stroke-width="5" stroke="#8b5a2b"/>
+<!-- tail -->
+<path d="M176 214 L150 286 L172 280 L184 290 L196 280 L214 286 L204 214 Z" fill="#ffffff"/>
+<!-- body -->
+<path d="M196 104 Q150 120 160 186 Q166 222 206 226 Q246 222 250 184 Q256 124 222 104 Z" fill="#6b4a2e"/>
+<!-- folded wing -->
+<path d="M200 124 Q160 150 168 214 L186 250 L196 218 Q190 170 214 132 Z" fill="#4a3220"/>
+<g fill="none" stroke="#8a6a4a" stroke-width="2"><path d="M180 170 l12 10 M176 190 l14 10 M178 208 l12 8"/></g>
+<!-- white head -->
+<path d="M196 112 Q186 80 210 66 Q236 56 252 74 Q262 92 248 112 Q222 124 196 112 Z" fill="#ffffff"/>
+<!-- hooked beak -->
+<path d="M250 78 Q276 74 288 88 Q292 100 282 110 Q284 98 270 96 L250 98 Z" fill="#f2b705"/>
+<path d="M252 98 L272 98" stroke-width="2"/>
+<!-- eye -->
+<circle cx="234" cy="82" r="6" fill="#f2b705"/>
+<circle cx="235" cy="82" r="2.8" fill="#3b2a20" stroke="none"/>
+<path d="M226 74 L244 76" stroke-width="3"/>
+<!-- legs -->
+<path d="M194 218 L192 236 M220 218 L222 234" stroke="#f2b705" stroke-width="9"/>
+<!-- sharp claws (talons) gripping the branch -->
+<g fill="#222222" stroke="#222222" stroke-width="1.5">
+<path d="M190 232 Q168 232 162 252 Q174 244 188 244 Z"/>
+<path d="M192 236 Q196 258 182 266 Q200 262 202 244 Z"/>
+<path d="M195 232 Q214 232 216 252 Q208 244 198 244 Z"/>
+<path d="M220 230 Q200 230 196 248 Q208 242 218 242 Z"/>
+<path d="M222 234 Q228 256 214 264 Q232 260 232 242 Z"/>
+<path d="M224 230 Q244 228 248 248 Q238 240 228 242 Z"/>
+</g>
+</g></svg>
+<rect x="2" y="2" width="396" height="296" rx="14" fill="none" stroke="#9a8f7a" stroke-width="3"/>
+<circle cx="36" cy="36" r="28" fill="#2f4f8f" stroke="#ffffff" stroke-width="3"/>
+<text x="36" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">2</text>
+</g>
+<g transform="translate(815,5)">
+<rect x="2" y="2" width="396" height="296" rx="14" fill="#ffffff"/>
+<svg x="6" y="6" width="388" height="288" viewBox="0 0 400 300">
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- bowl of rice -->
+<path d="M84 112 Q130 88 176 112 Z" fill="#ffffff"/>
+<g fill="#ffffff" stroke-width="1.5"><ellipse cx="110" cy="104" rx="4" ry="2"/><ellipse cx="124" cy="98" rx="4" ry="2"/><ellipse cx="140" cy="100" rx="4" ry="2"/><ellipse cx="156" cy="106" rx="4" ry="2"/><ellipse cx="132" cy="108" rx="4" ry="2"/></g>
+<path d="M80 112 H180 Q176 150 130 152 Q84 150 80 112 Z" fill="#e8c48f"/>
+<path d="M92 126 H168" stroke-width="2" stroke="#b08a5a"/>
+<!-- honey jar with dipper -->
+<rect x="214" y="58" width="56" height="16" rx="4" fill="#8b5a2b"/>
+<path d="M210 74 H274 V146 Q274 154 266 154 H218 Q210 154 210 146 Z" fill="#f0a500"/>
+<path d="M210 74 H274 V84 Q262 96 250 84 Q240 98 230 84 Q220 94 210 84 Z" fill="#ffc94d"/>
+<path d="M222 100 Q226 128 222 142" stroke="#ffe08a" stroke-width="4" fill="none"/>
+<path d="M266 70 L292 30" stroke="#b07a3a" stroke-width="5"/>
+<g fill="#d9a35a" stroke-width="2"><ellipse cx="294" cy="26" rx="9" ry="12" transform="rotate(32 294 26)"/></g>
+<path d="M288 18 l12 8 M286 26 l12 8" stroke-width="1.5"/>
+<!-- sweet potatoes -->
+<path d="M300 116 Q320 92 362 98 Q388 104 384 116 Q360 132 318 130 Q298 128 300 116 Z" fill="#a0405a"/>
+<path d="M306 146 Q330 126 368 138 Q384 146 372 154 Q340 162 312 158 Q300 154 306 146 Z" fill="#b3546b"/>
+<!-- bananas -->
+<g fill="#ffd34d">
+<path d="M40 200 Q70 254 132 236 Q140 232 134 228 Q78 236 50 194 Z"/>
+<path d="M46 186 Q80 236 140 214 Q146 208 138 206 Q86 220 56 180 Z"/>
+<path d="M54 174 Q92 214 146 190 Q150 184 142 184 Q94 198 64 168 Z"/>
+</g>
+<path d="M44 196 L58 166 L64 170" fill="#6b8e23"/>
+<!-- corn cob -->
+<path d="M200 168 Q232 176 236 216 Q238 262 218 276 Q196 260 194 216 Q192 182 200 168 Z" fill="#ffd34d"/>
+<g stroke-width="1.5" fill="none" stroke="#c49a00"><path d="M200 190 Q216 186 232 192 M198 206 Q216 202 234 208 M198 222 Q216 218 235 224 M200 238 Q216 234 234 240 M204 254 Q216 250 230 256 M206 176 Q210 230 218 274 M220 172 Q226 230 226 270"/></g>
+<path d="M194 200 Q176 236 204 286 Q210 260 200 236 Z" fill="#7cb342"/>
+<path d="M238 204 Q254 240 228 286 Q226 258 234 236 Z" fill="#7cb342"/>
+<!-- potatoes -->
+<path d="M258 206 Q256 184 280 182 Q306 182 306 204 Q306 226 282 228 Q260 228 258 206 Z" fill="#c9a26b"/>
+<path d="M270 238 Q270 222 292 222 Q314 224 312 242 Q310 260 290 260 Q270 258 270 238 Z" fill="#b8915a"/>
+<g fill="#3b2a20" stroke="none"><circle cx="272" cy="198" r="1.8"/><circle cx="292" cy="210" r="1.8"/><circle cx="284" cy="194" r="1.8"/><circle cx="286" cy="240" r="1.8"/><circle cx="300" cy="248" r="1.8"/></g>
+<!-- ears of wheat -->
+<g fill="none" stroke="#a07a20" stroke-width="3"><path d="M340 280 Q342 220 344 172"/><path d="M362 280 Q364 220 372 176"/></g>
+<g fill="#e0b84a" stroke-width="1.5">
+<ellipse cx="338" cy="182" rx="5" ry="9" transform="rotate(-25 338 182)"/><ellipse cx="350" cy="186" rx="5" ry="9" transform="rotate(25 350 186)"/>
+<ellipse cx="338" cy="198" rx="5" ry="9" transform="rotate(-25 338 198)"/><ellipse cx="350" cy="202" rx="5" ry="9" transform="rotate(25 350 202)"/>
+<ellipse cx="338" cy="214" rx="5" ry="9" transform="rotate(-25 338 214)"/><ellipse cx="350" cy="218" rx="5" ry="9" transform="rotate(25 350 218)"/>
+<ellipse cx="344" cy="168" rx="4.5" ry="9"/>
+<ellipse cx="366" cy="186" rx="5" ry="9" transform="rotate(-20 366 186)"/><ellipse cx="378" cy="190" rx="5" ry="9" transform="rotate(30 378 190)"/>
+<ellipse cx="364" cy="202" rx="5" ry="9" transform="rotate(-20 364 202)"/><ellipse cx="376" cy="206" rx="5" ry="9" transform="rotate(30 376 206)"/>
+<ellipse cx="373" cy="172" rx="4.5" ry="9" transform="rotate(10 373 172)"/>
+</g>
+</g></svg>
+<rect x="2" y="2" width="396" height="296" rx="14" fill="none" stroke="#9a8f7a" stroke-width="3"/>
+<circle cx="36" cy="36" r="28" fill="#2f4f8f" stroke="#ffffff" stroke-width="3"/>
+<text x="36" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">3</text>
+</g>
+<g transform="translate(207,320)">
+<rect x="2" y="2" width="396" height="296" rx="14" fill="#ffffff"/>
+<svg x="6" y="6" width="388" height="288" viewBox="0 0 400 300">
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="10" y1="270" x2="390" y2="270"/>
+<!-- pan of cement -->
+<path d="M60 150 Q100 140 140 150 L132 172 Q100 180 68 172 Z" fill="#8d9196"/>
+<path d="M70 150 Q90 132 112 140 Q128 136 134 150 Z" fill="#b9bcc0"/>
+<!-- low brick wall with grey cement between bricks -->
+<rect x="38" y="220" width="190" height="50" fill="#9a9ea4" stroke="none"/>
+<g stroke-width="2"><rect x="40" y="246" width="44" height="22" fill="#c0504d"/><rect x="86" y="246" width="44" height="22" fill="#c0504d"/><rect x="132" y="246" width="44" height="22" fill="#c0504d"/><rect x="178" y="246" width="44" height="22" fill="#c0504d"/><rect x="63" y="222" width="44" height="22" fill="#c0504d"/><rect x="109" y="222" width="44" height="22" fill="#c0504d"/><rect x="155" y="222" width="44" height="22" fill="#c0504d"/></g>
+<!-- brick being placed on top -->
+<g stroke-width="2"><rect x="156" y="198" width="44" height="22" fill="#c0504d"/></g>
+<!-- spare bricks -->
+<g stroke-width="2"><rect x="330" y="248" width="44" height="22" fill="#c0504d"/><rect x="338" y="226" width="40" height="22" fill="#c0504d"/></g>
+<!-- kneeling man (facing left) -->
+<path d="M300 210 L270 236 L262 268 L282 268 L290 244 L316 226 Z" fill="#5a6b7a"/>
+<path d="M312 212 L276 262 L330 266 L332 248 L306 248 L326 220 Z" fill="#4a5a68"/>
+<path d="M258 270 h28 v-6 h-24 z" fill="#3b2a20"/>
+<path d="M330 268 l18 0 l0 -10 l-16 0 z" fill="#3b2a20"/>
+<path d="M286 146 Q262 150 268 180 L292 222 L330 214 Q328 168 304 148 Z" fill="#4a7bb7"/>
+<circle cx="276" cy="124" r="19" fill="#f1c59a"/>
+<path d="M258 122 Q260 98 282 102 Q298 106 294 124 Q284 112 266 118 Z" fill="#3b2a20"/>
+<circle cx="266" cy="126" r="2" fill="#3b2a20"/>
+<!-- arm to the trowel -->
+<path d="M282 158 Q244 170 214 190" fill="none" stroke="#4a7bb7" stroke-width="13"/>
+<circle cx="212" cy="192" r="8" fill="#f1c59a"/>
+<!-- other arm resting on the brick -->
+<path d="M296 166 Q260 196 202 204" fill="none" stroke="#4a7bb7" stroke-width="11"/>
+<circle cx="200" cy="205" r="7" fill="#f1c59a"/>
+<!-- trowel: wooden handle and flat pointed metal blade -->
+<rect x="204" y="184" width="22" height="9" rx="4" fill="#b07a3a" transform="rotate(-20 215 188)"/>
+<path d="M206 196 L198 186" stroke-width="3"/>
+<path d="M200 186 L150 178 L162 196 Z" fill="#cfd2d6"/>
+<path d="M150 186 Q160 196 172 192" fill="#9a9ea4" stroke-width="2"/>
+</g></svg>
+<rect x="2" y="2" width="396" height="296" rx="14" fill="none" stroke="#9a8f7a" stroke-width="3"/>
+<circle cx="36" cy="36" r="28" fill="#2f4f8f" stroke="#ffffff" stroke-width="3"/>
+<text x="36" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">4</text>
+</g>
+<g transform="translate(612,320)">
+<rect x="2" y="2" width="396" height="296" rx="14" fill="#ffffff"/>
+<svg x="6" y="6" width="388" height="288" viewBox="-56 -36 456 336"><rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#3b2a20" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- sun -->
+<g stroke-width="4">
+<path d="M58 8 V22 M58 94 V108 M8 58 H22 M94 58 H108 M23 23 L33 33 M83 83 L93 93 M93 23 L83 33 M33 83 L23 93"/>
+</g>
+<circle cx="58" cy="58" r="30" fill="#ffd34d"/>
+<path d="M46 62 q12 10 24 0" fill="none" stroke-width="2.5"/>
+<circle cx="48" cy="52" r="2.5" fill="#3b2a20"/><circle cx="68" cy="52" r="2.5" fill="#3b2a20"/>
+<!-- ground -->
+<line x1="20" y1="276" x2="380" y2="276"/>
+<!-- mirror reflector propped open behind the box -->
+<path d="M150 150 L330 150 L370 40 L190 40 Z" fill="#d6e6ee"/>
+<path d="M160 146 L322 146 L358 46 L196 46 Z" fill="#eef6fa" stroke-width="2"/>
+<g stroke="#ffffff" stroke-width="5"><path d="M230 120 L262 66"/><path d="M252 126 L276 84"/></g>
+<!-- prop stick -->
+
+<!-- rays from sun to mirror and down into the box -->
+<g fill="none" stroke="#f0913a" stroke-width="3" stroke-dasharray="8 6">
+<path d="M98 62 L232 82"/><path d="M96 80 L270 110"/>
+
+</g>
+<g fill="#f0913a" stroke-width="2">
+<path d="M232 82 l-12 -7 l2 13 Z"/><path d="M270 110 l-12 -7 l2 13 Z"/>
+
+</g>
+<!-- box: top glass face -->
+<path d="M90 190 L150 150 L330 150 L290 190 Z" fill="#9fc6d6"/>
+<!-- black inside visible through glass with two dark pots -->
+<path d="M104 186 L154 156 L318 156 L284 186 Z" fill="#2a2a2a" stroke-width="2"/>
+<g fill="#4a4a4a" stroke="#d8dadd" stroke-width="2.5">
+<ellipse cx="170" cy="172" rx="28" ry="10"/>
+<ellipse cx="248" cy="172" rx="28" ry="10"/>
+<rect x="160" y="158" width="20" height="5" rx="2.5"/>
+<rect x="238" y="158" width="20" height="5" rx="2.5"/>
+</g>
+<!-- glass shine -->
+<g stroke="#ffffff" stroke-width="4"><path d="M130 182 L152 164"/><path d="M142 184 L158 172"/><path d="M290 172 L304 160"/></g>
+<!-- box front and side -->
+<path d="M90 190 L290 190 L290 262 L90 262 Z" fill="#3b3b3b"/>
+<path d="M290 190 L330 150 L330 222 L290 262 Z" fill="#2a2a2a"/>
+<path d="M106 204 H274" stroke="#6b6b6b" stroke-width="3"/>
+<rect x="176" y="222" width="28" height="10" rx="5" fill="#8d9196"/>
+<rect x="100" y="262" width="20" height="12" fill="#6b5a4e"/><rect x="262" y="262" width="20" height="12" fill="#6b5a4e"/>
+<!-- reflected rays landing on the glass -->
+<g fill="none" stroke="#f0913a" stroke-width="3" stroke-dasharray="8 6"><path d="M232 82 L210 160"/><path d="M270 110 L262 160"/></g>
+<g fill="#f0913a" stroke-width="2"><path d="M208 168 l-6 -12 l12 1 Z"/><path d="M261 168 l-6 -12 l12 0 Z"/></g>
+<!-- prop stick holding the mirror open -->
+<line x1="352" y1="84" x2="330" y2="178" stroke-width="5"/>
+</g></svg>
+<rect x="2" y="2" width="396" height="296" rx="14" fill="none" stroke="#9a8f7a" stroke-width="3"/>
+<circle cx="36" cy="36" r="28" fill="#2f4f8f" stroke="#ffffff" stroke-width="3"/>
+<text x="36" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff">5</text>
+</g>
+</svg>

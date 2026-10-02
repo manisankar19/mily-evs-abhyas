@@ -1,0 +1,2204 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sp": "sp03",
+  "sourceFile": "2.1.4 Worksheet_Class-4_TWAU_Sept'25 HYE.pdf",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Atomic Energy Education Society / Worksheet (2025-26)",
+  "shortLabel": "Worksheet: September (Ch 1–5, Term 1)",
+  "subtitle": "Worksheet — Class IV — September (Chapters 1 to 5)",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या / No. of printed pages - 08",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक / Worksheet (2025-26)",
+    "कक्षा/Class : IV अनुभाग / Sec : _________ अंक / Marks : 80",
+    "विषय / Subject : हमारे आस-पास की दुनिया / The World Around Us",
+    "माह / Month : सितम्बर / September",
+    "दिया गया पाठ्यक्रम / Portion covered – Chapter 1 to 5 ( Term 1)",
+    "विद्यार्थी का नाम / Name of the student : _________________________________",
+    "अनुक्रमांक / Roll No:_____________"
+  ],
+  "totalMarks": 80,
+  "durationMinutes": null,
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sections": [
+    {
+      "code": "1",
+      "title": "OBSERVATION AND REPORTING (25 MARKS)",
+      "heading": "OBSERVATION AND REPORTING (25 MARKS)",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q1",
+          "instruction": "Observe the picture and answer the questions. (5 x 2 =10)",
+          "adaptation": "The five printed pictures are drawn here in one picture as panels 1 to 5; panel 1 goes with question 1), panel 2 with 2), and so on.",
+          "stimulus": {
+            "asset": "assets/sp03-q1.svg",
+            "caption": "Pictures for Question 1, in panels 1 to 5",
+            "alt": "Five numbered drawings. (1) A small building with a signboard, a red pillar-shaped box with a slot beside it, and a man in a khaki uniform and cap with a shoulder bag, holding envelopes. (2) A large bird with a white head, a hooked yellow beak and curved black claws gripping a branch. (3) A group of foods: a bowl of rice, a jar of golden syrup with a wooden dipper, sweet potatoes, bananas, a corn cob, potatoes and ears of wheat. (4) A man kneeling beside a low wall of bricks, holding a flat pointed tool with a wooden handle, with a pan of grey paste nearby. (5) A black box with a glass lid and a mirror propped open behind it, two pots inside, and the sun shining on it."
+          },
+          "items": [
+            {
+              "id": "evs-sp03-s1-b1-i1",
+              "label": "1)",
+              "type": "short",
+              "q": "Where do we drop our letters to be sent? Who delivers letters to our home?",
+              "marks": 2,
+              "answer": "We drop our letters in a postbox (letter box). The postman delivers letters to our home.",
+              "answerPoints": [
+                {
+                  "point": "Postbox / letter box (also accept: at the post office)",
+                  "marks": 1
+                },
+                {
+                  "point": "Postman (postwoman, dakiya, mail carrier)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Both parts right: postbox (or post office) and postman."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "One part right."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither part right."
+                }
+              ],
+              "modelAnswer": "We drop our letters in the postbox. The postman delivers letters to our home.",
+              "teacherNote": "Both answers are in the textbook. \"Post office\" for the first part is accepted (letters can be posted there), which is a judgement call, so this item is ⚑ like the other picture items in Q1.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.2 l.4-22",
+              "topics": [
+                "post office",
+                "communication"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b1-i2",
+              "label": "2)",
+              "type": "short",
+              "q": "Identify this bird and write its name. What does this bird have to catch its prey?",
+              "marks": 2,
+              "answer": "Eagle. It has sharp claws (talons) and a sharp, curved beak to catch its prey.",
+              "answerPoints": [
+                {
+                  "point": "Eagle (also accept: chil / garud; hawk, kite or falcon — the parent decides, see note)",
+                  "marks": 1
+                },
+                {
+                  "point": "Sharp claws (talons) and/or a sharp, curved (hooked) beak",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Names the eagle and says it has sharp claws or a sharp curved beak."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one part right (e.g. bird named but no feature, or \"sharp claws\" with a wrong bird)."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither part right."
+                }
+              ],
+              "modelAnswer": "This is an eagle. It has sharp claws and a sharp, curved beak to catch its prey.",
+              "teacherNote": "The textbook says an eagle has \"a sharp, curved beak and sharp claws to catch its prey\", so either feature (or both) earns the second mark. Hawk, kite and falcon look very like an eagle; the drawing (white head, hooked yellow beak, big talons) is an eagle, but give the mark for \"bird of prey\"/hawk/kite if the parent feels the child recognised the kind of bird.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.16-22",
+              "topics": [
+                "birds",
+                "beaks and claws"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b1-i3",
+              "label": "3)",
+              "type": "short",
+              "q": "What kind of food group is this? Name any two food items from this group.",
+              "marks": 2,
+              "answer": "Energy-giving foods. Any two of: rice, potato, sweet potato, honey, banana, maize (corn), wheat, millets, apple, butter, ghee, oil.",
+              "answerPoints": [
+                {
+                  "point": "Energy-giving foods (energy-rich / energy foods / carbohydrates)",
+                  "marks": 1
+                },
+                {
+                  "point": "Any two energy-giving foods, ½ each (rice, potato, sweet potato, honey, banana, maize/corn, wheat, millets, jaggery, sugar, butter, ghee, oil)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Says energy-giving food and names two energy-giving foods."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Food group right but foods wrong or missing, or two correct foods without the group; ½ for one correct food."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Group wrong and no correct food."
+                }
+              ],
+              "modelAnswer": "This is the energy-giving food group. Rice and potato are energy-giving foods.",
+              "teacherNote": "\"Carbohydrates\" is not a textbook word but means the same here; accept it. The two foods may be named from the picture or from memory.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.9 l.1-6",
+              "topics": [
+                "food groups",
+                "energy-giving food"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b1-i4",
+              "label": "4)",
+              "type": "short",
+              "q": "Name the person who mends wall using bricks and cement called? Write the name of any one tool which is used for building walls.",
+              "marks": 2,
+              "answer": "Mason (raj mistri). Tool: trowel (karni).",
+              "answerPoints": [
+                {
+                  "point": "Mason (raj mistri, mistri, bricklayer, construction worker)",
+                  "marks": 1
+                },
+                {
+                  "point": "Any one tool: trowel (karni), spirit level, plumb line (sahul), hammer, shovel/spade, measuring tape, chisel, cement pan (tasla)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Mason and one correct building tool."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one part right."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither part right."
+                }
+              ],
+              "modelAnswer": "The person is called a mason. A trowel is used for building walls.",
+              "teacherNote": "Printed as \"Name the person who mends wall using bricks and cement called?\" (two questions run together, and \"wall\" without \"a\"); kept as printed. The textbook example tool is the trowel, but any real wall-building tool gets the mark.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.8 l.5-13",
+              "topics": [
+                "occupations",
+                "tools"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b1-i5",
+              "label": "5)",
+              "type": "short",
+              "q": "Identify the device and write its name. Write any one benefit of using this device.",
+              "marks": 2,
+              "answer": "Solar cooker. Benefit: it cooks food using sunlight, so it saves fuel/gas/electricity and does not pollute the air with smoke or ash.",
+              "answerPoints": [
+                {
+                  "point": "Solar cooker",
+                  "marks": 1
+                },
+                {
+                  "point": "One benefit: uses free sunlight / saves gas, fuel or electricity / no smoke or ash, does not pollute / saves money",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Names the solar cooker and gives one correct benefit."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one part right."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither part right."
+                }
+              ],
+              "modelAnswer": "It is a solar cooker. It cooks food with sunlight, so it does not make smoke or pollute the air.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.14 l.18-25",
+              "topics": [
+                "solar cooker",
+                "cooking"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q2",
+          "instruction": "Name the following . (4x1=4)",
+          "items": [
+            {
+              "id": "evs-sp03-s1-b2-i1",
+              "label": "1.",
+              "type": "one-word",
+              "q": "People in Sikkim, who are specialist in agriculture – ______",
+              "marks": 1,
+              "answer": "Khetala",
+              "acceptable": [
+                "Khetala",
+                "Khetla",
+                "Khethala",
+                "Kheytala",
+                "Khetalas"
+              ],
+              "teacherNote": "The block heading is printed \"Name the following .\" with a space before the full stop, and this item says \"specialist\" (singular); both kept as printed.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.13 l.2-5",
+              "topics": [
+                "Sikkim",
+                "harvest",
+                "community"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b2-i2",
+              "label": "2.",
+              "type": "one-word",
+              "q": "A hut built using bamboo and hay during Magh Bihu – ______",
+              "marks": 1,
+              "answer": "Bhela Ghar",
+              "acceptable": [
+                "Bhela Ghar",
+                "Bhelaghar",
+                "Bhela",
+                "Bhela Ghor",
+                "Bhelaghor",
+                "Bhela ghar hut"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.12 l.1-9",
+              "topics": [
+                "Magh Bihu",
+                "festivals"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b2-i3",
+              "label": "3.",
+              "type": "one-word",
+              "q": "A word in French which means a director or head of the kitchen –______",
+              "marks": 1,
+              "answer": "Chef",
+              "acceptable": [
+                "Chef",
+                "chef",
+                "Chief cook",
+                "Head chef",
+                "Shef"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 5 (deev105), p.14 l.4-10",
+              "topics": [
+                "cooking",
+                "occupations"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b2-i4",
+              "label": "4.",
+              "type": "one-word",
+              "q": "An animal which can live on water as well as land – ______",
+              "marks": 1,
+              "answer": "Frog",
+              "acceptable": [
+                "Frog",
+                "Frogs",
+                "Toad",
+                "Mendhak",
+                "Medak",
+                "Turtle",
+                "Crocodile",
+                "Alligator",
+                "Gharial",
+                "Salamander",
+                "Newt",
+                "Amphibian",
+                "Seal",
+                "Hippopotamus",
+                "Hippo",
+                "Duck",
+                "Water snake"
+              ],
+              "teacherNote": "The textbook answer is the frog (\"Frogs can live both on land and in water\"). Turtles, crocodiles and other animals that move between land and water are also defensible for \"can live on water as well as land\", so they are accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.16 l.14-20",
+              "topics": [
+                "animals",
+                "water animals"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q3",
+          "instruction": "Give two examples of each- (3 x 1 = 3)",
+          "adaptation": "Write two examples for each part; each correct example gets ½ mark.",
+          "items": [
+            {
+              "id": "evs-sp03-s1-b3-i1",
+              "label": "1.",
+              "type": "one-word",
+              "q": "Public places -",
+              "marks": 1,
+              "answer": "Any two of: park, school, hospital, post office, bank, market, playground, bus stop, railway station, library, police station.",
+              "acceptable": [
+                "park",
+                "parks",
+                "school",
+                "hospital",
+                "health centre",
+                "health center",
+                "post office",
+                "bank",
+                "market",
+                "playground",
+                "bus stop",
+                "bus station",
+                "railway station",
+                "metro station",
+                "airport",
+                "library",
+                "public library",
+                "police station",
+                "fire station",
+                "temple",
+                "museum",
+                "zoo",
+                "garden",
+                "road",
+                "cinema hall",
+                "community hall",
+                "panchayat ghar"
+              ],
+              "markingGuide": "½ mark for each correct public place (two needed). A public place is one that everyone in the community can use.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.5 l.8-11; Ch 2 (deev102), p.11 l.19-23",
+              "topics": [
+                "public places",
+                "community"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b3-i2",
+              "label": "2.",
+              "type": "one-word",
+              "q": "Harvest festivals -",
+              "marks": 1,
+              "answer": "Any two of: Magh Bihu (Bihu), Pongal, Baisakhi (Vaisakhi), Onam, Makar Sankranti, Lohri, Nuakhai, Nabanna, Ugadi.",
+              "acceptable": [
+                "Magh Bihu",
+                "Bihu",
+                "Bhogali Bihu",
+                "Bohag Bihu",
+                "Pongal",
+                "Baisakhi",
+                "Vaisakhi",
+                "Onam",
+                "Makar Sankranti",
+                "Sankranti",
+                "Sankranthi",
+                "Lohri",
+                "Nuakhai",
+                "Nabanna",
+                "Wangala",
+                "Hornbill festival",
+                "Ugadi",
+                "Gudi Padwa",
+                "Uttarayan",
+                "Khichdi",
+                "Chhath",
+                "Thai Pongal",
+                "Losar",
+                "Ka Pomblang Nongkrem"
+              ],
+              "markingGuide": "½ mark for each correct harvest festival (two needed). The textbook names Magh Bihu; any festival that celebrates the harvest is right.",
+              "teacherNote": "Only Magh Bihu is named in the Chapter 1–5 text (and the Chapter 4 village \"harvest festival\"); other harvest festivals come from general knowledge, so accept any real harvest festival. Ugadi and Gudi Padwa are new-year festivals with harvest links; the parent decides.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.12 l.1-12; Ch 4 (deev104), p.1 l.5-6",
+              "topics": [
+                "festivals",
+                "harvest"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b3-i3",
+              "label": "3.",
+              "type": "one-word",
+              "q": "Indian tribes -",
+              "marks": 1,
+              "answer": "Any two of: Jenu Kuruba, Gond, Bhil, Santhal, Toda, Warli, Munda, Naga, Bodo, Khasi.",
+              "acceptable": [
+                "Jenu Kuruba",
+                "Jenu Kurubas",
+                "Kuruba",
+                "Gond",
+                "Gonds",
+                "Bhil",
+                "Bhils",
+                "Santhal",
+                "Santal",
+                "Toda",
+                "Warli",
+                "Munda",
+                "Oraon",
+                "Naga",
+                "Bodo",
+                "Khasi",
+                "Garo",
+                "Mizo",
+                "Bhutia",
+                "Lepcha",
+                "Baiga",
+                "Kol",
+                "Saura",
+                "Siddi",
+                "Irula",
+                "Kota",
+                "Soliga",
+                "Chenchu",
+                "Sahariya",
+                "Jarawa",
+                "Onge",
+                "Great Andamanese",
+                "Sentinelese",
+                "Gaddi",
+                "Bishnoi",
+                "Tharu",
+                "Mishing",
+                "Apatani",
+                "Ho",
+                "Kurukh"
+              ],
+              "markingGuide": "½ mark for each correct tribe (two needed).",
+              "teacherNote": "The textbook names the Jenu Kurubas (Karnataka) and Gond art; other tribes come from general knowledge, so accept any real Indian tribe. \"Bishnoi\" is a community rather than a tribe; the parent decides.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.6 l.1-14; Ch 4 (deev104), p.4 l.13-18",
+              "topics": [
+                "tribes",
+                "communities"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q4",
+          "instruction": "Identify the method of cooking and write its name. (3 x 1 = 3)",
+          "adaptation": "The three printed pictures are drawn here as panels 1 to 3; write the method of cooking for each panel.",
+          "stimulus": {
+            "asset": "assets/sp03-q4.svg",
+            "caption": "Pictures for Question 4, in panels 1 to 3",
+            "alt": "Three numbered drawings. (1) A box with knobs and a glass door, a tray of small cakes inside, and a glowing red bar below. (2) A covered pot on a gas flame, cut open to show water at the bottom and plates of white round cakes held above it, with curls rising from the lid. (3) A flat pan with yellow liquid and two brown patties in it, with drops jumping out, on a gas stove."
+          },
+          "items": [
+            {
+              "id": "evs-sp03-s1-b4-i1",
+              "label": "(1)",
+              "type": "one-word",
+              "q": "Identify the method of cooking and write its name.",
+              "marks": 1,
+              "answer": "Baking",
+              "acceptable": [
+                "baking",
+                "bake",
+                "baked",
+                "baking in an oven",
+                "oven baking",
+                "oven"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.13 l.1-26",
+              "topics": [
+                "cooking methods"
+              ],
+              "difficulty": "easy",
+              "teacherNote": "The printed answer lines are dotted lines under each picture, with no item labels; the panels are numbered (1) to (3) here in the printed order. \"Oven\" names the appliance, not the method; the parent may give the mark if the child clearly means baking. Because a general answer is accepted here, all three Q4 items are ⚑.",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b4-i2",
+              "label": "(2)",
+              "type": "one-word",
+              "q": "Identify the method of cooking and write its name.",
+              "marks": 1,
+              "answer": "Steaming",
+              "acceptable": [
+                "steaming",
+                "steam",
+                "steamed",
+                "steam cooking",
+                "idli steaming"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.13 l.1-26",
+              "topics": [
+                "cooking methods"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b4-i3",
+              "label": "(3)",
+              "type": "one-word",
+              "q": "Identify the method of cooking and write its name.",
+              "marks": 1,
+              "answer": "Frying",
+              "acceptable": [
+                "frying",
+                "fry",
+                "fried",
+                "shallow frying",
+                "shallow fry",
+                "deep frying",
+                "pan frying",
+                "pan fry",
+                "talna",
+                "tadka"
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.13 l.1-26",
+              "topics": [
+                "cooking methods"
+              ],
+              "difficulty": "easy",
+              "teacherNote": "The pan has only a little oil, so \"shallow frying\" is the most exact answer; \"frying\" or \"deep frying\" also gets the mark. \"Tadka\" (tempering) is a different method; the parent decides.",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q5",
+          "instruction": "Answer the questions based on the picture given. ( 1 X 5 = 5)",
+          "adaptation": "The printed note is drawn here as a simplified front of the note. Part e) is done on the printed sheet: circle the emblem on the note there; your parent marks it.",
+          "stimulus": {
+            "asset": "assets/shared-note-100-front.svg",
+            "caption": "A currency note (front), marked SPECIMEN",
+            "alt": "Front of an Indian currency note marked SPECIMEN: a portrait of an old man with round glasses in an oval, a line of writing in one script at the top left and capital letters at the top right, the value in large figures, and a framed emblem of lions on a base at the right edge."
+          },
+          "items": [
+            {
+              "id": "evs-sp03-s1-b5-i1",
+              "label": "a)",
+              "type": "one-word",
+              "q": "What is the value of the note?",
+              "marks": 1,
+              "answer": "₹100 (one hundred rupees)",
+              "acceptable": [
+                "100",
+                "₹100",
+                "₹ 100",
+                "Rs 100",
+                "Rs. 100",
+                "Rs.100",
+                "100 rupees",
+                "rupees 100",
+                "one hundred rupees",
+                "hundred rupees",
+                "one hundred",
+                "sau rupaye",
+                "sau rupay",
+                "100 rs"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 2 (deev102), p.10 l.38-40",
+              "topics": [
+                "money",
+                "currency note"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b5-i2",
+              "label": "b)",
+              "type": "one-word",
+              "q": "How many languages are there on the note?",
+              "marks": 1,
+              "answer": "2 (Hindi and English)",
+              "acceptable": [
+                "2",
+                "two",
+                "2 languages",
+                "two languages",
+                "Hindi and English",
+                "15",
+                "fifteen",
+                "15 languages",
+                "17",
+                "seventeen",
+                "17 languages"
+              ],
+              "teacherNote": "The question is ambiguous. The front of the note (the drawing here) shows two languages, Hindi and English, so 2 is the key. A real ₹100 note also has a language panel on the back with the value written in 15 languages, so 15 (the panel) or 17 (panel + Hindi and English) are also accepted. The printed paper showed both sides.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.10 l.41-42",
+              "topics": [
+                "money",
+                "languages"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b5-i3",
+              "label": "c)",
+              "type": "one-word",
+              "q": "Which bank issues this note?",
+              "marks": 1,
+              "answer": "Reserve Bank of India",
+              "acceptable": [
+                "Reserve Bank of India",
+                "RBI",
+                "R.B.I.",
+                "Reserve Bank",
+                "Bharatiya Reserve Bank",
+                "Reserve Bank of India (RBI)"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Picture (the note is printed \"RESERVE BANK OF INDIA\"); Ch 2 (deev102), p.10 l.38",
+              "topics": [
+                "money",
+                "bank"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b5-i4",
+              "label": "d)",
+              "type": "one-word",
+              "q": "Which famous Indian prominent leader’s image is printed on the note?",
+              "marks": 1,
+              "answer": "Mahatma Gandhi",
+              "acceptable": [
+                "Mahatma Gandhi",
+                "Gandhi",
+                "Gandhiji",
+                "Gandhi ji",
+                "Gandhi Ji",
+                "Bapu",
+                "Bapuji",
+                "M.K. Gandhi",
+                "M. K. Gandhi",
+                "Mohandas Karamchand Gandhi",
+                "Mohandas Gandhi",
+                "Father of the Nation",
+                "Mahatma Gandhiji"
+              ],
+              "teacherNote": "Printed \"famous Indian prominent leader’s\" (two adjectives together); kept as printed. The portrait is not named in the drawing and the person on the note is not in the textbook, so this is ⚑ (general knowledge); a, c are read straight from the note.",
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook); picture",
+              "topics": [
+                "money",
+                "leaders"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s1-b5-i5",
+              "label": "e)",
+              "type": "activity",
+              "q": "Encircle the national emblem of our country on the above note.",
+              "marks": 1,
+              "answer": "A circle round the national emblem (the Lion Capital of Ashoka: lions on a base with a wheel) in the framed box at the right edge of the note.",
+              "markingGuide": "Paper-based: the child circles the emblem on the printed note. On the drawing here it is the framed box at the right edge (lions on a base with a wheel). 1 mark if the circle is round the emblem only; ½ if the circle also takes in the ₹100 figure or other parts; 0 for the portrait or anything else.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Circle round the national emblem (lion capital) only."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Circle includes the emblem but also other parts of the note."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong part circled, or nothing circled."
+                }
+              ],
+              "modelAnswer": "The lion emblem at the right side of the note is circled.",
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "national emblem",
+                "national symbols"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "title": "IDENTIFICATION AND CLASSIFICATION (30 MARKS)",
+      "heading": "IDENTIFICATION AND CLASSIFICATION (30 MARKS)",
+      "marks": 30,
+      "blocks": [
+        {
+          "num": "Q6",
+          "instruction": "Who am I? (2 x 1 = 2)",
+          "items": [
+            {
+              "id": "evs-sp03-s2-b1-i1",
+              "label": "(a)",
+              "type": "one-word",
+              "q": "I am an insect, green in colour. I have three pairs of legs, one pair of antennae to sense surroundings, also sometimes have two pairs of wings. Ans: ______",
+              "marks": 1,
+              "answer": "Grasshopper",
+              "acceptable": [
+                "Grasshopper",
+                "grass hopper",
+                "Grasshoper",
+                "Grass-hopper",
+                "Tidda",
+                "Tiddi",
+                "Cricket",
+                "Praying mantis",
+                "Mantis",
+                "Katydid",
+                "Locust"
+              ],
+              "teacherNote": "The clue copies the textbook lines about the grasshopper, so grasshopper is the key. A praying mantis, katydid, cricket or locust is also a green insect that fits every clue, so they are accepted. Printed \"also sometimes have two pairs of wings\" (no subject); kept as printed.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.17 l.2-8",
+              "topics": [
+                "insects"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b1-i2",
+              "label": "(b)",
+              "type": "one-word",
+              "q": "I am a small grain, round and grey. In winter roti, I make my way. Good for health and full of might, eat me to feel strong and bright. Ans: ______",
+              "marks": 1,
+              "answer": "Bajra (pearl millet)",
+              "acceptable": [
+                "Bajra",
+                "Bajri",
+                "Bajre",
+                "Pearl millet",
+                "Pearl-millet",
+                "Sajje",
+                "Kambu",
+                "Kambu millet",
+                "Sajjalu",
+                "Bajra millet",
+                "Millet",
+                "Millets"
+              ],
+              "teacherNote": "The textbook says grandmother ate \"jowar and bajra roti in winters\"; bajra is the small round grey grain. \"Millet\" (the general name) is accepted too; jowar is a creamy-white grain, so it does not fit \"grey\". Because a general name is accepted, this item is ⚑.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.6 l.34-41",
+              "topics": [
+                "millets",
+                "super food"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q7",
+          "instruction": "Match the column. ( 4 x 1 = 4)",
+          "items": [
+            {
+              "id": "evs-sp03-s2-b2-i1",
+              "type": "match",
+              "q": "Match the column.",
+              "marks": 4,
+              "pairs": [
+                {
+                  "left": "1) Vat Purnima",
+                  "right": "b) Banyan Tree"
+                },
+                {
+                  "left": "2) Jenu",
+                  "right": "a) Honey"
+                },
+                {
+                  "left": "3) Tumri",
+                  "right": "d) Uttarakhand"
+                },
+                {
+                  "left": "4) Fish",
+                  "right": "c) Fins"
+                }
+              ],
+              "printedRight": [
+                "a) Honey",
+                "b) Banyan Tree",
+                "c) Fins",
+                "d) Uttarakhand"
+              ],
+              "answer": "1) Vat Purnima – b) Banyan Tree; 2) Jenu – a) Honey; 3) Tumri – d) Uttarakhand; 4) Fish – c) Fins.",
+              "answerPoints": [
+                {
+                  "point": "Vat Purnima – Banyan Tree",
+                  "marks": 1
+                },
+                {
+                  "point": "Jenu – Honey",
+                  "marks": 1
+                },
+                {
+                  "point": "Tumri – Uttarakhand",
+                  "marks": 1
+                },
+                {
+                  "point": "Fish – Fins",
+                  "marks": 1
+                }
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.10 l.10-11; Ch 4 (deev104), p.6 l.2-8; Ch 4 (deev104), p.6 l.24-27; Ch 3 (deev103), p.16 l.14-15",
+              "topics": [
+                "festivals",
+                "traditions",
+                "animals"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q8",
+          "instruction": "Circle the one which does not belong to the group. ( 4 x 1 = 4)",
+          "adaptation": "Choose the odd one out here, or circle it on the printed sheet.",
+          "items": [
+            {
+              "id": "evs-sp03-s2-b3-i1",
+              "label": "1.",
+              "type": "mcq",
+              "q": "Circle the one which does not belong to the group.",
+              "options": [
+                "Ant",
+                "Wasp",
+                "Butterfly",
+                "Termite"
+              ],
+              "marks": 1,
+              "answer": [
+                "Butterfly",
+                "Termite"
+              ],
+              "teacherNote": "All four are insects, so the textbook gives no single answer. Butterfly is the expected answer: ants, wasps and termites live together in colonies and bite or sting, while a butterfly lives alone and does neither. Termite is also defensible (it eats wood and is not related to the other three, which belong to the ant-and-bee family). Accept Butterfly or Termite if the child can give the reason.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.10 l.9-17; Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "insects",
+                "odd one out"
+              ],
+              "difficulty": "hard",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b3-i2",
+              "label": "2.",
+              "type": "mcq",
+              "q": "Circle the one which does not belong to the group.",
+              "options": [
+                "School",
+                "Playground",
+                "Hospital",
+                "Kitchen"
+              ],
+              "marks": 1,
+              "answer": "Kitchen",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 1 (deev101), p.5 l.8-11",
+              "topics": [
+                "public places",
+                "odd one out"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b3-i3",
+              "label": "3.",
+              "type": "mcq",
+              "q": "Circle the one which does not belong to the group.",
+              "options": [
+                "Marigold",
+                "Tulsi",
+                "Amla",
+                "Ajwain"
+              ],
+              "marks": 1,
+              "answer": [
+                "Marigold",
+                "Amla"
+              ],
+              "teacherNote": "Marigold is the expected answer: Tulsi, Amla and Ajwain are used as medicine or food, while marigold is a flower used for colour (natural dye). Amla is also defensible as the only fruit (Tulsi is a leaf, Ajwain a seed, Marigold a flower), so it is accepted too if the child gives that reason.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.4 l.19-22; Ch 4 (deev104), p.7 l.13-19; Ch 5 (deev105), p.9 l.19-33",
+              "topics": [
+                "plants",
+                "medicinal plants",
+                "odd one out"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b3-i4",
+              "label": "4.",
+              "type": "mcq",
+              "q": "Circle the one which does not belong to the group.",
+              "options": [
+                "Chips",
+                "Idli",
+                "Burger",
+                "Pizza"
+              ],
+              "marks": 1,
+              "answer": "Idli",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 5 (deev105), p.10 l.1-9",
+              "topics": [
+                "junk food",
+                "odd one out"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q9",
+          "instruction": "Answer the following questions. (5×3=15)",
+          "items": [
+            {
+              "id": "evs-sp03-s2-b4-i1",
+              "label": "1.",
+              "type": "long",
+              "q": "What is Van Mahotsav? When is it celebrated?",
+              "marks": 3,
+              "answer": "Van Mahotsav is the tree-planting festival. People plant trees to protect the environment and make the earth greener. It is celebrated every year in the rainy season, from 1 July to 7 July.",
+              "answerPoints": [
+                {
+                  "point": "A festival of planting trees (tree-planting festival)",
+                  "marks": 1
+                },
+                {
+                  "point": "Why/what people do: plant trees to protect the environment, make the earth greener; clean parks",
+                  "marks": 1
+                },
+                {
+                  "point": "When: every year in the rainy season, 1 to 7 July (first week of July)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "Says it is a tree-planting festival, gives a purpose or activity, and gives the time (rainy season / 1–7 July)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2,
+                  "descriptor": "Two of the three points."
+                },
+                {
+                  "band": "weak",
+                  "marks": 1,
+                  "descriptor": "One point only."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct point."
+                }
+              ],
+              "modelAnswer": "Van Mahotsav is a festival of planting trees. People plant saplings to protect the environment and make the earth greener. It is celebrated every year from 1 July to 7 July, in the rainy season.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 1 (deev101), p.6 l.1-12; Ch 1 (deev101), p.5 l.15-27",
+              "topics": [
+                "Van Mahotsav",
+                "festivals",
+                "trees"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b4-i2",
+              "label": "2.",
+              "type": "long",
+              "q": "Who is a nature scientist? Write about its role.",
+              "marks": 3,
+              "answer": "A nature scientist is a person who studies plants and animals. Role: studies the features of plants and animals and how they depend on each other, guides people on nature trails, teaches us not to harm plants and animals, and helps protect and conserve nature.",
+              "answerPoints": [
+                {
+                  "point": "A person who studies plants and animals (nature/wildlife)",
+                  "marks": 1
+                },
+                {
+                  "point": "Role (one point): studies features of plants and animals / how they depend on each other",
+                  "marks": 1
+                },
+                {
+                  "point": "Role (another point): guides us in exploring forests, teaches safety rules, makes sure we do not harm plants and animals, helps protect nature",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "Correct meaning and two points about the role."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2,
+                  "descriptor": "Correct meaning and one role point, or two role points without the meaning."
+                },
+                {
+                  "band": "weak",
+                  "marks": 1,
+                  "descriptor": "Only the meaning, or only one role point."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct point."
+                }
+              ],
+              "modelAnswer": "A nature scientist is a person who studies plants and animals. Abha Didi guided the students in the forest. A nature scientist studies the features of plants and animals and teaches us to protect them and not harm them.",
+              "teacherNote": "Printed \"Write about its role.\" (\"its\" for a person); kept as printed. The textbook only says a nature scientist \"studies plants and animals\" and shows Abha Didi guiding the trail and asking the students not to harm plants and animals; the role points are judged by the parent.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.4 l.5-14; Ch 3 (deev103), p.23 l.5",
+              "topics": [
+                "nature scientist",
+                "conservation"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b4-i3",
+              "label": "3.",
+              "type": "long",
+              "q": "What is a balanced diet?",
+              "marks": 3,
+              "answer": "A balanced diet has food in the right quantities from all three food groups: protective foods (fruits and vegetables) the most, then body-building foods, and some energy-giving foods, with enough water. It keeps us healthy, active and happy.",
+              "answerPoints": [
+                {
+                  "point": "Food from all the food groups, in the right quantities",
+                  "marks": 1
+                },
+                {
+                  "point": "Names the groups: energy-giving, body-building and protective foods (or examples of each)",
+                  "marks": 1
+                },
+                {
+                  "point": "Why: keeps us healthy, active and strong / helps balanced growth (or: protective foods the most, plus water)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "Explains food from all groups in the right amounts, names the groups, and says why it is needed."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2,
+                  "descriptor": "Two of the three points."
+                },
+                {
+                  "band": "weak",
+                  "marks": 1,
+                  "descriptor": "One point (e.g. only \"healthy food\")."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct point."
+                }
+              ],
+              "modelAnswer": "A balanced diet is food that has all three food groups in the right amounts — energy-giving foods, body-building foods and protective foods (fruits and vegetables the most). It keeps us healthy, active and happy.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.11 l.25-30; Ch 5 (deev105), p.8 l.1-5",
+              "topics": [
+                "balanced diet",
+                "food groups"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b4-i4",
+              "label": "4.",
+              "type": "long",
+              "q": "Write the full form of ATM. Write any two uses of ATM.",
+              "marks": 3,
+              "answer": "ATM stands for Automated Teller Machine. Uses (any two): to take out money at any time; to check the bank balance; to deposit cash (in some machines); to get a mini statement; to change the PIN; to transfer money.",
+              "answerPoints": [
+                {
+                  "point": "Automated Teller Machine (also accept \"Automatic Teller Machine\")",
+                  "marks": 1
+                },
+                {
+                  "point": "Use 1, e.g. take out (withdraw) money any time",
+                  "marks": 1
+                },
+                {
+                  "point": "Use 2, e.g. check balance / deposit cash / mini statement / change PIN / transfer money",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "Correct full form and two correct uses."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2,
+                  "descriptor": "Two of the three points."
+                },
+                {
+                  "band": "weak",
+                  "marks": 1,
+                  "descriptor": "One point."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct point."
+                }
+              ],
+              "modelAnswer": "ATM stands for Automated Teller Machine. We use it to take out money at any time, and to check how much money is in our bank account.",
+              "teacherNote": "The textbook gives one use (\"take out money anytime we need it\"); the second use comes from general knowledge, so any real ATM use counts. \"Any Time Money\" is a common wrong guess and gets no mark for the full form.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.8 l.4-8; Class 4 EVS content standard (not in textbook)",
+              "topics": [
+                "ATM",
+                "bank"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b4-i5",
+              "label": "5.",
+              "type": "long",
+              "q": "What is Gond art? How are the paints made to make Gond art?",
+              "marks": 3,
+              "answer": "Gond art is a tribal form of painting on walls using natural colours; the artists paint pictures of nature such as trees, animals, birds and humans. The paints are made from natural things: extracts of flowers, leaves (and bark and roots) and powdered coloured stones, e.g. by boiling plant parts in water and straining the coloured liquid.",
+              "answerPoints": [
+                {
+                  "point": "Gond art: a (tribal) painting on walls using natural colours",
+                  "marks": 1
+                },
+                {
+                  "point": "It shows pictures of nature — trees, animals, birds, humans",
+                  "marks": 1
+                },
+                {
+                  "point": "Paints made from natural things: flowers, leaves, bark, roots, coloured stones powdered (or boiled and strained)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "Explains what Gond art is, what it shows, and how natural paints are made."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2,
+                  "descriptor": "Two of the three points."
+                },
+                {
+                  "band": "weak",
+                  "marks": 1,
+                  "descriptor": "One point."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct point."
+                }
+              ],
+              "modelAnswer": "Gond art is a painting on walls made with natural colours. It shows trees, animals, birds and people. The paints are made from flowers, leaves and powdered coloured stones.",
+              "teacherNote": "The textbook describes Gond art in a \"Do you know?\" box and, on the same page, says grandmother’s paint \"was made of natural extracts of flowers, leaves and with the powdered coloured stones\"; it does not say these are the Gond paints in so many words, so the parent judges the paint point (natural dye made by boiling plant parts is also accepted).",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.4 l.5-29",
+              "topics": [
+                "Gond art",
+                "natural colours"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q10",
+          "instruction": "Compare between communication in earlier times and communication in present time on the following points. (1x5=5)",
+          "adaptation": "Each row of the printed table is asked separately here; write one thing for earlier times and one for the present time (½ mark each).",
+          "items": [
+            {
+              "id": "evs-sp03-s2-b5-i1",
+              "type": "short",
+              "q": "Type of communication",
+              "marks": 1,
+              "answer": "Earlier times: letters, telegram, messengers, pigeons, drumbeats. Present time: mobile phones, internet, email, text messages, video calls, social media.",
+              "answerPoints": [
+                {
+                  "point": "Earlier times — letters, telegram, messengers, pigeons, drumbeats",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Present time — mobile phones, internet, email, text messages, video calls, social media",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "A sensible entry in both cells (earlier and present)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A sensible entry in one cell only."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither cell sensible."
+                }
+              ],
+              "modelAnswer": "Earlier: letters, telegram, messengers, pigeons, drumbeats. Present: mobile phones, internet, email, text messages, video calls, social media.",
+              "teacherNote": "In print, \"earlier times\" and \"present time\" in the instruction are bold, italic and underlined; underlining can only be shown on an item’s question here, so it is not shown. Q10 is an open comparison table: any sensible entry in each cell gets ½ mark.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.4 l.1-31; Ch 2 (deev102), p.3 l.5-25",
+              "topics": [
+                "communication",
+                "then and now"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b5-i2",
+              "type": "short",
+              "q": "Speed of communication",
+              "marks": 1,
+              "answer": "Earlier times: slow; letters took days or weeks to reach. Present time: very fast; messages reach in seconds.",
+              "answerPoints": [
+                {
+                  "point": "Earlier times — slow; letters took days or weeks to reach",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Present time — very fast; messages reach in seconds",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "A sensible entry in both cells (earlier and present)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A sensible entry in one cell only."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither cell sensible."
+                }
+              ],
+              "modelAnswer": "Earlier: slow. Present: very fast.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.4 l.1-31; Ch 2 (deev102), p.3 l.5-25",
+              "topics": [
+                "communication",
+                "then and now"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b5-i3",
+              "type": "short",
+              "q": "Frequency of communication",
+              "marks": 1,
+              "answer": "Earlier times: less often; people wrote letters only now and then. Present time: very often; people talk or message every day, many times a day.",
+              "answerPoints": [
+                {
+                  "point": "Earlier times — less often; people wrote letters only now and then",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Present time — very often; people talk or message every day, many times a day",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "A sensible entry in both cells (earlier and present)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A sensible entry in one cell only."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither cell sensible."
+                }
+              ],
+              "modelAnswer": "Earlier: less often. Present: very often.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.4 l.1-31; Ch 2 (deev102), p.3 l.5-25",
+              "topics": [
+                "communication",
+                "then and now"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b5-i4",
+              "type": "short",
+              "q": "Language of communication",
+              "marks": 1,
+              "answer": "Earlier times: formal, written language in letters (often the local language). Present time: informal and short language, many languages, emojis and short forms.",
+              "answerPoints": [
+                {
+                  "point": "Earlier times — formal, written language in letters (often the local language)",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Present time — informal and short language, many languages, emojis and short forms",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "A sensible entry in both cells (earlier and present)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A sensible entry in one cell only."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither cell sensible."
+                }
+              ],
+              "modelAnswer": "Earlier: formal, written language in letters (often the local language). Present: informal and short language, many languages, emojis and short forms.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.4 l.1-31; Ch 2 (deev102), p.3 l.5-25",
+              "topics": [
+                "communication",
+                "then and now"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s2-b5-i5",
+              "type": "short",
+              "q": "Challenges faced",
+              "marks": 1,
+              "answer": "Earlier times: letters got delayed or lost; long wait for a reply; messengers had to travel far. Present time: wrong information spreads fast; need network/internet and electricity; too much screen time; online fraud.",
+              "answerPoints": [
+                {
+                  "point": "Earlier times — letters got delayed or lost; long wait for a reply; messengers had to travel far",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Present time — wrong information spreads fast; need network/internet and electricity; too much screen time; online fraud",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "A sensible entry in both cells (earlier and present)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "A sensible entry in one cell only."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Neither cell sensible."
+                }
+              ],
+              "modelAnswer": "Earlier: letters got delayed or lost. Present: wrong information spreads fast.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 2 (deev102), p.4 l.1-31; Ch 2 (deev102), p.3 l.5-25",
+              "topics": [
+                "communication",
+                "then and now"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "title": "DISCOVERY OF FACTS (25 MARKS)",
+      "heading": "DISCOVERY OF FACTS (25 MARKS)",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q11",
+          "instruction": "Name the following. (5 x 1 = 5)",
+          "items": [
+            {
+              "id": "evs-sp03-s3-b1-i1",
+              "label": "1.",
+              "type": "one-word",
+              "q": "State animal of Tripura - ______",
+              "marks": 1,
+              "answer": "Spectacled Monkey",
+              "acceptable": [
+                "Spectacled Monkey",
+                "Spectacled monkeys",
+                "Phayre’s leaf monkey",
+                "Phayre's leaf monkey",
+                "Phayre leaf monkey",
+                "Spectacled langur",
+                "Spectacle monkey",
+                "Phayre’s langur"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.9 l.1-6",
+              "topics": [
+                "state animals",
+                "Tripura"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b1-i2",
+              "label": "2.",
+              "type": "one-word",
+              "q": "A big, red-coloured squirrel found in Pachmarhi and some other places - ______",
+              "marks": 1,
+              "answer": "Indian Giant Squirrel",
+              "acceptable": [
+                "Indian Giant Squirrel",
+                "Giant Squirrel",
+                "Indian giant squirrels",
+                "Malabar giant squirrel",
+                "Shekru",
+                "Malabar squirrel",
+                "Giant Indian squirrel"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.8 l.10-11",
+              "topics": [
+                "animals",
+                "Pachmarhi"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b1-i3",
+              "label": "3.",
+              "type": "one-word",
+              "q": "A tree known as flame of forest - ______",
+              "marks": 1,
+              "answer": "Palash",
+              "acceptable": [
+                "Palash",
+                "Palash tree",
+                "Palaash",
+                "Plash",
+                "Kesuda",
+                "Kesudo",
+                "Tesu",
+                "Dhak",
+                "Kesu",
+                "Muthuga",
+                "Moduga",
+                "Butea"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.2 l.1-15",
+              "topics": [
+                "trees",
+                "flowers"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b1-i4",
+              "label": "4.",
+              "type": "one-word",
+              "q": "A traditional food of Telangana with six different taste - ______.",
+              "marks": 1,
+              "answer": "Ugadi Pachadi",
+              "acceptable": [
+                "Ugadi Pachadi",
+                "Ugadi pachhadi",
+                "Ugadhi Pachadi",
+                "Yugadi Pachadi",
+                "Pachadi",
+                "Bevu Bella",
+                "Bevu-bella"
+              ],
+              "teacherNote": "Printed \"with six different taste\" (singular) with a full stop after the blank; kept as printed. The textbook says Ugadi Pachadi is from Andhra Pradesh, Karnataka and Telangana; \"Bevu Bella\" is the Karnataka name for the same mix.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 5 (deev105), p.5 l.12-24",
+              "topics": [
+                "Ugadi",
+                "tastes",
+                "traditional food"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b1-i5",
+              "label": "5.",
+              "type": "one-word",
+              "q": "Small patches of forest, protected by local community - ______",
+              "marks": 1,
+              "answer": "Sacred Groves",
+              "acceptable": [
+                "Sacred Groves",
+                "Sacred Grove",
+                "Sacred forests",
+                "Devrai",
+                "Devara Kadu",
+                "Kavu",
+                "Sarna",
+                "Oran",
+                "Law Kyntang",
+                "Dev van"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 4 (deev104), p.9 l.22-31",
+              "topics": [
+                "sacred groves",
+                "conservation"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q12",
+          "instruction": "Answers the following questions. ( 2 x 2 = 4)",
+          "items": [
+            {
+              "id": "evs-sp03-s3-b2-i1",
+              "label": "1.",
+              "type": "short",
+              "q": "What is super food? Write the names of any two super food.",
+              "marks": 2,
+              "answer": "Super foods are foods that are very rich in nutrients and keep us healthy and strong, like millets. Any two: jowar, bajra, ragi, jau (barley), amla, other millets.",
+              "answerPoints": [
+                {
+                  "point": "Meaning: food that is very rich in nutrients and very good for health (e.g. millets)",
+                  "marks": 1
+                },
+                {
+                  "point": "Any two super foods, ½ each: jowar, bajra, ragi, jau/barley, kodo, foxtail millet, amla, moringa, spinach, nuts, sprouts",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Correct meaning and two correct super foods."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Meaning only, or two foods only; ½ for one correct food."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing correct."
+                }
+              ],
+              "modelAnswer": "Super foods are foods that are very rich in nutrients and keep us healthy. Jowar and ragi are super foods.",
+              "teacherNote": "Printed \"Answers the following questions.\" (block heading) and \"any two super food\" (singular); both kept as printed. The textbook does not define super food; it shows a \"Super Food\" stall of millets, which \"are rich sources of nutrients\". Other nutrient-rich foods (amla, moringa, nuts) are accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.6 l.34-41",
+              "topics": [
+                "super food",
+                "millets"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b2-i2",
+              "label": "2.",
+              "type": "short",
+              "q": "What things should be kept in a first-aid box?",
+              "marks": 2,
+              "answer": "Any four of: bandages, cotton, antiseptic liquid or cream, medicines (for fever, pain, stomach ache), mosquito repellent cream, scissors, plaster/band-aid, thermometer, gauze, ointment for burns.",
+              "answerPoints": [
+                {
+                  "point": "Two correct things, ½ each (e.g. bandage, cotton)",
+                  "marks": 1
+                },
+                {
+                  "point": "Two more correct things, ½ each (e.g. antiseptic cream, medicines, mosquito repellent cream, scissors, thermometer)",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Four correct first-aid things."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Two or three correct things (½ each)."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "None or one correct thing."
+                }
+              ],
+              "modelAnswer": "A first-aid box should have bandages, cotton, antiseptic cream, some medicines and scissors.",
+              "teacherNote": "Marks are 2 for a list question, so ½ per correct item (four needed) is used. The textbook mentions medicines and mosquito repellent cream; the other items come from general knowledge.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.7 l.6-9; Ch 4 (deev104), p.7 l.20",
+              "topics": [
+                "first aid",
+                "safety"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q13",
+          "instruction": "Give reason. ( 3 x 2 = 6 )",
+          "items": [
+            {
+              "id": "evs-sp03-s3-b3-i1",
+              "label": "1.",
+              "type": "short",
+              "q": "Different plants and animals are dependent on each other.",
+              "marks": 2,
+              "answer": "Animals depend on plants for food, shelter and oxygen; plants depend on animals to spread their seeds and pollen, and animal waste makes the soil fertile. Everything in nature is connected (web of life), so if one part disappears the others suffer.",
+              "answerPoints": [
+                {
+                  "point": "Animals depend on plants (food, shelter, oxygen)",
+                  "marks": 1
+                },
+                {
+                  "point": "Plants depend on animals (pollination, spreading seeds, manure) / everything in nature is connected, so losing one affects others",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Gives how animals need plants and how plants need animals (or the web-of-life idea)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one direction of dependence."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct reason."
+                }
+              ],
+              "modelAnswer": "Animals need plants for food and shelter, and plants need animals to spread their seeds and pollen. In nature everything is connected, so they depend on each other.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.20 l.12-16; Ch 3 (deev103), p.22 l.1-16",
+              "topics": [
+                "web of life",
+                "interdependence"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b3-i2",
+              "label": "2.",
+              "type": "short",
+              "q": "We should avoid eating junk food.",
+              "marks": 2,
+              "answer": "Junk food has a lot of oil, salt and sugar and very few nutrients, so eating it regularly or in large amounts is not healthy; it can cause weight gain, stomach problems, tooth decay and illness. Fresh home-cooked food is better.",
+              "answerPoints": [
+                {
+                  "point": "Junk food has too much oil, salt or sugar (and few nutrients) / is over-processed",
+                  "marks": 1
+                },
+                {
+                  "point": "It harms health: makes us unhealthy, fat, ill, weak teeth, stomach problems / home-cooked food is better",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Says what is in junk food and how it harms health."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "Only one of the two points."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct reason."
+                }
+              ],
+              "modelAnswer": "Junk food has a lot of oil, salt and sugar. Eating it often makes us unhealthy and ill, so fresh home-cooked food is better.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.10 l.1-11",
+              "topics": [
+                "junk food",
+                "health"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b3-i3",
+              "label": "3.",
+              "type": "short",
+              "q": "Drinking sufficient water should be a part of our healthy habits.",
+              "marks": 2,
+              "answer": "Water helps in digesting food and keeps our skin and body healthy; it removes waste from our body through urine, sweat and faeces. So we must drink enough water every day.",
+              "answerPoints": [
+                {
+                  "point": "Water helps digest food / keeps skin and body healthy",
+                  "marks": 1
+                },
+                {
+                  "point": "Water removes waste from the body (urine, sweat, faeces) / keeps the body cool and hydrated",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "Two correct reasons why water is needed."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "One correct reason."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct reason."
+                }
+              ],
+              "modelAnswer": "Water helps us digest food and keeps our skin and body healthy. It also removes waste from our body through urine and sweat.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.12 l.7-17",
+              "topics": [
+                "water",
+                "healthy habits"
+              ],
+              "difficulty": "easy",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q14",
+          "instruction": "Circle ten words related to food in the grid below. One example is given below. ( 10 x ½ = 5 )",
+          "adaptation": "Do this on the printed sheet: circle the words in the grid there; your parent marks it (½ mark for each food word).",
+          "stimulus": {
+            "asset": "assets/sp03-q14.svg",
+            "caption": "Letter grid for Question 14, with the example circled",
+            "alt": "A 9 by 9 grid of capital letters. Row 1: K O B L C I S A B. Row 2: H E A E B T E P E. Row 3: O T J M E N G O A. Row 4: N U R O J L G T N. Row 5: E P A N R H O A S. Row 6: Y M A N G O A T R. Row 7: S A O C A R R O T. Row 8: N T A M L A L F E. Row 9: L G T J A U A U W. The example word, reading down column 8 from row 2 to row 7, is circled in orange."
+          },
+          "items": [
+            {
+              "id": "evs-sp03-s3-b4-i1",
+              "type": "activity",
+              "q": "Circle ten words related to food in the grid below.",
+              "marks": 5,
+              "answer": "HONEY, BAJRA, LEMON, BEANS, EGG, MANGO, OAT, CARROT, AMLA, TOFU (POTATO is the given example).",
+              "markingGuide": "Paper-based: ½ mark for each correctly circled food word, up to 10 words (5 marks). Where the words are — down: HONEY (column 1, rows 2–6), BAJRA (column 3, rows 1–5), LEMON (column 4, rows 1–5), EGG (column 7, rows 2–4), BEANS (column 9, rows 1–5), TOFU (column 8, rows 6–9); across: MANGO (row 6, columns 2–6), OAT (row 6, columns 6–8), CARROT (row 7, columns 4–9), AMLA (row 8, columns 3–6). Also accept UPMA (down column 2, rows 4–7), OAT read down column 3 (rows 7–9), BEAN for BEANS, and NAAN (diagonal) — each is a real food word in the grid. Do not count the circled example POTATO as one of the ten. A circle that does not cover a whole word in a straight line gets no mark.",
+              "answerPoints": [
+                {
+                  "point": "HONEY",
+                  "marks": 0.5
+                },
+                {
+                  "point": "BAJRA",
+                  "marks": 0.5
+                },
+                {
+                  "point": "LEMON",
+                  "marks": 0.5
+                },
+                {
+                  "point": "BEANS",
+                  "marks": 0.5
+                },
+                {
+                  "point": "EGG",
+                  "marks": 0.5
+                },
+                {
+                  "point": "MANGO",
+                  "marks": 0.5
+                },
+                {
+                  "point": "OAT",
+                  "marks": 0.5
+                },
+                {
+                  "point": "CARROT",
+                  "marks": 0.5
+                },
+                {
+                  "point": "AMLA",
+                  "marks": 0.5
+                },
+                {
+                  "point": "TOFU",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 5,
+                  "descriptor": "Ten different food words circled correctly (not counting POTATO)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2.5,
+                  "descriptor": "Some food words circled: ½ mark for each correct word (e.g. five words = 2½)."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No food word circled correctly."
+                }
+              ],
+              "modelAnswer": "HONEY, BAJRA, LEMON, BEANS, EGG, MANGO, OAT, CARROT, AMLA and TOFU are circled.",
+              "teacherNote": "The answer key was found by searching the grid (the teacher’s key is not printed). Exactly ten straight-line words besides the example were found, so POTATO, the given example, is not counted among the ten. TOFU shares the T and O of POTATO, and OAT is part of GOAT; both are still food words. The grid also hides UPMA (down column 2) and NAAN (diagonal), which are accepted as substitutes. Letters are copied from the page image (the text layer misplaces the P in row 2).",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.9 l.1-33; Ch 5 (deev105), p.16 l.5-7",
+              "topics": [
+                "food",
+                "word search"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "Q15",
+          "instruction": "Locate the state in the given map. (1x5=5)",
+          "adaptation": "Do this on the printed sheet: mark and name each state on the map; your parent marks it with the answer-key map.",
+          "stimulus": {
+            "asset": "assets/shared-india-states.svg",
+            "caption": "Outline map of India",
+            "alt": "Outline map of India with state and union territory boundaries and no names."
+          },
+          "items": [
+            {
+              "id": "evs-sp03-s3-b5-i1",
+              "label": "1.",
+              "type": "diagram-label",
+              "q": "Madhya Pradesh",
+              "marks": 1,
+              "answer": "Madhya Pradesh — marked and named in the right place on the map",
+              "answerAsset": "assets/sp03-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Madhya Pradesh on the printed map; the parent checks against the answer-key map (shaded orange). Madhya Pradesh is the large state in the middle of India: north of Maharashtra, east of Rajasthan and Gujarat, and west of Chhattisgarh. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Madhya Pradesh marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "teacherNote": "Printed \"Locate the state\" (singular) for five states; kept as printed. Map skills are not taught in Chapters 1–5; the states appear in the chapters (Pachmarhi in Madhya Pradesh, the Jenu Kurubas of Karnataka, the Tumri of Uttarakhand, Ugadi in Andhra Pradesh, Tripura’s state animal).",
+              "sourceRef": "Ch 3 (deev103), p.3 l.10-14",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b5-i2",
+              "label": "2.",
+              "type": "diagram-label",
+              "q": "Karnataka",
+              "marks": 1,
+              "answer": "Karnataka — marked and named in the right place on the map",
+              "answerAsset": "assets/sp03-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Karnataka on the printed map; the parent checks against the answer-key map (shaded dark green). Karnataka is in the south-west, on the west coast (Arabian Sea), south of Goa and Maharashtra, north of Kerala and west of Andhra Pradesh. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Karnataka marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.6 l.1-4",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b5-i3",
+              "label": "3.",
+              "type": "diagram-label",
+              "q": "Uttarakhand",
+              "marks": 1,
+              "answer": "Uttarakhand — marked and named in the right place on the map",
+              "answerAsset": "assets/sp03-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Uttarakhand on the printed map; the parent checks against the answer-key map (shaded red). Uttarakhand is in the north, in the Himalayas: east of Himachal Pradesh, north of Uttar Pradesh, and next to Nepal. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Uttarakhand marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 4 (deev104), p.6 l.24-25",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "difficulty": "medium",
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b5-i4",
+              "label": "4.",
+              "type": "diagram-label",
+              "q": "Andhra Pradesh",
+              "marks": 1,
+              "answer": "Andhra Pradesh — marked and named in the right place on the map",
+              "answerAsset": "assets/sp03-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Andhra Pradesh on the printed map; the parent checks against the answer-key map (shaded light green). Andhra Pradesh is on the south-east coast (Bay of Bengal), south of Odisha and Telangana and north of Tamil Nadu. Telangana (inland, north-west of it) is a separate state; if the child marks Telangana, give no mark. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Andhra Pradesh marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 5 (deev105), p.5 l.14-16",
+              "difficulty": "hard",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp03-s3-b5-i5",
+              "label": "5.",
+              "type": "diagram-label",
+              "q": "Tripura",
+              "marks": 1,
+              "answer": "Tripura — marked and named in the right place on the map",
+              "answerAsset": "assets/sp03-map-key.svg",
+              "markingGuide": "Paper-based: the child marks and names Tripura on the printed map; the parent checks against the answer-key map (shaded blue). Tripura is a small state in the north-east, almost surrounded by Bangladesh on three sides, south of Assam and west of Mizoram. 1 mark for the correct state, marked clearly; 0 for a wrong state.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Tripura marked in the correct state and named."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Correct area but marked untidily across a border, or marked but not named."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong state or not marked."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.9 l.1-3",
+              "difficulty": "hard",
+              "topics": [
+                "map",
+                "states"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
