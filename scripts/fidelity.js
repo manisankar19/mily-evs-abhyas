@@ -51,6 +51,7 @@ function paperStrings(paper) {
       (blk.items || []).forEach((it) => {
         add(it.id, 'q', it.q);
         (Array.isArray(it.options) ? it.options : []).forEach(o => add(it.id, 'option', o));
+        (Array.isArray(it.pairs) ? it.pairs : []).forEach(pr => { if (pr) { add(it.id, 'pair', pr.left); add(it.id, 'pair', pr.right); } });
       });
     });
   });

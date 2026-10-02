@@ -536,24 +536,24 @@
               "q": "Group A Group B",
               "pairs": [
                 {
-                  "left": "school",
-                  "right": "Learn new things"
+                  "left": "a. school",
+                  "right": "5. Learn new things"
                 },
                 {
-                  "left": "park",
-                  "right": "Walk and relax"
+                  "left": "b. park",
+                  "right": "1. Walk and relax"
                 },
                 {
-                  "left": "hospital",
-                  "right": "Treat sick people"
+                  "left": "c. hospital",
+                  "right": "2. Treat sick people"
                 },
                 {
-                  "left": "playground",
-                  "right": "Kabaddi and games"
+                  "left": "d. playground",
+                  "right": "3. Kabaddi and games"
                 },
                 {
-                  "left": "police station",
-                  "right": "Safety and security"
+                  "left": "e. police station",
+                  "right": "4. Safety and security"
                 }
               ],
               "marks": 2.5,
@@ -586,7 +586,14 @@
                 "public places"
               ],
               "difficulty": "easy",
-              "answerSource": "authored"
+              "answerSource": "authored",
+              "printedRight": [
+                "1. Walk and relax",
+                "2. Treat sick people",
+                "3. Kabaddi and games",
+                "4. Safety and security",
+                "5. Learn new things"
+              ]
             }
           ]
         }

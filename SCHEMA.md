@@ -70,6 +70,7 @@ A "required" string must be present and not `""`. The raw file must not contain 
 | `modelAnswer` | string | optional | optional |
 | `rubric` | array of bands (see §4) | optional | required on judgement items |
 | `pairs` | array of `{ left, right }` | match: at least 3 pairs, and pairs = marks | match: at least 2 pairs; see §3.2 |
+| `printedRight` † | array of strings | — | optional (match): the printed right column in printed order, a reordering of the pairs' `right` texts. Shown as printed; without it the app shuffles the column |
 | `topics` † | array of strings | — | optional, non-empty when present |
 | `pictureDescription` † | string | — | optional; a text description of a decorative picture that is not drawn |
 | `answerAsset` † | string | — | optional; a picture shown in checking mode only (e.g. a shaded map key from `scripts/map-key.js`). Same path rule as `stimulus.asset`; must exist |
@@ -101,7 +102,7 @@ A rubric is a list of bands: `{ "band": "full" | "partial" | "none" | …, "mark
 ## 5. `fallbackText` (school)
 Used where the PDF text layer can't be matched (drawn-line blanks, mangled text). The fidelity check (`scripts/fidelity.js`) reports each entry.
 ```json
-{ "where": "evs-sp01-s1-b2-i3 | s1 | s1-b2", "field": "q | instruction | heading | option | passage", "text": "…", "reason": "drawn-line blank" }
+{ "where": "evs-sp01-s1-b2-i3 | s1 | s1-b2", "field": "q | instruction | heading | option | pair | passage", "text": "…", "reason": "drawn-line blank" }
 ```
 `where` must name an existing item id, section (`sN`, 1-based) or block (`sN-bM`, 1-based). `field`, `text` and `reason` are required. `fidelity.js` checks that `text` equals the JSON string.
 

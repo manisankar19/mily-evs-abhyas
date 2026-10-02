@@ -341,12 +341,17 @@
       body.appendChild(el('ul', { class: 'options' }, item.options.map((o, i) => el('li', { 'data-letter': letter(i), text: o }))));
     }
     if (item.type === 'match' && item.pairs) {
-      // Right column shown in a fixed shuffled order (deterministic per item so the paper is stable).
+      // School papers: both columns exactly as printed (printedRight = the printed right column).
+      // Otherwise the right column is shown in a fixed shuffled order (deterministic per item so
+      // the paper is stable); when that order happens to be the answer order (e.g. 7 pairs), rotate it.
+      const school = isSchool(state.paper);
       const rights = item.pairs.map(p => p.right);
-      const order = rights.map((_, i) => i).sort((a, b) => ((a * 7 + 3) % rights.length) - ((b * 7 + 3) % rights.length));
+      let order = rights.map((_, i) => i).sort((a, b) => ((a * 7 + 3) % rights.length) - ((b * 7 + 3) % rights.length));
+      if (rights.length > 1 && order.every((v, i) => v === i)) order = order.map(i => (i + 1) % rights.length);
+      const shown = school && Array.isArray(item.printedRight) ? item.printedRight : order.map(i => rights[i]);
       const rows = item.pairs.map((p, i) => el('tr', {}, [
-        el('td', { text: fmt(i + 1) + ') ' + p.left }),
-        el('td', { text: String.fromCharCode(97 + i) + ') ' + rights[order[i]] })
+        el('td', { text: school ? p.left : fmt(i + 1) + ') ' + p.left }),
+        el('td', { text: school ? shown[i] : String.fromCharCode(97 + i) + ') ' + shown[i] })
       ]));
       body.appendChild(el('div', { class: 'table-scroll' }, [
         el('table', { class: 'match-table' }, [

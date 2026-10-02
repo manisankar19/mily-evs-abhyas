@@ -257,7 +257,13 @@
               ],
               "answerSource": "authored",
               "answerConfidence": "sure",
-              "difficulty": "easy"
+              "difficulty": "easy",
+              "printedRight": [
+                "Boiling",
+                "Baking",
+                "Steaming",
+                "Frying"
+              ]
             }
           ]
         },

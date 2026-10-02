@@ -94,6 +94,20 @@ check('normalise: digit x digit splits into tokens', () => {
   return a === b && c === d ? true : `got "${a}" / "${b}" / "${c}" / "${d}"`;
 });
 
+check('match pairs are fidelity-checked (left, right and printedRight)', () => {
+  const file = path.join(ROOT, 'source', 'text-cache', 'sp07.txt');
+  const mk = (pairs, printedRight) => ({ sp: 'sp07', totalMarks: 1, sections: [{ code: 'A', title: '', marks: 1, blocks: [{ num: 'Q', items: [{ id: 'evs-sp07-s1-b1-i1', q: 'Group A Group B', type: 'match', marks: 1, pairs, printedRight }] }] }] });
+  const intake = { sp: 'sp07', printedTotal: 1, sections: [{ code: 'A', marks: 1 }] };
+  const cache = [fs.readFileSync(file, 'utf8')];
+  const good = checkPaper(mk([{ left: 'a. school', right: '5. Learn new things' }], ['5. Learn new things']), intake, cache);
+  const bad = checkPaper(mk([{ left: 'a. college', right: '5. Learn new things' }], ['5. Learn new things']), intake, cache);
+  const badR = checkPaper(mk([{ left: 'a. school', right: '5. Learn old things' }], ['5. Learn old things']), intake, cache);
+  if (good.mismatches.length) return 'good pair did not match: ' + JSON.stringify(good.mismatches);
+  if (!bad.mismatches.some(m => m.field === 'pair')) return 'altered left text was not caught';
+  if (!badR.mismatches.some(m => m.field === 'pair')) return 'altered right text was not caught';
+  return true;
+});
+
 // ---- review sheet ----
 const { renderSheet } = require(SHEET);
 const rawPass = fs.readFileSync(path.join(FIX, 'pass', 'evs-sp90.json'), 'utf8');

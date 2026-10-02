@@ -21,7 +21,7 @@ const DEFAULT_INTAKE = path.join(__dirname, 'source', 'intake.json');
 const DEFAULT_REVIEW_DIR = path.join(__dirname, 'sprints', 'v2', 'answer-review');
 const ACCEPTABLE_TYPES = ['fill-blank', 'one-word', 'transformation'];
 const JUDGEMENT_TYPES = ['short', 'long', 'draw', 'activity'];
-const FALLBACK_FIELDS = ['q', 'instruction', 'heading', 'option', 'passage'];
+const FALLBACK_FIELDS = ['q', 'instruction', 'heading', 'option', 'pair', 'passage'];
 
 // half-units: marks are compared as integers (0.5 -> 1); null if not a ½ multiple
 const hu = (m) => (typeof m === 'number' && Math.abs(m * 2 - Math.round(m * 2)) < 1e-9 ? Math.round(m * 2) : null);
@@ -74,6 +74,11 @@ function checkSchoolItem(it, paper, err) {
   if (!['easy', 'medium', 'hard'].includes(it.difficulty)) err(`${id}: difficulty must be easy|medium|hard`);
   for (const k of ['label', 'pictureDescription', 'teacherNote']) if (it[k] !== undefined && !isStr(it[k])) err(`${id}: ${k} must be a non-empty string`);
   if (it.topics !== undefined && !strList(it.topics)) err(`${id}: topics must be a non-empty list of strings`);
+  // printed order of a match item's right column: the same texts as the pairs' right side
+  if (it.printedRight !== undefined) {
+    const want = (Array.isArray(it.pairs) ? it.pairs.map(p => p && p.right) : []).slice().sort().join('\u0000');
+    if (!strList(it.printedRight) || it.printedRight.slice().sort().join('\u0000') !== want) err(`${id}: printedRight must list the same texts as the pairs' right side`);
+  }
   // answer picture for checking mode (e.g. a shaded map key from scripts/map-key.js)
   if (it.answerAsset !== undefined) {
     if (!ASSET_RE.test(String(it.answerAsset))) err(`${id}: answerAsset "${it.answerAsset}" must look like assets/name.svg`);

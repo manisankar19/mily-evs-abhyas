@@ -27,10 +27,16 @@ const results = [];
 function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); console.log((ok ? '✓ ' : '✗ ') + name + (extra !== undefined && extra !== '' ? '  (' + extra + ')' : '')); }
 
 // 1. Build into a temp dir from the chapter papers + the fixture dir.
+// Only the chapter papers are copied: real school papers are validated against source/intake.json, not the fixture intake.
 const OUT = fs.mkdtempSync(path.join(os.tmpdir(), 'evs-school-'));
+const CH_DIR = fs.mkdtempSync(path.join(os.tmpdir(), 'evs-chapters-'));
+for (const f of fs.readdirSync(path.join(ROOT, 'app', 'data')).filter(f => /^evs-.*\.json$/.test(f))) {
+  const raw = fs.readFileSync(path.join(ROOT, 'app', 'data', f), 'utf8');
+  if (JSON.parse(raw).kind !== 'school') fs.writeFileSync(path.join(CH_DIR, f), raw);
+}
 try {
   execFileSync(process.execPath, [path.join(ROOT, 'build.js'),
-    '--data-dir', path.join(ROOT, 'app', 'data'), '--data-dir', FIX,
+    '--data-dir', CH_DIR, '--data-dir', FIX,
     '--intake', path.join(FIX, 'intake.json'), '--review-dir', path.join(FIX, 'review'), '--out-dir', OUT],
   { cwd: ROOT, env: { ...process.env, GANESH_EVS: CODE }, stdio: 'pipe', encoding: 'utf8' });
 } catch (e) { console.error('build failed:\n' + e.stdout + e.stderr); process.exit(1); }
@@ -108,6 +114,9 @@ const server = http.createServer((req, res) => {
   const opts = await page.$$eval(`.item[data-id="${byType('mcq').id}"] .options li`, n => n.map(x => x.textContent));
   check('paper: MCQ options rendered', JSON.stringify(opts) === JSON.stringify(byType('mcq').options));
   check('paper: match table rendered', await count(`.item[data-id="${byType('match').id}"] .match-table tbody tr`) === byType('match').pairs.length);
+  const mt = byType('match');
+  const cells = await page.$$eval(`.item[data-id="${mt.id}"] .match-table tbody tr`, rs => rs.map(r => [...r.querySelectorAll('td')].map(td => td.textContent)));
+  check('paper: match left column verbatim, right column in printed order', JSON.stringify(cells.map(c => c[0])) === JSON.stringify(mt.pairs.map(x => x.left)) && JSON.stringify(cells.map(c => c[1])) === JSON.stringify(mt.printedRight), JSON.stringify(cells));
 
   // Practice mode: nothing from checking mode in the DOM
   const html = await page.$eval('#screen-paper', n => n.outerHTML);

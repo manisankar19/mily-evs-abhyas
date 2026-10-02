@@ -123,3 +123,4 @@ e.g. "Do this on the printed sheet; your parent marks it." or "Each row of the t
 - Panel numerals: circle radius at least 27 and font size 28 (in a ~400-wide panel), so they read at phone width.
 - Printed signboards in a scene (e.g. "SCHOOL") may be kept when the printed picture has them.
 - Over-flagging is fine; consistency matters more. If two similar items differ in ⚑, say why in the teacherNote.
+- **Match items:** pair texts keep their printed labels ("a) Tumri", "1. Walk and relax"), and `printedRight` lists the printed right column in printed order. Pair texts are fidelity-checked (a fallbackText `field` of `"pair"` is allowed).

@@ -382,15 +382,15 @@
               "marks": 3,
               "pairs": [
                 {
-                  "left": "i. (picture i)",
+                  "left": "i.",
                   "right": "c. footprint of an animal"
                 },
                 {
-                  "left": "ii (picture ii)",
+                  "left": "ii",
                   "right": "a. webbed feet"
                 },
                 {
-                  "left": "iii. (picture iii)",
+                  "left": "iii.",
                   "right": "b. beak of a bird"
                 }
               ],
@@ -440,7 +440,12 @@
                 "webbed feet",
                 "beaks"
               ],
-              "answerSource": "authored"
+              "answerSource": "authored",
+              "printedRight": [
+                "a. webbed feet",
+                "b. beak of a bird",
+                "c. footprint of an animal"
+              ]
             }
           ]
         },

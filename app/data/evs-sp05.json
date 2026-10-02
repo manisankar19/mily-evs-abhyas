@@ -1227,27 +1227,27 @@
               "marks": 3,
               "pairs": [
                 {
-                  "left": "Boiling",
+                  "left": "a. Boiling",
                   "right": "rice"
                 },
                 {
-                  "left": "Steaming",
+                  "left": "b. Steaming",
                   "right": "idiyappam"
                 },
                 {
-                  "left": "Frying",
+                  "left": "c. Frying",
                   "right": "puri"
                 },
                 {
-                  "left": "Roasting",
+                  "left": "d. Roasting",
                   "right": "popcorn"
                 },
                 {
-                  "left": "Grilling",
+                  "left": "e. Grilling",
                   "right": "chicken"
                 },
                 {
-                  "left": "Baking",
+                  "left": "f. Baking",
                   "right": "cakes"
                 }
               ],
@@ -1302,7 +1302,15 @@
                 "cooking methods"
               ],
               "difficulty": "medium",
-              "answerSource": "authored"
+              "answerSource": "authored",
+              "printedRight": [
+                "cakes",
+                "rice",
+                "popcorn",
+                "idiyappam",
+                "puri",
+                "chicken"
+              ]
             }
           ]
         },

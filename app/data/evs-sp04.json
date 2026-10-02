@@ -397,7 +397,14 @@
                 "natural resources"
               ],
               "difficulty": "easy",
-              "answerSource": "authored"
+              "answerSource": "authored",
+              "printedRight": [
+                "a type of drum (instrument)",
+                "worshipping the banyan tree",
+                "to keep mosquitoes away",
+                "generate electricity for fans, bulbs etc.",
+                "a traditional way of preserving grains in Uttarakhand"
+              ]
             }
           ]
         }
@@ -1742,6 +1749,66 @@
       "where": "evs-sp04-s10-b1-i3",
       "field": "q",
       "text": "Maharashra",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "a) Tumri",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "a traditional way of preserving grains in Uttarakhand",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "b) Neem oil",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "to keep mosquitoes away",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "c) Nagada",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "a type of drum (instrument)",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "d) Vat Purnima",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "worshipping the banyan tree",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "e) Solar panels",
+      "reason": "garbled text layer"
+    },
+    {
+      "where": "evs-sp04-s3-b1-i1",
+      "field": "pair",
+      "text": "generate electricity for fans, bulbs etc.",
       "reason": "garbled text layer"
     }
   ]
