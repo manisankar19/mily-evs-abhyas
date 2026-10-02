@@ -74,6 +74,11 @@ function checkSchoolItem(it, paper, err) {
   if (!['easy', 'medium', 'hard'].includes(it.difficulty)) err(`${id}: difficulty must be easy|medium|hard`);
   for (const k of ['label', 'pictureDescription', 'teacherNote']) if (it[k] !== undefined && !isStr(it[k])) err(`${id}: ${k} must be a non-empty string`);
   if (it.topics !== undefined && !strList(it.topics)) err(`${id}: topics must be a non-empty list of strings`);
+  // answer picture for checking mode (e.g. a shaded map key from scripts/map-key.js)
+  if (it.answerAsset !== undefined) {
+    if (!ASSET_RE.test(String(it.answerAsset))) err(`${id}: answerAsset "${it.answerAsset}" must look like assets/name.svg`);
+    else if (!fs.existsSync(path.join(__dirname, 'app', it.answerAsset))) err(`${id}: answerAsset missing: ${it.answerAsset}`);
+  }
   // acceptable (gated to school, see SCHEMA.md Decisions)
   if (ACCEPTABLE_TYPES.includes(it.type) && !strList(it.acceptable)) err(`${id}: ${it.type} needs a non-empty acceptable list`);
   else if (it.acceptable !== undefined && !strList(it.acceptable)) err(`${id}: acceptable must be a non-empty list of strings`);
@@ -169,6 +174,7 @@ function validatePaper(file, opts = {}) {
     if (!sec.code || !sec.title || typeof sec.marks !== 'number') err(`section ${si} missing code/title/marks`);
     (sec.blocks || []).forEach((blk, bi) => {
       if (!blk.num) err(`section ${sec.code} block ${bi} missing num`);
+      if (school && blk.adaptation !== undefined && !isStr(blk.adaptation)) err(`section ${sec.code} block ${bi + 1} adaptation must be a non-empty string`);
       if (blk.stimulus && blk.stimulus.asset && !ASSET_RE.test(blk.stimulus.asset)) err(`asset path "${blk.stimulus.asset}" must look like assets/name.svg`);
       else if (blk.stimulus && blk.stimulus.asset) {
         const p = path.join(__dirname, 'app', blk.stimulus.asset);

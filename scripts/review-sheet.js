@@ -51,6 +51,7 @@ function renderItem(sec, blk, it, level = '###') {
   li('Source', it.sourceRef);
   li('Teacher note', it.teacherNote);
   li('Picture', it.pictureDescription);
+  li('Answer picture (checking mode)', it.answerAsset);
   out.push('');
   return out.join('\n');
 }

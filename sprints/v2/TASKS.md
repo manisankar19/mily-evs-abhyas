@@ -84,9 +84,10 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Completed: 2026-10-02 — 11 shared SVGs: India state map (Natural Earth public domain, India POV boundary; scripts/build-india-map.sh, map-key.js for checking-mode keys), 6 cooking methods + solar cooker, ₹100 front / ₹500 front+back banknotes (SPECIMEN, simplified; scripts/gen-notes.js). tests/assets.js 78/78, each viewed at 2×. Indic scripts need device fonts (Windows/Android/iOS ship them; build host shows tofu)
 
 ### Phase 5 — Papers, batch 1 (sp05, sp07, sp01; Gate 0b 2026-10-02)
-- [ ] Task 18: Write the sub-agent brief (exact copying rules, item-type mapping, wide `acceptable` with Hindi-English, local and regional names, ⚑ rules, teacherNote, picture rules, writes only its own JSON and assets) (P0)
+- [x] Task 18: Write the sub-agent brief (exact copying rules, item-type mapping, wide `acceptable` with Hindi-English, local and regional names, ⚑ rules, teacherNote, picture rules, writes only its own JSON and assets) (P0)
   - Acceptance: brief saved at `sprints/v2/subagent-brief.md`, quoting brief §4 and §6
   - Files: sprints/v2/subagent-brief.md
+  - Completed: 2026-10-02 — sprints/v2/subagent-brief.md quotes instruction §4/§6 verbatim (tests/brief.js 50/50 checks quotes, required rules, paths). Added for the brief: source/textbook-text/ch1–5.txt (page+line numbered for sourceRef); item answerAsset (checking-mode key, e.g. map-key.js) and block adaptation (keeps printed instruction verbatim) in SCHEMA/validator/review sheet with fixtures (35/35)
 - [ ] Task 19: Batch 1 paper A = **sp05**: sub-agent writes JSON and assets → validate + fidelity + sheet → one commit (P0)
   - Files: app/data/evs-spNN.json, app/assets/spNN-*.svg, sprints/v2/answer-review/spNN.md
 - [ ] Task 20: Batch 1 paper B = **sp07** (same as Task 19; Q. 6 pictures 4–5 accept place/activity names, ⚑ + teacherNote) (P0)

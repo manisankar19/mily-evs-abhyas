@@ -49,6 +49,7 @@ A "required" string must be present and not `""`. The raw file must not contain 
 | `block.num` | string | required, the printed question number (`Q.1`, `Q1`) |
 | `block.instruction` | string | the printed instruction verbatim |
 | `block.passage` | string | optional, a printed passage verbatim |
+| `block.adaptation` † | string | optional (school): how the site adapts a printed question (nearest item type, paper-based drawing or map). Shown under the printed instruction, which stays verbatim for the fidelity check |
 | `block.stimulus` | object | optional: `asset` (must match `assets/<lowercase-name>.svg` (or `.png`, `.jpg`), so no path traversal, and must exist under `app/`; applies to every paper, and no existing paper has a stimulus), `caption` (required when there is an `asset`), `alt` |
 | `block.items` | array | the items |
 
@@ -71,6 +72,7 @@ A "required" string must be present and not `""`. The raw file must not contain 
 | `pairs` | array of `{ left, right }` | match: at least 3 pairs, and pairs = marks | match: at least 2 pairs; see §3.2 |
 | `topics` † | array of strings | — | optional, non-empty when present |
 | `pictureDescription` † | string | — | optional; a text description of a decorative picture that is not drawn |
+| `answerAsset` † | string | — | optional; a picture shown in checking mode only (e.g. a shaded map key from `scripts/map-key.js`). Same path rule as `stimulus.asset`; must exist |
 | `underline` † | array of `{ start, end }` | — | optional; see §3.3 |
 | `answerSource` † | string | — | required, `"authored"` |
 | `answerConfidence` † | string | — | required, `"sure"` or `"check"` (⚑) |

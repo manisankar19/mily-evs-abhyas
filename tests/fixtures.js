@@ -16,6 +16,9 @@ const { validatePaper } = require(path.join(ROOT, 'validate.js'));
 
 // fixture (relative to tests/fixtures) -> substring the validator's error must contain
 const EXPECT = {
+  'school/bad-answer-asset-path.json': 'answerAsset "../secret.svg" must look like assets/name.svg',
+  'school/bad-answer-asset-missing.json': 'answerAsset missing: assets/sp99-no-such-key.svg',
+  'school/bad-adaptation-empty.json': 'block 1 adaptation must be a non-empty string',
   'school/bad-id.json': 'bad id "evs-sp99-s1-b1-x1"',
   'school/bad-total-intake.json': 'totalMarks 11 != intake printedTotal 10',
   'school/bad-section-marks-intake.json': 'section A: marks 3 != intake 4',
