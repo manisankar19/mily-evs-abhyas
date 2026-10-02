@@ -1,28 +1,32 @@
 # Sprint v2 — Tasks: School Papers
 
-## Status: Not started
+## Status: In progress (Phase 0–3)
 
 Order follows brief §8. **STOP** marks a gate: report and wait for the owner or parent before continuing.
 Never print a secret. Never modify `source/samples/` or the 6 existing `app/data/evs-*.json`.
 
 ### Phase 0 — Setup & preflight
-- [ ] Task 1: Project setup: copy the 7 EVS PDFs (all except `2.1.3`) from `source/samples/` into `source/school-papers/` with the same filenames; create `sprints/v2/answer-review/`; commit `source/` and `sprints/v2/` (P0)
+- [x] Task 1: Project setup: copy the 7 EVS PDFs (all except `2.1.3`) from `source/samples/` into `source/school-papers/` with the same filenames; create `sprints/v2/answer-review/`; commit `source/` and `sprints/v2/` (P0)
   - Acceptance: 7 files in `school-papers/`, with SHA-256 equal to their `samples/` originals; `source/samples/` unchanged; `git status` clean
   - Files: source/school-papers/*, sprints/v2/*
-- [ ] Task 2: Tool and validation preflight: check that pdftotext, pdftoppm, node and python3 are present; run `npm run validate`; write `scripts/hash-existing.js`, which records or checks SHA-256 of the 6 existing paper JSONs (P0)
+  - Completed: 2026-10-02 — 7 PDFs copied, SHA-256 identical to samples; committed 1240038
+- [x] Task 2: Tool and validation preflight: check that pdftotext, pdftoppm, node and python3 are present; run `npm run validate`; write `scripts/hash-existing.js`, which records or checks SHA-256 of the 6 existing paper JSONs (P0)
   - Acceptance: validate passes; `sprints/v2/preflight-hashes.json` written; `node scripts/hash-existing.js --check` exits 0
   - Files: scripts/hash-existing.js, sprints/v2/preflight-hashes.json
-- [ ] Task 3: Secret and live preflight: confirm `GANESH_EVS` is set in `.env.local` (report set/unset only); confirm the built `index.html` contains its hash but not the plaintext; the Vercel token returns HTTP 200 (status code only); the live URL loads (P0)
+  - Completed: 2026-10-02 — tools present; validate OK (6 papers, 360 items); scripts/hash-existing.js records/checks 6 hashes
+- [x] Task 3: Secret and live preflight: confirm `GANESH_EVS` is set in `.env.local` (report set/unset only); confirm the built `index.html` contains its hash but not the plaintext; the Vercel token returns HTTP 200 (status code only); the live URL loads (P0)
   - Acceptance: four pass lines in the session log; no secret value printed
   - Files: none
+  - Completed: 2026-10-02 — GANESH_EVS set; build hash present, plaintext absent; vercel CLI whoami OK (raw /v2/user API → 403, CLI auth used instead); live URL 200
 - [ ] Task 4: Install Playwright on this host; repoint the require path in `tests/e2e.js`; run the existing suite against the local build (ch1–5 and hy, practice and checking modes) (P0)
   - Acceptance: existing suite passes (33/33) with no change to its assertions except the require path
   - Files: tests/e2e.js, package.json (devDependency)
 
 ### Phase 1 — Intake (brief §2)
-- [ ] Task 5: Text cache and page images for all 7 PDFs (`pdftotext -layout`, `pdftoppm -r 100 -png` into scratch/cache); record PDF hashes and a usable or garbled flag per file (P0)
+- [x] Task 5: Text cache and page images for all 7 PDFs (`pdftotext -layout`, `pdftoppm -r 100 -png` into scratch/cache); record PDF hashes and a usable or garbled flag per file (P0)
   - Acceptance: one text file and N page PNGs per PDF; sp02 and sp04 flagged garbled
   - Files: source/intake.json (skeleton)
+  - Completed: 2026-10-02 — text cache in source/text-cache/ (committed), page images 100+200 dpi in source/page-images/ (gitignored); sp02, sp04 garbled (0 English words)
 - [ ] Task 6: Intake sp01, sp02, sp03: **view every page image**; record the printed title and header, total marks, every section heading and block pattern quoted exactly, chapters covered, and every picture with what the question needs from it; estimate the ⚑ count (P0)
   - Acceptance: intake.json and SCHOOL-PAPERS-INTAKE.md entries complete for the 3 papers; page count viewed = PDF page count
   - Files: source/intake.json, source/SCHOOL-PAPERS-INTAKE.md
