@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img">
+  <title>Question 4: three numbered pictures</title>
+  <rect x="0" y="0" width="1200" height="320" fill="#ffffff"/>
+
+  <!-- Panel i -->
+  <g transform="translate(0,10)">
+    <rect x="8" y="0" width="384" height="300" rx="14" fill="#fbf7ee" stroke="#9a8f7a" stroke-width="2"/>
+    <g fill="#2b2b2b">
+      <g transform="translate(150,190) rotate(-20)">
+        <ellipse cx="0" cy="18" rx="34" ry="28"/>
+        <ellipse cx="-38" cy="-22" rx="12" ry="16" transform="rotate(-25 -38 -22)"/>
+        <ellipse cx="-14" cy="-42" rx="12" ry="17"/>
+        <ellipse cx="14" cy="-42" rx="12" ry="17"/>
+        <ellipse cx="38" cy="-22" rx="12" ry="16" transform="rotate(25 38 -22)"/>
+      </g>
+      <g transform="translate(260,105) rotate(-20)">
+        <ellipse cx="0" cy="18" rx="34" ry="28"/>
+        <ellipse cx="-38" cy="-22" rx="12" ry="16" transform="rotate(-25 -38 -22)"/>
+        <ellipse cx="-14" cy="-42" rx="12" ry="17"/>
+        <ellipse cx="14" cy="-42" rx="12" ry="17"/>
+        <ellipse cx="38" cy="-22" rx="12" ry="16" transform="rotate(25 38 -22)"/>
+      </g>
+    </g>
+    <circle cx="40" cy="32" r="27" fill="#ffffff" stroke="#333" stroke-width="2.5"/>
+    <text x="40" y="42" font-family="Georgia, serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#222">i</text>
+  </g>
+
+  <!-- Panel ii -->
+  <g transform="translate(400,10)">
+    <rect x="8" y="0" width="384" height="300" rx="14" fill="#eef6fb" stroke="#9a8f7a" stroke-width="2"/>
+    <!-- webbing membrane (lighter), scalloped between toe tips -->
+    <path d="M200,112 L92,232 Q150,214 200,262 Q250,214 308,232 Z"
+          fill="#ffd88f" stroke="#c47a20" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- three separate toes -->
+    <g stroke-linecap="round" fill="none">
+      <g stroke="#7a4a10" stroke-width="18">
+        <path d="M200,112 L94,230"/><path d="M200,112 L200,258"/><path d="M200,112 L306,230"/>
+      </g>
+      <g stroke="#ef8a1c" stroke-width="12">
+        <path d="M200,112 L94,230"/><path d="M200,112 L200,258"/><path d="M200,112 L306,230"/>
+      </g>
+      <g stroke="#a85a10" stroke-width="1.5">
+        <path d="M150,158 L160,166"/><path d="M130,180 L140,188"/><path d="M110,202 L120,210"/>
+        <path d="M194,160 H206"/><path d="M194,190 H206"/><path d="M194,220 H206"/>
+        <path d="M250,158 L240,166"/><path d="M270,180 L260,188"/><path d="M290,202 L280,210"/>
+      </g>
+    </g>
+    <!-- small claws at the toe tips -->
+    <g fill="#2a1a0a">
+      <path d="M86,226 L72,252 L99,238 Z"/>
+      <path d="M193,262 L200,284 L207,262 Z"/>
+      <path d="M314,226 L328,252 L301,238 Z"/>
+    </g>
+    <!-- short leg -->
+    <path d="M186,28 L214,28 L212,116 L188,116 Z" fill="#ef8a1c" stroke="#7a4a10" stroke-width="3" stroke-linejoin="round"/>
+    <g stroke="#7a4a10" stroke-width="1.5"><path d="M189,50 H211"/><path d="M189,72 H211"/><path d="M189,94 H211"/></g>
+    <circle cx="200" cy="114" r="13" fill="#ef8a1c" stroke="#7a4a10" stroke-width="3"/>
+    <circle cx="40" cy="32" r="27" fill="#ffffff" stroke="#333" stroke-width="2.5"/>
+    <text x="40" y="42" font-family="Georgia, serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#222">ii</text>
+  </g>
+
+  <!-- Panel iii -->
+  <g transform="translate(800,10)">
+    <rect x="8" y="0" width="384" height="300" rx="14" fill="#f7f7f2" stroke="#9a8f7a" stroke-width="2"/>
+    <!-- edge of the head -->
+    <path d="M10,60 C60,55 95,85 100,150 C102,200 80,235 10,245 Z" fill="#7d8a96" stroke="#3b4550" stroke-width="3"/>
+    <circle cx="62" cy="112" r="11" fill="#ffffff" stroke="#222" stroke-width="2"/>
+    <circle cx="64" cy="112" r="5" fill="#111"/>
+    <!-- upper part, hooked -->
+    <path d="M96,110 C170,72 280,78 330,140 C350,165 348,205 330,222 C326,200 312,186 290,182 L100,178 Z"
+          fill="#f2c335" stroke="#5a4210" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- lower part -->
+    <path d="M100,182 L286,186 C262,206 190,214 102,212 Z" fill="#e0a925" stroke="#5a4210" stroke-width="3.5" stroke-linejoin="round"/>
+    <ellipse cx="140" cy="118" rx="11" ry="5" fill="#5a4210" transform="rotate(-12 140 118)"/>
+    <circle cx="40" cy="32" r="27" fill="#ffffff" stroke="#333" stroke-width="2.5"/>
+    <text x="40" y="42" font-family="Georgia, serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#222">iii</text>
+  </g>
+</svg>

@@ -1,0 +1,1371 @@
+{
+  "schemaVersion": "2.0",
+  "kind": "school",
+  "sp": "sp01",
+  "sourceFile": "2.1.1 class 4_twau_ch-3_ws.pdf",
+  "subject": "evs",
+  "subjectDisplay": "EVS",
+  "grade": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Atomic Energy Education Society / Worksheet (2025-26)",
+  "shortLabel": "Worksheet: Chapter 3",
+  "subtitle": "Worksheet — Class IV — Chapter 3 (Nature Trail)",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या /Total No. of printed pages: 4",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "Atomic Energy Education Society",
+    "कार्यपत्रक / Worksheet (2025-26)",
+    "कक्षा /Class:_IV_ विषय /Subject: TWAU माह/ Month: JULY अंक/Marks: 40",
+    "दिया गया पाठ्यक्रम/Portion covered: Lesson-3, Nature Trail",
+    "विद्यार्थी का नाम/Name of the student: ____",
+    "अनुक्रमांक /Roll No.____ कक्षा/अनुभाग Class /Sec.:____ दिनांक /Date: ____"
+  ],
+  "totalMarks": 40,
+  "durationMinutes": null,
+  "chapters": [
+    3
+  ],
+  "sections": [
+    {
+      "code": "A",
+      "title": "SECTION A OBSERVATION AND REPORTING",
+      "heading": "SECTION A OBSERVATION AND REPORTING",
+      "marks": 15,
+      "blocks": [
+        {
+          "num": "1.",
+          "instruction": "Fill in the blanks choosing the correct answer from the options given below (5)",
+          "adaptation": "Choose the option that fills the blank.",
+          "items": [
+            {
+              "id": "evs-sp01-s1-b1-i1",
+              "label": "i.",
+              "type": "mcq",
+              "q": "Nature is full of amazing ______.",
+              "options": [
+                "books and toys",
+                "plants and animals",
+                "boys and girls"
+              ],
+              "marks": 1,
+              "answer": "plants and animals",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.3 l.7",
+              "difficulty": "easy",
+              "topics": [
+                "nature"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b1-i2",
+              "label": "ii.",
+              "type": "mcq",
+              "q": "The students went for a nature trail to ______.",
+              "options": [
+                "Panchadri",
+                "Panchahi",
+                "Panchmarhi"
+              ],
+              "marks": 1,
+              "answer": "Panchmarhi",
+              "teacherNote": "The paper prints \"Panchmarhi\"; the textbook spells it \"Pachmarhi\". Kept as printed; accept either spelling. The intended answer is c.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.3 l.10",
+              "difficulty": "easy",
+              "topics": [
+                "nature trail",
+                "Pachmarhi"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b1-i3",
+              "label": "iii.",
+              "type": "mcq",
+              "q": "At the entrance of the forest, the students could see lots of tall trees and ______.",
+              "options": [
+                "monkeys",
+                "birds",
+                "elephants"
+              ],
+              "marks": 1,
+              "answer": "birds",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.4 l.1",
+              "difficulty": "easy",
+              "topics": [
+                "forest"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b1-i4",
+              "label": "iv.",
+              "type": "mcq",
+              "q": "We should not ______ the plants and animals in the forests.",
+              "options": [
+                "harm",
+                "hug",
+                "hide"
+              ],
+              "marks": 1,
+              "answer": "harm",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.4 l.12",
+              "difficulty": "easy",
+              "topics": [
+                "safety rules"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b1-i5",
+              "label": "v.",
+              "type": "mcq",
+              "q": "Indian Giant Squirrel is a big red-coloured ______ found in Panchmarhi.",
+              "options": [
+                "beast",
+                "squirrel",
+                "snake"
+              ],
+              "marks": 1,
+              "answer": "squirrel",
+              "teacherNote": "The paper prints \"Panchmarhi\"; the textbook spells it \"Pachmarhi\". Kept as printed; accept either spelling. The stem already names the \"Squirrel\", so the answer is given away; marked as printed.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.8 l.10",
+              "difficulty": "easy",
+              "topics": [
+                "animals",
+                "Indian Giant Squirrel"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "2.",
+          "instruction": "State if the following sentences are True or False (5)",
+          "items": [
+            {
+              "id": "evs-sp01-s1-b2-i1",
+              "label": "i.",
+              "type": "true-false",
+              "q": "Abha Didi was a natural scientist.",
+              "marks": 1,
+              "answer": "True",
+              "teacherNote": "The textbook calls Abha Didi \"a nature scientist\"; the paper says \"natural scientist\". The intended answer is True. If a child writes False because of the word \"natural\", talk it through; accept True.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.4 l.5",
+              "difficulty": "easy",
+              "topics": [
+                "nature scientist"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b2-i2",
+              "label": "ii.",
+              "type": "true-false",
+              "q": "We should feed all the animals in the forest.",
+              "marks": 1,
+              "answer": "False",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.5 l.15",
+              "difficulty": "easy",
+              "topics": [
+                "safety rules"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b2-i3",
+              "label": "iii.",
+              "type": "true-false",
+              "q": "Only animals found on the land are seen in a forest.",
+              "marks": 1,
+              "answer": "False",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.16 l.1",
+              "difficulty": "easy",
+              "topics": [
+                "animals",
+                "forest"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b2-i4",
+              "label": "iv.",
+              "type": "true-false",
+              "q": "Different animals have different footprints.",
+              "marks": 1,
+              "answer": "True",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.10 l.5",
+              "difficulty": "easy",
+              "topics": [
+                "footprints"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b2-i5",
+              "label": "v.",
+              "type": "true-false",
+              "q": "Leaves are found in different shapes, sizes and colours.",
+              "marks": 1,
+              "answer": "True",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.19 l.8",
+              "difficulty": "easy",
+              "topics": [
+                "leaves"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "3.",
+          "instruction": "Circle the odd one in each group (5)",
+          "adaptation": "Choose the odd one here instead of circling it.",
+          "items": [
+            {
+              "id": "evs-sp01-s1-b3-i1",
+              "label": "i.",
+              "type": "mcq",
+              "q": "feathers beak shoulders tail wings",
+              "options": [
+                "feathers",
+                "beak",
+                "shoulders",
+                "tail",
+                "wings"
+              ],
+              "marks": 1,
+              "answer": "shoulders",
+              "markingGuide": "Shoulders: the others are parts of a bird.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.13 l.16",
+              "difficulty": "easy",
+              "topics": [
+                "birds",
+                "body parts"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b3-i2",
+              "label": "ii.",
+              "type": "mcq",
+              "q": "ant butterflies beetles goats flies",
+              "options": [
+                "ant",
+                "butterflies",
+                "beetles",
+                "goats",
+                "flies"
+              ],
+              "marks": 1,
+              "answer": "goats",
+              "markingGuide": "Goats: the others are insects.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.17 l.9",
+              "difficulty": "easy",
+              "topics": [
+                "insects"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b3-i3",
+              "label": "iii.",
+              "type": "mcq",
+              "q": "milk nuts grains fruits seeds",
+              "options": [
+                "milk",
+                "nuts",
+                "grains",
+                "fruits",
+                "seeds"
+              ],
+              "marks": 1,
+              "answer": "milk",
+              "markingGuide": "Milk: the others are food from plants that birds eat (grains, berries, fruits, nuts in the food-picking activity).",
+              "teacherNote": "The rule behind the group is not stated; milk is the only food that does not come from plants and is not bird food. Accept milk.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.2",
+              "difficulty": "medium",
+              "topics": [
+                "food",
+                "birds"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b3-i4",
+              "label": "iv.",
+              "type": "mcq",
+              "q": "fish snake frog turtle tiger",
+              "options": [
+                "fish",
+                "snake",
+                "frog",
+                "turtle",
+                "tiger"
+              ],
+              "marks": 1,
+              "answer": [
+                "tiger",
+                "fish"
+              ],
+              "markingGuide": "Tiger: the others are in the textbook list of animals that live in and around water. Fish is also accepted: it is the only one that lives only in water and cannot come onto land.",
+              "teacherNote": "Two answers are defensible: tiger (not a water animal, intended) and fish (the only one that lives only in water). Both get full marks.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.16 l.1",
+              "difficulty": "medium",
+              "topics": [
+                "water animals"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s1-b3-i5",
+              "label": "v.",
+              "type": "mcq",
+              "q": "hornbill peacock gaur eagle parrot",
+              "options": [
+                "hornbill",
+                "peacock",
+                "gaur",
+                "eagle",
+                "parrot"
+              ],
+              "marks": 1,
+              "answer": "gaur",
+              "markingGuide": "Gaur: the others are birds.",
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.10 l.1",
+              "difficulty": "easy",
+              "topics": [
+                "birds",
+                "gaur"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "SECTION B IDENTIFYING GROUP AND CLASSIFICATION",
+      "heading": "SECTION B IDENTIFYING GROUP AND CLASSIFICATION",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "4.",
+          "instruction": "Match the following (3)",
+          "adaptation": "The three printed pictures are drawn here as panels i, ii and iii; match each one to a, b or c.",
+          "stimulus": {
+            "asset": "assets/sp01-q4.svg",
+            "caption": "Pictures for Question 4, in panels i, ii and iii",
+            "alt": "Three numbered drawings, i, ii and iii, to match with a, b and c"
+          },
+          "items": [
+            {
+              "id": "evs-sp01-s2-b1-i1",
+              "type": "match",
+              "q": "Match the following",
+              "marks": 3,
+              "pairs": [
+                {
+                  "left": "i. (picture i)",
+                  "right": "c. footprint of an animal"
+                },
+                {
+                  "left": "ii (picture ii)",
+                  "right": "a. webbed feet"
+                },
+                {
+                  "left": "iii. (picture iii)",
+                  "right": "b. beak of a bird"
+                }
+              ],
+              "answer": "i - c (footprint of an animal); ii - a (webbed feet); iii - b (beak of a bird)",
+              "answerPoints": [
+                {
+                  "point": "i (paw prints) - c. footprint of an animal",
+                  "marks": 1
+                },
+                {
+                  "point": "ii (webbed foot) - a. webbed feet",
+                  "marks": 1
+                },
+                {
+                  "point": "iii (hooked beak) - b. beak of a bird",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 3,
+                  "descriptor": "All three pictures matched correctly."
+                },
+                {
+                  "band": "partial",
+                  "marks": 2,
+                  "descriptor": "Two pictures matched correctly (1 mark each)."
+                },
+                {
+                  "band": "partial-low",
+                  "marks": 1,
+                  "descriptor": "One picture matched correctly."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct match."
+                }
+              ],
+              "teacherNote": "On the printed sheet the numerals i, ii, iii sit beside the bottom of each picture, so it is unclear which picture each numeral belongs to (\"ii\" also has no full stop). Here the pictures are read top to bottom as i = paw prints, ii = webbed foot, iii = beak. If the child worked on the printout, mark by picture: paw prints - footprint, webbed foot - webbed feet, beak - beak of a bird.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.16",
+              "difficulty": "easy",
+              "topics": [
+                "footprints",
+                "webbed feet",
+                "beaks"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "5.",
+          "instruction": "Name the following (5)",
+          "items": [
+            {
+              "id": "evs-sp01-s2-b2-i1",
+              "label": "i.",
+              "type": "one-word",
+              "q": "The animal with a long trunk to take food and water.",
+              "marks": 1,
+              "answer": "Elephant",
+              "acceptable": [
+                "elephant",
+                "elephants",
+                "an elephant",
+                "haathi",
+                "hathi",
+                "yaanai",
+                "aana",
+                "enugu",
+                "hati"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.8 l.6",
+              "difficulty": "easy",
+              "topics": [
+                "animals"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b2-i2",
+              "label": "ii.",
+              "type": "one-word",
+              "q": "An insect with three pairs of legs and one antennae",
+              "marks": 1,
+              "answer": "Grasshopper (or any insect)",
+              "acceptable": [
+                "grasshopper",
+                "grasshoppers",
+                "ant",
+                "ants",
+                "beetle",
+                "beetles",
+                "bee",
+                "bees",
+                "honeybee",
+                "honey bee",
+                "housefly",
+                "house fly",
+                "fly",
+                "flies",
+                "butterfly",
+                "butterflies",
+                "moth",
+                "mosquito",
+                "mosquitoes",
+                "praying mantis",
+                "mantis",
+                "cockroach",
+                "dragonfly",
+                "ladybird",
+                "ladybug",
+                "termite",
+                "wasp",
+                "cricket",
+                "firefly",
+                "chinti",
+                "titli",
+                "makkhi",
+                "machchhar",
+                "tidda",
+                "jhingur"
+              ],
+              "markingGuide": "Any insect gets the mark; the textbook example is the grasshopper.",
+              "teacherNote": "Printed \"one antennae\" is wrong: insects have one pair of antennae (\"antennae\" is already plural). Kept as printed; any insect named is accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.17 l.4",
+              "difficulty": "medium",
+              "topics": [
+                "insects"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b2-i3",
+              "label": "iii.",
+              "type": "one-word",
+              "q": "The lines found on the leaves",
+              "marks": 1,
+              "answer": "Veins",
+              "acceptable": [
+                "veins",
+                "vein",
+                "leaf veins",
+                "nerves",
+                "venation"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.19 l.10",
+              "difficulty": "easy",
+              "topics": [
+                "leaves"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b2-i4",
+              "label": "iv.",
+              "type": "one-word",
+              "q": "The connection between the different living beings on the earth",
+              "marks": 1,
+              "answer": "Web of life",
+              "acceptable": [
+                "web of life",
+                "the web of life",
+                "web of life game",
+                "interdependence",
+                "food web",
+                "food chain",
+                "connection in nature",
+                "interconnection",
+                "dependence on each other"
+              ],
+              "markingGuide": "Intended: web of life (the textbook game). Interdependence, food chain or food web show the same idea and are accepted.",
+              "teacherNote": "The wording is loose; the intended answer is \"web of life\", but \"interdependence\" or \"food chain/food web\" also describe the connection and are accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.20 l.12",
+              "difficulty": "medium",
+              "topics": [
+                "web of life",
+                "interdependence"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b2-i5",
+              "label": "v.",
+              "type": "one-word",
+              "q": "The bird with sharp eyesight that helps it to see at night.",
+              "marks": 1,
+              "answer": "Owl",
+              "acceptable": [
+                "owl",
+                "owls",
+                "an owl",
+                "ullu",
+                "barn owl",
+                "spotted owlet",
+                "owlet",
+                "aandai",
+                "guba",
+                "pecha"
+              ],
+              "answerConfidence": "sure",
+              "sourceRef": "Ch 3 (deev103), p.12 l.4",
+              "difficulty": "easy",
+              "topics": [
+                "birds"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "6.",
+          "instruction": "Answer the following (5)",
+          "items": [
+            {
+              "id": "evs-sp01-s2-b3-i1",
+              "label": "i.",
+              "type": "short",
+              "q": "Where did the students get ready to go with their teacher?",
+              "marks": 1,
+              "answer": "For a nature trail at Pachmarhi, Madhya Pradesh.",
+              "modelAnswer": "The students got ready to go for a nature trail at Pachmarhi.",
+              "answerPoints": [
+                {
+                  "point": "A nature trail at Pachmarhi (Panchmarhi), Madhya Pradesh; \"Pachmarhi\" alone or \"a nature trail in the forest\" also gets the mark",
+                  "marks": 1
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Says Pachmarhi (any spelling) or a nature trail / the forest at Pachmarhi."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "Says only \"a forest\" or \"a trip\" without the place or the nature trail."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Wrong place or blank."
+                }
+              ],
+              "teacherNote": "The question is oddly worded; the textbook line is \"got ready for a nature trail at Pachmarhi\". Accept Pachmarhi, Panchmarhi, or \"a nature trail\".",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.3 l.10",
+              "difficulty": "easy",
+              "topics": [
+                "nature trail",
+                "Pachmarhi"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b3-i2",
+              "label": "ii.",
+              "type": "short",
+              "q": "Write two rules to be followed in a zoo or forest.",
+              "marks": 1,
+              "answer": "Any two: do not tease animals; do not feed animals; do not damage trees and flowers; do not throw garbage; do not bring polythene bags; do not bring pets or weapons; be careful in a new place; do not damage public utilities.",
+              "modelAnswer": "We should not feed the animals. We should not throw garbage in the forest.",
+              "answerPoints": [
+                {
+                  "point": "First sensible rule (e.g. do not tease or feed animals)",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Second sensible rule (e.g. do not throw garbage, do not damage plants)",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Two sensible rules."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "One sensible rule."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No sensible rule."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.5 l.11",
+              "difficulty": "easy",
+              "topics": [
+                "safety rules",
+                "zoo"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b3-i3",
+              "label": "iii.",
+              "type": "short",
+              "q": "What special features do water animals have?",
+              "marks": 1,
+              "answer": "Fish have fins to swim; turtles have strong shells and webbed feet to swim; the gharial has a long, narrow, pointed snout to catch fish; frogs can live on land and in water.",
+              "modelAnswer": "Fish have fins to swim, and turtles have webbed feet and a strong shell.",
+              "answerPoints": [
+                {
+                  "point": "One correct feature (fins, webbed feet, shell, pointed snout, gills, streamlined body)",
+                  "marks": 0.5
+                },
+                {
+                  "point": "A second correct feature",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Two correct features (e.g. fins and webbed feet)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "One correct feature."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct feature."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.16 l.14",
+              "difficulty": "medium",
+              "topics": [
+                "water animals"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b3-i4",
+              "label": "iv.",
+              "type": "short",
+              "q": "How do  leaves differ from one another?",
+              "marks": 1,
+              "answer": "Leaves differ in colour, shape, size and texture (smooth or rough), in the pattern of their veins, and in smell.",
+              "modelAnswer": "Leaves differ in their shape, size, colour and texture.",
+              "answerPoints": [
+                {
+                  "point": "One way (shape, size, colour, texture, veins, smell)",
+                  "marks": 0.5
+                },
+                {
+                  "point": "A second way",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Two or more ways (e.g. shape and colour)."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "One way."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct way."
+                }
+              ],
+              "teacherNote": "Printed with a double space in \"How do  leaves\"; kept as printed.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.19 l.8",
+              "difficulty": "easy",
+              "topics": [
+                "leaves"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s2-b3-i5",
+              "label": "v.",
+              "type": "short",
+              "q": "Write two characteristic features of a bird.",
+              "marks": 1,
+              "answer": "Any two: birds have feathers; a beak; two wings; two legs with claws; most can fly; they lay eggs.",
+              "modelAnswer": "A bird has feathers and a beak.",
+              "answerPoints": [
+                {
+                  "point": "First feature (feathers, beak, wings, claws, two legs, lays eggs, can fly)",
+                  "marks": 0.5
+                },
+                {
+                  "point": "Second feature",
+                  "marks": 0.5
+                }
+              ],
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 1,
+                  "descriptor": "Two correct features."
+                },
+                {
+                  "band": "partial",
+                  "marks": 0.5,
+                  "descriptor": "One correct feature."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "No correct feature."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.16",
+              "difficulty": "easy",
+              "topics": [
+                "birds"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "SECTION C DISCOVERY OF FACTS",
+      "heading": "SECTION C DISCOVERY OF FACTS",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "7.",
+          "instruction": "Name  two of the following (5)",
+          "adaptation": "Write two names for each part; each correct name gets ½ mark.",
+          "items": [
+            {
+              "id": "evs-sp01-s3-b1-i1",
+              "label": "i.",
+              "type": "one-word",
+              "q": "Common birds seen around you",
+              "marks": 1,
+              "answer": "Any two of: sparrow, crow, pigeon, myna, parrot, peacock, koel, bulbul, kingfisher, dove, kite, owl, hen, duck.",
+              "acceptable": [
+                "sparrow",
+                "sparrows",
+                "house sparrow",
+                "crow",
+                "crows",
+                "pigeon",
+                "pigeons",
+                "dove",
+                "myna",
+                "mynah",
+                "maina",
+                "parrot",
+                "parakeet",
+                "peacock",
+                "peahen",
+                "koel",
+                "cuckoo",
+                "bulbul",
+                "kingfisher",
+                "kite",
+                "eagle",
+                "owl",
+                "hen",
+                "cock",
+                "rooster",
+                "duck",
+                "woodpecker",
+                "sunbird",
+                "tailorbird",
+                "magpie robin",
+                "robin",
+                "babbler",
+                "seven sisters",
+                "hornbill",
+                "heron",
+                "egret",
+                "crane",
+                "swallow",
+                "drongo",
+                "barbet",
+                "kauwa",
+                "kabootar",
+                "chidiya",
+                "gauraiya",
+                "tota",
+                "mor",
+                "murga"
+              ],
+              "markingGuide": "½ mark for each correct name, two names for 1 mark.",
+              "teacherNote": "No marks are printed per part: the block total (5) is split as 1 mark per part, ½ mark for each of the two names. Part (i) is personal: any two birds a child can see near home are correct.",
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "difficulty": "easy",
+              "topics": [
+                "birds"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b1-i2",
+              "label": "ii.",
+              "type": "one-word",
+              "q": "Animals that live in and around water",
+              "marks": 1,
+              "answer": "Any two of: fish, crab, frog, turtle, crocodile, snake, gharial, duck.",
+              "acceptable": [
+                "fish",
+                "fishes",
+                "crab",
+                "crabs",
+                "frog",
+                "frogs",
+                "toad",
+                "turtle",
+                "turtles",
+                "tortoise",
+                "crocodile",
+                "crocodiles",
+                "alligator",
+                "gharial",
+                "snake",
+                "snakes",
+                "water snake",
+                "duck",
+                "ducks",
+                "swan",
+                "goose",
+                "heron",
+                "kingfisher",
+                "crane",
+                "hippopotamus",
+                "hippo",
+                "otter",
+                "whale",
+                "dolphin",
+                "shark",
+                "octopus",
+                "starfish",
+                "jellyfish",
+                "prawn",
+                "shrimp",
+                "seal",
+                "tadpole",
+                "snail",
+                "machhli",
+                "meen",
+                "mendhak",
+                "kachhua",
+                "magarmachh",
+                "kekda"
+              ],
+              "markingGuide": "½ mark for each correct name, two names for 1 mark.",
+              "teacherNote": "No marks are printed per part: the block total (5) is split as 1 mark per part, ½ mark for each of the two names.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.16 l.1",
+              "difficulty": "easy",
+              "topics": [
+                "water animals"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b1-i3",
+              "label": "iii.",
+              "type": "one-word",
+              "q": "Food items eaten by a bird",
+              "marks": 1,
+              "answer": "Any two of: grains, seeds, berries, fruits, nuts, insects, worms, nectar, fish.",
+              "acceptable": [
+                "grains",
+                "grain",
+                "seeds",
+                "seed",
+                "berries",
+                "berry",
+                "fruits",
+                "fruit",
+                "nuts",
+                "nut",
+                "insects",
+                "insect",
+                "worms",
+                "worm",
+                "earthworm",
+                "earthworms",
+                "nectar",
+                "fish",
+                "small fish",
+                "frogs",
+                "mice",
+                "rats",
+                "small animals",
+                "rice",
+                "wheat",
+                "bajra",
+                "millet",
+                "chilli",
+                "green chilli",
+                "guava",
+                "dana",
+                "daana",
+                "chawal"
+              ],
+              "markingGuide": "½ mark for each correct name, two names for 1 mark.",
+              "teacherNote": "No marks are printed per part: the block total (5) is split as 1 mark per part, ½ mark for each of the two names.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.2",
+              "difficulty": "easy",
+              "topics": [
+                "birds",
+                "food"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b1-i4",
+              "label": "iv.",
+              "type": "one-word",
+              "q": "Parts of an insect",
+              "marks": 1,
+              "answer": "Any two of: legs, antennae, wings, head, thorax, abdomen, eyes.",
+              "acceptable": [
+                "legs",
+                "leg",
+                "six legs",
+                "three pairs of legs",
+                "antennae",
+                "antenna",
+                "antennas",
+                "feelers",
+                "wings",
+                "wing",
+                "head",
+                "thorax",
+                "chest",
+                "abdomen",
+                "belly",
+                "eyes",
+                "eye",
+                "body"
+              ],
+              "markingGuide": "½ mark for each correct name, two names for 1 mark. Legs, antennae and wings are in the textbook; head, thorax, abdomen and eyes are also correct.",
+              "teacherNote": "No marks are printed per part: the block total (5) is split as 1 mark per part, ½ mark for each of the two names.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.17 l.4",
+              "difficulty": "medium",
+              "topics": [
+                "insects"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b1-i5",
+              "label": "v.",
+              "type": "one-word",
+              "q": "Uses of beak to a bird",
+              "marks": 1,
+              "answer": "Any two of: to eat / pick up food, to crack seeds and nuts, to catch prey or fish, to tear food, to drink nectar or water, to build a nest, to feed its young ones, to clean its feathers, to defend itself.",
+              "acceptable": [
+                "eating",
+                "to eat",
+                "eating food",
+                "picking food",
+                "picking up food",
+                "pick grains",
+                "cracking seeds",
+                "to crack seeds",
+                "cracking nuts",
+                "catching prey",
+                "to catch prey",
+                "catching fish",
+                "catching insects",
+                "tearing flesh",
+                "tearing food",
+                "drinking nectar",
+                "to suck nectar",
+                "drinking water",
+                "building nests",
+                "to build a nest",
+                "making nest",
+                "feeding young ones",
+                "feeding babies",
+                "cleaning feathers",
+                "preening",
+                "defence",
+                "to fight",
+                "to protect itself",
+                "pecking",
+                "digging"
+              ],
+              "markingGuide": "½ mark for each correct name, two names for 1 mark. Accept any sensible use in the child's own words.",
+              "teacherNote": "No marks are printed per part: the block total (5) is split as 1 mark per part, ½ mark for each of the two names.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.16",
+              "difficulty": "medium",
+              "topics": [
+                "birds",
+                "beaks"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "8.",
+          "instruction": "Identify the following pictures  and name them (5)",
+          "adaptation": "The five printed pictures are drawn here in one picture as panels 1 to 5; name each one.",
+          "stimulus": {
+            "asset": "assets/sp01-q8.svg",
+            "caption": "Pictures for Question 8, in panels 1 to 5",
+            "alt": "Five numbered colour drawings, panels 1 to 5, to identify and name"
+          },
+          "items": [
+            {
+              "id": "evs-sp01-s3-b2-i1",
+              "label": "(1)",
+              "type": "one-word",
+              "q": "Identify the following pictures and name them",
+              "marks": 1,
+              "answer": "Claws of a bird (eagle's talons)",
+              "acceptable": [
+                "claws",
+                "claw",
+                "talons",
+                "talon",
+                "sharp claws",
+                "curved claws",
+                "claws of a bird",
+                "bird's claws",
+                "birds claws",
+                "claws of an eagle",
+                "eagle's claws",
+                "eagle claws",
+                "eagle's talons",
+                "eagle's feet",
+                "eagle's foot",
+                "feet of a bird",
+                "foot of a bird",
+                "bird's feet",
+                "bird's foot",
+                "bird feet",
+                "claws of a bird of prey",
+                "hawk's claws",
+                "nails",
+                "panja",
+                "panje"
+              ],
+              "markingGuide": "Picture 1 shows a bird's foot with long, curved, sharp claws. Claws, talons, or the feet/claws of a bird or eagle all get the mark.",
+              "teacherNote": "The five pictures are not numbered on the paper and no marks are printed per picture: they are numbered (1) to (5) in reading order here, at 1 mark each (block total 5). Picture 1: claws, talons or \"feet of a bird\" are all defensible names.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.13 l.18",
+              "difficulty": "medium",
+              "topics": [
+                "birds",
+                "claws"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b2-i2",
+              "label": "(2)",
+              "type": "one-word",
+              "q": "Identify the following pictures and name them",
+              "marks": 1,
+              "answer": "Parrot",
+              "acceptable": [
+                "parrot",
+                "parrots",
+                "a parrot",
+                "parakeet",
+                "rose-ringed parakeet",
+                "green parrot",
+                "bird",
+                "a bird",
+                "tota",
+                "tota bird",
+                "popat",
+                "kili",
+                "chiluka",
+                "tiya",
+                "suga",
+                "lovebird"
+              ],
+              "markingGuide": "Picture 2 shows a green bird with a red hooked beak and a long tail. Parrot (or its local name) gets the mark; \"bird\" is accepted because the question only asks to name the picture.",
+              "teacherNote": "The five pictures are not numbered on the paper and no marks are printed per picture: they are numbered (1) to (5) in reading order here, at 1 mark each (block total 5). Picture 2: \"parrot\" is intended; \"bird\" is accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Class 4 EVS content standard (not in textbook)",
+              "difficulty": "easy",
+              "topics": [
+                "birds"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b2-i3",
+              "label": "(3)",
+              "type": "one-word",
+              "q": "Identify the following pictures and name them",
+              "marks": 1,
+              "answer": "Zoo",
+              "acceptable": [
+                "zoo",
+                "a zoo",
+                "zoological park",
+                "zoological garden",
+                "zoo park",
+                "animal park",
+                "wildlife park",
+                "safari",
+                "safari park",
+                "chidiyaghar",
+                "chidiya ghar",
+                "animals in a zoo"
+              ],
+              "markingGuide": "Picture 3 shows fenced enclosures with ostriches, a giraffe and elephants, a path and visitors. Zoo (or zoological park, wildlife park, chidiyaghar) gets the mark. \"Forest\" or \"national park\" alone: ½ mark at most, since the animals are kept behind fences.",
+              "teacherNote": "The five pictures are not numbered on the paper and no marks are printed per picture: they are numbered (1) to (5) in reading order here, at 1 mark each (block total 5). Picture 3: zoo is intended; zoological park, wildlife park or safari are accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.5 l.1",
+              "difficulty": "medium",
+              "topics": [
+                "zoo"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b2-i4",
+              "label": "(4)",
+              "type": "one-word",
+              "q": "Identify the following pictures and name them",
+              "marks": 1,
+              "answer": "Butterfly",
+              "acceptable": [
+                "butterfly",
+                "butterflies",
+                "a butterfly",
+                "monarch butterfly",
+                "titli",
+                "titali",
+                "phulpakhru",
+                "pattampoochi",
+                "seethakoka chiluka",
+                "prajapati",
+                "chitrashalabham",
+                "insect",
+                "an insect",
+                "flying insect"
+              ],
+              "markingGuide": "Picture 4 shows a butterfly.",
+              "teacherNote": "The five pictures are not numbered on the paper and no marks are printed per picture: they are numbered (1) to (5) in reading order here, at 1 mark each (block total 5). Picture 4: butterfly is intended; \"insect\" names the picture correctly too (as \"bird\" is accepted for picture 2), so it is accepted.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.17 l.11",
+              "difficulty": "easy",
+              "topics": [
+                "insects"
+              ],
+              "answerSource": "authored"
+            },
+            {
+              "id": "evs-sp01-s3-b2-i5",
+              "label": "(5)",
+              "type": "one-word",
+              "q": "Identify the following pictures and name them",
+              "marks": 1,
+              "answer": "Squirrel",
+              "acceptable": [
+                "squirrel",
+                "squirrels",
+                "a squirrel",
+                "striped squirrel",
+                "palm squirrel",
+                "Indian palm squirrel",
+                "chipmunk",
+                "gilahri",
+                "gilheri",
+                "gilehri",
+                "kharoti",
+                "khar",
+                "anil",
+                "anilu",
+                "udutha",
+                "kathberali",
+                "kaatberali",
+                "rodent",
+                "an animal",
+                "animal"
+              ],
+              "markingGuide": "Picture 5 shows a squirrel with a bushy tail, holding a nut. \"Chipmunk\" is accepted because the drawing has stripes.",
+              "teacherNote": "The five pictures are not numbered on the paper and no marks are printed per picture: they are numbered (1) to (5) in reading order here, at 1 mark each (block total 5). Picture 5: squirrel is intended; \"rodent\" or \"animal\" names the picture too (as \"bird\" is accepted for picture 2), so they are accepted; the parent may prefer the specific name.",
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.8 l.10",
+              "difficulty": "easy",
+              "topics": [
+                "animals"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        },
+        {
+          "num": "9.",
+          "instruction": "Draw a picture denoting the diversity of animals in a forest. (2)",
+          "adaptation": "Do this on the printed sheet; your parent marks it.",
+          "items": [
+            {
+              "id": "evs-sp01-s3-b3-i1",
+              "type": "draw",
+              "q": "Draw a picture denoting the diversity of animals in a forest.",
+              "marks": 2,
+              "answer": "A forest scene (trees) with several different kinds of animals, e.g. a tiger, a deer, a monkey on a tree, birds, a snake, insects and a pond with fish or a frog.",
+              "markingGuide": "1 mark: a forest setting (trees, plants). 1 mark: at least four different kinds of animals (for example a land animal, a bird, an insect and a water animal), showing diversity. Neatness and labels are a bonus, not required.",
+              "answerPoints": [
+                {
+                  "point": "Forest setting with trees or plants",
+                  "marks": 1
+                },
+                {
+                  "point": "At least four different kinds of animals (land, birds, insects, water)",
+                  "marks": 1
+                }
+              ],
+              "modelAnswer": "Trees and bushes, a deer and a tiger on the ground, a monkey on a branch, birds in the sky, a butterfly on a flower, and a pond with a fish and a frog.",
+              "rubric": [
+                {
+                  "band": "full",
+                  "marks": 2,
+                  "descriptor": "A forest setting with four or more different kinds of animals."
+                },
+                {
+                  "band": "partial",
+                  "marks": 1,
+                  "descriptor": "A forest setting with only two or three kinds of animals, or many animals with no forest shown."
+                },
+                {
+                  "band": "weak",
+                  "marks": 0.5,
+                  "descriptor": "Only one animal or only trees drawn."
+                },
+                {
+                  "band": "none",
+                  "marks": 0,
+                  "descriptor": "Nothing drawn, or the drawing does not show a forest or animals."
+                }
+              ],
+              "answerConfidence": "check",
+              "sourceRef": "Ch 3 (deev103), p.18 l.1",
+              "difficulty": "medium",
+              "topics": [
+                "diversity",
+                "forest",
+                "drawing"
+              ],
+              "answerSource": "authored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
