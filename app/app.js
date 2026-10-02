@@ -4,6 +4,8 @@
   'use strict';
 
   const DATA = window.__EVS__;
+  // Pictures are inlined once by build.js; papers refer to them by path (assets/x.svg).
+  const assetSrc = (a) => { const k = (DATA.assetAlias && DATA.assetAlias[a]) || a; return (DATA.assets && DATA.assets[k]) || a; };
   if (!DATA || !DATA.ui || !(DATA.papers || DATA.paperFiles)) {
     document.body.innerHTML = '<p style="padding:2rem;font-family:sans-serif">This page must be built with <code>node build.js</code> before it can run.</p>';
     return;
@@ -301,7 +303,7 @@
     if (blk.stimulus) {
       const st = blk.stimulus;
       const fig = el('figure', { class: 'stimulus', 'data-testid': 'stimulus' });
-      if (st.asset) fig.appendChild(el('img', { src: st.asset, alt: (school && st.alt) || st.caption || t('paper.figure') }));
+      if (st.asset) fig.appendChild(el('img', { src: assetSrc(st.asset), alt: (school && st.alt) || st.caption || t('paper.figure') }));
       if (st.text) fig.appendChild(el('div', { class: 'stimulus-text', text: st.text }));
       if (st.caption) fig.appendChild(el('figcaption', { text: st.caption }));
       b.appendChild(fig);
@@ -427,7 +429,7 @@
     if (item.teacherNote) box.appendChild(el('div', { class: 'teacher-note', 'data-testid': 'teacher-note', text: t('answer.teacherNote', { note: item.teacherNote }) }));
     if (item.answerAsset) {
       box.appendChild(el('figure', { class: 'answer-asset', 'data-testid': 'answer-asset' }, [
-        el('img', { src: item.answerAsset, alt: t('answer.picture') }),
+        el('img', { src: assetSrc(item.answerAsset), alt: t('answer.picture') }),
         el('figcaption', { text: t('answer.picture') })
       ]));
     }

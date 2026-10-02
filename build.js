@@ -108,11 +108,21 @@ function dataUri(asset) {
   if (!MIME[ext]) fail('unsupported asset type: ' + asset);
   return `data:${MIME[ext]};base64,` + fs.readFileSync(file).toString('base64');
 }
+// Each picture is inlined once into an asset table ({ "assets/x.svg": "data:…" }); papers keep
+// their paths and the app looks them up, so a map used by many items is carried only once.
+// Byte-identical pictures under different paths are stored once; the extra path becomes an alias.
 function inlineAssets(papers) {
+  const assets = {}, assetAlias = {}, byContent = {};
+  const add = (a) => {
+    if (a in assets || a in assetAlias) return;
+    const uri = dataUri(a);
+    if (byContent[uri]) assetAlias[a] = byContent[uri]; else { assets[a] = uri; byContent[uri] = a; }
+  };
   for (const p of papers) for (const s of p.sections) for (const b of s.blocks) {
-    if (b.stimulus && b.stimulus.asset) b.stimulus.asset = dataUri(b.stimulus.asset);
-    for (const it of b.items) if (it.answerAsset) it.answerAsset = dataUri(it.answerAsset);
+    if (b.stimulus && b.stimulus.asset) add(b.stimulus.asset);
+    for (const it of b.items) if (it.answerAsset) add(it.answerAsset);
   }
+  return { assets, assetAlias };
 }
 
 // 4. UI strings: every key used in HTML (data-ui) and JS (t('...')) must exist.
@@ -147,7 +157,7 @@ function main() {
   for (const ph of ['<!-- __INLINE_CSS__ -->', '<!-- __INLINE_DATA__ -->', '<!-- __INLINE_JS__ -->']) if (!html.includes(ph)) fail('placeholder missing: ' + ph);
 
   const papers = loadPapers();
-  inlineAssets(papers);
+  const { assets, assetAlias } = inlineAssets(papers);
   const hash = crypto.createHash('sha256').update(secret).digest('hex');
   if (html.includes(secret) || css.includes(secret) || js.includes(secret)) fail('the plaintext secret appears in the source — remove it.');
 
@@ -164,7 +174,7 @@ function main() {
   const paperFiles = papers.map(p => (isSchool(p) ? 'evs-' + p.sp : p.chapter === 0 ? 'evs-' + (p.kind || 'mock') : 'evs-ch' + p.chapter) + '.json');
   paperFiles.forEach(f => { if (!/^evs-[a-z0-9-]+\.json$/.test(f)) fail('bad split filename ' + JSON.stringify(f)); });
   if (new Set(paperFiles).size !== paperFiles.length) fail('split filenames collide: ' + paperFiles.join(', '));
-  const dataBlob = JSON.stringify(split ? { ui, papers: null, paperFiles, config } : { ui, papers, config }).replace(/<\/script/gi, '<\\/script');
+  const dataBlob = JSON.stringify(split ? { ui, papers: null, paperFiles, config, assets, assetAlias } : { ui, papers, config, assets, assetAlias }).replace(/<\/script/gi, '<\\/script');
   const out = html
     .replace('__SECRET_HASH__', () => hash)
     .replace('<!-- __INLINE_CSS__ -->', () => '<style>\n' + css + '\n</style>')

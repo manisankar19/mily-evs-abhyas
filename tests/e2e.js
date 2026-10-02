@@ -149,6 +149,10 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
     const flags = await page.$$eval('[data-testid=flag]', x => x.length);
     const wantFlags = sp.sections.reduce((a, s) => a + s.blocks.reduce((b, bl) => b + bl.items.filter(i => i.answerConfidence === 'check').length, 0), 0);
     const disclaimer = await page.$$eval('[data-testid=checking-disclaimer]', x => x.length);
+    await page.evaluate(() => Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; }))));
+    const pics = await page.$$eval('[data-testid=stimulus] img, [data-testid=answer-asset] img', x => x.map(i => i.complete && i.naturalWidth > 0));
+    const wantPics = sp.sections.reduce((a, s) => a + s.blocks.reduce((b, bl) => b + (bl.stimulus && bl.stimulus.asset ? 1 : 0) + bl.items.filter(i => i.answerAsset).length, 0), 0);
+    check(`${sp.sp}: all ${wantPics} pictures and answer maps load`, pics.length === wantPics && pics.every(Boolean), `${pics.filter(Boolean).length}/${pics.length} loaded, want ${wantPics}`);
     await page.$$eval('.marks-row', rows => rows.forEach(r => { const b = r.querySelectorAll('.mark-btn'); b[b.length - 1].click(); }));
     const score = (await page.textContent('#score-value')).replace(/\s/g, '');
     await page.screenshot({ path: path.join(__dirname, 'screenshots', `task33-${sp.sp}-checking.png`) });

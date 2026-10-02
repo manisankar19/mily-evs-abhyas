@@ -1,6 +1,7 @@
 {
-  "buildCommand": "node build.js",
-  "outputDirectory": "dist",
+  "git": { "deploymentEnabled": false },
+  "buildCommand": "echo 'Source builds are disabled: the checking-code secret is never on Vercel. Deploy the locally built and tested dist/ with scripts/deploy.sh.' && exit 1",
   "installCommand": "echo 'no dependencies'",
+  "outputDirectory": "dist",
   "framework": null
 }

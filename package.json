@@ -14,7 +14,9 @@
     "check:existing": "node scripts/hash-existing.js --check",
     "test:assets": "node tests/assets.js",
     "test:brief": "node tests/brief.js",
-    "test:e2e": "node tests/run-e2e.js"
+    "test:e2e": "node tests/run-e2e.js",
+    "test:deploy": "node tests/deploy-config.js",
+    "test:build": "node tests/build-assets.js"
   },
   "license": "UNLICENSED",
   "devDependencies": {

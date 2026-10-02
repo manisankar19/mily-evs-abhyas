@@ -138,9 +138,10 @@ Never print a secret. Never modify `source/samples/` or the 6 existing `app/data
   - Acceptance: full suite green; screenshots at 390 px, dark and print reviewed
   - Files: tests/e2e.js, tests/e2e-school.js
   - Completed: 2026-10-02 — tests/e2e.js counts from app/data (chapter + school groups, ch3 items/sections/total); loops every real school paper (practice: no answers/topics in DOM; checking: every answer + ⚑ + disclaimer; full marks = printed total). Found and fixed: topic tags leaked answers in practice mode (sp07 'community') → topics only in checking mode; list subtitle no longer says every paper is 100 marks. tests/run-e2e.js (npm run test:e2e): e2e 40/40, e2e-school 58/58. Screenshots tests/screenshots/task33-*. Owner confirmed answers correct
-- [ ] Task 34: Deploy config: retire `deploy/check.js` and `deploy/expected.json`; root `vercel.json` stops rebuilding on Vercel without the secret; single-file `npm run build` + CLI deploy documented in the README (P0)
+- [x] Task 34: Deploy config: retire `deploy/check.js` and `deploy/expected.json`; root `vercel.json` stops rebuilding on Vercel without the secret; single-file `npm run build` + CLI deploy documented in the README (P0)
   - Acceptance: a dry run (`vercel build` or a preview deploy) serves `index.html` only. **STOP — owner approves the production deploy**
   - Files: vercel.json, deploy/*, README.md
+  - Completed: 2026-10-02 — root vercel.json disables Git deploys and fails source builds; deploy/check.js + expected.json retired; deploy/vercel.json static (no-cache, nosniff, no-referrer, DENY); scripts/deploy.sh --dry-run|--preview|--prod stages exactly index.html + vercel.json and verifies live bytes (scripts/verify-live.js). Build stores each picture once (asset table + content aliases): 3148 → 1180 KB. Preview dpl_GfYLofFHGAKUyDXNEPdxSLC3EQ8J: bytes = tested file (preview toolbar tag stripped), /data/* 404, headers OK. Tests: build-assets 24/24, deploy-config 10/10, e2e 46/46, e2e-school 58/58. Awaiting owner approval for production
 - [ ] Task 35: Production CLI deploy (token from `.env.local`, never echoed); live check in a real browser: one chapter paper and the agreed school paper, both modes, phone and desktop (P0)
   - Acceptance: live checks pass; the live `index.html` SHA-256 equals the local `dist/index.html`
   - Files: —

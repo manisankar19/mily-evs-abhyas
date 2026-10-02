@@ -132,53 +132,44 @@ Rules the validator enforces (`npm run validate`):
 
 **Live site:** https://mily-evs-abhyas.vercel.app (Vercel team `mani125slm`).
 
-### How it is deployed today (v1)
+### How it is deployed (v2: one file, Vercel CLI)
 
-The build agent could not run the Vercel CLI or set environment variables, and the MCP
-upload path could not carry the whole 170 KB single-file page in one piece. So v1 is
-deployed as a **split build** (`node build.js --minify --split`):
+The site is a single self-contained `dist/index.html`, built and tested on this machine and
+uploaded **prebuilt**. Vercel never builds this project: the root `vercel.json` disables Git
+deployments and makes any source build fail with a message. That is deliberate, because the
+`GANESH_EVS` secret lives only in `.env.local`, and only its SHA-256 hash goes into the page.
 
-| Vercel project | Serves |
-|---|---|
-| `mily-evs-abhyas` | `index.html` (shell: CSS + JS + UI strings) and `vercel.json` with rewrites `/data/*.json` → the data projects below |
-| `mily-evs-data-a` … `-f` | one paper JSON each (ch1, ch2, ch3, ch4, ch5, half-yearly) with CORS headers |
+```bash
+npm run test:e2e              # build + both browser suites
+scripts/deploy.sh --dry-run   # validate, rebuild, stage dist/ (index.html + deploy/vercel.json); sends nothing
+scripts/deploy.sh --preview   # upload as a preview (behind Vercel Authentication)
+scripts/deploy.sh --prod      # upload to production, then verify the live bytes
+```
 
-From the browser it is one origin: the page fetches `data/evs-ch3.json` and Vercel
-proxies it. The main project's build command is `node deploy/check.js`, which **refuses to
-go live** unless `index.html` and every remote paper match the SHA-256 hashes in
-`deploy/expected.json` (the hashes of the locally built and tested files). That gate is
-what makes the re-typed upload trustworthy.
+`deploy.sh` always validates, checks that the 6 v1 papers are unchanged, rebuilds from scratch
+and refuses to upload anything except `index.html` and the static `vercel.json` (no-cache and
+`nosniff` headers). After `--prod` it runs `scripts/verify-live.js`, which fetches the live
+page and fails unless its SHA-256 equals the tested local file. This replaces v1's
+`deploy/check.js` hash gate. For a preview, run
+`node scripts/verify-live.js <preview-url> dist/index.html --vercel-curl`.
 
-Only the production aliases (`*.vercel.app` without the team suffix) are public; the
-team-suffixed preview URLs are behind Vercel Authentication.
+The CLI uses its own login (`npx vercel whoami`); no token is stored in this repo.
 
 ### Redeploy after editing a paper
 
-1. Edit `app/data/evs-chN.json`, then `npm run validate`.
-2. `node build.js --minify --split` → `dist/index.html` + `dist/data/*.json`.
-3. Upload the changed paper to its data project (same file name), and if `index.html`
-   changed, regenerate `deploy/expected.json` (hashes of `dist/index.html` and of the
-   paper files as uploaded) and redeploy `mily-evs-abhyas` with `index.html`,
-   `vercel.json`, `check.js`, `expected.json`.
+1. Edit `app/data/evs-*.json`; for a school paper also run `node scripts/review-sheet.js spNN`.
+2. `npm run validate && npm run fidelity && npm run test:e2e`
+3. `scripts/deploy.sh --prod`
 
-### The simpler way, once you have the Vercel CLI
+- **Change the code:** change `GANESH_EVS` in `.env.local`, then redeploy. Never edit the source for this.
+- **Rollback:** Vercel → Deployments → pick the previous deployment → *Promote to Production*.
+- Never deploy by browser drag-and-drop.
 
-`vercel.json` at the repo root already carries `buildCommand: node build.js` and
-`outputDirectory: dist`. Set `GANESH_EVS` in the project's environment variables, then:
+### v1 history
 
-```bash
-npx vercel link --yes --project mily-evs-abhyas
-npx vercel deploy --prod --yes
-```
-
-That produces the single self-contained file the blueprint prefers; the six data projects
-can then be deleted.
-
-- **Change the code:** change `GANESH_EVS` (in `.env.local` or Vercel env), rebuild,
-  redeploy. Never edit the source for this.
-- **Rollback:** Vercel → Deployments → pick the previous deployment → *Promote to
-  Production*.
-- Never deploy by browser drag-and-drop (the original Hindi build lost files that way).
+v1 was deployed as a split build across 7 Vercel projects (`mily-evs-abhyas` plus the data
+projects `mily-evs-data-a` … `-f`), gated by `deploy/check.js`. v2 retires that setup. The
+data projects can be deleted once the owner has checked the v2 site (sprint v2, Task 36).
 
 ## Repo layout
 
@@ -188,7 +179,7 @@ BLUEPRINT.md         the generalised specification this site follows
 build.js             validate → hash secret → inline CSS/JS/data/assets → dist/index.html
 validate.js          zero-dependency paper validator (npm run validate)
 dev-server.js        serves dist/ on localhost:4173
-vercel.json          buildCommand / outputDirectory for a source deployment
+vercel.json          disables Git deployments and source builds (deploy the prebuilt dist/)
 app/index.html       page shell (keeps the __SECRET_HASH__ placeholder)
 app/styles.css       light + dark themes, print styles, ≤390 px layout
 app/app.js           login → chapters → paper → result; modes; marking; result
@@ -198,5 +189,7 @@ app/assets/          SVG assets (none needed for these papers)
 source/              notes on the textbook chapters and sample papers used
 sprints/v1/          TASKS.md and WALKTHROUGH.md for this build
 tests/e2e.js         Playwright acceptance click-through
-deploy/              check.js (build-time hash gate), expected.json, vercel.json used by the live deployment
+deploy/vercel.json   static headers for the prebuilt dist/ (copied in by scripts/deploy.sh)
+scripts/             deploy.sh, verify-live.js, fidelity.js, review-sheet.js, map tools
+tests/run-e2e.js     npm run test:e2e: build, serve, run e2e.js + e2e-school.js
 ```

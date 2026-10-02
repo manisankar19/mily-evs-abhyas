@@ -1,38 +1,16 @@
 {
-  "rewrites": [
-    {
-      "source": "/data/evs-ch1.json",
-      "destination": "https://mily-evs-data-a.vercel.app/evs-ch1.json"
-    },
-    {
-      "source": "/data/evs-ch2.json",
-      "destination": "https://mily-evs-data-b.vercel.app/evs-ch2.json"
-    },
-    {
-      "source": "/data/evs-ch3.json",
-      "destination": "https://mily-evs-data-c.vercel.app/evs-ch3.json"
-    },
-    {
-      "source": "/data/evs-ch4.json",
-      "destination": "https://mily-evs-data-d.vercel.app/evs-ch4.json"
-    },
-    {
-      "source": "/data/evs-ch5.json",
-      "destination": "https://mily-evs-data-e.vercel.app/evs-ch5.json"
-    },
-    {
-      "source": "/data/evs-half-yearly.json",
-      "destination": "https://mily-evs-data-f.vercel.app/evs-half-yearly.json"
-    }
-  ],
+  "buildCommand": null,
+  "installCommand": null,
+  "framework": null,
+  "cleanUrls": false,
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "no-referrer" },
+        { "key": "X-Frame-Options", "value": "DENY" }
       ]
     }
   ]
