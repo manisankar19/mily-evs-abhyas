@@ -13,9 +13,10 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: `grep -n "topics" app/app.js` matches only the explanatory comment; `grep -n "\.topics" app/styles.css` returns nothing; `npm run build` succeeds and the page stays under 1.5 MB
   - Completed: 2026-10-03 — chip <ul> removed from renderBody(); .topics screen+print CSS removed; build 1179 KB; semgrep clean on app/
   - Files: app/app.js, app/styles.css
-- [ ] Task 3: Local browser test: `tests/e2e-school.js` asserts that there are no `[data-testid=topics]` / `.topics` in checking mode, both before and after "Show all answers". Also add an all-papers check to `tests/e2e.js`: for every paper in checking mode, the topic chip count is 0 (P0)
+- [x] Task 3: Local browser test: `tests/e2e-school.js` asserts that there are no `[data-testid=topics]` / `.topics` in checking mode, both before and after "Show all answers". Also add an all-papers check to `tests/e2e.js`: for every paper in checking mode, the topic chip count is 0 (P0)
   - Acceptance: `npm run test:e2e` passes. A temporary revert of the Task 2 change makes the new checks fail, and that revert is not committed
   - Files: tests/e2e-school.js, tests/e2e.js
+  - Completed: 2026-10-03 — e2e 53/53 (new: ch3 + 6 school papers, chips 0 before/after Show all), e2e-school 59/59. Red check: with the old render line, 8 new checks fail (sp01 37, sp03 53, sp04 34, sp05 41, sp06 51, sp07 37 chips); revert not committed. Screenshots tests/screenshots/task3-spNN-checking-no-chips.png
 - [ ] Task 4: Live browser test: in `tests/e2e-live.js`, after the checking-mode unlock and **before** `#show-all-btn`, assert that ch3 and sp05 have zero `[data-testid=topics]` (phone and desktop) (P0)
   - Acceptance: `node --check tests/e2e-live.js` passes; the new check appears in the run output with a ✓ or ✗ line for each viewport and paper
   - Files: tests/e2e-live.js

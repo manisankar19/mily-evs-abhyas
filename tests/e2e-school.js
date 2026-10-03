@@ -109,7 +109,7 @@ const server = http.createServer((req, res) => {
   check('paper: stimulus picture loads (inlined data: URI)', img.w > 0 && img.src.startsWith('data:image/svg+xml'), JSON.stringify(img));
   const pd = await page.$eval('[data-testid=picture-description]', n => ({ t: n.textContent, s: getComputedStyle(n).fontStyle })).catch(() => ({}));
   check('paper: pictureDescription as an italic note', pd.t && pd.t.includes(byType('short').pictureDescription) && pd.s === 'italic', JSON.stringify(pd));
-  // Topic tags can name the answer (e.g. "community"), so they appear only in checking mode.
+  // Topic tags can name the answer (e.g. "community"), so they are never shown.
   check('practice: no topic tags (they can give the answer away)', (await page.$$('[data-testid=topics]')).length === 0);
   const opts = await page.$$eval(`.item[data-id="${byType('mcq').id}"] .options li`, n => n.map(x => x.textContent));
   check('paper: MCQ options rendered', JSON.stringify(opts) === JSON.stringify(byType('mcq').options));
@@ -148,8 +148,7 @@ const server = http.createServer((req, res) => {
   await page.click('#mode-toggle');
   await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
   await page.waitForSelector('#check-tools:not([hidden])');
-  const topics = await page.$$eval('[data-testid=topics] li', n => n.map(x => x.textContent));
-  check('checking: topics as tags', topics.includes('cooking') && topics.includes('hygiene'), topics.length);
+  check('checking: no topic tags either (they hint the answer before "Show answer")', (await page.$$('[data-testid=topics],.topics')).length === 0);
   const disc = await page.$$eval('[data-testid=checking-disclaimer]', n => n.map(x => x.textContent));
   check('checking: disclaimer line once, exact text', disc.length === 1 && disc[0] === DISCLAIMER, disc.join('|'));
   const flagged = items.filter(i => i.answerConfidence === 'check').map(i => i.id).sort();
@@ -157,6 +156,7 @@ const server = http.createServer((req, res) => {
   check('checking: ⚑ on each "check" item and nowhere else', JSON.stringify(flags) === JSON.stringify(flagged), flags.join(','));
   await page.click('#show-all-btn');
   check('checking: show all reveals every answer', await count('[data-testid=answer-box]') === items.length);
+  check('checking: no topic tags after "Show all answers" either', (await page.$$('[data-testid=topics],.topics')).length === 0);
   const acc = await page.$$eval('[data-testid=acceptable]', n => n.map(x => x.textContent));
   check('checking: "Also accept: …" on items with acceptable', acc.length === items.filter(i => i.acceptable).length && acc.some(a => a.startsWith('Also accept:') && a.includes('shallow frying')), acc[0]);
   const rub = await page.$$eval('[data-testid=rubric] li', n => n.map(x => x.textContent));

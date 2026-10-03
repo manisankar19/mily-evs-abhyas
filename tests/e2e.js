@@ -68,6 +68,7 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
   await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
   await page.waitForSelector('#check-tools:not([hidden])');
   check('correct code unlocks checking UI', (await page.$$('.mark-btn')).length > 0);
+  check('checking (ch3): no topic chips', (await page.$$('[data-testid=topics],.topics')).length === 0);
 
   // Reveal one
   const firstToggle = (await page.$$('.item-check .btn'))[0];
@@ -144,7 +145,12 @@ function check(name, ok, extra) { results.push({ name, ok: !!ok, extra }); conso
     await page.screenshot({ path: path.join(__dirname, 'screenshots', `task33-${sp.sp}-practice.png`) });
     await page.click('#mode-toggle'); await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
     await page.waitForSelector('#check-tools:not([hidden])');
+    // Topic chips hint the answer, so none may appear in checking mode, before or after "Show all answers".
+    const chipsBefore = await page.$$eval('[data-testid=topics],.topics', x => x.length);
+    await page.screenshot({ path: path.join(__dirname, 'screenshots', `task3-${sp.sp}-checking-no-chips.png`) });
     await page.click('#show-all-btn');
+    const chipsAfter = await page.$$eval('[data-testid=topics],.topics', x => x.length);
+    check(`${sp.sp}: no topic chips in checking mode (before/after Show all)`, chipsBefore === 0 && chipsAfter === 0, `before ${chipsBefore}, after ${chipsAfter}`);
     const boxes = await page.$$eval('[data-testid=answer-box]', x => x.length);
     const flags = await page.$$eval('[data-testid=flag]', x => x.length);
     const wantFlags = sp.sections.reduce((a, s) => a + s.blocks.reduce((b, bl) => b + bl.items.filter(i => i.answerConfidence === 'check').length, 0), 0);
