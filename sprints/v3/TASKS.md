@@ -17,9 +17,10 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: `npm run test:e2e` passes. A temporary revert of the Task 2 change makes the new checks fail, and that revert is not committed
   - Files: tests/e2e-school.js, tests/e2e.js
   - Completed: 2026-10-03 — e2e 53/53 (new: ch3 + 6 school papers, chips 0 before/after Show all), e2e-school 59/59. Red check: with the old render line, 8 new checks fail (sp01 37, sp03 53, sp04 34, sp05 41, sp06 51, sp07 37 chips); revert not committed. Screenshots tests/screenshots/task3-spNN-checking-no-chips.png
-- [ ] Task 4: Live browser test: in `tests/e2e-live.js`, after the checking-mode unlock and **before** `#show-all-btn`, assert that ch3 and sp05 have zero `[data-testid=topics]` (phone and desktop) (P0)
+- [x] Task 4: Live browser test: in `tests/e2e-live.js`, after the checking-mode unlock and **before** `#show-all-btn`, assert that ch3 and sp05 have zero `[data-testid=topics]` (phone and desktop) (P0)
   - Acceptance: `node --check tests/e2e-live.js` passes; the new check appears in the run output with a ✓ or ✗ line for each viewport and paper
   - Files: tests/e2e-live.js
+  - Completed: 2026-10-03 — check added before #show-all-btn; node --check OK. Run against current (v2) production: 18/20, both sp05 lines ✗ (41 chips, phone + desktop), so the check catches the live bug; ch3 ✓ (0). Must be 20/20 after Task 7 deploy
 - [ ] Task 5: Full local regression: run `test:fixtures`, `test:assets`, `test:brief`, `test:build`, `test:deploy`, `test:e2e`, `fidelity` and `npm audit` (P0)
   - Acceptance: every suite passes with counts at least the v2 counts; `npm audit` shows 0 vulnerabilities; results are recorded in this file
   - Files: sprints/v3/TASKS.md

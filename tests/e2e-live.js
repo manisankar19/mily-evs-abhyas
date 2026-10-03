@@ -39,6 +39,9 @@ async function run(browser, label, viewport) {
     await page.screenshot({ path: path.join(SHOTS, `task35-${label}-${key}-practice.png`) });
     await page.click('#mode-toggle'); await page.fill('#mode-code', CODE); await page.click('#mode-confirm');
     await page.waitForSelector('#check-tools:not([hidden])');
+    // Topic chips hint the answer, so checking mode must not show them before "Show all answers".
+    const chips = await page.$$eval('[data-testid=topics],.topics', x => x.length);
+    check(`${label} ${key}: checking — no topic chips before Show all`, chips === 0, `chips ${chips}`);
     await page.click('#show-all-btn');
     const answers = await page.$$eval('.answer', x => x.length);
     await page.$$eval('.marks-row', rows => rows.forEach(r => { const b = r.querySelectorAll('.mark-btn'); b[b.length - 1].click(); }));
