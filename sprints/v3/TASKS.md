@@ -25,12 +25,14 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: every suite passes with counts at least the v2 counts; `npm audit` shows 0 vulnerabilities; results are recorded in this file
   - Files: sprints/v3/TASKS.md
   - Completed: 2026-10-03 — validate 12 papers/613 items · check:existing 6 byte-identical · fidelity OK 6 papers · fixtures 36/36 + fidelity-fixtures 22/22 · assets 78/78 · brief 51/51 · build 1179 KB · build-assets 24/24 · deploy-config 10/10 · e2e 53/53 (v2: 46) · e2e-school 59/59 (v2: 58) · walkthrough 208/208 · npm audit 0 vulnerabilities · semgrep: 5 pre-existing findings (path-join in scripts/, missing-integrity in app/index.html), none in v3-changed files. Local screenshots refreshed (chips gone); task35 live screenshots left for Task 7
-- [ ] Task 6: **STOP**: ask the owner to approve the production deploy. Show the diff summary and test results (P0)
+- [x] Task 6: **STOP**: ask the owner to approve the production deploy. Show the diff summary and test results (P0)
   - Acceptance: the owner's written go-ahead is recorded here with the date
   - Files: sprints/v3/TASKS.md
-- [ ] Task 7: Production deploy and live check: `scripts/deploy.sh --prod`, then `node scripts/verify-live.js`, then `npm run test:live` (P0)
+  - Completed: 2026-10-03 — owner: "Deploy"
+- [x] Task 7: Production deploy and live check: `scripts/deploy.sh --prod`, then `node scripts/verify-live.js`, then `npm run test:live` (P0)
   - Acceptance: live bytes match `dist/index.html`; `test:live` shows every check passing, including the Task 4 no-chips checks; the deployment id and `index.html` sha256 are recorded
   - Files: tests/screenshots/task35-*.png, sprints/v3/TASKS.md
+  - Completed: 2026-10-03 — production deployment `mily-evs-abhyas-nrztjk6zq` (inspect JCqbM3TdpAU1gSMt2GaYapGvfnhj), aliased to https://mily-evs-abhyas.vercel.app. `index.html` sha256 `427324d133018b85…`. deploy.sh's own verify ran before the CDN switched over and reported the old hash `856d8f9…`; a re-run ~20 s later gave OK. The deployment URL is OK with `--vercel-curl` (toolbar tag stripped). test:live 20/20, including no chips on ch3/sp05, phone and desktop
 - [ ] Task 8: Docs: in `sprints/v2/WALKTHROUGH.md`, correct the two outdated lines that say topic tags appear in checking mode (the Architecture "App" bullet and the "Answer leak" fix), noting that v3 supersedes them. Then confirm `node tests/walkthrough.js` still passes (P1)
   - Acceptance: no line in the v2 walkthrough claims that topic tags are shown; `test:walkthrough` passes
   - Files: sprints/v2/WALKTHROUGH.md
