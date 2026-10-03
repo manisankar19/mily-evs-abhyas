@@ -33,9 +33,10 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: live bytes match `dist/index.html`; `test:live` shows every check passing, including the Task 4 no-chips checks; the deployment id and `index.html` sha256 are recorded
   - Files: tests/screenshots/task35-*.png, sprints/v3/TASKS.md
   - Completed: 2026-10-03 — production deployment `mily-evs-abhyas-nrztjk6zq` (inspect JCqbM3TdpAU1gSMt2GaYapGvfnhj), aliased to https://mily-evs-abhyas.vercel.app. `index.html` sha256 `427324d133018b85…`. deploy.sh's own verify ran before the CDN switched over and reported the old hash `856d8f9…`; a re-run ~20 s later gave OK. The deployment URL is OK with `--vercel-curl` (toolbar tag stripped). test:live 20/20, including no chips on ch3/sp05, phone and desktop
-- [ ] Task 8: Docs: in `sprints/v2/WALKTHROUGH.md`, correct the two outdated lines that say topic tags appear in checking mode (the Architecture "App" bullet and the "Answer leak" fix), noting that v3 supersedes them. Then confirm `node tests/walkthrough.js` still passes (P1)
+- [x] Task 8: Docs: in `sprints/v2/WALKTHROUGH.md`, correct the two outdated lines that say topic tags appear in checking mode (the Architecture "App" bullet and the "Answer leak" fix), noting that v3 supersedes them. Then confirm `node tests/walkthrough.js` still passes (P1)
   - Acceptance: no line in the v2 walkthrough claims that topic tags are shown; `test:walkthrough` passes
-  - Files: sprints/v2/WALKTHROUGH.md
+  - Files: sprints/v2/WALKTHROUGH.md, tests/walkthrough.js
+  - Completed: 2026-10-03 — corrected the Architecture "App" bullet and the "Answer leak" fix, both marked "Superseded in v3"; new walkthrough.js check failed first (208/1), now 209/209; semgrep 0 findings on the test
 - [ ] Task 9: Sprint v3 walkthrough (`/walkthrough`) (P2)
   - Acceptance: `sprints/v3/WALKTHROUGH.md` records what changed, the test results, the live deployment and what was not verified
   - Files: sprints/v3/WALKTHROUGH.md

@@ -12,6 +12,8 @@ let pass = 0, fail = 0;
 const check = (name, ok, why) => { ok ? pass++ : fail++; if (!ok || process.argv.includes('-v')) console.log(`${ok ? 'PASS' : 'FAIL'} ${name}${ok ? '' : '  ' + (why || '')}`); };
 const md = fs.existsSync(W) ? fs.readFileSync(W, 'utf8') : '';
 check('WALKTHROUGH.md exists', md.length > 0);
+// Sprint v3: topic tags are never shown, so the v2 text must not say they appear in checking mode.
+check('v3: no claim that topic tags appear in checking mode', !/appear only in checking mode/.test(md) && md.includes('Superseded in v3'));
 check('states the parent-review rule verbatim', md.includes('Parent reads every answer review sheet (`sprints/v2/answer-review/spNN.md`) before the child uses each paper.'));
 
 const intake = JSON.parse(fs.readFileSync(path.join(ROOT, 'source', 'intake.json'), 'utf8')).papers;

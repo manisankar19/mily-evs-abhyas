@@ -39,7 +39,7 @@ source/school-papers/*.pdf ─pdftotext─► source/text-cache/ ─┐
      scripts/deploy.sh --prod ─► Vercel (prebuilt upload) ─► scripts/verify-live.js (live bytes = tested bytes)
 ```
 - **Schema:** `SCHEMA.md` covers both kinds. School-only fields: `kind`, `sp`, `sourceFile`, `shortLabel`, `header`, `label`, `heading`, `topics`, `pictureDescription`, `underline`, `answerSource`, `answerConfidence`, `teacherNote`, `fallbackText`, `answerAsset`, `adaptation`, `printedRight`. Marks are compared in half-units.
-- **App:** a School Papers group with the printed totals. Checking mode shows the answer, also-accept list, rubric, model answer, marking guide, ⚑, teacherNote, the answer map and the disclaimer line. All of these are absent from the page in practice mode, and so are the topic tags (see "Found and fixed"). Marking is in ½ steps, choice items match on the chosen text, match tables appear exactly as printed, and the result uses the printed total.
+- **App:** a School Papers group with the printed totals. Checking mode shows the answer, also-accept list, rubric, model answer, marking guide, ⚑, teacherNote, the answer map and the disclaimer line. All of these are absent from the page in practice mode. Topic tags are never shown in either mode (**Superseded in v3**: v2 showed them in checking mode; see `sprints/v3/`). Marking is in ½ steps, choice items match on the chosen text, match tables appear exactly as printed, and the result uses the printed total.
 - **Deploy:** `vercel.json` disables Git deployments and source builds. `scripts/deploy.sh --dry-run|--preview|--prod` stages exactly `index.html` plus a static `vercel.json`. The v1 split deploy and its hash gate are retired.
 
 ## Verification
@@ -58,7 +58,7 @@ source/school-papers/*.pdf ─pdftotext─► source/text-cache/ ─┐
 **Coordinator re-checks** (not delegated): every ⚑ answer was re-derived against `source/textbook-text/`, and every non-⚑ objective item was swept. Every picture was viewed at 2×. All 54 sp04 strings, typed from the page images because its text layer is garbled, were compared against the 4 page images. The sp03 word search was re-searched independently. Every map key was checked against the printed state list. Questions repeated across papers were made consistent.
 
 ### Found and fixed during the sprint
-- **Answer leak:** topic tags such as "community" (sp07 Q1) showed in practice mode. They now appear only in checking mode, and both browser suites assert this.
+- **Answer leak:** topic tags such as "community" (sp07 Q1) showed in practice mode. v2 hid them in practice mode only. **Superseded in v3**: the tags also hinted the answer in checking mode before "Show answer", so they are no longer shown at all (`sprints/v3/`).
 - **Match questions** did not appear as printed: the app added labels and its own order, and the shuffle returned the answer order for 7 pairs. Fixed with `printedRight`, and pair texts are now fidelity-checked.
 - **Fidelity false alarms:** number-only options, "6x1", and "5M" caused 15 unneeded fallback entries (12 in sp05, 3 in sp06), which have been removed.
 - **Pictures:** sp01's webbed foot was redrawn (it read as a leaf) and the sp06 hornbill was fixed.
