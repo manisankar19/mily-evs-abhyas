@@ -9,8 +9,9 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: validate passes (12 papers, 613 items); `check:existing` exits 0; `git diff --stat app/data` is empty; `sprints/v3/PRD.md` and `TASKS.md` are committed
   - Files: sprints/v3/PRD.md, sprints/v3/TASKS.md
   - Completed: 2026-10-03 — validate OK (12 papers, 613 items); check:existing OK (6 papers byte-identical); app/data unchanged
-- [ ] Task 2: Never render topic chips. `renderBody()` in `app/app.js` builds no `ul.topics` in any mode, and the dead `.topics` rules are removed from `app/styles.css` (screen and print). This change is already in the working tree; review it and commit it (P0)
+- [x] Task 2: Never render topic chips. `renderBody()` in `app/app.js` builds no `ul.topics` in any mode, and the dead `.topics` rules are removed from `app/styles.css` (screen and print). This change is already in the working tree; review it and commit it (P0)
   - Acceptance: `grep -n "topics" app/app.js` matches only the explanatory comment; `grep -n "\.topics" app/styles.css` returns nothing; `npm run build` succeeds and the page stays under 1.5 MB
+  - Completed: 2026-10-03 — chip <ul> removed from renderBody(); .topics screen+print CSS removed; build 1179 KB; semgrep clean on app/
   - Files: app/app.js, app/styles.css
 - [ ] Task 3: Local browser test: `tests/e2e-school.js` asserts that there are no `[data-testid=topics]` / `.topics` in checking mode, both before and after "Show all answers". Also add an all-papers check to `tests/e2e.js`: for every paper in checking mode, the topic chip count is 0 (P0)
   - Acceptance: `npm run test:e2e` passes. A temporary revert of the Task 2 change makes the new checks fail, and that revert is not committed

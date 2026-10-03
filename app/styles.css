@@ -231,8 +231,6 @@ p { margin: 0 0 0.8em; }
 .block-adaptation .tag { font-weight: 700; color: var(--accent-ink); }
 .item-q u { text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .picture-desc { margin: 4px 0 0; font-size: 0.92rem; font-style: italic; color: var(--muted); }
-.topics { list-style: none; padding: 0; margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 4px; }
-.topics li { font-size: 0.72rem; line-height: 1.5; padding: 0 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); }
 .stimulus img, .answer-asset img { background: #fff; border-radius: 6px; }
 .options li.is-correct { font-weight: 700; color: var(--accent-ink); background: var(--accent-soft); border-radius: 6px; padding: 0 6px; }
 
@@ -310,7 +308,6 @@ p { margin: 0 0 0.8em; }
   .item-q { font-size: 12pt; }
   .stimulus { background: none; border: 1px solid #999; }
   .header-lines, .paper-meta-line, .picture-desc, .block-adaptation { color: #000; }
-  .topics li { background: none; border-color: #999; color: #333; }
   .print-footer { display: block; text-align: center; font-size: 9pt; color: #555; margin-top: 12pt; }
 }
 .print-footer { display: none; }

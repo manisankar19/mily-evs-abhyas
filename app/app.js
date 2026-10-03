@@ -363,8 +363,7 @@
       ]));
     }
     if (item.pictureDescription) body.appendChild(el('p', { class: 'picture-desc', 'data-testid': 'picture-description', text: t('paper.pictureNote', { text: item.pictureDescription }) }));
-    // Topic tags can name the answer (e.g. "community"), so they exist only in checking mode.
-    if (state.checking && Array.isArray(item.topics) && item.topics.length) body.appendChild(el('ul', { class: 'topics', 'data-testid': 'topics' }, item.topics.map(x => el('li', { text: x }))));
+    // Topic tags (item.topics) are never shown: they often name the answer (e.g. "claws"), even in checking mode before "Show answer".
     return body;
   }
 
