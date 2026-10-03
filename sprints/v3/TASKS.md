@@ -21,9 +21,10 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: `node --check tests/e2e-live.js` passes; the new check appears in the run output with a ✓ or ✗ line for each viewport and paper
   - Files: tests/e2e-live.js
   - Completed: 2026-10-03 — check added before #show-all-btn; node --check OK. Run against current (v2) production: 18/20, both sp05 lines ✗ (41 chips, phone + desktop), so the check catches the live bug; ch3 ✓ (0). Must be 20/20 after Task 7 deploy
-- [ ] Task 5: Full local regression: run `test:fixtures`, `test:assets`, `test:brief`, `test:build`, `test:deploy`, `test:e2e`, `fidelity` and `npm audit` (P0)
+- [x] Task 5: Full local regression: run `test:fixtures`, `test:assets`, `test:brief`, `test:build`, `test:deploy`, `test:e2e`, `fidelity` and `npm audit` (P0)
   - Acceptance: every suite passes with counts at least the v2 counts; `npm audit` shows 0 vulnerabilities; results are recorded in this file
   - Files: sprints/v3/TASKS.md
+  - Completed: 2026-10-03 — validate 12 papers/613 items · check:existing 6 byte-identical · fidelity OK 6 papers · fixtures 36/36 + fidelity-fixtures 22/22 · assets 78/78 · brief 51/51 · build 1179 KB · build-assets 24/24 · deploy-config 10/10 · e2e 53/53 (v2: 46) · e2e-school 59/59 (v2: 58) · walkthrough 208/208 · npm audit 0 vulnerabilities · semgrep: 5 pre-existing findings (path-join in scripts/, missing-integrity in app/index.html), none in v3-changed files. Local screenshots refreshed (chips gone); task35 live screenshots left for Task 7
 - [ ] Task 6: **STOP**: ask the owner to approve the production deploy. Show the diff summary and test results (P0)
   - Acceptance: the owner's written go-ahead is recorded here with the date
   - Files: sprints/v3/TASKS.md
