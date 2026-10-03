@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: No answer hints in checking mode
 
-## Status: In progress
+## Status: Complete (2026-10-03)
 
 **STOP** marks a gate: report and wait for the owner before continuing.
 Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `topics` stays in the data.
@@ -37,6 +37,7 @@ Never change any `app/data/evs-*.json`. All 12 papers stay on the site, and `top
   - Acceptance: no line in the v2 walkthrough claims that topic tags are shown; `test:walkthrough` passes
   - Files: sprints/v2/WALKTHROUGH.md, tests/walkthrough.js
   - Completed: 2026-10-03 — corrected the Architecture "App" bullet and the "Answer leak" fix, both marked "Superseded in v3"; new walkthrough.js check failed first (208/1), now 209/209; semgrep 0 findings on the test
-- [ ] Task 9: Sprint v3 walkthrough (`/walkthrough`) (P2)
+- [x] Task 9: Sprint v3 walkthrough (`/walkthrough`) (P2)
   - Acceptance: `sprints/v3/WALKTHROUGH.md` records what changed, the test results, the live deployment and what was not verified
   - Files: sprints/v3/WALKTHROUGH.md
+  - Completed: 2026-10-03 — walkthrough written: before/after counts, test table, live deployment, limitations (deploy verify timing)
